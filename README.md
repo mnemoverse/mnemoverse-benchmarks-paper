@@ -2,7 +2,7 @@
 
 > The Same Answers Score 91% or 35%, Depending on the Grading Prompt
 
-**Edward Izgorodin, Olga Timoshina, Andrey Ustyuzhanin** — arXiv: TBA · DOI: minted at release
+**Edward Izgorodin, Olga Timoshina, Andrey Ustyuzhanin** — arXiv: TBA · DOI: [10.5281/zenodo.22348527](https://doi.org/10.5281/zenodo.22348527) (release tag `arxiv-v1`)
 
 This repository is the public reproduction kit for the methodology paper **"The Judge Is the
 Benchmark."** A memory vendor published its complete LoCoMo benchmark run — 1,539 answers across
@@ -100,6 +100,6 @@ detail. In summary:
   archivePrefix = {arXiv},
   primaryClass  = {cs.CL},
   note          = {Reproduction kit: https://github.com/mnemoverse/mnemoverse-benchmarks-paper.
-                   Zenodo DOI minted at release.}
+                   Zenodo DOI: 10.5281/zenodo.22348527 (release tag arxiv-v1).}
 }
 ```
