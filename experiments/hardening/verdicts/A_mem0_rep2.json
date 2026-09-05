@@ -1,0 +1,1003 @@
+[
+ {
+  "qid": 0,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (May 29, 2026) does not match the gold date (May 7, 2023) and is not within the 14-day tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": 1,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated year 2025 does not match the gold answer 2022 and is not within the allowed tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": 2,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes counseling (aligns with counseling certification) and mental health (overlaps with psychology), matching the gold fields.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 3,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('adoption agencies'), satisfying the criteria.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 4,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'trans' conveys that Caroline is transgender, matching the core identity of 'transgender woman' even if it omits 'woman'.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 5,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (2026-05-27) does not match the gold date (the Sunday before 25 May 2023, i.e., 2023-05-21) and is not within 14 days.",
+  "category": "temporal"
+ },
+ {
+  "qid": 6,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date 'June 2026' does not match the gold answer 'June 2023' and is far outside the allowed date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": 7,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'single' matches the gold answer 'Single' exactly in meaning.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 8,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date places the event in June 2026 instead of the week before June 9, 2023, which is far outside the allowed date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": 9,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer duration of 4 years.",
+  "category": "temporal"
+ },
+ {
+  "qid": 10,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not specify Sweden, providing no overlap with the gold answer.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 11,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer semantically, stating the same duration ('ten years ago').",
+  "category": "temporal"
+ },
+ {
+  "qid": 12,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the core items 'counseling' and 'mental health,' matching the gold answer even though it omits the transgender focus.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 13,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer\u2019s conclusion that she would not pursue counseling without support.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 14,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'pottery' and 'painting,' which match items from the gold answer, satisfying the partial credit rule.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 15,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date exactly (same day and year, just different format).",
+  "category": "temporal"
+ },
+ {
+  "qid": 16,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (June 2026) does not match the gold answer (July 2023) and is far outside the allowed tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": 17,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same three locations (beach, mountains, forest), just in a different order.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 18,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the same date as the gold answer in a different format, so it matches exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": 19,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives a date in May 2026, which does not match the gold answer of the week before 6 July 2023 and has no overlap within allowed tolerances.",
+  "category": "temporal"
+ },
+ {
+  "qid": 20,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer's affirmative conclusion, capturing the key item even without the justification.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 21,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Charlotte's Web', which matches one of the gold books, so it earns partial credit.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 22,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'running' and 'pottery,' which match the gold answer items.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 23,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (May 28, 2026) does not match the gold date (10 July 2023) and is far outside the 14-day tolerance, with no correct items present.",
+  "category": "temporal"
+ },
+ {
+  "qid": 24,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cLast year\u201d is a relative date that can correspond to 2022, which aligns with the gold answer under the date-tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": 25,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer aligns with the gold by stating she would not pursue writing and prefers a counseling/mental health career.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 26,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "July 14, 2023 is exactly the Friday before July 15, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": 27,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "July 14, 2023 is the Friday before July 15, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": 28,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says it is unspecified, which does not include the gold answer\u2019s key point that she is likely not part of the community based on self-identification.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 29,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cAround June 20, 2023\u201d matches the week before June 27, 2023, aligning with the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": 30,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes \u201caround June 26, 2023,\u201d which matches the gold answer\u2019s \u201cthe week before 3 July 2023.\u201d",
+  "category": "temporal"
+ },
+ {
+  "qid": 31,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions a talent show, which does not match the gold items (mentoring program or school speech), so none of the correct events are included.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 32,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date (July 5, 2023) is within 14 days of the gold answer\u2019s timeframe (two weekends before July 17, 2023, i.e., July 8\u20139), satisfying the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": 33,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer \u201clast weekend\u201d is too vague and does not specify it was the weekend before 17 July 2023, so it doesn\u2019t match the gold item.",
+  "category": "temporal"
+ },
+ {
+  "qid": 34,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 1, but the gold answer is 2, so none of the correct items match.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 35,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes July 18, 2023, which is the Tuesday before July 20, 2023, so it contains the correct item despite the extra date.",
+  "category": "temporal"
+ },
+ {
+  "qid": 36,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer's stated preference for a national park.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 37,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'abstract painting,' which matches the gold 'abstract art.'",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 38,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly provides the month and day (August 13), matching the gold answer despite adding a year.",
+  "category": "temporal"
+ },
+ {
+  "qid": 39,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "August 11, 2023 is the Friday before August 14, 2023, matching the gold answer exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": 40,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer says 'Yes,' which matches the gold answer indicating she is supportive.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 41,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes friends, family, and mentors, which match the gold answer (extra 'community' is acceptable).",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 42,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'cup' and 'bowls', which match the gold answer items, so it meets the partial credit rule.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 43,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cLast year\u201d is an acceptable relative reference that aligns with 2022 per the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": 44,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Progressive is a left-leaning political stance closely aligned with liberal, so it semantically matches the gold answer.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 45,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same three pet names as the gold answer (Oliver, Luna, Bailey), just in a different order.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 46,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date window by specifying approximately the same date (around August 23, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": 47,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'last week' does not match the specific timeframe 'the week before 23 August 2023' and provides no overlapping correct detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": 48,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is a broad category ('nature') and does not specifically include the gold item 'Sunsets', so there is no direct match.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 49,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes the rainbow flag (as a mural/design), matching one gold item, so it qualifies for partial credit despite missing the transgender symbol.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 50,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes dates like August 18, 2023 and the week of August 20, 2023, which fall in the week before August 25, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": 51,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer's date.",
+  "category": "temporal"
+ },
+ {
+  "qid": 52,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer says she is somewhat religious, while the generated answer says no, which contradicts it and shares no correct elements.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 53,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both instruments\u2014clarinet and violin\u2014matching the gold answer.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 54,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Matt Patterson,' which matches one of the gold-listed artists, so partial credit applies.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 55,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer (27 August 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": 56,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date, so it includes the correct item.",
+  "category": "temporal"
+ },
+ {
+  "qid": 57,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold's affirmative 'Yes', satisfying partial credit even without the classical music rationale.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 58,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes general hiking and scenery but does not mention roasting marshmallows or telling stories, so none of the gold items appear.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 59,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "September 9, 2023 is the Saturday of the weekend before September 13, 2023, matching the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": 60,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cSeven years\u201d is consistent with \u201csince 2016\u201d (about seven years as of 2023), capturing the same idea.",
+  "category": "temporal"
+ },
+ {
+  "qid": 61,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated traits include \u201cdedication,\u201d which paraphrases \u201cdriven,\u201d and \u201cempathy/kind/caring,\u201d which align with \u201cthoughtful,\u201d so at least one gold item is matched.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 62,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions both a transgender conference and a transgender poetry reading, matching the gold items.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 63,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Charlotte's Web' does not match the gold answer 'Becoming Nicole' and contains no overlapping correct items.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 64,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cLast year\u201d is an acceptable relative reference matching the specific year 2022 under the date tolerance rules.",
+  "category": "temporal"
+ },
+ {
+  "qid": 65,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "\u201cLast month\u201d (relative to now) does not match the gold date \u201cSeptember 2023\u201d nor fall within the allowed tolerance window.",
+  "category": "temporal"
+ },
+ {
+  "qid": 66,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 14\u201315, 2023 is the weekend immediately before October 20, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": 67,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says Melanie has 2 children, but the gold answer is 3, with no overlap or partial match possible.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 68,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 69,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer says she likely would not go on another roadtrip soon, while the generated answer says yes, directly contradicting it with no overlap.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 70,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'figurines,' which matches one of the gold items, so it earns partial credit.",
+  "category": "multi_hop"
+ },
+ {
+  "qid": 71,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 20, 2023 is the Friday before October 22, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": 72,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date exactly, only differing in formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": 73,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'No,' matching the gold answer\u2019s main conclusion even though it omits the adoption detail.",
+  "category": "open_domain"
+ },
+ {
+  "qid": 74,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly by stating 'mental health.'",
+  "category": "single_hop"
+ },
+ {
+  "qid": 75,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is a direct paraphrase of the gold answer, conveying the same realization about self-care.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 76,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, describing daily me-time for running, reading, or playing the violin.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 77,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions outings with Melanie and an LGBTQ art show, which does not include the gold item of researching adoption agencies.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 78,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer identifying LGBTQ+ individuals.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 79,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by citing inclusivity and support for LGBTQ+ individuals as the reason.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 80,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions starting the process but does not capture the gold idea of creating a family for kids who need one, so there is no overlap with the key item.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 81,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes that Caroline will be an awesome mom and conveys strong admiration, aligning with the gold answer's key points.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 82,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold duration of 5 years.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 83,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer items (love, faith, and strength).",
+  "category": "single_hop"
+ },
+ {
+  "qid": 84,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly (Sweden).",
+  "category": "single_hop"
+ },
+ {
+  "qid": 85,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the gift as a necklace, matching the gold answer.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 86,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, capturing the same concept of art and self-expression.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 87,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly paraphrases the gold answer, mentioning counseling for trans individuals focused on self-acceptance and mental health support.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 88,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same workshop, 'LGBTQ+ counseling workshop,' adding only a date which is acceptable extra detail.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 89,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases both key points from the gold answer\u2014therapeutic methods and best practices for working with trans people.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 90,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact gold point about her own journey and the support she received, with extra details that do not conflict.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 91,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer semantically matches the gold answer, preserving 'safe and inviting' and 'for people to grow' with only a 'space'/'place' paraphrase.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 92,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by affirming that Melanie made the black and white bowl.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 93,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer lists classics, stories from different cultures, and educational books, which match the gold items, so it includes correct items from the list.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 94,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Charlotte's Web'), so it includes the correct item.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 95,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not name 'Becoming Nicole,' providing no overlap with the gold answer.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 96,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'self-acceptance' and 'finding support,' matching the gold answer's key takeaways.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 97,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's purpose (running).",
+  "category": "single_hop"
+ },
+ {
+  "qid": 98,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer in wording and meaning.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 99,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating that running has been great for her mental health.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 100,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'their own pots,' which matches the gold answer 'pots,' so it contains a correct item.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 101,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not include the specific detail that it was a cup with a dog face on it.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 102,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions painting, matching the gold answer with acceptable extra detail.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 103,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (\u201ca sunset with a palm tree\u201d), satisfying the requirement for correctness.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 104,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only describes the meeting as inspiring and emotional without mentioning people wanting to create loving homes for children in need, which is the core detail of the gold answer.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 105,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'warmth' and 'happiness', matching the gold answer exactly.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 106,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that flowers help her appreciate small moments and were part of her wedding decor, matching both key points from the gold answer.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 107,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions a sunset\u2019s colors, which does not match the gold answer\u2019s inspiration of visiting an LGBTQ center and capturing unity and strength, with no overlapping items or concepts.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 108,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('once or twice a year').",
+  "category": "single_hop"
+ },
+ {
+  "qid": 109,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is generic and does not mention the Perseid meteor shower or any equivalent specific event.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 110,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states she was 'in awe of the universe,' matching the gold answer\u2019s key feeling.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 111,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states it was her daughter\u2019s birthday, which matches the gold answer that it was Melanie\u2019s daughter.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 112,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Matt Patterson').",
+  "category": "single_hop"
+ },
+ {
+  "qid": 113,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives a different motive (self-expression) and does not include the gold answer\u2019s focus on attracting attention and making people smile, so there is no overlap.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 114,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Caroline has a guinea pig, matching the gold answer, with extra detail about the pet's name which is acceptable.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 115,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lists pet names and does not mention having two cats and a dog, so none of the gold items are matched.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 116,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cHer slipper\u201d correctly refers to Melanie\u2019s slipper, matching the gold answer\u2019s location.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 117,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item, indicating the same activity.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 118,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item (stained glass window).",
+  "category": "single_hop"
+ },
+ {
+  "qid": 119,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer's 'rainbow sidewalk' with equivalent wording.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 120,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Brave by Sara Bareilles'), satisfying the criteria.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 121,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both Bach and Mozart, which exactly match the gold answer.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 122,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly (Ed Sheeran).",
+  "category": "single_hop"
+ },
+ {
+  "qid": 123,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases the gold answer and conveys the same duration of 7 years.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 124,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is too vague and does not mention the sign\u2019s specific message about someone not being able to leave.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 125,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold points by advising to do research, find an adoption agency or lawyer, gather necessary documents (with examples), and prepare emotionally.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 126,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions her son's accident, which does not match Melanie herself getting hurt and pausing pottery.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 127,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions reading a book and painting, matching both activities in the gold answer (extra detail about Caroline is acceptable).",
+  "category": "single_hop"
+ },
+ {
+  "qid": 128,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lacks the key details of being inspired by sunsets and having a pink sky, sharing no specific overlap with the gold answer.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 129,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a sunset painting, which does not match the gold answer\u2019s abstract painting with blue streaks on a wall.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 130,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the core idea that the event was a transgender poetry reading where transgender people shared their stories through poetry.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 131,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include the specific slogan 'Trans Lives Matter' or a clear paraphrase of it.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 132,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both key ideas\u2014freedom and staying true to herself\u2014so it aligns with the gold answer despite extra details.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 133,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions \u201clearning and exploring\u201d and a shared journey, which semantically matches the gold idea of an ongoing adventure of learning and growing.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 134,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold fact that Melanie's son was in an accident, adding only that he was okay, which is acceptable extra detail.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 135,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer does not mention that he was scared or reassured by his family, so none of the gold details are present.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 136,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases the gold sentiment by expressing strong appreciation and gratitude, aligning with \u201cthey mean the world to her.\u201d",
+  "category": "single_hop"
+ },
+ {
+  "qid": 137,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer conveys they were scared and demonstrated toughness (resilience), aligning with the gold and adding acceptable extra detail.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 138,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Both express gratitude/thankfulness after the accident, matching the core emotion even without mentioning family specifically.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 139,
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions reflection on family rather than expressing happiness or gratitude, so it contains none of the gold items.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 140,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the gold items 'strength' and 'motivation', so it matches the required facts.",
+  "category": "single_hop"
+ },
+ {
+  "qid": 141,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cAwesome\u201d conveys a positive appreciative feeling consistent with \u201cshe appreciated them a lot.\u201d",
+  "category": "single_hop"
+ },
+ {
+  "qid": 142,
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases the gold answer by describing a nature walk/hike on a trail.",
+  "category": "single_hop"
+ }
+]

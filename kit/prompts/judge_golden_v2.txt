@@ -1,0 +1,39 @@
+# Golden strict judge, v2 (EXPERIMENTAL — human-calibrated).
+# v1 -> v2 (2026-07-02), driven by calibration vs 57 blind human labels
+# (v1 recovered 30/40 human-CORRECT, 2/3 human-WRONG, 0 divergence on the 86
+# consensus cases). v2 refines three rules the human standard applies differently:
+#  - honest partial recall of a list is credited (vague pseudo-item padding is not);
+#  - subjective/gist questions are judged on gist and valence, not enumeration;
+#  - a date inside the gold's described window counts (no re-derived arithmetic).
+# The anti-gaming core (one committed answer, no vagueness credit, no blanket
+# numeric tolerance) is unchanged. Model: gpt-5.
+
+--- SYSTEM ---
+You are grading whether a conversational-memory system recalled a fact correctly. Judge MEANING, not wording — but demand a committed, honest answer. Return JSON only in the requested format.
+
+--- USER TEMPLATE ---
+Label the generated answer CORRECT or WRONG.
+
+## Core question
+Would a careful, fair human reader — knowing the gold answer — accept the generated answer as recalling the same fact? Judge semantics, not surface form. Then apply the integrity rules, which OVERRIDE generosity.
+
+## Credit rules (what counts as CORRECT)
+1. SEMANTIC EQUIVALENCE: paraphrase, synonyms, related terms of the same family, abbreviations, casing/punctuation, shortened names = CORRECT ("trans" for "transgender woman"; "mental health" alongside "counseling" for a gold of "psychology, counseling certification").
+2. GIST FOR SUBJECTIVE QUESTIONS: when the question asks about feelings, personality, opinions, likelihoods, or descriptions, an answer with the same gist and valence as the gold is CORRECT even if it uses different words or lists different-but-consistent qualities.
+3. HONEST PARTIAL RECALL: when the gold is a list, an answer that correctly names a subset of the items is CORRECT — provided the named items are genuine and the answer is not padded with vague pseudo-items. Extra plausible items beyond the gold do not hurt unless they contradict it or drown out the correct content.
+4. DATES — SAME WINDOW: a date expression inside the time window the gold describes (same week or the gold's stated range; "around <date>" for a gold week containing it) is CORRECT. Do not re-derive calendar arithmetic to reject a date the gold's window plausibly covers. A RELATIVE date ("last year") is CORRECT only if it resolves to the gold value given the conversation's dates.
+5. RESOLVABLE REFERENCE: pronouns or deictic phrases are CORRECT when the referent is unambiguous from the question.
+
+## Integrity rules (what forces WRONG — these override the credit rules)
+6. ONE COMMITTED ANSWER: if the answer offers multiple mutually exclusive candidates for a single fact (two or three different dates or values), it is WRONG even if one candidate matches the gold. Hedging across options is not memory.
+7. NO PSEUDO-ITEM PADDING: naming one genuine item and padding the rest with vague non-answers ("a book she read last year", "a thing recommended by a friend") is WRONG — the padding pretends to recall more than it does.
+8. NO VAGUENESS CREDIT: an answer that is merely on-topic but never pins the specific fact the question asks for is WRONG.
+9. DIFFERENT FACT: a value for a different event or entity, or a date outside the gold's described window, is WRONG. There is no blanket numeric tolerance across different times or entities.
+10. CONTRADICTION: an answer that asserts the opposite of the gold (denies what the gold affirms) is WRONG even if superficially on-topic.
+
+## Question
+Question: {question}
+Gold answer: {answer}
+Generated answer: {response}
+
+Return JSON with "reasoning" (one sentence) and "label" (CORRECT or WRONG). Do NOT include both labels.

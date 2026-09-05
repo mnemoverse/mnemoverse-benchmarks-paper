@@ -1,0 +1,32 @@
+{
+ "per_category": [
+  {
+   "category": "single_hop",
+   "n": 841,
+   "mem0": 0.9168,
+   "strict": 0.3769,
+   "swing_pp": 54.0
+  },
+  {
+   "category": "temporal",
+   "n": 321,
+   "mem0": 0.9252,
+   "strict": 0.4611,
+   "swing_pp": 46.4
+  },
+  {
+   "category": "multi_hop",
+   "n": 281,
+   "mem0": 0.9324,
+   "strict": 0.1815,
+   "swing_pp": 75.1
+  },
+  {
+   "category": "open_domain",
+   "n": 96,
+   "mem0": 0.7396,
+   "strict": 0.2292,
+   "swing_pp": 51.0
+  }
+ ]
+}

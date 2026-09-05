@@ -1,0 +1,30 @@
+{
+ "lenient_pct": 91.03313840155946,
+ "strict_pct": 34.95776478232619,
+ "drops": [
+  {
+   "rule": "partial credit",
+   "score_pct": 83.88564002599091,
+   "drop_pp": 7.147498375568551,
+   "n": 1539
+  },
+  {
+   "rule": "paraphrase / semantic",
+   "score_pct": 87.97139141742522,
+   "drop_pp": 3.055916775032508,
+   "n": 1538
+  },
+  {
+   "rule": "date / duration tolerance",
+   "score_pct": 86.31426502534396,
+   "drop_pp": 4.344677769732086,
+   "n": 1381
+  },
+  {
+   "rule": "extra detail / referent",
+   "score_pct": 65.55337262606417,
+   "drop_pp": 25.409299279633267,
+   "n": 1527
+  }
+ ]
+}

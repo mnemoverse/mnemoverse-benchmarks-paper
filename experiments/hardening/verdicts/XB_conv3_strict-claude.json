@@ -1,0 +1,1388 @@
+[
+ {
+  "qid": "conv3_q0",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides multiple examples of Nate having friends but fails to specifically mention 'teammates on his video game team' as stated in the gold answer, instead offering different evidence that, while topically related, does not match the exact fact required.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies watching movies and making desserts (specifically dairy-free desserts/baking) as shared interests, matching both items in the gold answer, though it includes additional interests not mentioned in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q10",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer captures relief, excitement, worry, and hope, but omits 'anxiety' which is a distinct emotion from worry in the gold answer, making it incomplete.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'three years' which matches the gold answer of '3 years' exactly, and the additional date context does not contradict or change this fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains all the key facts from the gold answer ('super good,' 'rich and creamy') and adds contextual details that are consistent with those facts, meeting the requirement that the same facts are stated.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q102",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes an extra flavor (coconut/coconut-milk) that is not present in the gold answer, which only lists chocolate and mixed berry.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer \u2014 both identify 'Little Women' as what Joanna recommended, with only a minor stylistic difference in phrasing ('the film' vs. no article).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer accurately captures all three core elements from the gold answer: sisterhood, love, and reaching for/pursuing dreams, with 'pursuing' and 'chasing' being synonymous with 'reaching for'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q105",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds fabricated specifics ('coconut-milk' and 'almond chunks') that are not present in the gold answer, violating the requirement of no added unverified details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies personal experiences and journey of self-discovery as the inspiration, with the added detail about 'after a loss' being a reasonable specification rather than a fabrication that contradicts the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q107",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the gold answer's key facts (slow pace and calming nature) but adds extensive unverified details about low-maintenance, watching them, stress management, personalities, and childhood interest that are not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all three required elements from the gold answer (keep area/enclosure clean, feed properly, give enough light) and correctly conveys that it's not tough/simple, though it adds 'low-maintenance' and 'kind of fun' which are not fabrications that contradict the core facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A writing gig' states the exact same fact as the gold answer 'writing gig' with only a minor article addition that doesn't change the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all four items from the gold answer (most reptiles, animals with fur, cockroaches, and dairy) and the additional detail about lactose intolerance is a clarification rather than a fabrication that contradicts the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q110",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions 'bright, bold purple' and adds the specific color 'purple' which is not in the gold answer, and changes 'like him' to 'wanted to stand out from regular options' which is a different reasoning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all four ingredients from the gold answer (coconut milk, vanilla extract, sugar, salt) with identical entities, though 'a pinch of salt' is equivalent to 'salt' as it doesn't change the ingredient itself.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Finding Home' matches the gold answer '\"Finding Home\"' exactly, stating the same project name without any discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q113",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'Action and science-fiction' while the gold answer is 'Fantasy and sci-fi' \u2014 these are different genres (action vs. fantasy), so this is not a match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q114",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'fantasy and science-fiction' with specific details about dragons and space-opera, while the gold answer simply states 'Adventures and magic' without mentioning fantasy genre, science-fiction, or any specific series.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q115",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'romantic comedies' and 'romantic dramas' which are not mentioned in the gold answer that specifies only 'dramas and emotionally-driven films' without any reference to romantic comedies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same fact as the gold answer: watching fantasy and sci-fi movies helps Nate escape and stimulates his imagination.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Strawberry filling' which matches the gold answer 'strawberry' exactly in terms of the factual content (the filling type).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Coconut-cream frosting' matches the gold answer 'coconut cream' as it refers to the same type of frosting, with only minor formatting differences (hyphenation and the word 'frosting' being explicit).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Joanna' matches the gold answer 'Joanna' exactly, stating the same fact with no discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Nate gave Joanna a stuffed animal, which matches the gold answer's fact that he got her a stuffed animal, with the added descriptor 'cute' being a minor embellishment that doesn't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q123",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the core fact from the gold answer (a stuffed animal to remind her of good vibes) but adds fabricated specifics about bringing him joy, making him grin, and 'joy in his pocket' that are not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q124",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the event as 'a gaming party' and adds a specific date that, while more detailed than the gold answer, does not contradict it and represents the same core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q125",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions 'old friends' and 'teammates from other tournaments' but fails to explicitly include 'tournament friends' as a separate category, and the phrasing 'from other tournaments' adds a specificity not present in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer (custom controller decorations) and the parenthetical clarification is consistent rather than fabricated.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer \u2014 that Joanna wrote screenplay bits/portions \u2014 with equivalent meaning despite slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Iron Man' matches the gold answer 'Iron Man' exactly, stating the same fact with no discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (March 23, 2022 is equivalent to 23 March, 2022), just in a different date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q130",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes all three items from the gold answer (inspiring quotes, photos, and little keepsakes) but adds an unverified specific detail about 'a framed family photo' that is not mentioned in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same fact as the gold answer\u2014that the photo reminds Joanna of love and encouragement from her family\u2014with only minor grammatical variation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q132",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds a specific detail ('coconut milk') that is not present in the gold answer, which only states 'vegan ice cream' without specifying the type or ingredients.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states '7 people' which matches the gold answer of '7' exactly, providing the same factual information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q134",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides excessive specifics (coconut-milk, chocolate-and-vanilla swirl) that are not present in the gold answer, which only states 'vegan ice cream recipe' without these additional details that cannot be verified.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q135",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies making a specific recipe (dairy-free coconut-milk ice cream) 'that night' and reporting back to Nate, while the gold answer only states she planned to 'make it for her family' without these additional details, and the generated answer doesn't explicitly mention making it 'for her family.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '4' is numerically identical to the gold answer 'Four', stating the exact same fact with no discrepancy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Woodhaven as the destination, and the additional descriptor 'a small Midwestern town' is a characterization rather than a fabricated fact that contradicts the core answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q138",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides specific details about a vintage book from the 1900s with stories and sketches, while the gold answer states she discovered a 'cool old book collection' (plural books, not a single book), making this a mismatch in both the entity discovered and the specifics provided.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q139",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lists 'identity' and 'connection' which do not match the gold answer's 'redemption' and 'forgiveness', and while both mention 'loss', two out of three themes are incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Jo' exactly matches the gold answer 'Jo' with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q140",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies 'a small Midwestern town with historic buildings, lovely scenery, and a vintage-book-filled library' which are fabricated specifics not present in the gold answer that simply states 'Woodhaven's interesting past and people.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q141",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Nate won a video game tournament, which matches the gold answer, but adds an unverified specific detail (Counter-Strike: Global Offensive) that is not in the gold answer and could be fabricated.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Nate competes in video game tournaments, which matches the gold answer's core fact, though it adds contextual details about prize money that are consistent with tournament competition.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q143",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Joanna felt 'reaffirmed' and describes what it reminded her of, while the gold answer specifies she felt 'touched'\u2014these are different emotional states and not the same fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q144",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes specific aspirations about producers, directors, and the big screen, which are not mentioned in the gold answer that simply states she hopes to share her stories and have an impact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core facts as the gold answer (blog post about a hard moment in her life), with 'online' being a redundant but non-contradictory descriptor of a blog post.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that her writing 'makes a difference' which matches the gold answer's core fact, though it adds extra context about resilience and support from Nate that wasn't in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q147",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds specific flavors ('chocolate and vanilla swirl') that are not present in the gold answer, which only specifies 'coconut milk ice cream' as the type.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys enthusiasm and happiness about sharing, which aligns with the gold answer 'Happy to share,' despite using more elaborate language and additional details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Joanna shared her book with her writers group, which matches the gold answer's core fact, though it adds the clarifying detail '(a draft manuscript)' which, while reasonable, is not verified by the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q15",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'around April 8, 2022' which is an approximation and specific date, whereas the gold answer states 'the week before 15April, 2022' which is a range; while these are consistent in meaning, the generated answer adds unverified specificity ('April 8') and hedges with 'around,' failing the strict requirement for exact matching without fabricated specifics.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q152",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies lactose intolerance as the reason for experimenting with dairy-free options, matching the gold answer's core fact, though it includes additional context not required by the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'dairy-free margarine or coconut oil,' which matches the gold answer exactly in substance, despite minor formatting differences (hyphen vs space, capitalization).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q154",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'His own cooking show' states the same core fact as the gold answer 'a cooking show' \u2014 both identify it as a cooking show, and the addition of 'his own' is a reasonable inference that doesn't contradict or fabricate unverified information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q155",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states exactly the same fact as the gold answer: Nate's favorite dish from the cooking show he hosted is coconut milk ice cream.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q156",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Dairy\u2011free chocolate mousse' matches the gold answer 'dairy-free chocolate mousse' exactly in content, with only a trivial formatting difference (hyphen vs space).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q157",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A chocolate raspberry tart' matches the gold answer 'chocolate raspberry tart' exactly, stating the same dessert with the same three components mentioned in the question.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q158",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the unverified specific detail 'dairy-free' which is not present in the gold answer, constituting a fabricated specification that fails the strict matching requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q159",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both main ingredients (blueberries and coconut milk) exactly as stated in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer (dyed his hair purple) with an additional temporal detail (mid-April) that is consistent with the April 2022 timeframe in the question.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q160",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Little Women' matches the gold answer 'Little Women' exactly, stating the same fact without any discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q161",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies that Joanna made a bookmark, but adds unverified specific details about it being 'cute' with 'a small plant attached to its top' that are not present in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q162",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Catan' matches the gold answer 'Catan' exactly, stating the same fact with no discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q163",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Inception' matches the gold answer '\"Inception\"' exactly in substance, stating the same movie title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q164",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Cyberpunk 2077' exactly matches the gold answer 'Cyberpunk 2077' with no discrepancies in the game name or any other details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q165",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer\u2014that Nate shared a photo of a bookcase filled with DVDs and movies\u2014with only minor stylistic differences that do not change the core information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q166",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer contains the core elements 'gripping' and 'great actors' from the gold answer, but adds unverified specifics like 'awesome,' 'story that really stuck with her,' and a '9 to 10 out of 10' rating that are not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q167",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches all three elements from the gold answer: a couch for multiple people (large couch), a fluffy blanket (weighted blanket is a type of fluffy blanket), and dimmable lights, with no fabricated details or missing components.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q170",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds fabricated specifics about allergies and allergic reactions that are not present in the gold answer, which only states the dog was from Michigan.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q171",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes continuing to submit screenplays, which is a specific action, whereas the gold answer is the general principle of 'keep grinding and moving ahead'\u2014while thematically similar, they are not stating the same fact with the required exactness.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q172",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Nate respects Joanna's ability to bounce back, which matches the gold answer's core fact of 'respect Joanna for being able to bounce back,' though it adds the detail about explicit praise which may or may not be verified.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q173",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer captures the sentiment but does not match the specific phrasing of the gold answer\u2014it lacks 'rejections don't define her' and 'keep grinding and she'll find the perfect opportunity,' instead using different wording like 'shouldn't give up on her dreams' and 'people cheering her on.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q174",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Nate relies on his pet turtles for cheer and joy, which matches the gold answer 'his turtles' with only minor elaboration that doesn't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q175",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Joanna uses a stuffed animal dog named Tilly to remember her dog from Michigan, matching all key facts from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q176",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Joanna contributed her movie script/screenplay, which matches the gold answer of 'movie script' with only minor clarifying parenthetical addition.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q177",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds fabricated specifics ('people she knows, things she sees, and her imagination') not present in the gold answer, and while it mentions visual references helping bring characters alive in her mind, it omits the critical purpose 'so she can write better.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q178",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer covers all three sources mentioned in the gold answer (people she knows, things she saw/sees, and her imagination), with only minor tense variation that does not change the factual content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q179",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer captures 'surreal' but adds an unverified metaphor about characters jumping off the page and omits 'cool,' failing to match the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Whispering Falls' matches the essential fact in the gold answer 'Whispering Falls waterfall,' as it correctly identifies the specific outdoor spot by name, with 'waterfall' being a descriptor rather than a distinct factual element.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q180",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies all three components of the diet (vegetables, fruits, and insects) as stated in the gold answer, with the additional detail about strawberries being a harmless elaboration that doesn't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q181",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Coconut milk' states the exact same ingredient as the gold answer 'coconut milk' (case difference is irrelevant for ingredient names).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q182",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'early writings' as what Joanna found in old notebooks, and the additional detail about 'pages listing various story ideas' is a reasonable elaboration of what 'early writings' would contain rather than a fabrication of a different fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q183",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer contains a spelling error ('Xeonoblade' instead of 'Xenoblade'), which makes it a different string from the gold answer, failing the requirement for exact name matching.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q184",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Joanna received a handwritten letter from her brother, which matches the gold answer's fact of 'a handwritten letter' exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q185",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'fantasy role-playing game (RPG)' is semantically identical to the gold answer 'fantasy RPG', as RPG is the standard abbreviation for role-playing game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q188",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Nate is creating gaming content/videos for YouTube, which matches the gold answer of 'gaming content' exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q189",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the core elements from the gold answer (love of gaming and connecting with others) but adds an unverified detail about being 'a big fan of gaming videos himself' that is not present in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2' is numerically identical to the gold answer 'twice', stating the exact same fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q190",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Nate is creating gaming videos, which matches the gold answer exactly, and the parenthetical clarification '(gameplay content)' is consistent with gaming videos without adding fabricated specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q191",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Joanna advised Nate to watch other people's videos to understand/learn what the audience likes, which matches the core fact in the gold answer, though it adds contextual details about tailoring content and avoiding flops that are reasonable inferences from the advice.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q192",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A sunset' states the same fact as the gold answer 'Sunset' with only a minor article difference that does not change the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q193",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds fabricated details ('on a hike') not present in the gold answer and uses different wording ('striking sunset and surrounding scenery' vs 'incredible sunset and surrounding beauty'), though it captures the core fact about the sunset and beauty inspiring the photo.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q194",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the essential facts from the gold answer: Nate saw a turtle at a pet store and wanted to get it, resulting in a third turtle.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q196",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'His pet turtles' contains the core fact 'turtles' from the gold answer, and the addition of 'pet' is a reasonable descriptor that doesn't contradict or fabricate unverified information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q197",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the two core facts from the gold answer (making him feel calm and not requiring much looking after/low-maintenance) but adds an unverified specific detail about watching them bask in the sun that is not present in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q198",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a different photo (ice cream being transferred into a pan from a red-sprinkle experiment) than the gold answer which specifies colorful bowls of coconut milk ice cream, making this factually incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q2",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Around January 2019' specifies the same year (2019) as the gold answer but adds an unverified specific month ('January') and hedging language ('Around'), which constitutes fabricated specifics not present in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q20",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific date (May 20, 2022) that is more precise than the gold answer (May 2022), and while it falls within the correct month, the additional specificity of 'around May 20' cannot be verified against the gold standard which only states 'May 2022'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'Max' as the new addition and adds the accurate detail that Max is a dog, which does not contradict the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'around late April 2022' which does not match the gold answer of 'May 2022' exactly \u2014 the dates differ by approximately one month.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q23",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides dates and generic descriptions but fails to state the specific content/themes of the rejected screenplays (drama and romance for the first, loss identity and connection for the third) as required by the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies June 11-12, 2022, which would be the weekend after June 3, 2022, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies June 4-5, 2022 as the weekend, which correctly identifies the weekend immediately after June 3, 2022, matching the gold answer's timeframe exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q26",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific date range (May 27-31, 2022) that aligns with 'the week before 3June, 2022' and adds the detail 'regional tournament' which, while not contradicting the gold answer, introduces unverified specifics that were not in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both places (film festival and film contest) mentioned in the gold answer, and the additional date detail, while not in the gold answer, does not contradict it or change the core facts being tested.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date (June 17, 2022) which is indeed the Friday before June 24, 2022, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q29",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states the weekend of June 25\u201326, 2022, while the gold answer specifies the weekend of 24 June, 2022 (which would be June 24\u201326), so the dates do not match exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q3",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific date (January 14, 2022) that approximates 'the week before January 21, 2022,' but uses hedging language ('Around') and does not match the exact phrasing or precision of the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q30",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions screenplays, a book, and journal, but omits 'online blog posts' which is explicitly listed in the gold answer as one of the types of writings Joanna does.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Friday, July 8, 2022, which is indeed the Friday before July 10, 2022, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q32",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies Woodhaven as the destination, but adds an unverified specific detail ('a small Midwestern town') that is not present in the gold answer and could be fabricated.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same timeframe as the gold answer, with only minor formatting differences (writing out 'August' vs '14August' and using a comma), which does not change the factual content.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q35",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states the weekend of August 27\u201328, 2022, but the gold answer specifies the weekend of August 22, 2022, which are different dates.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific date (August 15, 2022) that is approximately correct but does not match the gold answer's phrasing of 'the week before 22August, 2022,' and the exact date differs from what would be calculated from the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same date as the gold answer (August 21, 2022 is equivalent to 21 August, 2022), just in a different date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'September 9, 2022' which is a specific date, while the gold answer states 'The Friday before 14 September, 2022' which would be September 9, 2022 - these are the same date expressed differently, so the fact matches exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Monday, September 12, 2022, which is indeed the Monday before September 14, 2022, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date (September 7, 2022) that is within the week before September 14, 2022, which accurately represents the same timeframe as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states October 5, 2022, which is the same date as the gold answer (5 October, 2022), just formatted differently.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q42",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions 'Lord of the Rings' and completely omits 'Little Women', failing to cover all items in the gold answer's list.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies 'Around September 29, 2022' which adds an unverified specific date (the 29th) not present in the gold answer of 'September 2022', constituting fabricated specifics.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date (September 29, 2022) that falls within 'the week before October 6, 2022' (which would be September 29 - October 5, 2022), making it factually consistent with the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both Chess and Catan, which exactly matches the gold answer's two board games, just in reversed order.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the two required places (tournament and gaming convention) but adds extra locations (walking dog, board-game session) that are not in the gold answer, and the gold answer does not specify these additional meetings.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies Friday, October 7, 2022, which is indeed the Friday before October 9, 2022, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q5",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes additional hobbies (reading, DIY/crafting, cooking/baking) that are not in the gold answer, and while it covers writing, watching movies, and exploring nature, it omits 'hanging with friends' entirely, making it incomplete and containing fabricated additions.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Nate gave Joanna a stuffed toy pup (described as 'plush stuffed dog') that brings her joy, matching the core fact in the gold answer, though it adds extra details about naming it Tilly and keeping it while writing.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the Sunday before October 25, 2022, as October 23, 2022, which matches the gold answer's specification.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q55",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions nature, personal experiences, and self-discovery, but omits several key elements from the gold answer including Nate, validation, stories about finding courage and taking risks, people she knows, stuff she sees, and imagination\u2014making it incomplete.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'turtles' states the exact same fact as the gold answer 'Turtles' (case difference is irrelevant for factual content).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'November 5, 2022' conveys the exact same date as the gold answer '5 November, 2022' \u2014 only the format differs (American vs. British date notation).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions the notebook but omits the corkboard entirely, and adds an unverified specific date (November 7, 2022) that is not in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'three years' which matches the gold answer exactly, and the added date context does not contradict or change the core fact being tested.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q60",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies the Nintendo Switch but omits the supporting reasoning about Xenoblade 2, making it incomplete compared to the gold answer which requires both the console name and the justification.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q61",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lists PC (correct), Nintendo Switch (not in gold answer), and tabletop games (not in gold answer), while missing Gamecube and Playstation from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q63",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is missing 'Valorant' from the list of five games in the gold answer, making it incomplete.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Saturday, November 5, 2022, which is indeed the Saturday before November 7, 2022, matching the gold answer's fact exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'a big Valorant tournament' which matches the gold answer 'Valorant', and the date 'November 5, 2022' aligns with 'beginning of November 2022', so the core fact is correct.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies a dog and three turtles, matching the gold answer's facts despite providing additional details (the dog's name 'Max' and context about adding turtles).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '3' is numerically identical to the gold answer 'Three', stating the exact same fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Friday, January 21, 2022, which is indeed the Friday before January 23, 2022, matching the gold answer exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q70",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes all four activities from the gold answer (walks, holds, feeds strawberries, baths) but also adds many unverified activities like beach trips to Tampa, watching him cook, and upgrading habitats that are not in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'Nature' as what both Joanna and Nate appreciate, and the parenthetical elaboration (sunsets, scenery, outdoors) provides examples of nature rather than contradicting or fabricating unverified specifics.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'November 10, 2022' states the exact same date as the gold answer '10 November, 2022', just in a different format (both refer to the same specific date).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Indiana' matches the gold answer 'Indiana' exactly, stating the same fact with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies 'Eternal Sunshine of the Spotless Mind' and living room comfort pointers, but misses 'A Court of Thorns and Roses' book, the cork board for memories, and 'Little Women' movie, while adding an unverified gaming video recommendation not in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q75",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions two of the four specific desserts listed in the gold answer (coconut milk ice cream and dairy-free chocolate mousse), omitting dairy-free chocolate cake with berries and chocolate and mixed-berry ice cream as distinct items, making it incomplete.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both methods from the gold answer (teaching others and cooking show), though it adds specific dates and details about sending a recipe to Joanna which, while potentially accurate, go beyond what the gold answer requires.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'During the week of April 25, 2022' refers to the same time period as 'The week before 2 May, 2022' (which would be April 25-May 1, 2022), stating the same fact with equivalent specificity.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q8",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'Around January 2019' which adds an unverified specific month (January) not present in the gold answer '2019', and includes hedging language ('Around') that introduces uncertainty not in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '7' is numerically identical to the gold answer 'seven', stating the exact same fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer uses vague descriptions like 'white frosting' and 'pink frosting' instead of the specific recipe names in the gold answer, omits several items (parfait, chocolate coconut cupcakes, blueberry cheesecake bars), and adds unverified items (almond-milk dessert, cookies, pies) not present in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q82",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies coconut milk ice cream and chocolate-and-vanilla swirl, but adds unverified specifics (cherry toppings, red sprinkles, chocolate cake, cooking show) that are not in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q83",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes extra items (dairy-free baking, turtle care) not in the gold answer, and while it covers gaming tips and coconut milk ice cream, it mischaracterizes 'reset high scores' as 'boost their high scores,' which are different concepts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q85",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'film director' and 'directing' while the gold answer specifies 'filmmaker' \u2014 these are related but not identical terms, and the generated answer adds unverified specifics about directing her own movie based on her screenplay.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (November 10, 2022 is equivalent to 10 November, 2022), just in a different date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same movie as the gold answer, with only a minor spacing difference in the gold answer ('Sunshineof' vs 'Sunshine of') that appears to be a typo.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'purple' as the core fact, which matches the gold answer exactly, and the additional descriptors 'bright, bold' are stylistic elaborations that do not contradict or change the factual content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q9",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states the same core facts as the gold answer (finished screenplay and printed it) but adds a specific date (January 21, 2022) that is not present in the gold answer, which constitutes a fabricated specific.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer, identifying the Lord of the Rings trilogy as Nate's favorite movie trilogy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Action and science-fiction movies' which conveys the same two movie types as the gold answer 'action and sci-fi' with no missing elements or fabricated details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q97",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states she finished her screenplay on January 21, 2022, but the question specifies the date as January 23, 2022, which is a factual discrepancy in the date.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q98",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions 'drama' and omits 'romance,' which is explicitly part of the gold answer requiring both genres.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer accurately captures both key elements from the gold answer: submitting to film festivals and having producers and directors review/check it out, with no factual discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Nate finds inspiration from nature, but the gold answer specifically states he feels he could 'write a whole movie,' which is a different and more specific fact than general inspiration.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q12",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer discusses 'atopic predisposition' and 'allergy diathesis' but does not mention asthma, which is the specific condition stated in the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q120",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Taking up nature photography' does not match the gold answer which specifies 'Start thinking about a drama and publish a screenplay' - these are completely different creative activities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q128",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'Iron Man' while the gold answer is 'Spider-Man' \u2014 these are two completely different superheroes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q150",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a completely different celebration activity (a walk and reading) than the gold answer (making a delicious treat), and even adds specific dates not mentioned in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q151",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes Nate's reaction and appreciation of the win but does not mention the specific fact from the gold answer that he took time off to chill with pets.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q168",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Joanna's stuffed dog named Tilly helps her stay focused and brings her joy, matching all key facts from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q169",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer: Joanna has/keeps a stuffed animal dog named Tilly with her while writing, with matching entity name and action.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the same movie as the gold answer, with 'The Lord of the Rings film trilogy' being a more specific but accurate reference to 'Lord of the Rings'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q186",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Nate did not make a dish on that date and instead describes a different activity (adding a turtle), which directly contradicts the gold answer that he made homemade coconut ice cream.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q187",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes writing down favorite memories, which is completely different from the gold answer's suspenseful thriller set in a small Midwestern town.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q195",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Nate wants to bake a chocolate raspberry tart in the kitchen, which is completely different from the gold answer stating he wants to watch movies together or go to the park.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states that Joanna gave no book recommendations to Nate, which directly contradicts the gold answer that lists two specific books ('Little Women' and 'A Court of Thorns and Roses').",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q4",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions fish instead of the specific pets stated in the gold answer (hairless cats or pigs), and while it correctly identifies the fur issue, it fails to name the actual pets specified and incorrectly excludes reptiles without basis in the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'about six weeks' while the gold answer specifies 'four months' \u2014 these are completely different durations and do not match.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv3_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'once' but the gold answer is 'twice', which is a direct numerical mismatch.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q51",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states that no date is provided in the memories, whereas the gold answer specifies a precise date of 25 May, 2022, making the generated answer factually incorrect.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q52",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states three screenings occurred, but the gold answer specifies that only two of Joanna's writings made it to the big screen (the question asks about distinct writings, not number of screenings).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q53",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states '1 time' while the gold answer states 'Twice', which is a direct numerical mismatch.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q58",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only matches one item from the gold answer (Lord of the Rings) and misses most required items (pet, dragon book series, coconut flavoring, Project Hail Mary, Xenoblade Chronicles, dairy-free margarine, coconut oil), while also adding items not in the gold answer (writing convention, ice cream recipe).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Joanna received one letter, while the gold answer specifies she received two letters.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q66",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Nate might consider screenwriting, while the gold answer specifies he might become an animalkeeper at a local zoo working with turtles, which are completely different career paths.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q68",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states '2' but the gold answer is 'Four', which is a direct numerical mismatch.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q79",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states '2' while the gold answer is 'three', which is a factual mismatch in the specific number.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv3_q84",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'Yes' but the gold answer clearly indicates 'No' because both Nate and Joanna faced career setbacks, which is the opposite fact.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q87",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states that there is no mention of Nate visiting a U.S. state, which directly contradicts the gold answer that Nate visited Florida.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv3_q91",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides only vague, generic descriptions of fantasy elements without stating that the series is about dragons, which is the specific fact in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q92",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Dimmable lights' does not match the gold answer's specific colors 'red and purple lighting' and describes a different characteristic (dimmability vs. color).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q93",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'Counter-Strike: Global Offensive (CS:GO)' while the gold answer is 'Street Fighter' \u2014 these are completely different games, so this is factually incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains all three key facts from the gold answer (loss, identity, and connection) and only adds a brief descriptive phrase that doesn't contradict or fabricate specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv3_q95",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'Cyberpunk 2077' while the gold answer is 'Xenoblade Chronicles' \u2014 these are completely different video games.",
+  "category": "single-hop"
+ }
+]

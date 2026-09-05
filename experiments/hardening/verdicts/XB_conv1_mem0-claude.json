@@ -1,0 +1,569 @@
+[
+ {
+  "qid": "conv1_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'January 19, 2023' matches the gold answer '19 January, 2023' exactly, just with different date formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'January 2023' matches the gold answer 'January, 2023' exactly in semantic meaning, with only a minor punctuation difference.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the partnership was announced before February 10, 2023, which falls within the 14-day tolerance of February 2023 and is semantically consistent with the gold answer's timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, providing the same timeframe for when Gina got her tattoo.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around March 9, 2023' falls within the same month as the gold answer 'March, 2023' and provides a more specific date that is consistent with the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'March 16, 2023' is the same date as the gold answer '16 March, 2023', just formatted differently (month-day-year vs day-month-year).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'May 2023' matches the gold answer 'May, 2023' exactly in semantic meaning, with only a trivial punctuation difference.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'April 24, 2023' matches the gold answer '24 April, 2023' exactly, just with different date formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core reasons from the gold answer: losing her job and her passion for fashion/unique pieces, with the dance element being additional detail that doesn't contradict the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly confirms 'Yes' and provides detailed supporting evidence that both Jon and Gina started businesses from their passions (dance and fashion/dance respectively), which directly addresses the question.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'May 10, 2023' is the same date as the gold answer '10 May, 2023', just formatted differently (month-day-year vs day-month-year).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that both Jon and Gina destress by dancing, which matches the gold answer exactly, with additional confirming detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around May 27, 2023' matches the gold answer date of '27 May, 2023' within the acceptable tolerance, as it identifies the same specific date with only minor wording differences.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer indicates Jon was reading the book before May 27, 2023, which falls within the May 2023 timeframe specified in the gold answer and satisfies the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies a date range that includes June 2023, which matches the gold answer within the acceptable tolerance, and the core timeframe is correct.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple correct items from the gold answer: video presentation on styling, partnership with local artist for unique designs, limited-edition items, and offers/promotions for online store.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'fair' (dance-studio fair) and 'networking events' which are both present in the gold answer, satisfying the partial credit rule even though the dance competition is not mentioned.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both key items from the gold answer: one-on-one mentoring/training and workshops/classes for local schools and community centers, plus additional correct details about the studio's offerings.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'June 15, 2023' is the same date as the gold answer '15 June, 2023', just formatted differently (MM DD, YYYY vs DD Month, YYYY).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly confirms that both Jon and Gina participated in dance competitions, providing specific supporting details for each person that align with the gold answer of 'Yes'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around June 12, 2023' falls within the same month as the gold answer 'June 2023' and provides a more specific date that is consistent with the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both cities from the gold answer (Paris and Rome), just with slightly different formatting.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that both Jon and Gina experienced job loss and became entrepreneurs starting their own businesses, which matches the core facts in the gold answer, even though it includes additional details about dance.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '20 June, 2023' and 'June 20, 2023' refer to the exact same date, just with different formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states approximately 4 months and 13 days, which falls within the 50% tolerance of the gold answer 'six months' (4.4 months is reasonably close to 6 months under the duration tolerance rule).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around June 14, 2023' falls within the same month as the gold answer 'June 2023' and provides a more specific date that is consistent with the gold answer's timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes June 20, 2023, which matches the gold answer of 20 June, 2023, and under Rule 1 (partial credit), at least one correct item makes it CORRECT.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies 'mid-2023' which encompasses July 2023, and the timeline provided (after June 20 and before July 20) is consistent with the gold answer of July 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Friday, July 21, 2023' matches the gold answer '21 July 2023' exactly (same date, just with additional day-of-week detail).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Contemporary dance' includes the gold answer 'Contemporary' as its core concept, with only an additional descriptive word that does not change the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key elements from the gold answer: Jon lost his job (laid off from banking job) and decided to start his own business to share his passion (turn his passion for dance into a business, share the joy of movement).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Contemporary dance' contains the exact correct item from the gold answer 'Contemporary' with only a minor addition of the word 'dance' for clarity.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core fact of winning first place at a regional dance competition, which matches the gold answer semantically, with the additional detail of her age being acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept that the dancers are performing, which semantically overlaps with the gold answer's reference to performing at the festival.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states Jon was 'glad to be part of the festival,' which exactly matches the gold answer 'Glad,' and the additional positive details about feeling upbeat and confident are consistent with this sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Marley flooring' is an exact match with the gold answer 'Marley flooring'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of designing the space/interior of the store, which semantically overlaps with 'the space, furniture, and decor' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key elements from the gold answer ('cozy' and 'comfortable') and adds 'welcomed' as extra detail, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core elements of the gold answer: 'overlooking the ocean' matches 'by the water,' and 'simple, airy room' aligns with 'natural light,' though it adds yoga mats and misses Marley flooring\u2014but partial credit applies since at least one correct item is present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014both convey that Gina's store is doing well and her efforts are yielding positive results, which is a semantic paraphrase of 'hard work's paying off.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both key elements from the gold answer: 'personal style' (explicitly mentioned) and 'customer comfort' (paraphrased as 'make customers feel cozy'), plus additional detail about the chandelier which is acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core idea as the gold answer\u2014that creating a special experience makes customers feel welcome and encourages return visits\u2014using slightly different wording but expressing the identical concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea from the gold answer that Gina wants to create an experience that makes customers 'come back,' along with additional supporting details about how she achieves this.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states that Gina said the store was 'doing great,' which matches the gold answer exactly, and the additional details about growth and expansion support this core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core elements from the gold answer: freedom and self-expression, with dance/dancing explicitly mentioned as the form of expression.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'stay positive' which directly matches the gold answer, and 'build relationships with customers' is semantically captured through networking advice and building connections with influencers, local communities, and industry contacts, satisfying the partial credit rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jon shut down his bank account for his business (specifically for his new dance studio to help his business grow), which matches the gold answer's core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer\u2014that Gina is passionate about both dance and fashion\u2014and adds extra detail about showcasing creativity and adding dance-inspired items, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'February 2023' matches the gold answer 'February, 2023' exactly in semantic meaning, with only a trivial punctuation difference.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Happy' is an exact match (aside from capitalization) with the gold answer 'happy', capturing the same emotion and meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A trophy' is semantically identical to the gold answer 'a trophy' and refers to the exact same object received from the dance contest.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all three core elements from the gold answer (reminding herself of successes/wins and progress, having a support system, and focusing on why she started) plus additional relevant details about staying positive and using dance, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A fashion internship' is semantically identical to the gold answer 'fashion internship' with only a minor difference in article usage.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same location (fashion department of an international company) with only minor grammatical differences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, identifying the same book title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact gold answer 'one-on-one mentoring and training' plus additional details about classes and workshops, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'won't give up' is a paraphrase of the gold answer 'quit' \u2014 both express the same semantic meaning of not stopping or abandoning something.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Jon went to Rome 'to clear his mind,' which exactly matches the gold answer's core concept, with only additional detail about the trip being short.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Early 2023' falls within a reasonable timeframe of the specific date '29 January, 2023' and demonstrates correct recall of when the ad campaign was launched, even though it lacks the exact date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'His dance studio' refers to the same entity as the gold answer 'a dance studio' - both identify that Jon is opening a dance studio.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jon feels 'excited' about the opening night, which matches the gold answer, and the additional details about anticipation and feeling good are consistent with excitement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q73",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Joy' expresses a positive emotion about dance, but the gold answer 'magical' conveys a specific sense of wonder and enchantment that is semantically distinct from simple joy, and the generated answer does not capture this core concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core sentiment of making great memories together at the opening, which directly matches the gold answer's 'make some great memories,' and the encouragement to 'live it up' is paraphrased as 'savor the joy and thrill of it.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same positive sentiment as the gold answer 'excitement,' using semantically equivalent terms like 'eagerly anticipating,' 'pumped,' 'can't wait,' and 'excited,' which all express excitement about the grand opening.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'hoodies' as the item Gina made a limited edition line of, matching the gold answer exactly despite additional descriptive detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is an exact match to the gold answer, capturing both key qualities that make Jon a perfect mentor and guide according to Gina.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'January 28, 2023' is semantically identical to the gold answer '28 January 2023', just with a different date format (month-day-year vs day-month-year).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three core items from the gold answer (sprucing up business plan, tweaking pitch to investors, and working on an online platform), plus additional relevant details about marketing and social media.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core offer of creating content and managing social media accounts, with additional specific details about the dance studio and platforms that align with the gold answer's key facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Rome' exactly matches the gold answer 'Rome', identifying the same city that both Jean and John visited.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'June 16, 2023' is within 14 days of the gold answer 'April, 2023' is incorrect - they are approximately 2 months apart, which exceeds the 14-day tolerance for dates.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Last week' is a relative time reference that cannot be verified to match 'July 2023' without knowing when the conversation took place, and there is no indication these refer to the same timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'June 2023' while the gold answer is '21 July 2023', which is outside the 14-day tolerance window for dates, so this is incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not provide any date information about when Gina mentioned Shia LaBeouf, while the gold answer specifies July 23, 2023, so the generated answer fails to address the temporal aspect of the question.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the dance piece as 'Finding Freedom' and adds the accurate descriptive detail that it was contemporary dance, which is additional information rather than a contradiction.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer discusses Gina's excitement about seeing dancers perform at a festival, but does not address what she said about the dancers in the photo (that they look graceful), which is a completely different topic.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer refers to finding a wholesale supplier, while the gold answer refers to finding the perfect spot/location for her store, which are completely different things.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'a wild ride' describes a completely different metaphor than the gold answer's 'dancing together and supporting each other,' which specifically emphasizes partnership and mutual support rather than excitement or chaos.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes using the clipboard for planning dance moves, which is completely different from the gold answer's purpose of setting goals, tracking achievements, and finding areas for improvement\u2014these are distinct uses with no semantic overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q71",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes the studio's purpose and philosophy but does not capture the emotional sentiment 'amazing' from the gold answer, addressing a different aspect of how Gina describes the studio.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes logistical preparations for the opening but does not mention savoring good vibes or any equivalent sentiment about enjoying the atmosphere, which is the core of what Jon plans to do according to the gold answer.",
+  "category": "single-hop"
+ }
+]

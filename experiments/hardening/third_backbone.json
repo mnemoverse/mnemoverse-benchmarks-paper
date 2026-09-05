@@ -1,0 +1,7 @@
+{
+ "prompt_effect_claude_pp": 29.174788823911634,
+ "lenient_claude_pct": 91.94282001299545,
+ "strict_claude_pct": 62.768031189083814,
+ "model_effect_lenient_pp": -0.9096816114359974,
+ "model_effect_strict_pp": -27.810266406757634
+}

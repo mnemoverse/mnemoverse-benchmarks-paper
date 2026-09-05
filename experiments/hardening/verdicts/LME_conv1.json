@@ -1,0 +1,569 @@
+[
+ {
+  "qid": "conv1_q17",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q48",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q5",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q50",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q57",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q73",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q71",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Yes.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "yes",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "No.",
+  "category": "temporal"
+ }
+]

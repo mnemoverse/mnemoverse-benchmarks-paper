@@ -1,0 +1,30 @@
+{
+  "title": "The Judge Is the Benchmark: reproduction kit (paper source, prompts, verdicts, scripts)",
+  "description": "Public reproduction kit for the paper \"The Judge Is the Benchmark: The Same Answers Score 91% or 35%, Depending on the Grading Prompt\". Contains the LaTeX source, the two grading prompts and the ported LongMemEval rubric, Mem0's published LoCoMo answers (Apache-2.0), committed per-answer judge verdicts, the judge-free recall and judge-error recomputes, and the one-command paid re-judge of the control slice. Every load-bearing number in the paper traces to a file in this archive.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "other-open",
+  "creators": [
+    {
+      "name": "Izgorodin, Edward",
+      "affiliation": "Mnemoverse.AI; Constructor Labs"
+    },
+    {
+      "name": "Timoshina, Olga",
+      "affiliation": "Mnemoverse.AI"
+    },
+    {
+      "name": "Ustyuzhanin, Andrey",
+      "affiliation": "Constructor Labs; Constructor University; Institute for Functional Intelligent Materials, National University of Singapore"
+    }
+  ],
+  "keywords": [
+    "LLM-as-a-judge",
+    "agentic memory",
+    "benchmark integrity",
+    "LoCoMo",
+    "LongMemEval",
+    "reproducibility"
+  ],
+  "notes": "Mixed-license archive, hence the 'Other (Open)' record license. Paper text and figures: CC BY 4.0. LoCoMo-derived question/gold fields and evidence ids: CC BY-NC 4.0 (Maharana et al., ACL 2024). Mem0's published answers and the ported Mem0 judge prompt: Apache-2.0 (mem0ai/memory-benchmarks@4b61c5d). BEAM question and rubric text: CC BY-SA 4.0 (Tavakoli et al., 2025). Our code, computed outputs and judge verdicts: MIT. File-by-file detail: kit/data/ATTRIBUTION.md and LICENSE."
+}

@@ -1,0 +1,112 @@
+{
+  "kind": "paper_hardening_selfcontained",
+  "concurrency": 8,
+  "repeats": 3,
+  "A_variance": {
+    "n": 143,
+    "per_repeat_acc": {
+      "mem0": [
+        0.7413,
+        0.7413,
+        0.7413
+      ],
+      "strict": [
+        0.3287,
+        0.3357,
+        0.3427
+      ]
+    },
+    "within_judge_stdev": {
+      "mem0": 0.0,
+      "strict": 0.0198
+    },
+    "swing_per_repeat_pp": [
+      41.3,
+      40.6,
+      39.9
+    ],
+    "mean_swing_pp": 40.6,
+    "swing_stdev_pp": 0.57
+  },
+  "B_cross_conversation": {
+    "n_conversations": 10,
+    "n_total": 1539,
+    "per_conversation": [
+      {
+        "conv": "conv0",
+        "n": 152,
+        "mem0_acc": 0.9211,
+        "strict_acc": 0.3092,
+        "swing_pp": 61.2
+      },
+      {
+        "conv": "conv1",
+        "n": 81,
+        "mem0_acc": 0.8642,
+        "strict_acc": 0.284,
+        "swing_pp": 58.0
+      },
+      {
+        "conv": "conv2",
+        "n": 152,
+        "mem0_acc": 0.9605,
+        "strict_acc": 0.3553,
+        "swing_pp": 60.5
+      },
+      {
+        "conv": "conv3",
+        "n": 198,
+        "mem0_acc": 0.8535,
+        "strict_acc": 0.303,
+        "swing_pp": 55.1
+      },
+      {
+        "conv": "conv4",
+        "n": 178,
+        "mem0_acc": 0.8708,
+        "strict_acc": 0.3427,
+        "swing_pp": 52.8
+      },
+      {
+        "conv": "conv5",
+        "n": 123,
+        "mem0_acc": 0.8943,
+        "strict_acc": 0.3577,
+        "swing_pp": 53.7
+      },
+      {
+        "conv": "conv6",
+        "n": 150,
+        "mem0_acc": 0.92,
+        "strict_acc": 0.44,
+        "swing_pp": 48.0
+      },
+      {
+        "conv": "conv7",
+        "n": 191,
+        "mem0_acc": 0.9529,
+        "strict_acc": 0.3822,
+        "swing_pp": 57.1
+      },
+      {
+        "conv": "conv8",
+        "n": 156,
+        "mem0_acc": 0.9167,
+        "strict_acc": 0.3718,
+        "swing_pp": 54.5
+      },
+      {
+        "conv": "conv9",
+        "n": 158,
+        "mem0_acc": 0.9367,
+        "strict_acc": 0.3291,
+        "swing_pp": 60.8
+      }
+    ],
+    "swing_min_pp": 48.0,
+    "swing_max_pp": 61.2,
+    "swing_mean_pp": 56.2,
+    "swing_stdev_pp": 3.97
+  },
+  "elapsed_s": 1959.9
+}

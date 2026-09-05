@@ -1,0 +1,42 @@
+{
+ "records": [
+  {
+   "qid": 0,
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The generated date (May 29, 2026) does not match the gold date (7 May 2023), so it states a different time.",
+   "category": "temporal"
+  },
+  {
+   "qid": 1,
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The generated answer gives 2025, which conflicts with the gold year 2022, so it states a different time.",
+   "category": "temporal"
+  },
+  {
+   "qid": 2,
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The answer replaces psychology with the broader and different “mental health” and only loosely matches counseling without the certification, failing to recover the gold list items.",
+   "category": "open_domain"
+  },
+  {
+   "qid": 3,
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold fact, differing only in capitalization, which is semantically equivalent.",
+   "category": "multi_hop"
+  },
+  {
+   "qid": 4,
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer 'trans' is a standard shorthand for 'transgender woman,' conveying the same identity semantically.",
+   "category": "multi_hop"
+  }
+ ],
+ "n": 5,
+ "n_total": 5,
+ "accuracy": 0.4
+}

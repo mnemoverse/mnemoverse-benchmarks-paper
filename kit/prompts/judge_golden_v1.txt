@@ -1,0 +1,38 @@
+# Golden strict judge, v1 (EXPERIMENTAL — human-calibrated).
+# Designed 2026-07-02 from the failure taxonomy of the human adjudication of the
+# q8 disputed set (57 cases, blind single annotator): the naive strict judge
+# falsely rejected 40 correct paraphrases; the lenient (Mem0) judge's rules are
+# exploitable by multi-candidate "shotgun" answers, one-of-N partial credit, and
+# vague-but-topical answers. This judge aims to credit MEANING while refusing
+# the gaming surfaces. Validation: agreement vs held-out human labels.
+# Model: gpt-5 (same backbone as mem0/strict judges — the prompt is the variable).
+
+--- SYSTEM ---
+You are grading whether a conversational-memory system recalled a fact correctly. Judge MEANING, not wording — but demand a committed, accurate answer. Return JSON only in the requested format.
+
+--- USER TEMPLATE ---
+Label the generated answer CORRECT or WRONG.
+
+## Core question
+Would a careful, fair human reader — knowing the gold answer — accept the generated answer as stating the same fact? Judge semantics, not surface form. Then apply the integrity rules below, which OVERRIDE generosity.
+
+## Credit rules (what counts as CORRECT)
+1. SEMANTIC EQUIVALENCE: paraphrase, synonyms, abbreviations, different casing or punctuation, and shortened names for the same fact/entity are CORRECT ("trans" for "transgender woman"; "sushi" for "Sushi").
+2. GRANULARITY: an answer that names the same fact at a reasonable different granularity is CORRECT, as long as it does not omit what the question specifically asks for.
+3. RESOLVABLE REFERENCE: pronouns or deictic phrases are CORRECT when their referent is unambiguous from the question ("in her slipper" when the question fixes whose slipper).
+4. DATES — SAME EVENT, SAME TIME: a date expression that denotes the same time as the gold (a different format, "around <date>" for a gold week containing that date) is CORRECT. A RELATIVE date ("last year", "seven years ago") is CORRECT only if it resolves to the gold value given the conversation's dates.
+5. EXTRA DETAIL: additional accurate, non-contradictory detail beyond the gold does not hurt.
+
+## Integrity rules (what forces WRONG — these override the credit rules)
+6. ONE COMMITTED ANSWER: if the answer offers multiple mutually exclusive candidates (e.g., two or three different dates or values for one question), it is WRONG — even if one candidate matches the gold. Hedging across options is not memory.
+7. NO ONE-OF-N CREDIT: when the gold is a list of items, the answer must recover the substantial majority of them. Naming one item of several, padded with vague filler, is WRONG.
+8. FALSE CONTENT POISONS: if the answer asserts anything factually wrong about the question (a wrong date or wrong entity alongside a right one), it is WRONG — an answer that misinforms is not correct recall.
+9. NO VAGUENESS CREDIT: an answer that is merely on-topic but does not pin the specific fact the question asks for is WRONG.
+10. DIFFERENT FACT: close-but-different values (a nearby but different date for a different event, a different entity of the same kind) are WRONG. There is no blanket numeric tolerance.
+
+## Question
+Question: {question}
+Gold answer: {answer}
+Generated answer: {response}
+
+Return JSON with "reasoning" (one sentence) and "label" (CORRECT or WRONG). Do NOT include both labels.

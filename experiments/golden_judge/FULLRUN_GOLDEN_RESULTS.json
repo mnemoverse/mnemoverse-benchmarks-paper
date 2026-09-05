@@ -1,0 +1,109 @@
+{
+ "_note": "Golden v2 (human-calibrated, validated 97.7% OOS) over Mem0's full published run. calibrated inflation = mem0-lenient minus golden, i.e. how much the field prompt inflates the vendor's own headline relative to a human-band-validated judge.",
+ "n_total": 1534,
+ "weighted": {
+  "golden": 0.8527,
+  "mem0": 0.9104,
+  "strict_naive": 0.3497,
+  "calibrated_inflation_pp": 5.8,
+  "sensitivity_bound_pp": 56.1
+ },
+ "per_conversation": [
+  {
+   "conv": "conv0",
+   "n": 151,
+   "n_total": 152,
+   "golden_acc": 0.8543,
+   "mem0_acc": 0.9211,
+   "strict_acc": 0.3092,
+   "inflation_mem0_minus_golden_pp": 6.7
+  },
+  {
+   "conv": "conv1",
+   "n": 81,
+   "n_total": 81,
+   "golden_acc": 0.7778,
+   "mem0_acc": 0.8642,
+   "strict_acc": 0.284,
+   "inflation_mem0_minus_golden_pp": 8.6
+  },
+  {
+   "conv": "conv2",
+   "n": 152,
+   "n_total": 152,
+   "golden_acc": 0.9145,
+   "mem0_acc": 0.9605,
+   "strict_acc": 0.3553,
+   "inflation_mem0_minus_golden_pp": 4.6
+  },
+  {
+   "conv": "conv3",
+   "n": 196,
+   "n_total": 198,
+   "golden_acc": 0.7857,
+   "mem0_acc": 0.8535,
+   "strict_acc": 0.303,
+   "inflation_mem0_minus_golden_pp": 6.8
+  },
+  {
+   "conv": "conv4",
+   "n": 177,
+   "n_total": 178,
+   "golden_acc": 0.8023,
+   "mem0_acc": 0.8708,
+   "strict_acc": 0.3427,
+   "inflation_mem0_minus_golden_pp": 6.9
+  },
+  {
+   "conv": "conv5",
+   "n": 123,
+   "n_total": 123,
+   "golden_acc": 0.8618,
+   "mem0_acc": 0.8943,
+   "strict_acc": 0.3577,
+   "inflation_mem0_minus_golden_pp": 3.3
+  },
+  {
+   "conv": "conv6",
+   "n": 150,
+   "n_total": 150,
+   "golden_acc": 0.8667,
+   "mem0_acc": 0.92,
+   "strict_acc": 0.44,
+   "inflation_mem0_minus_golden_pp": 5.3
+  },
+  {
+   "conv": "conv7",
+   "n": 191,
+   "n_total": 191,
+   "golden_acc": 0.911,
+   "mem0_acc": 0.9529,
+   "strict_acc": 0.3822,
+   "inflation_mem0_minus_golden_pp": 4.2
+  },
+  {
+   "conv": "conv8",
+   "n": 156,
+   "n_total": 156,
+   "golden_acc": 0.859,
+   "mem0_acc": 0.9167,
+   "strict_acc": 0.3718,
+   "inflation_mem0_minus_golden_pp": 5.8
+  },
+  {
+   "conv": "conv9",
+   "n": 157,
+   "n_total": 158,
+   "golden_acc": 0.8726,
+   "mem0_acc": 0.9367,
+   "strict_acc": 0.3291,
+   "inflation_mem0_minus_golden_pp": 6.4
+  }
+ ],
+ "inflation_range_pp": [
+  3.3,
+  8.6
+ ],
+ "inflation_mean_pp": 5.9,
+ "inflation_stdev_pp": 1.47
+}

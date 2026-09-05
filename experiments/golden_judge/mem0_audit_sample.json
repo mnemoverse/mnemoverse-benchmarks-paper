@@ -1,0 +1,632 @@
+[
+ {
+  "qid": "m2_conv2_q21",
+  "category": "multi-hop",
+  "question": "What areas of the U.S. has John been to or is planning to go to?",
+  "gold": "Pacific northwest, east coast",
+  "answer": "- Pacific Northwest coastline — he explored it and visited several national parks.\n- California coast — he took a family vacation there, watching a sunset and strolling along the shore.\n- East Coast — he was planning a trip there (as of April 18, 2023)."
+ },
+ {
+  "qid": "m6_conv6_q103",
+  "category": "single-hop",
+  "question": "What new hobby did James become interested in on 9 July, 2022?",
+  "gold": "Extreme sports",
+  "answer": "Extreme sports"
+ },
+ {
+  "qid": "m2_conv2_q80",
+  "category": "single-hop",
+  "question": "What did Maria make for her home to remind her of a trip to England?",
+  "gold": "painting of a castle on a hill",
+  "answer": "A castle‑themed shadow box—a DIY cardboard “fort” with fairy lights—so she could bring the magic of her England trip into her home."
+ },
+ {
+  "qid": "m9_conv9_q119",
+  "category": "single-hop",
+  "question": "What does working on cars represent for Dave?",
+  "gold": "Therapy and a way to get away from everyday stress",
+  "answer": "For Dave, working on cars is his sanctuary—more than a hobby. It’s a therapeutic escape and oasis of calm where he reconnects with himself, an outlet for self‑expression (a “work of art on wheels”), and a source of purpose and accomplishment in bringing broken machines back to life and helping people."
+ },
+ {
+  "qid": "m4_conv4_q154",
+  "category": "single-hop",
+  "question": "How did John feel about the atmosphere during the big game against the rival team?",
+  "gold": "electric and intense",
+  "answer": "He said the arena atmosphere was electric, with the rivalry adding extra intensity—making it a memorable night."
+ },
+ {
+  "qid": "m3_conv3_q142",
+  "category": "single-hop",
+  "question": "What does Nate do that he loves and can make money from?",
+  "gold": "Competing in video game tournaments",
+  "answer": "Gaming—specifically competing in video game tournaments. He loves it and has earned prize money and even a living from it."
+ },
+ {
+  "qid": "m8_conv8_q132",
+  "category": "single-hop",
+  "question": "What did Sam offer Evan regarding yoga?",
+  "gold": "Support and tips",
+  "answer": "She offered to provide him yoga tips and any other help he needed."
+ },
+ {
+  "qid": "m5_conv5_q66",
+  "category": "single-hop",
+  "question": "What type of dog was Andrew looking to adopt based on his living space?",
+  "gold": "smaller dog",
+  "answer": "A smaller dog suited for apartment living."
+ },
+ {
+  "qid": "m8_conv8_q74",
+  "category": "temporal",
+  "question": "When did Evan's son fall off his bike?",
+  "gold": "Thursday before December 17, 2023.",
+  "answer": "Tuesday, December 12, 2023."
+ },
+ {
+  "qid": "m6_conv6_q15",
+  "category": "temporal",
+  "question": "When did James start playing Civilization VI?",
+  "gold": "March 2022",
+  "answer": "Around March 29, 2022."
+ },
+ {
+  "qid": "m4_conv4_q99",
+  "category": "single-hop",
+  "question": "What tradition does Tim mention they love during Thanksgiving?",
+  "gold": "Prepping the feast and talking about what they're thankful for",
+  "answer": "Watching “Home Alone” together."
+ },
+ {
+  "qid": "m8_conv8_q127",
+  "category": "single-hop",
+  "question": "Why had Evan been going through a tough time lately?",
+  "gold": "Lost their job due to downsizing",
+  "answer": "He’d been laid off in October 2023 during a company downsizing, and around the same time he was dealing with a scary heart‑palpitation episode plus injuries (his own knee sprain and his son’s ankle injury), and even his Prius broke down—together making the period especially tough."
+ },
+ {
+  "qid": "m4_conv4_q75",
+  "category": "single-hop",
+  "question": "What forum did Tim join recently?",
+  "gold": "fantasy literature forum",
+  "answer": "A fantasy literature forum."
+ },
+ {
+  "qid": "m8_conv8_q99",
+  "category": "single-hop",
+  "question": "What did Evan suggest Sam to check out for insights into his dream?",
+  "gold": "dream interpretation book",
+  "answer": "A dream interpretation book."
+ },
+ {
+  "qid": "m3_conv3_q25",
+  "category": "temporal",
+  "question": "When did Joanna hike with her buddies?",
+  "gold": "The weekend after 3June, 2022.",
+  "answer": "The weekend of June 4–5, 2022."
+ },
+ {
+  "qid": "m5_conv5_q39",
+  "category": "multi-hop",
+  "question": "What did Audrey get wtih having so many dogs?",
+  "gold": "Companionship",
+  "answer": "A cast on her arm—she broke her arm while playing with her four dogs and had to wear a cast."
+ },
+ {
+  "qid": "m0_conv0_q70",
+  "category": "multi-hop",
+  "question": "What transgender-specific events has Caroline attended?",
+  "gold": "Poetry reading, conference",
+  "answer": "- Transgender poetry reading on October 6, 2023, where trans people shared their stories and a “trans lives matter” sign was displayed.\n- LGBTQ support group sessions centered on transgender experiences:\n  - May 7, 2023 — found the transgender stories powerful and felt accepted.\n  - June 26, 2023 — again inspired by transgender stories and gained courage to embrace herself.\n- LGBTQ+ counseling workshop on June 23, 2023, focused on therapeutic methods and best practices for working with trans people."
+ },
+ {
+  "qid": "m8_conv8_q69",
+  "category": "multi-hop",
+  "question": "Which two significant life events occur in Evan's life in December 2023 with his partner?",
+  "gold": "his partner gets pregnant and they get married",
+  "answer": "- Around December 9, 2023, Evan announced that his partner is pregnant.\n- Around December 20, 2023, Evan and his partner got married."
+ },
+ {
+  "qid": "m6_conv6_q30",
+  "category": "open-domain",
+  "question": "Which country did James book tickets for in July 2022?",
+  "gold": "Canada",
+  "answer": "Canada"
+ },
+ {
+  "qid": "m6_conv6_q77",
+  "category": "single-hop",
+  "question": "What advice did James receive from the famous players he met at the tournament?",
+  "gold": "never put your ego above team success",
+  "answer": "He was given a couple of gaming tips by one of the tournament team members when he met them on April 4, 2022—practical pointers to help him improve his play."
+ },
+ {
+  "qid": "m9_conv9_q30",
+  "category": "multi-hop",
+  "question": "What kind of music does Dave listen to?",
+  "gold": "classic rock, Japanese music",
+  "answer": "Classic rock."
+ },
+ {
+  "qid": "m0_conv0_q124",
+  "category": "single-hop",
+  "question": "What pets does Melanie have?",
+  "gold": "Two cats and a dog",
+  "answer": "Melanie has a dog named Oliver and two cats, Luna and Bailey."
+ },
+ {
+  "qid": "m2_conv2_q70",
+  "category": "single-hop",
+  "question": "What kind of meal did John and his family make together in the photo shared by John?",
+  "gold": "pizza",
+  "answer": "Pizza"
+ },
+ {
+  "qid": "m0_conv0_q49",
+  "category": "temporal",
+  "question": "When did Caroline and Melanie go to a pride fesetival together?",
+  "gold": "2022",
+  "answer": "There isn’t a record of Caroline and Melanie going to a pride festival together. Caroline went on her own in 2022, around June 26, 2023, and again on August 11, 2023, but no memory shows Melanie attending with her."
+ },
+ {
+  "qid": "m4_conv4_q132",
+  "category": "single-hop",
+  "question": "Why do Tim and John find LeBron inspiring?",
+  "gold": "LeBron's determination and the epic block in Game 7 of the '16 Finals",
+  "answer": "Because of LeBron’s elite skills and on‑court leadership, and especially his determination and heart in big moments—highlighted by his chasedown block in Game 7 of the 2016 NBA Finals. That play taught Tim to never give up, and it fuels John’s love for basketball and pushes him to keep improving. John also finds it inspiring that he’s learned a lot from watching LeBron play live."
+ },
+ {
+  "qid": "m3_conv3_q181",
+  "category": "single-hop",
+  "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+  "gold": "coconut milk",
+  "answer": "Coconut milk"
+ },
+ {
+  "qid": "m4_conv4_q76",
+  "category": "single-hop",
+  "question": "What kind of picture did Tim share as part of their Harry Potter book collection?",
+  "gold": "MinaLima's creation from the Harry Potter films",
+  "answer": "A MinaLima print—the Harry Potter film prop designers’ artwork displayed on his bookshelf."
+ },
+ {
+  "qid": "m3_conv3_q8",
+  "category": "temporal",
+  "question": "When did Nate get his first two turtles?",
+  "gold": "2019",
+  "answer": "Around January 2019 — he’d had them for three years as of January 23, 2022."
+ },
+ {
+  "qid": "m7_conv7_q74",
+  "category": "single-hop",
+  "question": "What do Deborah and Jolene plan to try when they meet in a new cafe?",
+  "gold": "coffee and fresh pastries",
+  "answer": "Fresh pastries."
+ },
+ {
+  "qid": "m1_conv1_q8",
+  "category": "temporal",
+  "question": "When was Jon in Paris?",
+  "gold": "28 January 2023",
+  "answer": "January 28, 2023."
+ },
+ {
+  "qid": "m3_conv3_q24",
+  "category": "temporal",
+  "question": "When is Nate hosting a gaming party?",
+  "gold": "The weekend after 3June, 2022.",
+  "answer": "The weekend of June 11–12, 2022."
+ },
+ {
+  "qid": "m7_conv7_q39",
+  "category": "multi-hop",
+  "question": "What time management techniques do Deborah and Jolene use?",
+  "gold": "the Pomodoro Technique - 25 minutes work and 5-minute break, scheduler or to-do list, The Eisenhower Matrix, bullet journal",
+  "answer": "- Deborah:\n  - Prioritizes with an urgent/important framework (Eisenhower Matrix–style).\n  - Makes daily schedules and to‑do lists.\n  - Uses time‑blocking by setting aside specific time for studying and hobbies.\n\n- Jolene:\n  - Uses the Pomodoro Technique (25‑minute focus, 5‑minute break).\n  - Keeps a bullet journal with checklists to track tasks.\n  - Follows a structured routine with scheduled blocks for classes, studying, and personal time."
+ },
+ {
+  "qid": "m0_conv0_q121",
+  "category": "single-hop",
+  "question": "Who performed at the concert at Melanie's daughter's birthday?",
+  "gold": "Matt Patterson",
+  "answer": "Matt Patterson"
+ },
+ {
+  "qid": "m6_conv6_q23",
+  "category": "temporal",
+  "question": "When will John start his new job?",
+  "gold": "In July, 2022",
+  "answer": "July 2022."
+ },
+ {
+  "qid": "m1_conv1_q45",
+  "category": "single-hop",
+  "question": "What is Jon's attitude towards being part of the dance festival?",
+  "gold": "Glad",
+  "answer": "He said he was glad to be part of the festival and felt upbeat and confident, expecting the performers to impress."
+ },
+ {
+  "qid": "m4_conv4_q46",
+  "category": "temporal",
+  "question": "Where was Tim in the week before 16 November 2023?",
+  "gold": "UK",
+  "answer": "In the United Kingdom—he was on a UK trip and visited a castle on November 10, 2023."
+ },
+ {
+  "qid": "m4_conv4_q124",
+  "category": "single-hop",
+  "question": "Who is one of Tim's sources of inspiration for writing?",
+  "gold": "J.K. Rowling",
+  "answer": "J.K. Rowling. Tim finds her writing inspiring and even takes notes on her style to improve his own work."
+ },
+ {
+  "qid": "m7_conv7_q103",
+  "category": "single-hop",
+  "question": "Where did Deborah meet her new neighbor Anna?",
+  "gold": "yoga in the park",
+  "answer": "During a yoga session in the park."
+ },
+ {
+  "qid": "m9_conv9_q126",
+  "category": "single-hop",
+  "question": "Which part of Tokyo is described as Tokyo's Times Square by Calvin?",
+  "gold": "Shibuya Crossing",
+  "answer": "Shibuya Crossing"
+ },
+ {
+  "qid": "m1_conv1_q20",
+  "category": "temporal",
+  "question": "When did Gina get accepted for the design internship?",
+  "gold": "27 May, 2023",
+  "answer": "Around May 27, 2023."
+ },
+ {
+  "qid": "m6_conv6_q148",
+  "category": "single-hop",
+  "question": "What project did John work on with a game developer by 7 November, 2022?",
+  "gold": "An online board game",
+  "answer": "He collaborated with a game developer over the weekend of November 5–6, 2022 on a board‑game project, evidenced by the photo he shared of a wooden board game with four wooden pieces and four colored balls."
+ },
+ {
+  "qid": "m4_conv4_q86",
+  "category": "single-hop",
+  "question": "What did John share with the person he skyped about?",
+  "gold": "Characters from Harry Potter",
+  "answer": "A photo of a signed Harry Potter book (the trivia contest prize)."
+ },
+ {
+  "qid": "m6_conv6_q22",
+  "category": "multi-hop",
+  "question": "Who or which organizations have been the beneficiaries of John's charity tournaments?",
+  "gold": "animal shelter, homeless, children's hospital",
+  "answer": "- A local dog shelter near John’s street (beneficiary of the May 7–8, 2022 CS:GO charity tournament).\n- Homeless people in his area (received groceries and cooked meals from the leftover funds after the May 2022 event).\n- A children’s hospital (beneficiary of the October 30, 2022 charity tournament featuring Fortnite, Overwatch, and Apex Legends)."
+ },
+ {
+  "qid": "m8_conv8_q26",
+  "category": "multi-hop",
+  "question": "What motivates Evan to take care of his health?",
+  "gold": "family, fitness tracker, thirst for adventure on interesting hikes",
+  "answer": "- His family motivates him to stay healthy.\n- His fitness‑tracker smartwatch keeps him accountable as a constant reminder to keep going.\n- A thirst for adventure—especially hiking—drives him to maintain his fitness.\n- Two health scares in 2023 (heart palpitations around May 30 and a hospital scare Nov 14–20) served as wake‑up calls to monitor his health and improve his diet.\n- He genuinely enjoys his routine and loves feeling healthy and strong, which keeps him motivated.\n- A personal item that symbolizes strength and resilience motivates him to persevere through tough times."
+ },
+ {
+  "qid": "m2_conv2_q129",
+  "category": "single-hop",
+  "question": "What does John think about trying new classes at the yoga studio?",
+  "gold": "Trying new classes is a fun way to switch up the exercise routine.",
+  "answer": "He’s very positive about it—he says trying new classes is a great way to push yourself and mix things up, and the studio’s variety keeps his workouts interesting and diverse."
+ },
+ {
+  "qid": "m9_conv9_q149",
+  "category": "single-hop",
+  "question": "What kind of impact does Dave's blog on car mods have on people?",
+  "gold": "It inspires others to start their DIY projects",
+  "answer": "It actively inspires and mobilizes people—his posts attract lots of readers who reach out for advice, and have directly sparked others to start their own DIY car‑mod projects. Fans say the blog helps them discover their creativity and get hands‑on with mods."
+ },
+ {
+  "qid": "m7_conv7_q178",
+  "category": "single-hop",
+  "question": "What positive change did Jolene experience during the retreat?",
+  "gold": "finding inner peace",
+  "answer": "She achieved inner peace, experiencing a new level of joy and calm during the retreat."
+ },
+ {
+  "qid": "m3_conv3_q116",
+  "category": "single-hop",
+  "question": "Which activity helps Nate escape and stimulates his imagination?",
+  "gold": "watching fantasy and sci-fi movies",
+  "answer": "Watching fantasy and sci‑fi movies."
+ },
+ {
+  "qid": "m2_conv2_q90",
+  "category": "single-hop",
+  "question": "What was the focus of John's recent research and writing on his blog?",
+  "gold": "education reform and infrastructure development",
+  "answer": "Education reform—he researched policies and wrote posts advocating improvements to local education."
+ },
+ {
+  "qid": "m2_conv2_q4",
+  "category": "temporal",
+  "question": "When did John join the online support group?",
+  "gold": "The week before 1 January 2023",
+  "answer": "Around December 25, 2022."
+ },
+ {
+  "qid": "m1_conv1_q19",
+  "category": "temporal",
+  "question": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "answer": "May 10, 2023."
+ },
+ {
+  "qid": "m5_conv5_q2",
+  "category": "multi-hop",
+  "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+  "gold": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+  "answer": "- Visiting cafes and trying pastries/places to eat together (e.g., a city cafe with croissants, muffins, and tarts in early April 2023)\n- Board‑game night together at home (October 10, 2023)\n- Wine tasting together (weekend of October 21–22, 2023)"
+ },
+ {
+  "qid": "m0_conv0_q133",
+  "category": "single-hop",
+  "question": "What precautionary sign did Melanie see at the café?",
+  "gold": "A sign stating that someone is not being able to leave",
+  "answer": "A sign on the door stating that someone was not able to leave (a precautionary notice)."
+ },
+ {
+  "qid": "m4_conv4_q145",
+  "category": "single-hop",
+  "question": "Where was the forest picture shared by John on December 1,2023 taken?",
+  "gold": "near his hometown",
+  "answer": "In a forest near his hometown."
+ },
+ {
+  "qid": "m0_conv0_q76",
+  "category": "multi-hop",
+  "question": "When did Melanie go on a hike after the roadtrip?",
+  "gold": "19 October 2023",
+  "answer": "Around October 20, 2023."
+ },
+ {
+  "qid": "m2_conv2_q40",
+  "category": "multi-hop",
+  "question": "What are the names of John's children?",
+  "gold": "Kyle, Sara",
+  "answer": "Kyle and Sara"
+ },
+ {
+  "qid": "m6_conv6_q49",
+  "category": "multi-hop",
+  "question": "What gaming equipments did John buy or refurbish?",
+  "gold": "Sennheiser headphones, Logitech mouse, gaming desk",
+  "answer": "- Refurbished his gaming desk (setup)\n- Bought Sennheiser headphones (around September 4, 2022)\n- Bought a Logitech mouse (around September 4, 2022)\n- Also mentioned buying additional new devices (unspecified) while refurbishing the desk"
+ },
+ {
+  "qid": "m0_conv0_q63",
+  "category": "temporal",
+  "question": "When is Caroline's youth center putting on a talent show?",
+  "gold": "September 2023",
+  "answer": "September 2023"
+ },
+ {
+  "qid": "m9_conv9_q19",
+  "category": "multi-hop",
+  "question": "Which places or events has Calvin visited in Tokyo?",
+  "gold": "music festival, car museum, Shibuya crossing, Shinjuku",
+  "answer": "- Tokyo music festival (April 20, 2023) — attended; met artists and industry professionals.\n- Tokyo concert during the Frank Ocean tour (late May 2023) — performed there; crowd was “insane.”\n- Tokyo music festival (August 2022) — attended; this is where he met Frank Ocean.\n- Shinjuku — has visited before and is excited to explore and eat there again.\n- Tokyo’s vibrant night streets (similar to the lively crowded street scenes he and Dave shared) — visited and described as incredible.\n- A Tokyo rooftop bar with a skyline view at night — has experienced and wants to revisit those views."
+ },
+ {
+  "qid": "m3_conv3_q63",
+  "category": "multi-hop",
+  "question": "What video games does Nate play?",
+  "gold": "Valorant, Counter Strike:Global Offensive,Xenoblade Chronicles, StreetFighter, Cyberpunk 2077",
+  "answer": "- Counter-Strike: Global Offensive\n- Street Fighter\n- Cyberpunk 2077\n- Xenoblade Chronicles"
+ },
+ {
+  "qid": "m5_conv5_q106",
+  "category": "single-hop",
+  "question": "What did Audrey make to thank her neighbors?",
+  "gold": "Goodies",
+  "answer": "Homemade dog treat cookies."
+ },
+ {
+  "qid": "m1_conv1_q41",
+  "category": "single-hop",
+  "question": "What was Gina's favorite dancing memory?",
+  "gold": "Winning first place at a regionals dance competition",
+  "answer": "Her team winning first place at a regional dance competition when she was 15."
+ },
+ {
+  "qid": "m1_conv1_q48",
+  "category": "single-hop",
+  "question": "What did Gina design for her store?",
+  "gold": "the space, furniture, and decor",
+  "answer": "She designed the interior layout of her clothing store, creating a cozy, inviting space that showcases trendy pieces."
+ },
+ {
+  "qid": "m0_conv0_q7",
+  "category": "multi-hop",
+  "question": "What is Caroline's relationship status?",
+  "gold": "Single",
+  "answer": "Caroline is single. She went through a tough breakup before June 9, 2023, and has since been preparing to adopt as a single parent."
+ },
+ {
+  "qid": "m6_conv6_q74",
+  "category": "single-hop",
+  "question": "What game did John play in an intense tournament at the gaming convention in March 2022?",
+  "gold": "CS:GO",
+  "answer": "Counter-Strike: Global Offensive (CS:GO)"
+ },
+ {
+  "qid": "m6_conv6_q29",
+  "category": "temporal",
+  "question": "When did James depart for his trip to Canada?",
+  "gold": "July 11, 2022",
+  "answer": "The evening of July 11, 2022."
+ },
+ {
+  "qid": "m5_conv5_q81",
+  "category": "single-hop",
+  "question": "What did Andrew and his GF do on the Monday before July 24, 2023?",
+  "gold": "volunteered at a pet shelter",
+  "answer": "They volunteered at a pet shelter together, spending time with the animals and finding it really rewarding."
+ },
+ {
+  "qid": "m9_conv9_q0",
+  "category": "temporal",
+  "question": "When did Calvin first travel to Tokyo?",
+  "gold": "between 26 March and 20 April 2023",
+  "answer": "April 20, 2023"
+ },
+ {
+  "qid": "m7_conv7_q94",
+  "category": "single-hop",
+  "question": "Where did Deborah get her cats?",
+  "gold": "Luna is from the shelter and Max is her mother's cat",
+  "answer": "- Max: He was originally her mother’s cat, and Deborah took him in after her mother passed away.\n- Luna: She adopted Luna from an animal shelter."
+ },
+ {
+  "qid": "m8_conv8_q44",
+  "category": "multi-hop",
+  "question": "What kind of subjects does Evan enjoy painting?",
+  "gold": "nature landscapes, portraits, abstract minimalism",
+  "answer": "Landscapes and nature scenes. He especially loves painting sunsets (over lakes and beaches), forests and mountains, and flora like cacti and cherry blossoms. He also sometimes paints figures and expressive abstract pieces (e.g., a person on a cliff at sunset or a bird in an abstract work) that reflect his emotions and memories."
+ },
+ {
+  "qid": "m7_conv7_q109",
+  "category": "single-hop",
+  "question": "What cool stuff did Jolene accomplish at the retreat on 9 February, 2023?",
+  "gold": "Came up with neat solutions for her engineering project",
+  "answer": "- She made real progress on her engineering project by coming up with neat solutions and felt excited about the results.\n- She said she achieved more than she imagined, which gave her a confidence boost."
+ },
+ {
+  "qid": "m0_conv0_q43",
+  "category": "multi-hop",
+  "question": "What kind of art does Caroline make?",
+  "gold": "abstract art",
+  "answer": "Caroline makes visual art—primarily paintings and drawings. Her work is vibrant and expressive, often LGBTQ‑themed and rooted in her trans journey and advocacy for inclusivity and self‑acceptance. She creates self‑portraits, nature and floral pieces, and abstract works. Specific pieces she’s made include a blue‑toned self‑portrait, a sunset‑beach painting, a rainbow‑heart canvas, a tree with a bright sun to symbolize unity and strength, a painting of a woman holding a cow to convey her trans experience, and a transgender‑flag drawing of a woman in a dress."
+ },
+ {
+  "qid": "m2_conv2_q110",
+  "category": "single-hop",
+  "question": "What exciting news did Maria share on 16 June, 2023?",
+  "gold": "joined a gym",
+  "answer": "She shared that she’d just joined a gym (the week before) and started sticking to a workout routine, saying the atmosphere was welcoming and the people were awesome."
+ },
+ {
+  "qid": "m1_conv1_q31",
+  "category": "multi-hop",
+  "question": "How long did it take for Jon to open his studio?",
+  "gold": "six months",
+  "answer": "About 4 months and 13 days — from February 7, 2023 (when Jon lost his banking job and decided to pursue the studio) to June 20, 2023 (his official opening night)."
+ },
+ {
+  "qid": "m0_conv0_q60",
+  "category": "multi-hop",
+  "question": "What instruments does Melanie play?",
+  "gold": "clarinet and violin",
+  "answer": "Violin and clarinet."
+ },
+ {
+  "qid": "m9_conv9_q127",
+  "category": "single-hop",
+  "question": "What specific location in Tokyo does Calvin mention being excited to explore?",
+  "gold": "Shinjuku",
+  "answer": "Shinjuku"
+ },
+ {
+  "qid": "m2_conv2_q92",
+  "category": "single-hop",
+  "question": "How often does John work out with his family?",
+  "gold": "Three times a week",
+  "answer": "Three times a week."
+ },
+ {
+  "qid": "m5_conv5_q3",
+  "category": "multi-hop",
+  "question": "What kind of places have Andrew and his girlfriend checked out around the city?",
+  "gold": "cafes, new places to eat, open space for hikes, pet shelter, wine tasting event, park",
+  "answer": "New places to eat—especially cafés and bakeries with great pastries like croissants, muffins, and tarts."
+ },
+ {
+  "qid": "m3_conv3_q10",
+  "category": "multi-hop",
+  "question": "What emotions is Joanna feeling about  the screenplay she submitted?",
+  "gold": "Relief, excitement,worry, hope,anxiety.",
+  "answer": "Relief, excitement, and worry—plus hopeful that a producer or director will love it."
+ },
+ {
+  "qid": "m7_conv7_q13",
+  "category": "multi-hop",
+  "question": "What places give Deborah peace?",
+  "gold": "sitting in a spot by the window in her Mom's house, sitting by the beach, Bali, forest trail in a nearby park",
+  "answer": "- The special bench by the window in her late mother’s house (she sits there to feel connected and finds comfort).\n- The park near her home with a forest trail, especially the bench in the forest where she and her mother used to sit.\n- The nearby beach/sea—particularly the beach where she got married and discovered surfing; sunrise yoga on the beach and seaside sunsets bring her peace.\n- A quiet spot by the water near her mother’s old house where she reflects and finds inner peace.\n- The lakeside spot she visits to ponder and let go (she shared a lake‑at‑sunset photo as a peace reminder).\n- Her garden, especially among her roses and dahlias.\n- Calming indoor spaces: her living room set up as a peaceful yoga studio, a tranquil room with a moss wall and floor cushion, and her cozy reading nook.\n- Mountaintop sunset overlooks (she sat on a bench at sunset there as a reminder to find peace)."
+ },
+ {
+  "qid": "m8_conv8_q5",
+  "category": "open-domain",
+  "question": "Which country was Evan visiting in May 2023?",
+  "gold": "Canada",
+  "answer": "Canada"
+ },
+ {
+  "qid": "m8_conv8_q70",
+  "category": "temporal",
+  "question": "How long did Evan and his partner date before getting married?",
+  "gold": "four months",
+  "answer": "About four months (from around August 12, 2023, when he had a new significant other, to their wedding around December 20, 2023)."
+ },
+ {
+  "qid": "m6_conv6_q80",
+  "category": "single-hop",
+  "question": "Why did James embody the appearance of the game character from the woman he saw during a walk?",
+  "gold": "He found her appearance and eyes amazing.",
+  "answer": "Because he felt love at first sight and was amazed by her eyes and appearance during his April 6, 2022 walk; since he didn’t approach her, he used that vivid impression as inspiration and embodied her look in a character for his Witcher‑inspired game."
+ },
+ {
+  "qid": "m5_conv5_q70",
+  "category": "single-hop",
+  "question": "What type of training was the workshop Audrey signed up for in May 2023?",
+  "gold": "Positive reinforcement training",
+  "answer": "A positive‑reinforcement dog training workshop."
+ },
+ {
+  "qid": "m2_conv2_q43",
+  "category": "temporal",
+  "question": "When was John's old area hit with a flood?",
+  "gold": "The week before 7 July 2023",
+  "answer": "Around June 30, 2023."
+ },
+ {
+  "qid": "m4_conv4_q68",
+  "category": "temporal",
+  "question": "What day did Tim get into his study abroad program?",
+  "gold": "Januarty 5, 2024",
+  "answer": "Friday, January 5, 2024."
+ },
+ {
+  "qid": "m1_conv1_q15",
+  "category": "temporal",
+  "question": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "answer": "May 2023"
+ },
+ {
+  "qid": "m3_conv3_q127",
+  "category": "single-hop",
+  "question": "What did Joanna write yesterday that appeared on the big screen?",
+  "gold": "screenplay bits",
+  "answer": "A few bits for her screenplay."
+ },
+ {
+  "qid": "m9_conv9_q120",
+  "category": "single-hop",
+  "question": "What does Dave aim to do with his passion for cars?",
+  "gold": "Take something broken and make it into something awesome",
+  "answer": "Turn it into real work restoring classic cars and helping people with their rides through his shop—while ultimately building a custom car from scratch—and share his know‑how via a car‑mod blog to inspire others."
+ },
+ {
+  "qid": "m6_conv6_q67",
+  "category": "single-hop",
+  "question": "What programming languages has James worked with?",
+  "gold": "Python and C++",
+  "answer": "Python and C++"
+ }
+]

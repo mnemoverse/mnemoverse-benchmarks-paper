@@ -1,0 +1,1447 @@
+{
+  "annotator": "OI",
+  "set": "cases",
+  "exported": "2026-07-05T15:36:51.284Z",
+  "labels": [
+    {
+      "id": "q001",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262489000,
+      "first_ts": 1783262489000
+    },
+    {
+      "id": "q002",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262521854,
+      "first_ts": 1783262521854
+    },
+    {
+      "id": "q003",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262582180,
+      "first_ts": 1783262582180
+    },
+    {
+      "id": "q004",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262636392,
+      "first_ts": 1783262636392
+    },
+    {
+      "id": "q005",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262792961,
+      "first_ts": 1783262792961
+    },
+    {
+      "id": "q006",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262805236,
+      "first_ts": 1783262805236
+    },
+    {
+      "id": "q007",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783262810289,
+      "first_ts": 1783262810289
+    },
+    {
+      "id": "q008",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263157365,
+      "first_ts": 1783262858562
+    },
+    {
+      "id": "q009",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263167846,
+      "first_ts": 1783263167846
+    },
+    {
+      "id": "q010",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "ответ неполный, 50%",
+      "ts": 1783263210644,
+      "first_ts": 1783263210644
+    },
+    {
+      "id": "q011",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263299747,
+      "first_ts": 1783263299746
+    },
+    {
+      "id": "q012",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263315314,
+      "first_ts": 1783263315314
+    },
+    {
+      "id": "q013",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263319135,
+      "first_ts": 1783263319135
+    },
+    {
+      "id": "q014",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263327638,
+      "first_ts": 1783263327638
+    },
+    {
+      "id": "q015",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263371841,
+      "first_ts": 1783263371841
+    },
+    {
+      "id": "q016",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263380436,
+      "first_ts": 1783263380436
+    },
+    {
+      "id": "q017",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263382767,
+      "first_ts": 1783263382767
+    },
+    {
+      "id": "q018",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783263406456,
+      "first_ts": 1783263406456
+    },
+    {
+      "id": "q019",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263424281,
+      "first_ts": 1783263424281
+    },
+    {
+      "id": "q020",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263428991,
+      "first_ts": 1783263428991
+    },
+    {
+      "id": "q021",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263455943,
+      "first_ts": 1783263455943
+    },
+    {
+      "id": "q022",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1783263515644,
+      "first_ts": 1783263515644
+    },
+    {
+      "id": "q023",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263526171,
+      "first_ts": 1783263526171
+    },
+    {
+      "id": "q024",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263538202,
+      "first_ts": 1783263538202
+    },
+    {
+      "id": "q025",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263557658,
+      "first_ts": 1783263557657
+    },
+    {
+      "id": "q026",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783263575780,
+      "first_ts": 1783263575780
+    },
+    {
+      "id": "q027",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263597090,
+      "first_ts": 1783263597090
+    },
+    {
+      "id": "q028",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "не указана школьная речь",
+      "ts": 1783263674992,
+      "first_ts": 1783263674992
+    },
+    {
+      "id": "q029",
+      "category": "open-domain",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1783263709554,
+      "first_ts": 1783263709554
+    },
+    {
+      "id": "q030",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "школьная речь снова отсутствует",
+      "ts": 1783263756765,
+      "first_ts": 1783263756765
+    },
+    {
+      "id": "q031",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263766642,
+      "first_ts": 1783263766642
+    },
+    {
+      "id": "q032",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263780252,
+      "first_ts": 1783263780252
+    },
+    {
+      "id": "q033",
+      "category": "open-domain",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1783263800816,
+      "first_ts": 1783263800816
+    },
+    {
+      "id": "q034",
+      "category": "open-domain",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783263819707,
+      "first_ts": 1783263819707
+    },
+    {
+      "id": "q035",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263825333,
+      "first_ts": 1783263825333
+    },
+    {
+      "id": "q036",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263826877,
+      "first_ts": 1783263826877
+    },
+    {
+      "id": "q037",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263828255,
+      "first_ts": 1783263828255
+    },
+    {
+      "id": "q038",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263838933,
+      "first_ts": 1783263838933
+    },
+    {
+      "id": "q039",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263844208,
+      "first_ts": 1783263844208
+    },
+    {
+      "id": "q040",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "названы 2 из 5 игр",
+      "ts": 1783263893986,
+      "first_ts": 1783263888771
+    },
+    {
+      "id": "q041",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263932213,
+      "first_ts": 1783263932213
+    },
+    {
+      "id": "q042",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263944734,
+      "first_ts": 1783263944734
+    },
+    {
+      "id": "q043",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263954088,
+      "first_ts": 1783263954088
+    },
+    {
+      "id": "q044",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263981075,
+      "first_ts": 1783263981075
+    },
+    {
+      "id": "q045",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783263987833,
+      "first_ts": 1783263987833
+    },
+    {
+      "id": "q046",
+      "category": "open-domain",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1783264001401,
+      "first_ts": 1783264001401
+    },
+    {
+      "id": "q047",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264009884,
+      "first_ts": 1783264009884
+    },
+    {
+      "id": "q048",
+      "category": "single-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "в туфле но не понятно чьей",
+      "ts": 1783264025006,
+      "first_ts": 1783264021277
+    },
+    {
+      "id": "q049",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264073765,
+      "first_ts": 1783264073765
+    },
+    {
+      "id": "q050",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264088347,
+      "first_ts": 1783264088347
+    },
+    {
+      "id": "q051",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264092729,
+      "first_ts": 1783264092729
+    },
+    {
+      "id": "q052",
+      "category": "single-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1783264105440,
+      "first_ts": 1783264105440
+    },
+    {
+      "id": "q053",
+      "category": "single-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "дана половина ответа, о семье не сказано",
+      "ts": 1783264106913,
+      "first_ts": 1783264106912
+    },
+    {
+      "id": "q054",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264160660,
+      "first_ts": 1783264160660
+    },
+    {
+      "id": "q055",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264167459,
+      "first_ts": 1783264167459
+    },
+    {
+      "id": "q056",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264175223,
+      "first_ts": 1783264175223
+    },
+    {
+      "id": "q057",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264181177,
+      "first_ts": 1783264181177
+    },
+    {
+      "id": "q058",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264190310,
+      "first_ts": 1783264190310
+    },
+    {
+      "id": "q059",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264193582,
+      "first_ts": 1783264193582
+    },
+    {
+      "id": "q060",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264197017,
+      "first_ts": 1783264197017
+    },
+    {
+      "id": "q061",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264199804,
+      "first_ts": 1783264199804
+    },
+    {
+      "id": "q062",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264207790,
+      "first_ts": 1783264207790
+    },
+    {
+      "id": "q063",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264233732,
+      "first_ts": 1783264233732
+    },
+    {
+      "id": "q064",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264242734,
+      "first_ts": 1783264242734
+    },
+    {
+      "id": "q065",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264245719,
+      "first_ts": 1783264245719
+    },
+    {
+      "id": "q066",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "конференция не указана, ответ неполный, повтор вопроса",
+      "ts": 1783264268235,
+      "first_ts": 1783264268235
+    },
+    {
+      "id": "q067",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264282024,
+      "first_ts": 1783264282024
+    },
+    {
+      "id": "q068",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса",
+      "ts": 1783264287826,
+      "first_ts": 1783264287826
+    },
+    {
+      "id": "q069",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264290312,
+      "first_ts": 1783264290312
+    },
+    {
+      "id": "q070",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264293920,
+      "first_ts": 1783264293920
+    },
+    {
+      "id": "q071",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "вопрос повторился",
+      "ts": 1783264296537,
+      "first_ts": 1783264296537
+    },
+    {
+      "id": "q072",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264315426,
+      "first_ts": 1783264315426
+    },
+    {
+      "id": "q073",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264333387,
+      "first_ts": 1783264333387
+    },
+    {
+      "id": "q074",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264344295,
+      "first_ts": 1783264344295
+    },
+    {
+      "id": "q075",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "странная ошибка",
+      "ts": 1783264383398,
+      "first_ts": 1783264383398
+    },
+    {
+      "id": "q076",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264386908,
+      "first_ts": 1783264386908
+    },
+    {
+      "id": "q077",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "ответ неполный, отсутствует часть про замечательную маму",
+      "ts": 1783264430198,
+      "first_ts": 1783264430198
+    },
+    {
+      "id": "q078",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "вопрос повторился",
+      "ts": 1783264438760,
+      "first_ts": 1783264438760
+    },
+    {
+      "id": "q079",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264447500,
+      "first_ts": 1783264447500
+    },
+    {
+      "id": "q080",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264450325,
+      "first_ts": 1783264450325
+    },
+    {
+      "id": "q081",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "вопрос повторился",
+      "ts": 1783264456314,
+      "first_ts": 1783264456314
+    },
+    {
+      "id": "q082",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "вопрос повторился",
+      "ts": 1783264461254,
+      "first_ts": 1783264461254
+    },
+    {
+      "id": "q083",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264464520,
+      "first_ts": 1783264464520
+    },
+    {
+      "id": "q084",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264472470,
+      "first_ts": 1783264472470
+    },
+    {
+      "id": "q085",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264476944,
+      "first_ts": 1783264476944
+    },
+    {
+      "id": "q086",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "вопрос повторился",
+      "ts": 1783264490975,
+      "first_ts": 1783264490975
+    },
+    {
+      "id": "q087",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264529748,
+      "first_ts": 1783264529748
+    },
+    {
+      "id": "q088",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264534627,
+      "first_ts": 1783264534627
+    },
+    {
+      "id": "q089",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264538392,
+      "first_ts": 1783264538392
+    },
+    {
+      "id": "q090",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264544028,
+      "first_ts": 1783264544028
+    },
+    {
+      "id": "q091",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264546755,
+      "first_ts": 1783264546755
+    },
+    {
+      "id": "q092",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264551430,
+      "first_ts": 1783264551430
+    },
+    {
+      "id": "q093",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса, ответ другрй при этом",
+      "ts": 1783264559864,
+      "first_ts": 1783264559864
+    },
+    {
+      "id": "q094",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264561869,
+      "first_ts": 1783264561869
+    },
+    {
+      "id": "q095",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264587965,
+      "first_ts": 1783264587965
+    },
+    {
+      "id": "q096",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264879717,
+      "first_ts": 1783264879717
+    },
+    {
+      "id": "q097",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "часть про обувь отсутствует",
+      "ts": 1783264884165,
+      "first_ts": 1783264884165
+    },
+    {
+      "id": "q098",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264904278,
+      "first_ts": 1783264904278
+    },
+    {
+      "id": "q099",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264911520,
+      "first_ts": 1783264911520
+    },
+    {
+      "id": "q100",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264917268,
+      "first_ts": 1783264917268
+    },
+    {
+      "id": "q101",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264935320,
+      "first_ts": 1783264935320
+    },
+    {
+      "id": "q102",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264939259,
+      "first_ts": 1783264939259
+    },
+    {
+      "id": "q103",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783264947454,
+      "first_ts": 1783264947454
+    },
+    {
+      "id": "q104",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264965613,
+      "first_ts": 1783264965613
+    },
+    {
+      "id": "q105",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264969715,
+      "first_ts": 1783264969715
+    },
+    {
+      "id": "q106",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264972720,
+      "first_ts": 1783264972719
+    },
+    {
+      "id": "q107",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264988918,
+      "first_ts": 1783264988918
+    },
+    {
+      "id": "q108",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264995573,
+      "first_ts": 1783264995573
+    },
+    {
+      "id": "q109",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783264999981,
+      "first_ts": 1783264999981
+    },
+    {
+      "id": "q110",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265002134,
+      "first_ts": 1783265002134
+    },
+    {
+      "id": "q111",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265009635,
+      "first_ts": 1783265009635
+    },
+    {
+      "id": "q112",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265018796,
+      "first_ts": 1783265018796
+    },
+    {
+      "id": "q113",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "повтор вопроса, обувь в ответе снова отсутствует",
+      "ts": 1783265037461,
+      "first_ts": 1783265037461
+    },
+    {
+      "id": "q114",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса",
+      "ts": 1783265053944,
+      "first_ts": 1783265053944
+    },
+    {
+      "id": "q115",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265059561,
+      "first_ts": 1783265059561
+    },
+    {
+      "id": "q116",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265062881,
+      "first_ts": 1783265062881
+    },
+    {
+      "id": "q117",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265065510,
+      "first_ts": 1783265065510
+    },
+    {
+      "id": "q118",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265078244,
+      "first_ts": 1783265078244
+    },
+    {
+      "id": "q119",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265087708,
+      "first_ts": 1783265087708
+    },
+    {
+      "id": "q120",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265106148,
+      "first_ts": 1783265106148
+    },
+    {
+      "id": "q121",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265114491,
+      "first_ts": 1783265114491
+    },
+    {
+      "id": "q122",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265128116,
+      "first_ts": 1783265128116
+    },
+    {
+      "id": "q123",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265136884,
+      "first_ts": 1783265136884
+    },
+    {
+      "id": "q124",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265140524,
+      "first_ts": 1783265140524
+    },
+    {
+      "id": "q125",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265164796,
+      "first_ts": 1783265164796
+    },
+    {
+      "id": "q126",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783265216042,
+      "first_ts": 1783265216042
+    },
+    {
+      "id": "q127",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265222973,
+      "first_ts": 1783265222973
+    },
+    {
+      "id": "q128",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783265228719,
+      "first_ts": 1783265228719
+    },
+    {
+      "id": "q129",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265233876,
+      "first_ts": 1783265233876
+    },
+    {
+      "id": "q130",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "ответ неполный, отсутствует гончарное дело",
+      "ts": 1783265255809,
+      "first_ts": 1783265255809
+    },
+    {
+      "id": "q131",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265263656,
+      "first_ts": 1783265263656
+    },
+    {
+      "id": "q132",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265266330,
+      "first_ts": 1783265266330
+    },
+    {
+      "id": "q133",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265271685,
+      "first_ts": 1783265271685
+    },
+    {
+      "id": "q134",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265274999,
+      "first_ts": 1783265274999
+    },
+    {
+      "id": "q135",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса, уже более 4-х раз",
+      "ts": 1783265282704,
+      "first_ts": 1783265282704
+    },
+    {
+      "id": "q136",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265307815,
+      "first_ts": 1783265307815
+    },
+    {
+      "id": "q137",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265313096,
+      "first_ts": 1783265313096
+    },
+    {
+      "id": "q138",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265314749,
+      "first_ts": 1783265314749
+    },
+    {
+      "id": "q139",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265319028,
+      "first_ts": 1783265319028
+    },
+    {
+      "id": "q140",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265334086,
+      "first_ts": 1783265325894
+    },
+    {
+      "id": "q141",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265336770,
+      "first_ts": 1783265336770
+    },
+    {
+      "id": "q142",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265338429,
+      "first_ts": 1783265338429
+    },
+    {
+      "id": "q143",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265340529,
+      "first_ts": 1783265340529
+    },
+    {
+      "id": "q144",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265342832,
+      "first_ts": 1783265342832
+    },
+    {
+      "id": "q145",
+      "category": "multi-hop",
+      "verdict": "WRONG",
+      "note": "ответ неполный - отсутствует часть про живопись, кемпинг, музей, плавание, пешие походы",
+      "ts": 1783265387652,
+      "first_ts": 1783265380718
+    },
+    {
+      "id": "q146",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265392467,
+      "first_ts": 1783265392467
+    },
+    {
+      "id": "q147",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265397540,
+      "first_ts": 1783265397540
+    },
+    {
+      "id": "q148",
+      "category": "single-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "ответ неполный нет Детские книги",
+      "ts": 1783265422393,
+      "first_ts": 1783265422393
+    },
+    {
+      "id": "q149",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265435789,
+      "first_ts": 1783265435789
+    },
+    {
+      "id": "q150",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265441912,
+      "first_ts": 1783265441912
+    },
+    {
+      "id": "q151",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265445086,
+      "first_ts": 1783265445086
+    },
+    {
+      "id": "q152",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783265454126,
+      "first_ts": 1783265454126
+    },
+    {
+      "id": "q153",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "Имя ветра и Колесо времени не указаны",
+      "ts": 1783265505447,
+      "first_ts": 1783265505447
+    },
+    {
+      "id": "q154",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265509096,
+      "first_ts": 1783265509096
+    },
+    {
+      "id": "q155",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265510980,
+      "first_ts": 1783265510980
+    },
+    {
+      "id": "q156",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265512605,
+      "first_ts": 1783265512605
+    },
+    {
+      "id": "q157",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265519403,
+      "first_ts": 1783265519403
+    },
+    {
+      "id": "q158",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса",
+      "ts": 1783265534248,
+      "first_ts": 1783265534248
+    },
+    {
+      "id": "q159",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265536764,
+      "first_ts": 1783265536764
+    },
+    {
+      "id": "q160",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265538701,
+      "first_ts": 1783265538701
+    },
+    {
+      "id": "q161",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265545753,
+      "first_ts": 1783265545753
+    },
+    {
+      "id": "q162",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса",
+      "ts": 1783265554288,
+      "first_ts": 1783265554288
+    },
+    {
+      "id": "q163",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265564993,
+      "first_ts": 1783265564993
+    },
+    {
+      "id": "q164",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "ответ неполный, отсутствует часть - Летние звуки, вопрос повторяется",
+      "ts": 1783265593572,
+      "first_ts": 1783265593572
+    },
+    {
+      "id": "q165",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265600290,
+      "first_ts": 1783265600290
+    },
+    {
+      "id": "q166",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265602064,
+      "first_ts": 1783265602064
+    },
+    {
+      "id": "q167",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265608812,
+      "first_ts": 1783265608812
+    },
+    {
+      "id": "q168",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "ответ неполный, плавание - отсутствует, вопрос повторяется",
+      "ts": 1783265655800,
+      "first_ts": 1783265655800
+    },
+    {
+      "id": "q169",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265660388,
+      "first_ts": 1783265660388
+    },
+    {
+      "id": "q170",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "ответ неполный, отсутствует «Нет ничего невозможного»",
+      "ts": 1783265683897,
+      "first_ts": 1783265683897
+    },
+    {
+      "id": "q171",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265687719,
+      "first_ts": 1783265687719
+    },
+    {
+      "id": "q172",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265690557,
+      "first_ts": 1783265690557
+    },
+    {
+      "id": "q173",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265697435,
+      "first_ts": 1783265697435
+    },
+    {
+      "id": "q174",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265708600,
+      "first_ts": 1783265708600
+    },
+    {
+      "id": "q175",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "повтор вопроса, отсутствует часть  - «Нет ничего невозможного»",
+      "ts": 1783265732998,
+      "first_ts": 1783265732998
+    },
+    {
+      "id": "q176",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "повтор вопроса",
+      "ts": 1783265741771,
+      "first_ts": 1783265741771
+    },
+    {
+      "id": "q177",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "повтор вопроса",
+      "ts": 1783265752047,
+      "first_ts": 1783265752047
+    },
+    {
+      "id": "q178",
+      "category": "open-domain",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1783265758152,
+      "first_ts": 1783265758152
+    },
+    {
+      "id": "q179",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265762558,
+      "first_ts": 1783265762558
+    },
+    {
+      "id": "q180",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1783265767809,
+      "first_ts": 1783265763873
+    }
+  ]
+}

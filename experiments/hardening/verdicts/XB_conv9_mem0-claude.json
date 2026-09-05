@@ -1,0 +1,1108 @@
+[
+ {
+  "qid": "conv9_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'April 20, 2023' falls within the gold answer's date range of 'between 26 March and 20 April 2023', representing the end date of that range.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'week of May 9, 2023' falls within 14 days of May 16, 2023, and 'the week before May 16' would include May 9-15, making this semantically equivalent under the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the core location (the studio at Calvin's mansion) and adds an extra detail about Japan, which does not contradict the gold answer's key fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014a podcast about the rap industry\u2014with only minor wording differences ('rapidly evolving rap industry' vs 'the rap industry').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'On a beach in Miami' correctly identifies Miami as the location, with 'on a beach' being additional detail that does not contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'An octopus design' directly matches the gold answer 'octopus' - it's the same concept with slightly more detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'unique look that matches his style' captures the core concept of the gold answer 'unique look' with additional detail about style, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Purple' matches the gold answer 'purple' exactly in meaning, with only a capitalization difference that does not affect correctness.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'San Francisco' exactly matches the gold answer 'San Francisco', identifying the same location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Both 'proud' and 'satisfaction' express positive emotions in the same semantic family related to achievement and accomplishment from helping someone, which counts as a paraphrase under the emotion rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A trip to Boston' correctly identifies Boston as the destination, which matches the gold answer, with only minor additional wording that does not change the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both mishaps from the gold answer: flooding (of his mansion/home) and a car accident, with additional contextual details that do not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Cars and garage time \u2014 Dave plans to show Calvin around his garage/shop,' which directly matches the gold answer's core concept of checking out Dave's garage and getting ideas for future projects.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ratatouille' exactly matches the gold answer 'Ratatouille', identifying the same Disney movie.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core sentiments from the gold answer: 'rewarding/satisfied' matches 'satisfying' and 'makes all the hard work worth it' directly matches 'worth the hard work'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'California Love' as the song, and the additional artist information (Tupac and Dr. Dre) is extra detail that does not contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the exact same project as the gold answer ('a shiny orange car') with additional descriptive details about it being vintage, sleek, and having the hood open, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ford Mustang' is an exact match with the gold answer 'Ford Mustang'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of transformation from old/broken to beautiful/functional that Dave finds satisfying, which semantically matches the gold answer's 'transforming something old and beat-up into something beautiful.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'hard work and dedication' is semantically equivalent to the gold answer 'hard work and determination,' as dedication and determination are paraphrases expressing the same concept of committed effort.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q119",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept that working on cars is therapeutic and an escape from stress for Dave, which directly matches the gold answer's 'therapy and a way to get away from everyday stress,' even though it includes additional details about self-expression and purpose.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Late May 2023 \u2014 during the week of May 24\u201330, 2023' refers to the same time period as the gold answer 'last week of May 2023' with additional specific date details, which is semantically equivalent and falls within acceptable date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of transforming/restoring cars ('restoring classic cars,' 'building a custom car from scratch') which semantically overlaps with 'take something broken and make it into something awesome,' plus includes additional related details about his passion.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'His new black Ferrari' correctly identifies the core entity 'Ferrari' from the gold answer, with additional descriptive details that do not change the fundamental correctness.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, identifying the same headliner.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three core strategies from the gold answer (reminds himself of passion for goals, gets help from others, takes breaks to recharge) plus additional supporting details, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'at a music festival in Tokyo' includes the core correct location 'at a festival' from the gold answer, with additional specific detail about the city, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Shibuya Crossing' exactly matches the gold answer 'Shibuya Crossing', identifying the same location that Calvin described as Tokyo's Times Square.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Shinjuku' is an exact match with the gold answer 'Shinjuku', identifying the same specific location in Tokyo.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ramen' is the same dish as the gold answer 'ramen', just with different capitalization, which is semantically identical.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014both refer to the live connection with the audience/crowd during performances, which is a clear semantic match despite different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that Calvin would enjoy performing at the Hollywood Bowl due to his love of performing for large crowds and big stages, which semantically matches the gold answer's 'rush of performing onstage to large crowds.'",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly includes the gold answer 'takes it one day at a time' along with additional supporting details about Calvin's balance strategies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014that struggles people go through inspired Calvin's music\u2014with additional contextual detail about capturing those feelings.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer addresses how Calvin uses music to capture feelings by digging deeper into his music, which semantically overlaps with expressing himself and working through emotions, even though the specific wording differs.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer\u2014fascination with how machines work\u2014and provides additional contextual details about the specific event that sparked this fascination.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014that paying extra attention to detail is the toughest part\u2014with additional descriptive elaboration that does not change the fundamental meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Paying close attention to small details' is a paraphrase of the gold answer 'Paying attention to small details' with the same semantic meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Dave sold the car 'after finishing the restoration last year,' which semantically indicates the sale occurred last year, matching the gold answer's timeframe.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core sentiment from the gold answer ('dream come true') and expands with additional positive details about the experience, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core realization that music is Calvin's passion and purpose, which directly matches the gold answer's key concepts despite slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'June 8, 2023' is the same date as the gold answer '8 June, 2023', just formatted differently (month-day-year vs day-month-year).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core sentiment as the gold answer\u2014that their pursuits are rewarding and meaningful\u2014using paraphrased language like 'deeply rewarding' for 'fulfilling' and implying motivation through 'pays off'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Boston' is an exact match with the gold answer 'Boston'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Calvin threw/hosted a small party for his new album, which matches the core facts of the gold answer, with additional acceptable details about timing and guests.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Car modifications' is a paraphrase of the gold answer 'Car mods' as 'mods' is short for 'modifications' and they refer to the same concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same method (a blog about car modifications) as the gold answer, just with slightly different wording and additional context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three types of videos from the gold answer: music videos, concerts/live concert performances, and documentaries about artists and their creative process, using paraphrased but semantically equivalent language.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Classic rock' is an exact match with the gold answer 'Classic rock'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014Dave's car modification content that made his car look like a beast\u2014using slightly different wording but referring to the same DIY project.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states that Dave's blog 'sparked others to start their own DIY car-mod projects,' which is a paraphrase of the gold answer's 'inspires others to start their DIY projects,' and includes additional supporting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer\u2014that parks relax and calm Dave\u2014and adds consistent additional details about nature being serene, recharging, and other related activities, all of which align with the relaxation theme.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, identifying the same person (his old high school buddy) that Calvin invited.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q152",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the vintage camera from the gold answer, and the additional date detail does not make it wrong.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all three elements from the gold answer (sunsets, beaches, waves) and correctly identifies them as nature scenes, which is semantically equivalent to 'Nature' in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q154",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A fancy gala' matches the gold answer 'Fancy gala' exactly in terms of the core event, with additional date information that does not contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q155",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'art' and 'music' from the gold answer, plus additional related details about favorite artists and music's power to connect people, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q156",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'nearby park' matches the gold answer 'Nearby park' exactly, with additional descriptive detail about it being a serene spot, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q157",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept from the gold answer that nature helps appreciate life during tough times, with the additional detail about 'breath of fresh air' being acceptable extra information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'July 2023' exactly matches the gold answer 'July 2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Friday, June 16, 2023 is the Friday before June 21, 2023, making this the same date expressed in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2' is numerically identical to the gold answer 'two times', expressing the same quantity in a different format.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes at least three correct items from the gold answer (music festival, Shinjuku, and implicitly Shibuya crossing through 'vibrant night streets/lively crowded street scenes'), meeting the partial credit requirement.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "March 25, 2023 falls on a Saturday, which is the weekend before March 26, 2023, satisfying the date tolerance rule and matching the gold answer's timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'His dad' as the person who inspired Dave's passion for car engineering, matching the gold answer exactly, with additional contextual details that do not contradict the core fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly confirms 'Yes' and explicitly states Calvin wants to 'grow his fanbase,' which matches the gold answer's core content, plus provides additional supporting details.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Calvin wants to expand his brand, providing specific supporting details that align with the gold answer of 'yes'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'automotive engineering' is a paraphrase of the gold answer 'auto engineering' and refers to the same core passion, with additional relevant detail about restoring classic cars.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer confirms Dave works with engines and provides extensive supporting evidence, which fully addresses the gold answer of 'yes'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Friday, August 18, 2023 is the Friday before August 22, 2023, so the generated answer correctly identifies the same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'August 21, 2023' matches the gold answer '21 August, 2023' exactly, just with different date formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Miami' exactly matches the gold answer 'Miami'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three items from the gold answer: taking long drives in his car, embracing/spending time in nature, and fixing/working on cars, plus additional correct details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple correct items from the gold answer: attending concerts (live concerts), listening to music (listen to favorite albums), photography, walks (take a walk), and implicitly hiking through 'spending time in parks,' meeting the partial credit requirement even though it includes additional hobbies not in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes Aerosmith, which is one of the two bands in the gold answer, and under the partial credit rule, at least one correct item qualifies as CORRECT.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'classic rock' which is one of the two items in the gold answer, and under the partial credit rule, at least one correct item qualifies as CORRECT.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies San Francisco as the location and specifies he was there through late August, which aligns with the gold answer for the last two weeks of August 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'San Francisco' exactly matches the gold answer 'San Francisco'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer with the same date, September 1, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around August 26, 2023' falls within the last week of August 2023, which is semantically equivalent to the gold answer under the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer clearly confirms that Calvin loves music tours with extensive supporting evidence about his enthusiasm for touring, performing, and the energy he gets from it, which directly answers 'yes' to the question.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Dave would prefer working on a Dodge Charger, which matches the gold answer exactly, and provides additional supporting context about his passion for muscle cars.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'United States' exactly matches the gold answer 'United States'.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, listing both Tupac and Dr. Dre as the artists Calvin listened to as a kid.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Their dad' directly matches the gold answer 'Dad' - it refers to the same family member using equivalent terminology.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'no' exactly matches the gold answer 'No', correctly indicating that Calvin and Dave did not have a meeting in Boston during that timeframe.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Boston' exactly matches the gold answer 'Boston'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'car restoration/building' and 'hands-on projects together' which directly references working on cars from the gold answer, plus additional shared activities.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'working on cars\u2014especially restoring classic cars' captures the same core activity as the gold answer 'restoring cars' with additional descriptive detail, which is acceptable under the rules.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Dave was attending a car show during the first weekend of October 2023, which matches the gold answer's core fact, and the additional details about the Mustang and car mods do not invalidate the correct information.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all the key activities from the gold answer: tinkering with engines, refurbishing cars, and restoration work, with additional contextual details that don't contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three core dreams from the gold answer (opening a car maintenance shop, working on classic cars, and building a custom car from scratch), plus additional related dreams, which is acceptable under the partial credit and extra detail rules.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 8, 2023 falls within the first week of October 2023, satisfying the date tolerance rule of 14 days and representing the same time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact date 'August 2022' that matches the gold answer, and the additional context about meeting at a Tokyo music festival does not make it incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'November 2023' as the time Calvin planned to travel to Tokyo, and the additional detail about the tour ending does not contradict the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both 'friends' and 'team' from the gold answer, and provides additional specific detail about Dave which does not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both cities from the gold answer (San Francisco and Detroit), with only a minor spelling variation in San Francisco.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Photography' is an exact match to the gold answer 'photography' with only a capitalization difference, which is semantically identical.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three key events from the gold answer: attending a car show with his dad, working on an old car in a neighbor's garage when young, and spending a summer restoring an old car with his dad, with only minor additional details about age and context.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'Two' Ferraris, which matches the gold answer, and the additional details about models and acquisition dates do not make it wrong.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies 'classic cars' and 'vintage muscle models' which semantically overlap with 'classic vintage cars' from the gold answer, capturing the same core concept with additional specific detail.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer: a gold chain/necklace and a custom piece with an octopus design, which matches the custom-made guitar with an octopus on it.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the custom nature of the guitars and mentions both the purple guitar and the octopus design, which are the core elements from the gold answer, even though it combines details slightly differently.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes three of the four activities from the gold answer: countryside roadtrip, card-playing nights, and visits to parks (paraphrased as 'hung out at parks and arranged regular walks'), which satisfies the partial credit rule even though the car maintenance shop celebration is missing.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions 'September 2023' which exactly matches the gold answer, and the additional October date does not negate this correct information.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'No' matching the gold answer, and provides supporting evidence of setbacks like the Mustang engine issue, demonstrating accurate recall of the fact that Dave's projects don't all go smoothly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 26, 2023 falls within the last week of October 2023, satisfying the date tolerance rule that dates within 14 days are correct, and this is an even closer match.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'November 2023' exactly matches the gold answer 'November 2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'a few months' which matches the gold answer, and the additional detail about the start date does not make it wrong.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Aerosmith' exactly matches the gold answer 'Aerosmith', identifying the same band.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Tokyo, Japan' correctly identifies Tokyo as the location, with 'Japan' being an acceptable additional detail that specifies the country.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the exact same advice as the gold answer using nearly identical wording\u2014both convey staying true to himself and maintaining a unique sound.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Opening his own car maintenance shop' directly matches the gold answer 'Car maintenance shop' - it identifies the same business venture with slightly more detail about the action of opening it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all the key elements from the gold answer: working on all kinds of cars, regular maintenance, and full restorations of classic cars, just with slightly different phrasing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly in content, identifying the same gift (gold necklace with diamond pendant) with only minor capitalization differences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the exact core concept from the gold answer\u2014that the necklace reminds Calvin why he keeps hustling as a musician\u2014with only minor additional clarifying detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept from the gold answer\u2014Dave immerses himself in something he loves (music)\u2014with additional specific details about how he does this.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around May 9, 2023' is within 14 days of the gold answer 'May 1, 2023', which falls within the acceptable date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea of the gold answer\u2014exploring other things to restore inspiration\u2014and adds specific examples (walks, parks) that align with 'have some fun' and stepping away from music.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both items from the gold answer: music equipment (paraphrase of music gear) and favorite microphone.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'his own car maintenance shop' is a paraphrase of the gold answer 'a car shop' - both refer to the same type of business establishment that Dave opened.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of 'fixing up things' from the gold answer, with additional specific detail about cars and the motivation behind it, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact core concept from the gold answer ('Performing live') and adds extra descriptive details about the rush, connection, and crowd energy, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly includes the gold answer 'exploring parks' and adds additional contextual details about location and purpose, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Skiing' exactly matches the gold answer 'Skiing', demonstrating perfect recall of the sports activity Calvin is planning to try.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact phrase 'get back on the road' from the gold answer, plus additional detail about driving and cruising, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Regular walks together in the park' captures the exact same core concept as the gold answer 'regular walks together' with only minor additional location detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states Calvin has been 'experimenting across genres,' which is a paraphrase of the gold answer 'experimenting with different genres,' and the additional details about electronic elements do not negate this core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies 'the week of May 9, 2023' which falls within the 14-day tolerance of 'a week before 16 May, 2023' (May 9th week would be 7 days before May 16th), and correctly identifies the mishap involving Calvin's musical gear and favorite mic.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ferrari' exactly matches the gold answer 'Ferrari', correctly identifying the car brand Calvin owns and is proud of.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core goal of expanding globally and reaching a wider audience, which semantically aligns with 'expand his brand worldwide and grow his fanbase' through touring and connecting with diverse audiences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core meaning of 'never forget his dreams' through the paraphrases 'keep dreaming' and 'never lose sight of his goals,' which semantically convey the same advice about maintaining one's dreams.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'professional car modification workshop' is a paraphrase of the gold answer 'car mod workshop' - both refer to the same type of workshop with slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three core modification types from the gold answer (engine swaps, suspension modifications, and body modifications) with additional descriptive detail, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly captures the gold answer's core concept of 'attention to small details' using paraphrased language ('focusing on the small details' and 'strong attention to detail'), which is semantically equivalent.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core fact as the gold answer\u2014that the audience sang along\u2014and adds descriptive detail ('magical moment') which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact gold answer 'At a music festival in Tokyo' plus additional details about timing and their connection, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both items from the gold answer: the mansion in Japan and the Ferrari 488 GTB, with additional details about dates and color that do not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of 'exploring' from the gold answer, which is one of the two key items mentioned, and exploring Boston's music scene is semantically related to growing his brand as a musician.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q113",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a completely different activity (reflecting on life and thinking) than the gold answer (feeling the wind blowing through his hair), with no semantic overlap between the two concepts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q124",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies 'working on cars' and 'restoring and modifying them' as fulfilling activities, which is semantically the same as 'fixing things' mentioned in the gold answer\u2014both refer to Dave's hands-on repair and restoration work.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q137",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes when Calvin bought a specific car, not when he first became interested in cars at an early age, which are two completely different time periods and concepts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'His notebook' which is used for capturing ideas and music creation, semantically overlapping with 'Writing lyrics and notes' from the gold answer, satisfying the partial credit rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q151",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Calvin's hobby is restoring cars, which is a completely different hobby from photography mentioned in the gold answer, demonstrating incorrect recall of the fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core activity (attending a workshop related to car modification) as the gold answer, with 'car restoration workshop' and 'learning new car-modification skills' being semantically equivalent to 'car modification workshop'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Dave attended 3 car shows while the gold answer indicates 2, which is a factual numerical discrepancy that does not fall under any tolerance rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q54",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer refers to a notebook for music creation, which does not match any of the gold answer's items (staying up-to-date on world events and watching documentaries about artists).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q61",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'a long time' is too vague and does not capture the specific duration of 'nearly two months' from the gold answer, failing to demonstrate recall of the actual timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states the workshop was one day, which does not match the gold answer of two weeks and falls outside the 50% duration tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Japanese mansion in Japan' correctly identifies that Calvin was in Japan, which is the same location as Tokyo (the gold answer), representing the same country and semantic referent even if less specific about the city.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer directly contradicts the gold answer by stating the shop is small with no large staff, whereas the gold answer confirms it does employ a lot of people.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q90",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes Calvin's emotional experience with the process rather than the specific outcome ('fresh vibe') he uses to characterize the electronic elements, addressing a different aspect of the question.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'classic muscle car' and adds the specific detail that it was a silver Corvette, which is acceptable under the rule that extra detail is fine.",
+  "category": "single-hop"
+ }
+]

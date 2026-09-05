@@ -1,0 +1,1108 @@
+[
+ {
+  "qid": "conv9_q0",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is a date range (\u201cbetween 26 March and 20 April 2023\u201d), while the generated answer gives a single date (\u201cApril 20, 2023\u201d), which does not match exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q10",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague (\u201cduring the week of May 9, 2023\u201d) instead of the exact date implied by the gold (\u201ca week before 16 May, 2023\u201d = May 9, 2023), so it does not match exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q100",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the unverified detail \u201cin Japan,\u201d which is not in the gold answer and thus does not exactly match the specified location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q101",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds an unverified qualifier (\u201crapidly evolving\u201d) not present in the gold answer, so it does not strictly match the exact facts required.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q102",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specificity (\u201con a beach\u201d) beyond the gold answer\u2019s exact location (\u201cMiami\u201d), so it does not match exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by identifying the guitar design as an octopus without adding extraneous details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q104",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It includes the correct reason 'unique look' but adds the unverified detail 'that matches his style,' so it does not exactly match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s color ('purple') in content, stating the same fact without deviation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('San Francisco') for the specified location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q107",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 'Satisfaction' while the gold answer is 'Proud', which do not match exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the destination as Boston, matching the gold answer without adding conflicting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q11",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (exact dates, a red Ferrari, tow truck, insurance timelines) and doesn\u2019t exactly match \u201cflooding of his mansion\u201d and \u201ccar accident\u201d as stated, so it fails strict exactness.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q110",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds numerous unrelated plans and extra specifics (venues, meals, parks, shows, classic/restored cars) beyond the gold, which only says to check out Dave\u2019s garage and maybe get ideas for future projects.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Ratatouille'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It conveys both that the reactions make the hard work worth it and that he feels satisfied, matching the gold answer\u2019s two points in meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the song as \u201cCalifornia Love,\u201d matching the gold answer; the added artist info is accurate and non-contradictory.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q115",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics ('vintage', 'restoration project', 'hood open') beyond the gold 'A shiny orange car', so it fails exact match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Ford Mustang' with no deviations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q117",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified details (smooth-running machine and others\u2019 delighted reactions) and does not match the gold\u2019s exact phrasing of finding satisfaction in making something old and beat-up beautiful.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q118",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer uses 'dedication' instead of the exact gold term 'determination,' so it does not match exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions a therapeutic escape, it adds unlisted specifics (self-expression, purpose, helping people), so it does not strictly match the gold facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q12",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds a specific range (May 24\u201330) that does not exactly match the gold fact of \u201clast week of May 2023\u201d and omits May 31, so it is not the same fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q120",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer introduces unverified specifics (shop, blog, restoring classics, custom build) and does not state the gold fact of \u201ctake something broken and make it into something awesome,\u201d so it fails exact match requirements.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q121",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (\u201cnew black\u201d) beyond the exact gold fact of just \u201cFerrari,\u201d so it does not match exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'The Fireworks' with identical wording and entity.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q123",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the three correct points, it adds multiple unverified specifics (e.g., red sports car, music, necklace), which violates the requirement to avoid fabricated details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q125",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specificity (\u201cin Tokyo\u201d) not present in the gold answer, violating the requirement for exact match without extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Shibuya Crossing', stating the identical fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (\u201cShinjuku\u201d) with the same specific location and no extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer ('ramen') exactly in content with no extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q129",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions connecting with the audience but does not explicitly include performing, so it fails to cover all elements of the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q13",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it answers Yes and cites large crowds, it adds unverified specifics (\u201cdream come true,\u201d seeking iconic venues) and hedges, which go beyond the gold answer\u2019s sole reason of enjoying the rush of performing to large crowds.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q130",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes \u201ctakes it one day at a time,\u201d the generated answer adds numerous unverified specifics and extra claims beyond the gold fact, violating the strict criteria.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q131",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions \u201cstruggles people experience,\u201d it adds unverified specifics (e.g., \u201che said,\u201d \u201crecent struggles,\u201d \u201cdig deeper to capture those feelings\u201d) not in the gold answer, violating the no-fabrication rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q132",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer introduces inspiration from others\u2019 struggles and digging deeper, which does not match the gold answer\u2019s specific phrasing that he uses music to express himself and work through his own emotions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q133",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer adds unverified specifics (age, neighbor\u2019s garage, car show with dad) and doesn\u2019t strictly match the exact reason \u201cfascinated with how machines work,\u201d so it deviates from the gold fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same specific fact\u2014paying extra attention to detail\u2014as the toughest part, matching the gold answer exactly in meaning without adding conflicting specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer restates the same fact as the gold answer with only a minor wording variation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q136",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds an unverified detail (\u201cto a collector\u201d) and does not explicitly state the timing as \u201cLast year,\u201d failing to match the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q138",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer includes \u201cdream come true\u201d but omits \u201cUnreal\u201d and adds unverified details, so it does not exactly match the gold facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly conveys the same realization\u2014that music is his passion and purpose\u2014as stated in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same exact date as the gold answer, only in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q140",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (hard work, dedication) and omits 'motivating,' matching only 'fulfilling' but not the full gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Boston') with no discrepancies or extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q142",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the core event (a small party for his new album at his Japanese house), it adds unverified specifics (a date, \u201clistening\u201d detail, family/friends), which violates the strict no-fabrication rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cCar modifications\u201d is synonymous with \u201cCar mods,\u201d conveying the exact same fact about the blog\u2019s topic without adding or changing details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q144",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer adds the unverified detail that he \u201cstarted\u201d the blog, whereas the gold only states that his way is through a blog on car mods.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q145",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the unverified specificity 'live' to 'concerts,' so it does not exactly match the gold items despite otherwise similar content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Classic rock') with no discrepancies or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q148",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer changes \u201chis car\u201d to \u201ca car\u201d and adds unverified detail (\u201cdetailed\u201d), so it does not exactly match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q149",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it includes the core fact that the blog inspires others to start DIY projects, it adds unverified specifics about reader volume and feedback, so it is not an exact match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q15",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the calming/relaxing reason, it adds unverified specifics (weekend walks, meeting friends, photography), so it does not match the gold answer exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating the same specific person invited.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q152",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it names the correct item, it adds an unverified purchase date (\u201cNovember 2023\u201d), which introduces a specific not in the gold answer and thus fails the exact-match requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold exactly, listing nature and the specific elements\u2014sunsets, beaches, and waves\u2014without adding or altering details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q154",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds an unsupported date (\u201cNovember 16, 2023\u201d), introducing a fabricated specific beyond the gold answer of just \u201cFancy gala.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q155",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer introduces extra topics (\u201cfavorite artists\u201d and \u201cthe power of music to connect people\u201d) beyond the exact gold items of \u201cMusic and art,\u201d so it does not exactly match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q156",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches 'nearby park,' it adds an unverified detail ('at a serene spot he found there'), which violates the requirement to avoid added specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q157",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches that nature helps him appreciate life, it adds the unverified detail 'feels like a breath of fresh air,' which is a fabricated specific under the strict criteria.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'July 2023' with identical date and wording.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies Friday, June 16, 2023, which exactly matches the gold answer's 'the Friday before 21 June, 2023.'",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2' exactly matches the gold answer's count of 'two times'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q19",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits car museum and Shibuya crossing from the gold list and adds unverified specifics and extra events, so it does not match all required facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q2",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific date and location not in the gold and does not exactly match the gold\u2019s relative timeframe (\u201con the weekend before March 26, 2023\u201d).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q20",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies 'His Dad' correctly, it adds unverified specifics (car show at age ten, garage work), which violates the strict criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q21",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it agrees that Calvin wants to grow his fanbase, it adds extra specific claims and dates not in the gold, violating the strict exact-match requirement.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it answers 'Yes' like the gold, it adds unverified specifics and a date not in the gold answer, violating the no-fabrication rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q23",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified details (\u201cworking on cars\u201d and \u201crestoring classic cars\u201d) beyond the exact gold fact of \u201cauto engineering,\u201d so it does not match strictly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q24",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the gold's 'yes', it adds unverified specifics (shop ownership, engine swaps, Mustang restoration) not in the gold, violating the strict criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The Friday before August 22, 2023 is August 18, 2023, which exactly matches the generated answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same date as the gold answer, only differing in format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Miami' for the city visited in August 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q28",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (red sports car, parks, relaxation room, watching videos) beyond the gold facts, so it does not exactly match even though some items overlap.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q29",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It misses hiking, adds unverified specifics to items like walks, albums, and concerts, and introduces extra hobbies not in the gold list, so it does not exactly match.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q3",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions Aerosmith and omits The Fireworks, failing to list all bands from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q30",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions classic rock and omits Japanese music, failing to cover all required items exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly identifies San Francisco, it adds unverified specifics (workshop and a September 1 return date) not in the gold answer, violating the strict criteria.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer location ('San Francisco') with no discrepancies.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date September 1, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q35",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives a vague, specific date ('around August 26, 2023') that does not exactly match the gold's time window ('last week of August 2023') and includes hedging.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it answers 'Yes' like the gold, it adds unverified specifics (Boston, Tokyo, Frank Ocean, dates), which violates the rule against extra fabricated details.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date September 14, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q39",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it selects Dodge Charger correctly, it introduces unverified specifics about Dave\u2019s car history, violating the no-fabrication rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('United States') with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, listing the same two artists with no differences or additions.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same entity\u2014dad\u2014as the gold answer without adding conflicting details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer \u201cno\u201d exactly matches the gold answer \u201cNo,\u201d stating they did not have such a meeting.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Boston') with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date of October 3, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q45",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is only \u201cWorking on cars,\u201d but the generated answer lists multiple additional activities and adds unverified specifics, so it does not match exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q46",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (\u201cclassic cars\u201d) and broadens to \u201cworking on cars,\u201d so it does not exactly match the gold fact \u201cRestoring cars.\u201d",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q48",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions a car show, it adds unverified specifics (date Oct 6, working on mods, and a vintage Mustang photo) not in the gold answer, so it does not strictly match the exact facts.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions tinkering with engines and refurbishing/restoring cars, it adds unverified specifics (\u201cone summer\u201d and \u201can old car\u201d), violating the no-fabricated-details rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q5",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unrelated and fabricated details (achieved status, engineering, music, performers), and omits the exact \u201cfrom scratch\u201d detail while expanding others, so it does not match the gold facts exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q50",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and specifies October 8, 2023, which is outside the first week of October 2023 stated in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q51",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although the date matches (August 2022), the answer adds unverifiable specifics about a Tokyo music festival, violating the no-fabrication rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q52",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The date matches (November 2023), but the answer adds an unverified detail (\u201cafter his tour ends\u201d), which violates the strict criteria.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q53",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes 'friends and team,' it adds unverified specifics about 'Dave' and a flood, which go beyond the gold answer's facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date, stating October 24, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer spells \u201cSan Francisco\u201d differently from the gold answer\u2019s \u201cSan Francsico,\u201d so it does not exactly match the specified entities.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer 'photography' exactly in content, differing only in capitalization.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q58",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response adds unverified specifics (e.g., age 10, \u201cfirst\u201d car show, and \u201ccountless hours\u201d in dad\u2019s garage) beyond the gold facts, which violates the strict exact-match criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the count (\u201ctwo\u201d), it adds unverified specifics (models and acquisition dates) not in the gold answer, violating the no-fabrication rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q6",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response adds unverified specifics and shifts the category to 'classic muscle cars' rather than exactly matching 'classic vintage cars.'",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q60",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mismatches the gold chain as a necklace with a diamond and fails to identify the custom-made guitar with an octopus (calling it a generic custom piece), adding unverified details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q63",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer merges the two distinct guitars into one and adds unverified details (purple-glowing, Japanese artist), failing to state a yellow octopus guitar and a shiny purple guitar exactly as in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q64",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits the celebration of the opening of his car maintenance shop and adds unverified dates/details, so it does not exactly match the full gold list.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q65",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives 'October 29, 2023' and adds extra specifics, which does not exactly match the gold 'September 2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q66",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it answers 'No,' it adds unverified specifics (e.g., a vintage Mustang and a 2022 red Mustang), which are not in the gold and violate the strict criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q68",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Gold says 'last week of October 2023', while the generated answer gives a hedged specific date 'Around October 26, 2023,' which does not exactly match the required timeframe/wording.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('November 2023') with identical date details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date (November 16, 2023) with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q71",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches 'a few months,' it adds an unverified start date ('April 2023'), so it does not exactly match the gold facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating the same band, Aerosmith.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q73",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the extra detail \"Japan,\" which is not in the gold answer and violates the exact-match requirement for entities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys both required points\u2014stay true to himself and keep/sound unique\u2014matching the gold answer without adding or omitting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same fact as the gold answer\u2014that Dave\u2019s new business venture is a car maintenance shop\u2014without conflicting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly restates that he works on all kinds of cars, doing regular maintenance and full restorations of classic cars.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s item and details with no deviations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same specific fact as the gold answer, that the necklace reminds Calvin why he keeps hustling as a musician.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q79",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (music, concerts, albums) instead of the gold\u2019s general \u201cimmerse himself in something he loves,\u201d so it does not match exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q8",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is approximate and gives a different date (around May 9, 2023) instead of the exact gold date (May 1, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q80",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unmentioned specifics (calming walks in Boston\u2019s parks) and omits the \u201chave some fun\u201d part, so it doesn\u2019t exactly match the gold facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold facts by stating he saved his music equipment (music gear) and his favorite microphone.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q82",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics ('his own' and 'maintenance') not stated in the gold answer, so it does not exactly match 'a car shop.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q83",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (\u201cespecially cars\u201d and extra description) beyond the gold\u2019s plain \u201cFixing up things,\u201d so it does not exactly match the stated fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q84",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states 'Performing live,' it adds unverified specifics about crowd energy and festivals, violating the no-fabricated-specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q85",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response adds unverified specifics ('taking relaxing walks in nature', 'often around Boston') beyond the gold fact 'exploring parks', so it does not exactly match the required facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Skiing') with no extra or missing details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q87",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes \u201cget back on the road,\u201d it adds unverified specifics (\u201cdrive again\u201d and \u201ccruise confidently\u201d), which violates the strict requirement to match only the gold facts exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating they arranged regular walks together, with no deviations or extra specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q89",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions experimenting across genres, it adds unverified specifics about electronic elements and style, which go beyond the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q9",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer introduces unverified flood details and states 'the week of May 9, 2023' instead of the exact 'a week before 16 May, 2023,' so it does not strictly match the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Ferrari') with no discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q92",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer focuses on touring, connecting with audiences, and making an impact, which does not explicitly match \u201cexpand his brand worldwide and grow his fanbase\u201d and fails to cover both required items exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q93",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds different advice (pursue passion, push forward, focus on goals) rather than the exact advice \u201cto never forget his dreams,\u201d so it does not match the gold answer precisely.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q94",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the unverified qualifier 'professional' and does not match the gold fact exactly ('Car mod workshop').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q95",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes engine swaps, suspension modifications, and body modifications, it adds unverified specifics (engine rebuilding and a classic muscle car twist), so it does not match the gold facts exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly conveys that attention to small details is what makes his custom cars unique, matching the gold answer\u2019s fact without conflicting specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q98",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer captures that everyone sang along but omits the gold fact that the audience was \u201cso into it,\u201d and adds an unsupported flourish, so it doesn\u2019t fully match the required facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q99",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer adds unverified specifics (\u201cin August 2022\u201d and \u201cwhere they instantly clicked\u201d) beyond the gold fact, so it does not exactly match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q1",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although the items match, the generated answer adds unverified specifics (dates, color, \u201caround\u201d) not in the gold answer, violating the exact-match/no-fabrication rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q109",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions Boston\u2019s music scene and meeting Dave, which does not match the gold answer of exploring and growing his brand.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q113",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says Calvin enjoyed reflecting on life, which does not match the gold answer of feeling the wind blowing through his hair.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q124",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies working on and restoring cars, which adds unverified specifics and does not exactly match the gold answer of 'fixing things.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q137",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives a specific 2023 car purchase event, which contradicts the gold answer\u2019s \u201cat an early age\u201d timing and adds unsupported specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q147",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not state 'writing lyrics and notes' and instead lists multiple unrelated items, failing to match the gold facts exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q151",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says Calvin took up restoring cars, but the gold answer is Photography, so the facts do not match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q33",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says \u201ccar restoration workshop\u201d and adds a date, which do not match the gold\u2019s \u201ccar modification workshop\u201d and introduce unverified specifics.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 3, but the gold answer is two, so the numbers do not match exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q54",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions a notebook, which does not match the gold answer\u2019s specifics of staying up-to-date on world events and watching documentaries about artists.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q61",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not state the exact duration \u201cnearly two months\u201d specified by the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer claims the workshop lasted one day with a specific date, which conflicts with the gold answer stating it lasted two weeks.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only says Japan and mentions a mansion, failing to specify Tokyo exactly and adding unverified details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer contradicts the gold answer by stating 'No' instead of 'Yes'.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q90",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not match the gold answer\u2019s specific description ('gives them a fresh vibe') and introduces different concepts ('self-discovery and growth').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q96",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes 'classic muscle car,' it adds an unverified specific ('a silver Corvette') not in the gold answer, violating the strict match rule.",
+  "category": "single-hop"
+ }
+]

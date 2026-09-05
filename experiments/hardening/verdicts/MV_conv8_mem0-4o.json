@@ -1,0 +1,1094 @@
+[
+ {
+  "qid": "conv8_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the car as a Prius, matching the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions his new Prius, which is one of the items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Evan prefers a camping trip in the outdoors, matching the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same item Evan was searching for.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same class Sam is taking.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'grilled salmon' and 'vegetables', which matches the gold answer's 'grilled dish with salmon and vegetables'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Vegetable-based recipes' captures the core idea of the gold answer 'recipes with more vegetables'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same type of painting classes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is a paraphrase of the gold answer, capturing the same concept of observing nature and painting it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes skiing, which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the injury as a twisted knee, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies swimming as the activity Evan is doing to stay active.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both suggestions from the gold answer: low-impact exercises and physical therapy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct item 'painting' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all items from the gold answer, matching the core recommendations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying watercolor painting as the activity Evan does.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'creative writing', which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the issue as the malfunctioning navigation app on the new phone.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date within the acceptable range of a few days before May 24, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the advice to work with a trainer, which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Lake Tahoe as the location where Sam and his mate planned to try kayaking.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the digestive issue as gastritis, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct item 'helping lost tourists' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q124",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the key concept of 'gaining strength,' which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer: changing diet and starting regular walks.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, identifying the same gift.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct item that Evan lost his job due to company downsizing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the phrase 'happy place,' which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same reason for Evan's frustration as the gold answer, focusing on his reliance on the Prius for an active lifestyle and road trips.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is within 14 days of the gold answer, which is acceptable according to the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea of viewing the setback as an opportunity to explore other ways of staying active and traveling.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying yoga as the suggestion for stress relief and flexibility.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'yoga tips' which matches 'tips' from the gold answer, fulfilling the partial credit rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Evan's partner is pregnant, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, indicating the same family event.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that worth is not defined by weight, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same person who helped Evan.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, indicating the same activity and time of day.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by suggesting putting a GPS sensor on the keys.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ginger snap cookies (gingersnaps)' is a paraphrase of the gold answer 'Ginger snaps', capturing the same concept.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core emotion of joy, which is part of the gold answer's sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea of embracing the creative process without restraint, aligning with the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions Evan's recent marriage, which aligns with the gold answer of getting married.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Both answers describe a photo related to a hiking scene, capturing the core concept of an outdoor experience.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions sharing cookie recipes, which matches the gold answer's concept of sharing recipes for cookies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Evan and his partner shared their marriage with their extended family.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, indicating the same dietary limitation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the sports activity as snowshoeing, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'diet' and 'exercise' advice, which matches the core concepts of the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'candy' and 'soda', which are the items listed in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all items from the gold answer, with additional detail about beach walks.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q151",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same movie.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q152",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying yoga as the activity that helped Evan with stress and flexibility.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions a kayak, which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q154",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct item 'drunken night' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q155",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the word 'peaceful,' which matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the malfunctioning self-checkout machines as the issue.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is within 14 days of the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'flavored seltzer water' and 'high-cocoa dark chocolate', which are both in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes advice on making small, consistent changes, managing stress with activities like hiking and painting, and emphasizes the importance of friendship and support, aligning with the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both the Canadian Rockies and Jasper National Park, which match the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the essence of Evan's description of the woman as incredible, like something out of a movie, and making him feel alive, which aligns with the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer indicates Evan met his future wife before August 12, 2023, which is within 14 days of the gold answer's 'week before August 7, 2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, providing the same date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, indicating the correct year Evan started taking care of his health seriously.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all the key motivations from the gold answer: family, fitness tracker, and a thirst for adventure through hiking.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'fitness tracker,' which matches the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'journaling' and 'creative writing', which match the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that Evan met a woman he fell in love with and returned with her, using different wording.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Evan has owned two Prius, matching the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is within one day of the gold answer, which is within the 14-day tolerance for dates.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea of viewing challenges as opportunities for growth and change by describing Evan and Sam's proactive and sustainable approaches to managing stress and challenges.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Evan frequently misplaces his keys about once a week, matching the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of flying over a cityscape by mentioning flying over skyscrapers.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both the soccer game injury and the bike fall, matching the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date that falls within the 14-day tolerance window of the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'grilled chicken and veggie stir-fry,' which matches an item from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes salads, grilled chicken and vegetable stir-fries, and smoothie bowls, which are all items from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that nature and outdoor activities are significant stress relievers and sources of joy for Evan and Sam, contributing positively to their mental well-being.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q39",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not match the gold answer's duration, as it states over 4 months instead of 3 months.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same hobby.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer indicates Evan started painting classes a few days before he mentioned it, aligning with the gold answer's timeframe of a few days before 19 August, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies 'watercolor painting classes,' which is a type of painting class, thus matching the core concept of the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the key elements of the gold answer: a friend gifting a painting and giving advice, which inspired Evan.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'landscapes' and 'nature scenes', which align with 'nature landscapes' from the gold answer, and mentions 'abstract pieces', which aligns with 'abstract minimalism'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes Banff, which is part of the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes painting and writing as creative outlets for Evan and Sam, which matches the gold answer's mention of these activities as therapeutic tools.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, indicating the correct recall of the date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions healthier eating and regular exercise, which align with the gold answer's 'healthy eating' and 'exercise routine'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes Evan's son, which is one of the correct items from the gold answer's list.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the country Evan was visiting as Canada, matching the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple correct items from the gold answer, such as painting, hiking, reading, biking, skiing, snowboarding, ice skating, swimming, camping, and kayaking.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes Sam enrolling in a cooking class and seeking support from friends like Evan, which matches the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct activity, painting, which matches the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date that falls within 14 days of the gold answer's timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'heart palpitations,' which matches one of the items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes helping lost tourists, which is a correct item from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the malfunctioning navigation app on Sam's new phone as the problem.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the same state, California, as the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date within the same month and year as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer in both number and meaning.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same activity.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, indicating the same type of stress.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both Sam's gastritis diagnosis and Evan's heart palpitation incident, which are key items from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Last weekend' is within the 14-day tolerance of 'weekend before 17 October, 2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same ailment.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Evan lives close to a beach, matching the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct month, which is within the 14-day tolerance for dates.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly in terms of the date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct activity of attending a Weight Watchers meeting on December 4, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both significant life events: the partner's pregnancy and their marriage, matching the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes painting and kayaking, which are correct items from the gold answer's list.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the duration as about four months, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the Christmas holiday season, which matches the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies hiking as the activity Sam resumed.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'next summer' refers to the same time frame as 'summer 2024', capturing the correct timing for the family reunion.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is within 14 days of the gold answer, meeting the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, providing the same date for Evan's announcement.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q76",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer's date is outside the 14-day tolerance window from the gold answer's date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions a honeymoon in Canada and snowshoeing, which are both part of the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'his work friends' which matches 'his friends from work' from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, indicating the same date for the honeymoon.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same hobby.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Watercolor painting is a form of drawing, which is listed as a stress reliever for Evan.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same type of car.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the friend's influence, which matches the gold answer's 'friend's advice'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying watercolor painting as the stress-buster activity Evan started.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea of trying new things until finding something exciting, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions Jasper, which is the correct location from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all the key elements from the gold answer: fresh air, peacefulness, and a cozy cabin surrounded by mountains and forests.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct items 'soda' and 'candy' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies a date within the 14-day tolerance of the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both suggestions of flavored seltzer water and high-cocoa dark chocolate, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both flavored seltzer water and high-cocoa dark chocolate, which match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the issue of broken self-checkout machines, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same novel.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the same type of water.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both key elements of the gold answer: tracking progress and serving as a reminder to keep going.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the key concepts of 'strength and resilience' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'progress' as more important than perfection, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly by suggesting a dream interpretation book.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q104",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer contains none of the items from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q106",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention 'forest scene' or any related concept, thus it contains zero correct items from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q108",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention sunsets over the ocean, which is the specific type of landscape Evan loves painting.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q11",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention a weight problem, which is the key health issue in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q116",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include any correct items from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Yoga' does not include the correct item 'lifting weights' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q141",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include the concept of trying new things, which is the key idea in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q20",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include any items from the gold answer's list, focusing instead on a different type of gift related to hydration rather than cooking or meal delivery.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q24",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention falling in love with a Canadian woman, which is the key event in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer indicates that Sam's checkups are infrequent and irregular, which does not match the regular schedule of every three months in the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention the date October 14, 2023, or any date within 14 days of it.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q80",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a date that is exactly one year off, which does not fall within the 14-day tolerance window for dates.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q82",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include any of the stress relievers listed in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q97",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention motivation or perseverance, which are key elements of the gold answer.",
+  "category": "single-hop"
+ }
+]

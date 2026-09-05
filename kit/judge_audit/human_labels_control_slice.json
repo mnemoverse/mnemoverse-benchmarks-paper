@@ -1,0 +1,291 @@
+{
+ "_note": "Blind human adjudication of all 57 lenient/strict judge disagreements on the control slice (conv-26, 143 scored answers; see paper S4). Annotator = the author (conflict disclosed in the paper); labeling was blind to machine verdicts. Fields: qid (matches kit/data/rejudge_q8_20260531T201308Z.json per_question), category, human_verdict in {CORRECT, WRONG, AMBIGUOUS}. Per-case free-text notes are retained by the author and summarized in the paper.",
+ "_date": "2026-07-02",
+ "labels": [
+  {
+   "qid": 2,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 4,
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 12,
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 13,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 14,
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 15,
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 18,
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 20,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 21,
+   "category": "multi_hop",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": 22,
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 25,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 29,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 30,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 32,
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 35,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 36,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 37,
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 38,
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 41,
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 42,
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 43,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 44,
+   "category": "open_domain",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": 46,
+   "category": "temporal",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": 49,
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 50,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 51,
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 52,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 54,
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 57,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 59,
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 60,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 61,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 62,
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 64,
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 70,
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 73,
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 81,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 88,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 90,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 93,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 96,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 100,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 102,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 106,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 110,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 114,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 116,
+   "category": "single_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": 125,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 127,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 132,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 133,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 134,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 136,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 137,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 138,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 140,
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": 141,
+   "category": "single_hop",
+   "human_verdict": "AMBIGUOUS"
+  }
+ ]
+}

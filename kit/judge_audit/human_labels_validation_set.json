@@ -1,0 +1,276 @@
+{
+ "_note": "Blind human adjudication of the OUT-OF-SAMPLE validation set: 54 answers sampled (seeded, stratified 6/conv) from Mem0 published Platform answers, conversations 1-9 (never used in judge calibration). Annotator = the author, blind to all machine verdicts (golden verdicts were computed BEFORE labeling and held back). Fields: qid (cN_q<orig>), category, human_verdict.",
+ "_date": "2026-07-04",
+ "labels": [
+  {
+   "qid": "c9_qconv9_q72",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c8_qconv8_q98",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c7_qconv7_q7",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c6_qconv6_q6",
+   "category": "open-domain",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": "c6_qconv6_q94",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c9_qconv9_q82",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c6_qconv6_q51",
+   "category": "multi-hop",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": "c5_qconv5_q97",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c4_qconv4_q176",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c7_qconv7_q68",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c8_qconv8_q130",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c2_qconv2_q35",
+   "category": "multi-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c5_qconv5_q34",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c5_qconv5_q30",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c3_qconv3_q50",
+   "category": "multi-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c1_qconv1_q24",
+   "category": "multi-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c4_qconv4_q109",
+   "category": "single-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c8_qconv8_q44",
+   "category": "multi-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c1_qconv1_q20",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c3_qconv3_q140",
+   "category": "single-hop",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": "c5_qconv5_q62",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c4_qconv4_q150",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c7_qconv7_q31",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c3_qconv3_q154",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c1_qconv1_q49",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c8_qconv8_q77",
+   "category": "multi-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c7_qconv7_q93",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c2_qconv2_q38",
+   "category": "temporal",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": "c4_qconv4_q4",
+   "category": "multi-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c6_qconv6_q48",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c4_qconv4_q6",
+   "category": "temporal",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": "c3_qconv3_q70",
+   "category": "multi-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c7_qconv7_q73",
+   "category": "multi-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c4_qconv4_q90",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c9_qconv9_q48",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c2_qconv2_q141",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c2_qconv2_q144",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c5_qconv5_q61",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c1_qconv1_q23",
+   "category": "multi-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c1_qconv1_q71",
+   "category": "single-hop",
+   "human_verdict": "WRONG"
+  },
+  {
+   "qid": "c7_qconv7_q78",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c1_qconv1_q33",
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c6_qconv6_q110",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c3_qconv3_q164",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c5_qconv5_q68",
+   "category": "single-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c9_qconv9_q125",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c9_qconv9_q152",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c2_qconv2_q99",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c6_qconv6_q106",
+   "category": "single-hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c9_qconv9_q110",
+   "category": "single-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c3_qconv3_q114",
+   "category": "single-hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "qid": "c2_qconv2_q34",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c8_qconv8_q47",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "qid": "c8_qconv8_q36",
+   "category": "multi-hop",
+   "human_verdict": "AMBIGUOUS"
+  }
+ ]
+}

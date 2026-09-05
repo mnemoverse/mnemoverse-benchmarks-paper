@@ -1,0 +1,12 @@
+# Deploy gated — explicit maintainer approval required (public surface).
+name = "answer-grading-submit"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+
+# wrangler kv namespace create LABELS  → paste the id below
+[[kv_namespaces]]
+binding = "LABELS"
+id = "REPLACE_ME"
+
+# wrangler secret put SUBMIT_KEY  (any long random string; also goes into the
+# tool's SUBMIT_URL as ?k=...)

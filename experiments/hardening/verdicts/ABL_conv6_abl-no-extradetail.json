@@ -1,0 +1,1052 @@
+[
+ {
+  "qid": "conv6_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('bowling').",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "April 5, 2022 falls within the first week of April 2022 and matches within the allowed date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating that no interview is required.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states he relaxed by reading, which matches the gold answer without introducing conflicting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer in both activity and context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (\u201cExtreme sports\u201d), satisfying the requirement for at least one correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Vancouver').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q105",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct date 'July 20', it adds the unsupported specific year '2022', introducing unverifiable detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly (Chess).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states he left to focus on pursuits aligned with his values and passions, matching the gold answer\u2019s core reason.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q108",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions Fortnite competitions but adds unverifiable extra details about strategy and RPG tournaments, which violates the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer correctly states that the puppy had a routine exam and was vaccinated, matching the gold items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by naming both strategy and RPG games as the genres John started exploring.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('The Witcher 3'), so it includes a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer ('Samantha') exactly, so it includes a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q114",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct intent to call her, it adds unverifiable specifics (exact date and asking her out), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct item\u2014John is organizing a gaming night with his siblings\u2014matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('dark beer'), so it includes a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q117",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite mentioning balancing mechanics and ensuring fairness, it adds multiple specific, unverifiable details (exact dates, bugs, football simulator) not supported by the gold answer, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer repeats the gold answer (coding), with \u201cprogramming\u201d as an acceptable paraphrase, so it matches exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q119",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold items ('basic games and stories'), so it includes all correct items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q12",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it answers that James did not have a girlfriend in April 2022, it adds unverifiable specifics (April 6 incident, meeting Samantha in August/September), violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer (Sennheiser).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q121",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold fact is that both enjoy lager beer, but the generated answer claims she likes lager while he prefers stout, failing to match the shared item and adding conflicting detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold amount ($10) and 'per session' aligns with 'per class.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Dough'), fulfilling the requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q124",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It states the correct reason but adds an unverifiable detail about not liking cooking, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies an omelette, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q127",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct sources (books, movies, dreams), it adds unverifiable fabricated specifics (e.g., The Witcher 3 and childhood sketches), violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer matches the gold by describing a dream about a medieval castle with puzzles and traps, which is the core detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (electronic and rock music).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold year (2021).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('guitar'), so it contains a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('drums'), indicating correct recall.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q132",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states the correct milestone (making his first mobile game), it adds unverified specifics about the game's content and October launch, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q133",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly states '2D adventure,' it adds unsupported specifics ('puzzles and exploration'), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q134",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It mentions watching tutorials and following developer forums (correct) but adds unsupported specifics about a magazine and a book, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q135",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It names the correct role (programming mentor for game developers) but adds unverifiable specifics like 'volunteer' and specific duties, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact emotions \u201cexcited and inspired\u201d from the gold answer, satisfying the requirement to match at least one item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer correctly identifies the genre as role-playing games (RPGs), matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer names The Witcher 3 as the inspiration, matching the gold answer (paraphrase acceptable).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly cites Super Mario and The Legend of Zelda as the spark, matching the gold items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states he lost progress in a video game, which matches the gold answer of a game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly lists all three games from the gold answer without adding unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold purpose\u2014raising money for a children\u2019s hospital\u2014with only a synonymous clarification.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold decision to move in together.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases the gold answer (\u201cnear\u201d vs. \u201cnot far from\u201d) without adding unverifiable details, matching the same location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It captures the core motive that they chose the apartment due to their love of McGee\u2019s bar, aligning with enjoying time there together.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('FIFA 23'), so it is correct.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Luna').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer specifies March 29, 2022, which falls within March 2022 and thus matches the gold month.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'UNO', satisfying the recall.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches all four items from the gold list with only minor wording differences (articles and noting they are series), which are acceptable paraphrases.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q19",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions that dogs brought James joy (matching the gold), the response adds multiple unverifiable specifics (exact start date, dog names, gaming-as-therapy, \u201clove at first sight,\u201d a \u201cJohn\u201d quote), violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q2",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions McGee\u2019s and a VR session (paraphrasing VR Club), it adds unsupported specific dates, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2' matches the gold answer 'two' in meaning.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it names the correct beneficiaries (animal shelter, homeless, children\u2019s hospital), it adds fabricated and unverifiable specifics (dates, games, leftover funds), violating Rule 3.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer's month and year exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q24",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions the football simulator and a Witcher 3\u2013inspired virtual world, it adds several unsupported game projects not in the gold, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q25",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite correctly stating that James supports Liverpool and John supports Manchester City (so the answer is No), it adds fabricated, unverifiable specifics like a dated bet and a discussion, violating the no-unverified-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes four of the five correct countries (Italy, Mexico, Turkey, Greenland), which satisfies the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists a cooking class and a game development/design course, which match the gold items (cooking classes and game design course).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q28",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite correctly stating May 2022, the answer adds unverified specifics about a 'donation center,' violating the no extra detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date July 11, 2022 that matches the gold answer, only adding an unnecessary time-of-day detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q3",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite matching the gold answer\u2019s \u201cNo,\u201d it adds unverifiable specifics (dog names and future plans), violating the no unverified extra detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('Canada').",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer location.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same two countries\u2014Canada and Greenland\u2014as in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item ('Greenland').",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It includes the correct date but adds an unsupported contradiction that it was James, not John, violating the no-unverified-extra-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q38",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions he landed his dream job and left his IT job (matching the gold), but it adds unsupported specifics (exact dates and a three-year tenure), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q39",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite mentioning 2019, it adds unverified specifics (exact month and departure details), violating the no-unverified-extra-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer pinpoints late February 2022, which matches the gold answer\u2019s February 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple matching tricks from the gold list (sit, stay, paw, rollover, and catching frisbees).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q41",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although the date matches the gold answer, the response adds unverified specifics (beach outing with dogs and exchanging numbers), violating the no-unverified-extra-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the date as September 2022, matching the gold answer, so it contains a correct item.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it captures the beer-over-coffee reason, it adds unverifiable specifics (e.g., James suggesting Starbucks), which violates the no extra detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions 'stout,' which matches one item from the gold list, satisfying partial credit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date (August 27, 2022).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the exact date in the gold answer, only adding the weekday without altering the fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite listing the correct items (Sennheiser headphones, Logitech mouse, gaming desk), it introduces unverifiable specifics (purchase dates and additional devices), violating the no extra detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly names John's favorite game as CS:GO, satisfying at least one gold item despite the mistake about James.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It contains at least one correct item from the gold list\u2014the futuristic dystopian game (as Cyberpunk 2077) and Dungeons of the Dragons (as Dungeons of the Dragon)\u2014so it qualifies for partial credit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Saying \u201ca few months before September 2022 (mid\u20112022)\u201d aligns with \u201capproximately summer of 2022,\u201d referring to the same timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q54",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite naming the correct event types (online programming competition and programming seminar), it adds unsupported specifics like dates, friends, and turnout, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 6, 2022 falls within the last week before October 13, 2022, satisfying the date tolerance and matching the timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It mentions the correct item 'mother' but adds an unsupported specific visit date, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same four games as the gold answer (CS:GO, Fortnite, Overwatch, Apex Legends), with CS:GO correctly expanded to its full name.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer restates the gold answer\u2019s key points\u2014moving in together and renting an apartment near McGee\u2019s bar\u2014without adding unsupported details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer introduces unverifiable specific dates and added detail not in the gold answer, violating the no-extra-detail rule even though the duration is close.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date of November 4, 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q64",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It matches the duration (\u201cabout four months\u201d) but introduces specific dates not in the gold answer, adding unverifiable details and violating Rule 3.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold dates exactly (November 5\u20136, 2022) without adding unverifiable details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches both languages in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by identifying a dog walking and pet care app, capturing the core concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by stating users can enter each dog\u2019s preferences and care needs to personalize the app.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('Connecticut').",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item 'bottle caps'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold item, stating he offered to help John find the perfect pet.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Drums').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer semantically matches the gold answer, stating about one month.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by giving the full name and acronym of the same game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('Apex Legends').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It explicitly mentions voice chat, matching the gold answer, so it includes a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q78",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions a puppy (matching \u201ca pup\u201d) but adds unverifiable specifics (from a shelter and named \u201cNed\u201d), which violates Rule 3.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, naming the pup as Ned.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q8",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it correctly states three dogs, it adds unverified pet names, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q80",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it states the correct reason (amazed by her eyes and appearance), it adds unsupported specifics (exact date, not approaching her, Witcher-inspired game), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It aligns on being inspired by a woman seen during a walk, but adds unverifiable specifics (dog-walking, exact date, eye details), which violates the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer (Italy).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches both gold items\u2014technologically advanced megacities (megacities/advanced technology) and tasty street food\u2014so it includes correct content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q84",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It identifies a coding assignment but adds unverifiable specifics about improving a new algorithm, violating the no-unverified-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Labrador'), so it contains a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer (pepperoni), so it includes a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by identifying Hawaiian as the favorite pizza type.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q88",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions a CS:GO tournament, it adds an unsupported 'charity' detail not in the gold answer, violating the no unverifiable extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly paraphrases the gold answer by stating they used leftover funds to buy groceries and cook meals for homeless people.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same three dog names (Ned, Daisy, Max) as the gold answer, just in a different order.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q90",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it mentions raising money for a dog shelter, it adds the unverifiable detail that it was near John\u2019s street, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q91",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions tracking inventory, resources, and donations, it adds unsupported specifics (smartphone-based, replacing paper logs, generating reports), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer correctly identifies a smartphone application that generated analysis reports, matching the gold answer even with extra specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches both items\u2014money as a cash prize and a trophy\u2014using acceptable paraphrases.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by identifying a football simulator project focused on collecting player databases.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating Liverpool (same entity), thus containing the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, naming Manchester City.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys that they disagree over which team will come out on top, matching the gold idea of debating which team will perform better in the championship.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold fact that Max is good at catching frisbees in mid-air.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly paraphrases the gold answer, conveying the same core focus of providing essential items to the less fortunate.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q0",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer cites stress and burnout rather than obesity, providing no overlap with the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q11",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated emotion 'Excited' does not match the gold state 'seeking solitude,' showing no semantic overlap.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q112",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It cites monster-hunting instead of the gold aspect of shaping the world through choices, so there is no overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q147",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response is generic and omits the specific items\u2014gamepad control and timing\u2014so none of the gold answer\u2019s elements appear.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q148",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold fact is an online board game, but the generated answer describes a physical wooden board-game project with unverifiable specifics and contradicts the 'online' aspect, so it does not include the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q17",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 'Mafia', but the generated answer 'Among Us' is a different game, so there is no match with the required item.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 9 days (with dates) which does not match the gold answer of 19 days, and there is no overlap with the correct item.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q33",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer directly contradicts the gold answer (\u201cYes\u201d) by saying \u201cNo,\u201d providing zero correct items from the gold list.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer never identifies Jill as John\u2019s partner and instead adds unsupported details, so it contains no correct item from the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q53",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer claims it took 8 days with specific dates, which conflicts with the gold duration of six months and includes unsupported details, so it contains no correct items.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (May 7, 2022) does not match the gold date (night of October 30\u201331, 2022) and is far outside the 14-day tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q6",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer says James likely lives in Connecticut, but the generated answer says he does not and adds unverified specifics, so it contains no correct item.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q77",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention the advice about not putting ego above team success and instead adds unrelated, unverifiable details, so it contains no correct items from the gold answer.",
+  "category": "single-hop"
+ }
+]

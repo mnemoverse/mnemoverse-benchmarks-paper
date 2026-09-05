@@ -1,0 +1,1451 @@
+{
+  "annotator": "NS",
+  "set": "cases",
+  "exported": "2026-07-14T14:54:07.168Z",
+  "instructions_ack": {
+    "version": "v2-2026-07-05",
+    "ts": 1784038240355
+  },
+  "labels": [
+    {
+      "id": "q001",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038288133,
+      "first_ts": 1784038288133
+    },
+    {
+      "id": "q002",
+      "category": "open-domain",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038315133,
+      "first_ts": 1784038315133
+    },
+    {
+      "id": "q003",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038323793,
+      "first_ts": 1784038323793
+    },
+    {
+      "id": "q004",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038339061,
+      "first_ts": 1784038339061
+    },
+    {
+      "id": "q005",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038345220,
+      "first_ts": 1784038345220
+    },
+    {
+      "id": "q006",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038353053,
+      "first_ts": 1784038353053
+    },
+    {
+      "id": "q007",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038357095,
+      "first_ts": 1784038357095
+    },
+    {
+      "id": "q008",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038368644,
+      "first_ts": 1784038368644
+    },
+    {
+      "id": "q009",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038376455,
+      "first_ts": 1784038376455
+    },
+    {
+      "id": "q010",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038385954,
+      "first_ts": 1784038385954
+    },
+    {
+      "id": "q011",
+      "category": "multi-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038411739,
+      "first_ts": 1784038402339
+    },
+    {
+      "id": "q012",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038418774,
+      "first_ts": 1784038418774
+    },
+    {
+      "id": "q013",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038424158,
+      "first_ts": 1784038424158
+    },
+    {
+      "id": "q014",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038438890,
+      "first_ts": 1784038438890
+    },
+    {
+      "id": "q015",
+      "category": "single-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038475753,
+      "first_ts": 1784038475753
+    },
+    {
+      "id": "q016",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038487844,
+      "first_ts": 1784038487844
+    },
+    {
+      "id": "q017",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038490860,
+      "first_ts": 1784038490860
+    },
+    {
+      "id": "q018",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038495762,
+      "first_ts": 1784038495762
+    },
+    {
+      "id": "q019",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038513488,
+      "first_ts": 1784038513488
+    },
+    {
+      "id": "q020",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038519113,
+      "first_ts": 1784038519113
+    },
+    {
+      "id": "q021",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038531090,
+      "first_ts": 1784038531090
+    },
+    {
+      "id": "q022",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038570015,
+      "first_ts": 1784038570015
+    },
+    {
+      "id": "q023",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038590768,
+      "first_ts": 1784038590768
+    },
+    {
+      "id": "q024",
+      "category": "multi-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038603484,
+      "first_ts": 1784038603484
+    },
+    {
+      "id": "q025",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038747835,
+      "first_ts": 1784038747835
+    },
+    {
+      "id": "q026",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038754043,
+      "first_ts": 1784038754043
+    },
+    {
+      "id": "q027",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038760461,
+      "first_ts": 1784038760461
+    },
+    {
+      "id": "q028",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038771910,
+      "first_ts": 1784038771910
+    },
+    {
+      "id": "q029",
+      "category": "open-domain",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038802739,
+      "first_ts": 1784038802739
+    },
+    {
+      "id": "q030",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038812397,
+      "first_ts": 1784038812397
+    },
+    {
+      "id": "q031",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038816640,
+      "first_ts": 1784038816640
+    },
+    {
+      "id": "q032",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038834340,
+      "first_ts": 1784038834340
+    },
+    {
+      "id": "q033",
+      "category": "open-domain",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784038846182,
+      "first_ts": 1784038846182
+    },
+    {
+      "id": "q034",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038851150,
+      "first_ts": 1784038851150
+    },
+    {
+      "id": "q035",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038854866,
+      "first_ts": 1784038854866
+    },
+    {
+      "id": "q036",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038859891,
+      "first_ts": 1784038859891
+    },
+    {
+      "id": "q037",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038863684,
+      "first_ts": 1784038863684
+    },
+    {
+      "id": "q038",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038872168,
+      "first_ts": 1784038872168
+    },
+    {
+      "id": "q039",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038876027,
+      "first_ts": 1784038876027
+    },
+    {
+      "id": "q040",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784038898252,
+      "first_ts": 1784038898252
+    },
+    {
+      "id": "q041",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038909162,
+      "first_ts": 1784038909162
+    },
+    {
+      "id": "q042",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784038919471,
+      "first_ts": 1784038919471
+    },
+    {
+      "id": "q043",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039189952,
+      "first_ts": 1784039189952
+    },
+    {
+      "id": "q044",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039210179,
+      "first_ts": 1784039210179
+    },
+    {
+      "id": "q045",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039216730,
+      "first_ts": 1784039216730
+    },
+    {
+      "id": "q046",
+      "category": "open-domain",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784039223955,
+      "first_ts": 1784039223955
+    },
+    {
+      "id": "q047",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039231914,
+      "first_ts": 1784039231914
+    },
+    {
+      "id": "q048",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039239339,
+      "first_ts": 1784039239339
+    },
+    {
+      "id": "q049",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039244380,
+      "first_ts": 1784039244380
+    },
+    {
+      "id": "q050",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039251962,
+      "first_ts": 1784039251962
+    },
+    {
+      "id": "q051",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039255607,
+      "first_ts": 1784039255607
+    },
+    {
+      "id": "q052",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039261133,
+      "first_ts": 1784039261133
+    },
+    {
+      "id": "q053",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039265749,
+      "first_ts": 1784039265749
+    },
+    {
+      "id": "q054",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039271381,
+      "first_ts": 1784039271381
+    },
+    {
+      "id": "q055",
+      "category": "temporal",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784039282833,
+      "first_ts": 1784039282833
+    },
+    {
+      "id": "q056",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039287816,
+      "first_ts": 1784039287816
+    },
+    {
+      "id": "q057",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039293127,
+      "first_ts": 1784039293127
+    },
+    {
+      "id": "q058",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039305268,
+      "first_ts": 1784039305268
+    },
+    {
+      "id": "q059",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039319867,
+      "first_ts": 1784039319867
+    },
+    {
+      "id": "q060",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039324027,
+      "first_ts": 1784039324027
+    },
+    {
+      "id": "q061",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039328185,
+      "first_ts": 1784039328185
+    },
+    {
+      "id": "q062",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039370782,
+      "first_ts": 1784039370782
+    },
+    {
+      "id": "q063",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039383131,
+      "first_ts": 1784039383131
+    },
+    {
+      "id": "q064",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039391049,
+      "first_ts": 1784039391049
+    },
+    {
+      "id": "q065",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039394899,
+      "first_ts": 1784039394899
+    },
+    {
+      "id": "q066",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039401789,
+      "first_ts": 1784039401789
+    },
+    {
+      "id": "q067",
+      "category": "temporal",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784039412716,
+      "first_ts": 1784039412716
+    },
+    {
+      "id": "q068",
+      "category": "multi-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039421359,
+      "first_ts": 1784039421359
+    },
+    {
+      "id": "q069",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039427575,
+      "first_ts": 1784039427575
+    },
+    {
+      "id": "q070",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039433751,
+      "first_ts": 1784039433751
+    },
+    {
+      "id": "q071",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039437102,
+      "first_ts": 1784039437102
+    },
+    {
+      "id": "q072",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039452827,
+      "first_ts": 1784039452827
+    },
+    {
+      "id": "q073",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039466360,
+      "first_ts": 1784039466360
+    },
+    {
+      "id": "q074",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039488512,
+      "first_ts": 1784039488512
+    },
+    {
+      "id": "q075",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039523039,
+      "first_ts": 1784039523039
+    },
+    {
+      "id": "q076",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039551674,
+      "first_ts": 1784039551674
+    },
+    {
+      "id": "q077",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039555999,
+      "first_ts": 1784039555999
+    },
+    {
+      "id": "q078",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039561186,
+      "first_ts": 1784039561186
+    },
+    {
+      "id": "q079",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039567277,
+      "first_ts": 1784039567277
+    },
+    {
+      "id": "q080",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039571242,
+      "first_ts": 1784039571242
+    },
+    {
+      "id": "q081",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039575100,
+      "first_ts": 1784039575100
+    },
+    {
+      "id": "q082",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039582643,
+      "first_ts": 1784039582643
+    },
+    {
+      "id": "q083",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039587876,
+      "first_ts": 1784039587876
+    },
+    {
+      "id": "q084",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039593002,
+      "first_ts": 1784039593002
+    },
+    {
+      "id": "q085",
+      "category": "temporal",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784039609569,
+      "first_ts": 1784039609569
+    },
+    {
+      "id": "q086",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039616953,
+      "first_ts": 1784039616953
+    },
+    {
+      "id": "q087",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039625221,
+      "first_ts": 1784039625221
+    },
+    {
+      "id": "q088",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039628312,
+      "first_ts": 1784039628312
+    },
+    {
+      "id": "q089",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039632879,
+      "first_ts": 1784039632879
+    },
+    {
+      "id": "q090",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039637105,
+      "first_ts": 1784039637105
+    },
+    {
+      "id": "q091",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039640863,
+      "first_ts": 1784039640863
+    },
+    {
+      "id": "q092",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039646413,
+      "first_ts": 1784039646413
+    },
+    {
+      "id": "q093",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039652730,
+      "first_ts": 1784039652730
+    },
+    {
+      "id": "q094",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039655714,
+      "first_ts": 1784039655714
+    },
+    {
+      "id": "q095",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039665798,
+      "first_ts": 1784039665798
+    },
+    {
+      "id": "q096",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039687673,
+      "first_ts": 1784039687673
+    },
+    {
+      "id": "q097",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039690166,
+      "first_ts": 1784039690166
+    },
+    {
+      "id": "q098",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039693591,
+      "first_ts": 1784039693591
+    },
+    {
+      "id": "q099",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039709459,
+      "first_ts": 1784039709459
+    },
+    {
+      "id": "q100",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039720743,
+      "first_ts": 1784039720743
+    },
+    {
+      "id": "q101",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039731660,
+      "first_ts": 1784039731660
+    },
+    {
+      "id": "q102",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039738844,
+      "first_ts": 1784039738844
+    },
+    {
+      "id": "q103",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039742870,
+      "first_ts": 1784039742870
+    },
+    {
+      "id": "q104",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039753920,
+      "first_ts": 1784039753920
+    },
+    {
+      "id": "q105",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039761279,
+      "first_ts": 1784039761279
+    },
+    {
+      "id": "q106",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039767188,
+      "first_ts": 1784039767188
+    },
+    {
+      "id": "q107",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039772513,
+      "first_ts": 1784039772513
+    },
+    {
+      "id": "q108",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039781197,
+      "first_ts": 1784039781197
+    },
+    {
+      "id": "q109",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039783812,
+      "first_ts": 1784039783812
+    },
+    {
+      "id": "q110",
+      "category": "temporal",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784039792847,
+      "first_ts": 1784039792847
+    },
+    {
+      "id": "q111",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039804106,
+      "first_ts": 1784039793348
+    },
+    {
+      "id": "q112",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039809598,
+      "first_ts": 1784039809598
+    },
+    {
+      "id": "q113",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039820267,
+      "first_ts": 1784039820267
+    },
+    {
+      "id": "q114",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039823808,
+      "first_ts": 1784039823808
+    },
+    {
+      "id": "q115",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039828984,
+      "first_ts": 1784039828984
+    },
+    {
+      "id": "q116",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039840110,
+      "first_ts": 1784039840110
+    },
+    {
+      "id": "q117",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039846701,
+      "first_ts": 1784039846701
+    },
+    {
+      "id": "q118",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039853925,
+      "first_ts": 1784039853925
+    },
+    {
+      "id": "q119",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039863593,
+      "first_ts": 1784039863593
+    },
+    {
+      "id": "q120",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039879734,
+      "first_ts": 1784039879734
+    },
+    {
+      "id": "q121",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039883295,
+      "first_ts": 1784039883295
+    },
+    {
+      "id": "q122",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039892536,
+      "first_ts": 1784039892536
+    },
+    {
+      "id": "q123",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039919621,
+      "first_ts": 1784039919621
+    },
+    {
+      "id": "q124",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039931496,
+      "first_ts": 1784039931496
+    },
+    {
+      "id": "q125",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039951832,
+      "first_ts": 1784039951832
+    },
+    {
+      "id": "q126",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039961564,
+      "first_ts": 1784039961564
+    },
+    {
+      "id": "q127",
+      "category": "multi-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039966567,
+      "first_ts": 1784039966567
+    },
+    {
+      "id": "q128",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784039969357,
+      "first_ts": 1784039969357
+    },
+    {
+      "id": "q129",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039976601,
+      "first_ts": 1784039976601
+    },
+    {
+      "id": "q130",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039979301,
+      "first_ts": 1784039979301
+    },
+    {
+      "id": "q131",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039985517,
+      "first_ts": 1784039985517
+    },
+    {
+      "id": "q132",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039987849,
+      "first_ts": 1784039987849
+    },
+    {
+      "id": "q133",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039993943,
+      "first_ts": 1784039993943
+    },
+    {
+      "id": "q134",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784039997710,
+      "first_ts": 1784039997710
+    },
+    {
+      "id": "q135",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040004469,
+      "first_ts": 1784040004469
+    },
+    {
+      "id": "q136",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040007979,
+      "first_ts": 1784040007979
+    },
+    {
+      "id": "q137",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784040012327,
+      "first_ts": 1784040012327
+    },
+    {
+      "id": "q138",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040015052,
+      "first_ts": 1784040015052
+    },
+    {
+      "id": "q139",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784040022219,
+      "first_ts": 1784040022219
+    },
+    {
+      "id": "q140",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784040027910,
+      "first_ts": 1784040027910
+    },
+    {
+      "id": "q141",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040033930,
+      "first_ts": 1784040033930
+    },
+    {
+      "id": "q142",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040380271,
+      "first_ts": 1784040380271
+    },
+    {
+      "id": "q143",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040398801,
+      "first_ts": 1784040398801
+    },
+    {
+      "id": "q144",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040401683,
+      "first_ts": 1784040401683
+    },
+    {
+      "id": "q145",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040418594,
+      "first_ts": 1784040418594
+    },
+    {
+      "id": "q146",
+      "category": "temporal",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784040427785,
+      "first_ts": 1784040427785
+    },
+    {
+      "id": "q147",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040443387,
+      "first_ts": 1784040443387
+    },
+    {
+      "id": "q148",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040450037,
+      "first_ts": 1784040450037
+    },
+    {
+      "id": "q149",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040619221,
+      "first_ts": 1784040619221
+    },
+    {
+      "id": "q150",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040658383,
+      "first_ts": 1784040658383
+    },
+    {
+      "id": "q151",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040661130,
+      "first_ts": 1784040661130
+    },
+    {
+      "id": "q152",
+      "category": "single-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784040668624,
+      "first_ts": 1784040668624
+    },
+    {
+      "id": "q153",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040687192,
+      "first_ts": 1784040687192
+    },
+    {
+      "id": "q154",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040692043,
+      "first_ts": 1784040692043
+    },
+    {
+      "id": "q155",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040694261,
+      "first_ts": 1784040694261
+    },
+    {
+      "id": "q156",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040696051,
+      "first_ts": 1784040696051
+    },
+    {
+      "id": "q157",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040699402,
+      "first_ts": 1784040699401
+    },
+    {
+      "id": "q158",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040701510,
+      "first_ts": 1784040701510
+    },
+    {
+      "id": "q159",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040702902,
+      "first_ts": 1784040702902
+    },
+    {
+      "id": "q160",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040704702,
+      "first_ts": 1784040704702
+    },
+    {
+      "id": "q161",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040712418,
+      "first_ts": 1784040712418
+    },
+    {
+      "id": "q162",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040715552,
+      "first_ts": 1784040715552
+    },
+    {
+      "id": "q163",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784040756230,
+      "first_ts": 1784040756230
+    },
+    {
+      "id": "q164",
+      "category": "multi-hop",
+      "verdict": "AMBIGUOUS",
+      "note": "",
+      "ts": 1784040760314,
+      "first_ts": 1784040760314
+    },
+    {
+      "id": "q165",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040764947,
+      "first_ts": 1784040764947
+    },
+    {
+      "id": "q166",
+      "category": "open-domain",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040767789,
+      "first_ts": 1784040767789
+    },
+    {
+      "id": "q167",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040770314,
+      "first_ts": 1784040770314
+    },
+    {
+      "id": "q168",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040778198,
+      "first_ts": 1784040778198
+    },
+    {
+      "id": "q169",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040785339,
+      "first_ts": 1784040785339
+    },
+    {
+      "id": "q170",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040791697,
+      "first_ts": 1784040791697
+    },
+    {
+      "id": "q171",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040795464,
+      "first_ts": 1784040795464
+    },
+    {
+      "id": "q172",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040800856,
+      "first_ts": 1784040800856
+    },
+    {
+      "id": "q173",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040808067,
+      "first_ts": 1784040808067
+    },
+    {
+      "id": "q174",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040811608,
+      "first_ts": 1784040811608
+    },
+    {
+      "id": "q175",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040814033,
+      "first_ts": 1784040814033
+    },
+    {
+      "id": "q176",
+      "category": "single-hop",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784040816234,
+      "first_ts": 1784040816234
+    },
+    {
+      "id": "q177",
+      "category": "single-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040823350,
+      "first_ts": 1784040823350
+    },
+    {
+      "id": "q178",
+      "category": "open-domain",
+      "verdict": "WRONG",
+      "note": "",
+      "ts": 1784040836402,
+      "first_ts": 1784040836402
+    },
+    {
+      "id": "q179",
+      "category": "multi-hop",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040840718,
+      "first_ts": 1784040840718
+    },
+    {
+      "id": "q180",
+      "category": "temporal",
+      "verdict": "CORRECT",
+      "note": "",
+      "ts": 1784040842285,
+      "first_ts": 1784040842285
+    }
+  ]
+}

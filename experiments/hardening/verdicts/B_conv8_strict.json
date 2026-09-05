@@ -1,0 +1,1094 @@
+[
+ {
+  "qid": "conv8_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold fact by stating that Evan drives a Prius.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q1",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions his new Prius and omits his old Prius, failing to cover both items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q10",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it selects \u201ca camping trip in the outdoors,\u201d it adds multiple unverified specifics (e.g., Rockies, Jasper/Banff, kayaking), which violates the no-fabrication rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('his keys') with no discrepancies or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same fact as the gold answer\u2014'cooking class'\u2014with no added or altered details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q102",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specificity by stating the vegetables were roasted and explicitly making the salmon grilled, whereas the gold only says a grilled dish with salmon and vegetables.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q103",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits the comparative \u201cmore\u201d and changes the nuance from \u201crecipes with more vegetables\u201d to \u201cvegetable-based recipes,\u201d which is not an exact match to the gold answer\u2019s fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (\u201cwatercolor painting classes\u201d) with no deviations or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same concept as the gold answer\u2014observing nature and painting what is seen\u2014with only a minor wording change that preserves exact meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q109",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions skiing, it adds an unverified location (\u201cBanff National Park\u201d) not in the gold answer, violating the exact-match/no-fabrication rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q110",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly states a twisted knee, it adds an unverified specific date not in the gold answer, violating the no-extra-specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q111",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states 'Swimming' correctly, it adds the unverified detail 'taking it low\u2011key,' which violates the no-fabricated-specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q112",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the low-impact exercises and physical therapy suggestions, it adds the unmentioned detail \u201cwhile his knee healed,\u201d violating the no-fabricated-specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q113",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches 'Painting,' it adds unverified details about supplies and planning a session not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same four items\u2014acrylic paints, brushes, canvas/paper, and a palette\u2014matching the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Watercolor painting') with no deviations or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q117",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds 'Journaling' which is not in the gold answer, so it does not match the exact fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q118",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the malfunctioning navigation app on the new phone, it adds an unverified detail (\u201cmaking it hard for her to get around\u201d), which violates the strict no-extra-specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q12",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold says \u201ca few days before May 24, 2023,\u201d but the generated answer gives a specific date (May 21, 2023) and extra details, which do not exactly match the gold phrasing and constraints.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q120",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is only 'Find a trainer,' but the generated answer adds extra advice and details beyond that, so it does not exactly match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Lake Tahoe').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q122",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it correctly states 'Gastritis', it adds unverified specifics (severe stomachache and a diagnosis) not in the gold answer, violating the strict criteria.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly states 'helping lost tourists,' matching the gold answer\u2019s fact without contradicting it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q124",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states he was gaining strength, it adds an unverified date not in the gold answer, violating the strict criteria.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q125",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the core actions (diet change and regular walking), it adds unverified specifics and a date (sugary snacks, fruits/vegetables, October 2021) not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer in year, model, and item (1968 Kustom K-200A vintage guitar).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q127",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (date, health issues, injuries, car trouble) beyond \u201clost job due to downsizing,\u201d so it does not exactly match the gold facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q128",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct phrase \u201chappy place,\u201d it adds unverified specifics about shaping him and holding a special place, which violates the strict criteria.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer restates exactly that Evan depended on the Prius for his active lifestyle and road trips, matching the gold answer fully.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q13",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer places the incident around May 30, 2023 (late May), not the first week of June 2023 as required by the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same idea as the gold answer\u2014viewing it as a chance to explore other ways of staying active and traveling\u2014without adding conflicting specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Yoga') with no discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same two items\u2014tips and support\u2014as the gold answer, matching the offered help precisely.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold fact that Evan shared his partner is pregnant, without adding conflicting specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating the same specific event, a big family reunion, with no deviations or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold motto text ('Bring it on Home') aside from quotation marks.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q136",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although the core idea matches, the generated answer introduces the pronoun 'her' (conflicting with the question\u2019s 'his')\u2014an unverified specific not in the gold answer\u2014so it fails the strict exactness requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (\u201ca close friend\u201d) with no deviations or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's content ('running in the mornings') with no deviations or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the exact same action\u2014put a GPS sensor on his keys\u2014as the gold answer, with no conflicting specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is exactly 'Ginger snaps,' while the generated answer adds 'cookies' and parenthetical text, so the entity does not match exactly as required.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q140",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions joy but omits the required feeling of freedom present in the gold answer, so it does not fully match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q142",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the core phrase, the generated answer adds unverified specifics (spontaneous strokes, bold colors, joy/freedom) not in the gold answer, violating the strict match requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q143",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer changes \u201cgetting married\u201d to already being recently married and adds \u201cto his partner,\u201d introducing specifics and a different status than the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q144",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions a woman on a mountain and lacks the specific details of a man standing on a rock looking out over a valley, so it does not match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q145",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds an unverified specific (\u201cginger snap\u201d) not in the gold answer, which only states sharing cookie recipes in general, so it does not match exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same fact\u2014sharing their marriage with their extended family\u2014matching the gold answer without adding conflicting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the exact item and quantity in the gold answer: two ginger snaps a day.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q148",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the activity (snowshoeing), it adds a specific weekend date not present in the gold answer, introducing unverified details beyond the exact fact required.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q149",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not specify a diet plan or low-impact exercises as required by the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the exact same items\u2014candy and soda\u2014as the gold answer, with only a generic parenthetical that doesn\u2019t add new facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q150",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it lists swimming, yoga, and walking, it adds the unverified specific 'beach walks,' which goes beyond the exact gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q151",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, including the movie title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q152",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Yoga') with no discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q153",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unsupported specifics (\u201cfront of a kayak on a calm lake at sunset\u201d) beyond the gold fact of simply \u201ca kayak,\u201d so it does not exactly match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q154",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the reason (\u201ca drunken night\u201d), it adds the unverified detail \u201cembarrassing,\u201d which violates the no-fabricated-specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q155",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the extra descriptor \u201cunforgettable\u201d beyond the gold answer\u2019s single term \u201cpeaceful,\u201d so it does not exactly match the stated fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold by identifying malfunctioning self-checkout machines as the recurring issue.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date 'Friday, July 21, 2023' is exactly the Friday before 27 July 2023, matching the gold answer precisely.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q18",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It matches only two items (seltzer water and high\u2011cocoa dark chocolate), omits the rest of the required suggestions, and adds an unlisted item (ginger snaps) plus vague advice.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q19",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions small, consistent changes and friendship/support and includes hiking and painting for stress relief but omits road trips and adds unverified specifics, so it does not exactly match the gold facts.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q2",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes Rockies and Jasper, it adds extra duplicate items and fabricated specifics (dates, activities, cabin, Icefields Parkway), which are not in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q21",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer omits that he calls her \u201ccool\u201d and that he feels really lucky to have someone who gets him, and it adds unverified details (she\u2019s Canadian, health issues), so it doesn\u2019t exactly match the gold facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague (\u201cbefore August 12\u201d) and adds unverified details, failing to match the specific timing \u201cweek before August 7, 2023.\u201d",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s date with identical wording and formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (2021) with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q26",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it includes the three correct motivators (family, fitness tracker, adventurous hikes), it adds unverified specifics (health scares with dates, enjoyment, symbolic item), so it does not strictly match the gold facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q27",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds an extra qualifier ('smartwatch') beyond the gold 'fitness tracker', so it does not exactly match the specified fact.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q28",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it lists the correct types (journaling and creative writing), it adds unverified specifics about motivational quotes and gratitude entries, which violates the strict criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q29",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (\u201cCanadian\u201d and \u201cnew significant other\u201d) not stated in the gold answer, so it does not exactly match the facts required.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q3",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it gives the correct number (\u201cTwo\u201d), it adds an unsupported detail about acquisition in May 2023, which is not in the gold answer and violates the no-fabrication rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q30",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and gives a different date (\u201caround August 12, 2023\u201d) that does not exactly match the gold answer of August 13, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response introduces fabricated specifics and does not explicitly state that they view challenges as opportunities for growth and change, so it fails to match the gold answer\u2019s exact facts.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold exactly by stating that Evan frequently misplaces his keys about once a week, aligning with 'every week.'",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q33",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer changes \u201ccityscape\u201d to the more specific \u201cskyscrapers,\u201d adding an unverified detail instead of matching the exact fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer adds unverified specifics like dates, injury details, and treatments not in the gold answer, which violates the requirement to match exactly without extra details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "August 12, 2023 is the Saturday before August 15, 2023, so the generated answer exactly matches the gold fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It omits poutine and replaces grilled vegetables with roasted vegetables, so it fails to match all gold items exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It omits grilled salmon and vegetables, Beef Merlot, and a fruit bowl, and adds unverified specifics (e.g., yogurt), so it fails to match the full gold list exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q38",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (dates, events, places) beyond the gold and thus fails the exact-match/no-fabrication requirement, despite being topically aligned.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q39",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer claims just over four months with specific dates, which contradicts the gold answer of three months.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same hobby (\u201cpainting\u201d) as the gold answer, matching the fact without adding or omitting details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q40",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and omits the specific reference date (19 August, 2023) required by the gold answer, so it does not state the same fact precisely.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q41",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specificity ('Watercolor') to the gold fact of 'painting classes,' so it does not match exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q42",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer adds an unverified detail (\u201cintroducing him to watercolor\u201d) not in the gold and thus does not exactly match the stated facts, despite agreeing on gift and advice.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics, fails to explicitly include portraits, and describes expressive abstract works rather than abstract minimalism, so it does not exactly match all gold items.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q45",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only lists Banff National Park and omits the Rocky Mountains, failing to cover both gold items exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q46",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions painting and writing for coping, the generated answer adds many unverified specifics (watercolor, exhibitions, sketching, planning sessions, health challenges) beyond the gold, so it does not strictly match the stated facts.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('July 2023') with correct date and no extra details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q48",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits running and hiking, adds unmentioned specifics (Weight Watchers, dates, coach role), and does not match the exact items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions only the son, omitting that Evan himself was also injured, so it does not fully match the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Canada').",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q50",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes all gold hobbies, it adds unverified extras and specifics (e.g., snowshoeing, gym, yoga, music, photography, road\u2011tripping), violating the requirement to match exactly without added details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q51",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "WRONG because, although it mentions motivation, dietary changes, cooking classes, and support from Evan, it adds numerous fabricated specifics and dates not in the gold answer, violating the no-fabrication rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q52",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is simply 'painting', but the generated answer adds a specific date ('Saturday, September 16, 2023'), which is unverified and violates the exact-match requirement.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Saturday, September 16, 2023 is exactly the Saturday after September 11, 2023, matching the gold answer\u2019s specified time.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q54",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It includes heart palpitations but replaces two twisted ankle incidents with a twisted knee and adds extra unrelated events, failing to match the gold facts exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q55",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions helping lost tourists and impromptu tours, omitting the gold fact of experiencing unexpected adventures in the city, so it does not fully match the required details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer precisely restates that Sam\u2019s new phone\u2019s navigation app is malfunctioning, matching the gold answer without adding conflicting details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'California' with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q58",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds a specific date (\u201caround October 8, 2022\u201d) not in the gold and does not exactly match the gold\u2019s month/year-only fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the same number of roadtrips as the gold answer (two).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('kayaking') with no extra details or discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating 'work-related stress' with no deviations or added details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified dates and an extra weight-risk event for Sam, misgenders Sam, and includes specifics not in the gold, so it does not exactly match the required facts despite partial overlap.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q63",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says \u201cLast weekend\u201d and adds unverified details, which does not match the specific date \u201cweekend before 17 October, 2023.\u201d",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, identifying the ailment as gastritis.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q65",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies 'beach' correctly, it adds unverified specifics (photo date and activities), which violates the no-fabrication rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q66",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lacks the specific timing (\u201cend of\u201d) and therefore does not exactly match the gold answer \u201cend of October 2023.\u201d",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same month and year as the gold answer, matching the fact exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q68",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches that she attended a Weight Watchers meeting, it adds an unverified detail about learning tips, which violates the no-fabrication rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q69",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it names the same two events (pregnancy and marriage), it adds unverified specific dates not in the gold answer, violating the strict criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits hiking, cooking, and running, and incorrectly adds skiing, so it does not match the gold list exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q70",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer hedges with \u201cAbout four months\u201d and adds unverified specific dates, failing to exactly match the gold answer of \u201cfour months.\u201d",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states Christmas as the holiday season, matching the gold answer exactly without extra details.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q72",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it names the correct activity (hiking), it adds unverified specifics (mountain-top, with friends, Dec 29, 2023) not in the gold answer, so it fails the strict criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states \u201csummer 2024,\u201d matching the gold answer exactly without adding conflicting details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives Tuesday, December 12, 2023, which does not match the gold answer's Thursday before December 17, 2023 (i.e., December 14, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date (January 5, 2024).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q76",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies a different reference date (December 26, 2023) than the gold answer (December 17, 2023), so the stated fact does not match exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q77",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It omits the family get\u2011together, skiing, and snowy landscapes, and adds unverified specifics (poutine and Jan 13\u201314, 2024), so it doesn\u2019t fully match the gold facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q78",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It omits Sam, replaces 'his and his wife's families' with 'extended family,' and adds an unverified date, so it does not match the gold facts exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date (February 2024) with no discrepancies or added details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Watercolor painting' with no deviations or added details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer gives \u201cWatercolor painting,\u201d which is not exactly \u201cdrawing\u201d and does not cover all listed stress relievers from the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'a new Prius,' which matches the gold answer 'new Prius' exactly in type and specificity.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q84",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (gifted a painting, introduction, immediate hook) beyond the gold fact of \u201cfriend\u2019s advice,\u201d so it does not exactly match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('watercolor painting') with no deviations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same advice\u2014keep trying different things until something sparks excitement\u2014matching the gold answer's content without altering facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q87",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics (\u201cJasper National Park\u201d and \u201cIcefields Parkway\u201d) beyond the exact gold answer \u201cJasper,\u201d so it does not match precisely.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It reproduces all the gold details\u2014fresh air, peacefulness, and a cozy cabin surrounded by mountains and forests\u2014without contradicting them.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q89",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies reducing soda and candy, it adds unverified specifics about swapping to seltzer and dark chocolate that are not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The weekend before May 24, 2023 is May 20\u201321, 2023, so the generated answer exactly matches the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold suggestions: flavored seltzer water for soda and high-cocoa dark chocolate for candy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold items\u2014flavored seltzer water and high-cocoa dark chocolate\u2014without adding or changing facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q92",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the unverified quantifier \u201cAll,\u201d exceeding the gold fact of merely \u201cbroken self-checkout machines,\u201d thus failing the exact-match requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('The Great Gatsby').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (\u201cFlavored seltzer water\u201d) with no discrepancies or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q95",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds the unverified specificity of \u201cfitness\u201d to \u201cprogress,\u201d which the gold answer does not state, violating the strict requirement against added specifics even though the rest matches.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q96",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states 'strength and resilience,' it adds an unverified detail about motivation, which is not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating 'progress' as more important than perfection without introducing discrepancies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('dream interpretation book') with no deviations or added details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q104",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer names grilled chicken and a vegetable stir-fry, which does not match the gold answer\u2019s bowl of spinach, avocado, and strawberries.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q106",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Watercolor painting' does not match the gold answer 'forest scene' and changes the subject from the specific scene to a medium.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q108",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not match the specific gold answer 'sunsets over the ocean,' failing to state the same fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q11",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer cites an ER visit for gastritis, which does not match the gold answer\u2019s specific health issue of a weight problem.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q116",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says \u201cA sunset painting,\u201d which does not match the gold answer \u201ca cactus in the desert.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Yoga' does not match the gold answer 'lifting weights' for the activity Evan started one year ago.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q141",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 'Keep believing in love,' which does not match the gold answer 'Keep trying new things,' so it fails the exact fact requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv8_q20",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer suggests a sparkling water maker, which does not match the gold answer\u2019s specified gifts of a healthy cookbook or a healthy meal delivery subscription.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q24",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes starting a diet and exercise routine on a specific date, which does not match the gold fact that he fell in love with a Canadian woman.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer claims Sam\u2019s checkups are irregular and lists dates, which contradicts the gold answer stating they occur every three months.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv8_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a vague situational timing rather than the exact date October 14, 2023 required by the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q80",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives January 9, 2024, which does not match the gold answer of January 9, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv8_q82",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions a beach trip, which does not match the gold list (unhealthy snacks, sweets, yoga, places with beautiful views) and omits the required items.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv8_q97",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer cites calming nature and mindfulness benefits, which do not match the gold reason that the bonsai motivates him to keep going through tough times.",
+  "category": "single-hop"
+ }
+]

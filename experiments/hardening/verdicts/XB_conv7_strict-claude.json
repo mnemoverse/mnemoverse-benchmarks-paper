@@ -1,0 +1,1339 @@
+[
+ {
+  "qid": "conv7_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'electrical engineering project' conveys the same fact as the gold answer 'electricity engineering project' \u2014 both refer to the same type of engineering project, with only minor wording variation that does not change the meaning.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q1",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies mother and father but fails to mention Karlie (a named friend in the gold answer) and instead references an unnamed male friend, making it incomplete and partially incorrect.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '1993' matches the gold answer 'in 1993' exactly in terms of the factual content (the year), with only a trivial difference in phrasing.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states exactly the same fact as the gold answer: that Jolene finished an electrical engineering project.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the robotics project and provides additional accurate context about building/programming a robot for her engineering professor, which aligns with the core fact in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer: they met during yoga in the park, with only minor stylistic differences in phrasing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q104",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds a specific game title ('The Walking Dead') that is not present in the gold answer, which only mentions 'play the console' without specifying which game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q105",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states the milestone was achieved in the week of January 28, 2023 and discussed on February 4, 2023, whereas the gold answer indicates the milestone itself was achieved on February 4, 2023, and the generated answer adds unverified details about 'getting it working' and 'delivering clean water' rather than 'design and build.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sapiens' matches the gold answer '\"Sapiens\"' exactly in substance, stating the same book title without any discrepancies in facts, dates, or entities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q107",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies 'heart-shaped necklace' which is a fabricated detail not present in the gold answer 'amulet,' and while it parenthetically mentions 'amulet,' the primary answer adds unverified specifics about the shape and type of object.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jolene gained a confidence boost from the mini retreat, which matches the gold answer exactly, despite including additional contextual details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Jolene came up with neat solutions for her engineering project, which matches the gold answer's core fact, though it includes additional details about her feelings and confidence that are not contradicted by the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Deborah is married (yes), which matches the gold answer exactly, and provides additional supporting context without contradicting the core fact.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer\u2014a volunteer program where engineers teach STEM to underprivileged kids\u2014with additional implementation details that are consistent with and expand upon rather than contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Jolene plans to invite engineers as guest speakers for workshops, which matches the gold answer's core fact, though it includes additional context about partnering with schools and community centers that, while plausible, goes beyond what is verified in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same two flowers (roses and dahlias) as the gold answer, with only minor grammatical difference (adding 'The').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Deborah spent time in the garden to find comfort after losing a friend, which matches the gold answer, though it adds unverified specific details about the date and types of flowers.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states they met in an engineering class in college, which matches the gold answer exactly, and the additional context about becoming friends and dating does not contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Lasagna' matches the gold answer 'lasagna' exactly (case-insensitive match for the same food item).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a notepad with a to-do list on a counter, while the gold answer specifies a desk with a notebook and computer monitor\u2014these are different scenes with different objects.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same date as the gold answer with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jolene asked Deb to help with time management, which matches the gold answer exactly, and the additional context about strategies and workload does not contradict or fabricate the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating the same method (The Eisenhower Matrix) without any discrepancies, additions, or omissions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q123",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states the wrong person (Deborah instead of Jolene), which is a factual error in entity identification despite capturing the core fact about mutual inspiration.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q124",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the gold answer elements (watching videos, getting a beginner's guide) and mentions 'gathering information' implicitly through 'studying,' but adds unverified specifics about booking lessons, inviting Deborah, and scheduling for October 2023 that are not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q125",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds fabricated specifics ('lavender-scented' and 'with a sprig of rosemary') that are not present in the gold answer, which only states 'candle'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'instrumental tracks with mellow melodies and rhythms' which matches the gold answer exactly, though it adds an extra detail about 'Savana' that wasn't required but doesn't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the exact same two musicians as the gold answer, with only a minor diacritical mark difference in \u00d3lafur that represents the same person.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sleep' matches the gold answer 'Sleep' exactly, stating the same album name for meditation and deep relaxation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'An art show' matches the gold answer 'an art show' exactly in stating the same fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q13",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the window spot in her mother's house, beach, and forest trail in a nearby park, but does not mention Bali which is explicitly listed in the gold answer, and adds many other locations not present in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly captures that Deborah feels like she's experiencing art shows with her mom (stated as 'they experience the art together'), which matches the gold answer's core fact about still experiencing it with her mom.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that time with snakes is described as 'valuable' and time with partner as 'relaxing,' matching the gold answer's two key descriptors, though it includes additional details not required by the question.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer\u2014that Jolene enjoys playing video games with her partner after a long day\u2014with only minor elaborative phrasing that does not contradict or change the factual content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer (interning at a well-known engineering firm) and adds contextual detail about applying school knowledge to real-world projects, which is supplementary rather than contradictory or fabricated in a way that changes the fundamental fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'comforted' which matches the gold answer, but also adds multiple other feelings (calm, happy, centered, grateful, fun) and specific details about outings that go beyond what was asked for, making it more than what the gold answer states.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Tree Pose' which matches the gold answer 'tree pose' exactly, with the Sanskrit name being additional but accurate information rather than a contradiction.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Deborah and Anna started a running group together, which matches the gold answer, though it adds a specific date not required by the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer accurately states that helping and pushing each other (mutual support among members) made it easy for Deborah to stay motivated, which matches the gold answer's core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q139",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the correct element 'fascinated by reptiles' but adds unverified specifics about loneliness, companionship, calming feelings, and connecting with nature, while missing the exact phrase 'felt like the perfect pet' from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all four hobbies from the gold answer (reading, traveling, art, cooking/baking) with only minor additional descriptive detail that doesn't contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'It Takes Two' matches the gold answer 'It takes two' exactly in content, with only a difference in capitalization which does not affect the factual accuracy of the game title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer accurately conveys the same fact as the gold answer: taking the cats out for runs in the park both morning and evening, with only minor stylistic differences that don't change the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same core fact as the gold answer\u2014that the experience demonstrated Jolene's love for her snake\u2014though it adds emotional details (relieved, gratitude) not present in the gold answer, but the essential meaning that it showed how much she loves her snake is preserved.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that exercise and nature are important/essential to Deborah, which matches the gold answer's core fact, though it adds extra context about peace, clarity, and sharing time with cats that may not be verified.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q144",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Jolene adopted Susie when feeling lonely, which matches the core fact, but omits the specific timeframe of 'two years ago' that is present in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies video games and spending time with her pet (Susie) as the activities, though it adds extra details about playing with her partner and mentions snakes/Seraphim which are not in the gold answer but don't contradict the core facts stated.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains all the key elements from the gold answer (gentle flow, breathing, grounding) with only minor additional context about balance and calm that doesn't contradict the core facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jolene designed notebooks, which matches the gold answer exactly, and the additional details about galaxy and circuitry elements are consistent with being inspired by space and engines.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A bullet journal' states the exact same fact as the gold answer 'bullet journal' with only a minor article difference that does not change the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating the same game title 'Animal Crossing: New Horizons' without any discrepancies, additions, or omissions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jolene has snakes as pets, and while it adds specific names not mentioned in the gold answer, it does not contradict the core fact that her pets are snakes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Zelda: Breath of the Wild' is the full name of the same game as the gold answer 'Zelda BOTW' (where BOTW is the standard abbreviation for Breath of the Wild), stating the exact same fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q151",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Video games' matches the gold answer 'video games' exactly in substance, stating the same fact with only a capitalization difference.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q152",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that the bench holds special memories of conversations with her mom, which matches the core fact in the gold answer, though it includes additional details about dreams, sunsets, and peace that may not be verified.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same facts as the gold answer ('dreams and life'), with only a minor grammatical difference ('Their' vs implicit subject) that does not change the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q154",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'peace and gratitude' which matches the gold answer exactly, with only the addition of descriptive words 'a deep sense of' that do not change the core facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q155",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the four required habits (yoga, meditation, walks, and mindfulness) but adds numerous additional details and practices not mentioned in the gold answer, which constitutes fabricated specifics that cannot be verified against the gold standard.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q156",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Savasana (corpse pose)' which matches the gold answer 'savasana (the corpse pose)' exactly in both the pose name and its description, with only minor formatting differences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q157",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Three years' states the exact same duration as the gold answer '3 years', just written in word form instead of numeric form.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q158",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Jolene presented at a virtual conference, which matches the gold answer exactly, and the additional context about positive feedback does not contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q159",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Jolene was 'thrilled and found it rewarding,' which conveys the same two emotional states as the gold answer 'thrilled and rewarded,' despite slightly different phrasing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both snake names (Susie and Seraphim) that match the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q160",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'A virtual conference' which matches the gold answer 'virtual conference' exactly in meaning and fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q161",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Helping others' matches the gold answer 'Helping others' exactly, stating the same fact without any deviation, fabrication, or omission.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q162",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions specific projects (renewable energy/solar power and clean water initiatives) that are not stated in the gold answer, which only mentions sustainable initiatives and innovative solutions for environmental issues in general terms without these specific examples.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q163",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Luna was adopted from an animal shelter, which conveys the same fact as the gold answer that Luna came from the shelter.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q164",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Eight years old' conveys the exact same fact as the gold answer '8 years old' (8 = eight), with no discrepancies in the stated age.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q165",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Yoga classes' which exactly matches the gold answer 'Yoga classes' with no discrepancies in facts, entities, or details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q166",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds unverified specifics ('surrounded by trees with lily pads') that are not in the gold answer, and while it mentions a tranquil pond, it does not match the exact phrasing 'a tranquil spot by a pond.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q167",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, stating the same two-part fact about nurturing herself and embracing fresh starts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q168",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer\u2014that the plant was a reminder to nurture herself and embrace fresh starts\u2014with only minor wording differences that preserve the meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q169",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Jolene has been focusing on her relationship with her partner, and the additional detail about beach trips is a specific elaboration rather than a contradiction or fabrication that changes the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2022' states the same fact as the gold answer 'in 2022' with the exact matching year.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q170",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Deborah's mom attended her yoga classes/sessions, which matches the gold answer's core fact of 'attended classes with her,' despite adding some emotional context about being supportive.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q171",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies 'Nintendo Wii' while the gold answer only states 'nintendo game console' without specifying which Nintendo console model, making this an unverified specific addition.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q173",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly identifies 'meditation' as the core fact but adds unverified specifics ('at a retreat near a lake') that are not present in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q175",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Phuket as the destination, and the additional detail about the meditation retreat, while extra information, does not contradict the gold answer's core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q176",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains the exact core elements from the gold answer (releasing expectations and judgments, savoring the present) and adds a clarifying phrase that is consistent with the main focus without contradicting it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q177",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains the exact fact from the gold answer ('experiencing a new level of joy and happiness') plus additional context that, while not contradicting the gold answer, goes beyond what was required.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'France' states the exact same fact as the gold answer 'In France' - both identify France as the country where Jolene bought snake Seraphim.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q180",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes reconnecting and listening to stories, but does not mention the specific activities stated in the gold answer: reminiscing and looking through photos.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q181",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states she got married on a beach, which matches the gold answer 'on the beach,' though it adds extra unverified details about it being special and related to surfing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q182",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'super relaxing atmosphere' and 'peace and joy' which are embellishments beyond the gold answer's simple 'peaceful atmosphere,' adding unverified specifics like 'super relaxing,' 'perfect way for her to take care of herself,' and 'joy.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q183",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains the key phrase 'little haven' and 'peace and rest' which matches the gold answer 'little haven for peace and rest,' though it adds extra elaboration that is not contradictory.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q184",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same core fact as the gold answer (a free gardening class for the community), with the additional detail about age inclusivity being a reasonable elaboration rather than a fabrication that contradicts the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q185",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes cooking but adds two unverified items (travel and art) that are not in the gold answer, making it partially correct with fabricated specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q186",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds fabricated specifics (smiley face decoration, single candle) that are not in the gold answer, and while it mentions pineapple cake, the gold answer specifies 'pineapple cakes' (plural), suggesting multiple cakes rather than one decorated cake.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q187",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states exactly the same fact as the gold answer: chocolate chip cookies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q188",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies surfing as the outdoor activity Jolene suggested doing together with Deborah, matching the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q189",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core activity of dancing mentioned in the gold answer, and 'dancing to the music with her friends' is semantically equivalent to 'dancing and bopping around' at a music festival with pals.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Twice' conveys the exact same fact as the gold answer 'two times' using a synonymous expression.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q190",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions 'Dancing' but omits 'bopping around,' which is part of the complete gold answer describing what Deborah found freeing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q2",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Around 2020' is a specific year that could fall within 'a few years before 2023,' but it adds unverified precision that the gold answer does not provide, and 'around 2020' could also mean 2019 or 2021, making it potentially inconsistent with the gold answer's timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q20",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only lists three games (Detroit, It Takes Two, Overcooked 2) while the gold answer requires five games including Walking Dead and Battlefield 1, making this incomplete coverage of a multi-part answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies Saturday, January 28, 2023, which is indeed the Saturday after January 27, 2023, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (January 31, 2023 is equivalent to 31 January, 2023), just formatted differently.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q24",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions two poses (Dancer Pose and Tree Pose) and omits Warrior II, which is required for a complete match, and it also adds unverified location details not present in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q25",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only identifies one of the two favorite books (Avalanche by Neal Stephenson) and fails to mention Sapiens, making it incomplete.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same book title and author as the gold answer, with only minor formatting differences in quotation marks that do not change the factual content.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Summer 2022' states the exact same timeframe as the gold answer 'in summer 2022' with only minor stylistic differences in capitalization and article usage.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Colombia' matches the gold answer 'Colombia' exactly, stating the same fact with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states February 8, 2023, which is indeed the Wednesday before February 9, 2023, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2022' states the exact same fact as the gold answer 'in 2022' regarding when Jolene's mother passed away.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (February 21, 2023 is equivalent to 21 February, 2023), just in a different date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Summer 2022' states the exact same timeframe as the gold answer 'in summer 2022' with only a minor stylistic difference in capitalization and the omission of 'in'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2022' states the exact same fact as the gold answer 'in 2022' with only a minor difference in phrasing that does not change the meaning.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Three years' states the exact same duration as the gold answer 'for three years' with no discrepancies in the numerical value or fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2020' matches the gold answer '2020' exactly with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (24 February, 2023 vs February 24, 2023), just with different formatting, which conveys the identical fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides a specific date (February 26, 2023) which is indeed the Sunday before March 2, 2023, matching the gold answer's description exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Friday, March 10, 2023, which is indeed the Friday before March 13, 2023, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies all four techniques from the gold answer (Pomodoro Technique with correct 25/5 timing, scheduler/to-do list, Eisenhower Matrix, and bullet journal) and accurately attributes them to Deborah and Jolene, though it adds some extra detail about implementation.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q4",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer correctly states the year 2010 as in the gold answer, but adds an unverified specific detail about the location being Paris, which constitutes fabricated information not present in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states that Deborah lives close to the beach, which matches the gold answer exactly.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies all three elements from the gold answer (candles, music, essential oils) as ways both Deborah and Jolene enhance their yoga practice, though it includes extensive additional details not required by the question.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both music pieces 'Savana' and 'Sleep' that Deborah listens to during her yoga practice, matching the gold answer exactly despite adding extra descriptive context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies a precise date (April 2, 2023) while the gold answer indicates a broader timeframe (first week of April, 2023), and the use of 'around' introduces uncertainty not present in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (April 9, 2023 is equivalent to 9 April, 2023), with only a formatting difference in date representation.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'May 2023' matches the gold answer 'May 2023' exactly with no discrepancies in date, format, or content.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q46",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'roughly three months' while the gold answer specifies 'four months' \u2014 this is a factual mismatch in duration.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'June 5, 2023' states the exact same date as the gold answer '5 June, 2023', just in a different format (month-day-year vs day-month-year).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Alaska' matches the gold answer 'Alaska' exactly, stating the same fact with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'About three years' states the exact same fact as the gold answer 'about 3 years' with only a trivial difference in number formatting (written vs. numeral).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'France' states the exact same fact as the gold answer 'In France' - both identify France as the country where Jolene's mother bought her the pendant.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2020' matches the gold answer '2020' exactly with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (June 24, 2023 is equivalent to 24 June, 2023), just in a different date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q52",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies 'late July 2023\u2014around July 25' which adds an unverified specific date (July 25), whereas the gold answer states 'last week of July 2023' without pinpointing a particular day.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q53",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer adds an unverified specific month ('Around August') that is not present in the gold answer, which only states '2021' without any month specification.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Susie as the pet adopted first, which matches the gold answer exactly, despite including additional unverified temporal details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Seraphim as the more recently adopted pet, which matches the gold answer exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'The week of August 9, 2023' refers to the same time period as 'week before 16 August, 2023' (which would be August 9-15, 2023), so the facts match.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (August 17, 2023 is equivalent to 17 August, 2023), with only a formatting difference in date representation.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q58",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions one game (Overcooked 2) while the gold answer requires three games (Zelda BOTW for Switch, Animal Crossing: New Horizons, and Overcooked 2), making this partial coverage which is marked as WRONG.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states they play video games together, while the gold answer specifies they play detective games together, spend time outdoors and explore nature\u2014these are completely different activities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that both have pendants from their mothers, which matches the gold answer, though it adds extra details about heart-shapes, timing, and symbolism that go beyond what was asked.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'The week of August 17\u201323, 2023' correctly identifies the week before August 24, 2023, which matches the gold answer 'a week before 24 August,2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both projects (renewable energy and clean water access for those with limited access) and matches the core facts of the gold answer, despite using slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Max is her mother's cat and Luna is from the shelter, matching both facts in the gold answer despite providing additional context about her mother's passing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same facts as the gold answer (Max is 8 years old and Luna is 5 years old), with only trivial differences in number formatting (written words vs. digits).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'Yes' which matches the gold answer, and the additional details about her cats, while extra information, do not contradict the core fact being tested.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Brazil' matches the gold answer 'Brazil' exactly, stating the same fact without any discrepancies, fabrications, or hedging.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer (29 August, 2023 = August 29, 2023), just formatted differently.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits 'visited an old temple' which is explicitly listed in the gold answer, making it incomplete despite covering the other activities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 2020 as the year, which matches the gold answer exactly, though it adds specific but unverified details about the date and location.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer confirms that both Deborah and Jolene have been to Rio de Janeiro, which matches the gold answer of 'yes', though it includes additional details not required by the question.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'France' matches the gold answer 'France' exactly, stating the same fact with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides specific details about the friend being deceased (missing him, losing a friend) that align with the gold answer's 'likely yes,' though it adds unverified specifics about dates and quotes that cannot be confirmed from the gold answer alone.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q71",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states September 1, 2023, which does not match the gold answer of last week of August 2023 (these are different time periods).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer (age 10), with only a minor stylistic difference ('10 years old' vs '10') that does not change the factual content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer confirms that Jolene taught herself (self-taught), which matches the gold answer of 'yes' with supporting detail that is consistent with the fact being verified.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions 'fresh pastries' but omits 'coffee,' which is part of the gold answer requiring both items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Exploding Kittens' matches the gold answer 'Exploding Kittens' exactly with no discrepancies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies Friday, September 15, 2023, which is indeed the Friday before September 17, 2023, making it factually equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Phuket as the location where Jolene and her partner found a cool diving spot, though it adds an extra detail about timing that wasn't required.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Phuket as the location where Jolene and her partner spent most of September 2023, and the additional detail about the meditation retreat, while extra information, does not contradict the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer confirms that Deborah has tried surfing, which matches the gold answer 'yes' exactly, and the additional context about discovering her love for surfing at the beach where she got married supports rather than contradicts this fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all four elements from the gold answer (yoga, old photos, roses and dahlias in a flower garden, and nature), though it also adds extra details not mentioned in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'No' which matches the gold answer, and the additional context about planning to surf does not contradict the fact that she has not tried surfing yet.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states they agreed on September 17, 2023, while the gold answer states they agreed in October 2023 \u2014 these are different months and the dates do not match.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q82",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes many locations not mentioned in the gold answer (living-room studio, care home, yoga retreat, specific details about Bali and marriage location) and while it mentions parks, beaches, and yoga studio correctly, it fails to specifically mention 'her mother's old home' as stated in the gold answer, instead referring to 'a yoga retreat near her mother's house' which is a different location.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies all three required activities from the gold answer: presenting work at virtual conference, attending workshops, and interning at firms, though it adds extra details not required to be marked wrong since the core facts match.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all four required elements from the gold answer (electrical engineering, robotics, sustainable water purifier, and aerial surveillance system), though it adds extra projects not mentioned in the gold answer, the core required facts are present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q85",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes yoga and running (matching the gold answer) but adds an unverified third activity (community gardening class) which constitutes fabricated specifics.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q86",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes the three required gifts (appreciation letter from community/yoga group, flower bouquet from friend, and motivational quote from friend) but adds extra unverified items (handwritten letter about shared journey and homemade vegan stir-fry) that are not in the gold answer, constituting fabricated specifics.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q87",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Indonesia and Brazil, but the gold answer specifies Thailand and Brazil \u2014 Indonesia does not match Thailand, so the facts are different.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q88",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes all required activities from the gold answer (running, surfing, gardening, organizing mindfulness/self-care workshops) plus biking is implicitly covered, and art shows are not explicitly mentioned, making it incomplete on that specific item.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv7_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both snake names (Susie and Seraphim) that match the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the exact same date as the gold answer with no discrepancies.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv7_q90",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions one of the two books (Avalanche by Neal Stephenson) and omits Sapiens, making it incomplete.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both 'Savana' and 'Sleep' as the music pieces Deborah listens to during yoga practice, matching the gold answer exactly despite adding extra descriptive context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all three games mentioned in the gold answer with equivalent naming (Zelda BOTW = The Legend of Zelda: Breath of the Wild, both specify Switch/Nintendo Switch), matching the required facts completely.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both projects (renewable energy development and supplying clean water to those with limited access) with the same core facts as the gold answer, despite minor wording differences and additional descriptive details that remain consistent with the gold answer's meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Luna is from a shelter and Max is her mother's cat, matching both facts from the gold answer despite including additional context about her mother's passing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states that Max is 8 years old and Luna is 5 years old, which matches the gold answer exactly with all names and ages correct.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q96",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions yoga classes, nature excursions, and caf\u00e9s, but omits the 'old temple' visit from the gold answer and adds unverified specifics like 'meditation-focused' and 'learning different styles' that are not in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Yes' which matches the gold answer, and while it adds specific dates not required by the gold answer, it correctly affirms that both Deborah and Jolene have been to Rio de Janeiro.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact as the gold answer (age 10), with only a minor stylistic difference ('10 years old' vs '10') that does not change the factual content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q99",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only mentions 'fresh pastries' but omits 'coffee,' which is part of the gold answer requiring both items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q101",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific date (August 2021) that is not stated in the gold answer ('a year ago'), and these are not equivalent facts without knowing the reference date.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q115",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states that Deborah incorporates jogging into her routine, while the gold answer specifies she incorporates spending time with loved ones after her morning jog, making this factually incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q116",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 'calm and centered' and mentions yoga-specific effects, while the gold answer specifies 'connected to her body' \u2014 these are different facts, not the same statement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q117",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Deb shared a photo of a bouquet of red roses held by her mother, while the gold answer specifies it was a yellow coffee cup with a handwritten message\u2014these are completely different objects.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q120",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes the Eisenhower Matrix (a four-quadrant prioritization system), which is completely different from the gold answer's strategies of breaking tasks into smaller pieces, setting goals, and using planners or schedulers.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q134",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific year (2022) and timeframe that is not present in the gold answer, and while it mentions 'about a year,' the addition of specific dates (2022, 2023) constitutes fabricated specifics not in the gold answer of simply 'one year.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q172",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer fails to state the specific game 'Monster Hunter: World' and instead claims no specific title is mentioned, which directly contradicts the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q174",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific reason (meditation retreat in Phuket) that is far more detailed than the gold answer's simple statement that 'Jolene already had plans,' and these fabricated specifics cannot be verified as matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q178",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Jolene found/achieved inner peace during the retreat, which matches the gold answer's core fact, though it adds extra details about joy and calm that are not contradictory.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q179",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Jolene played 'Detroit' (a console game), while the gold answer specifies she played 'a card game about cats' \u2014 these are completely different games with no factual overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv7_q23",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides reasons related to engineering work, internship, and work-life balance, which are completely different from the gold answer stating she was more interested in playing video games.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv7_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a specific age range (22-24) with a year reference (2023) that is not present in the gold answer, which states 'likely no more than 30; since she's in school' \u2014 these are different facts with different specificity and reasoning.",
+  "category": "open-domain"
+ }
+]

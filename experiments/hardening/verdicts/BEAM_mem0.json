@@ -1,0 +1,1402 @@
+[
+ {
+  "qid": "10M_0_q0_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that there is no information provided about Johnny\u2019s qualifications or expertise.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_0_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer ultimately gives 17 tasks and an 88% sprint target, matching the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_0_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct sprint completion target of 85%, satisfying partial credit even though the task count is incorrect.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_0_q12_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the key figure '1.8 million' from the gold answer (appearing as the Elasticsearch document count), so it contains at least one correct item despite offering different combined totals.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_0_q13_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer never mentions the 5,000 QPS combined target and claims insufficient information, so none of the gold items appear.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_0_q14_preference_following",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer neither references the AWS EC2 cost of $0.11/hour (it uses $0.12) nor includes a calculation for 500 instances, so it contains none of the required items.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_0_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer discusses indexing strategies at million-scale (e.g., tuning nlist/nprobe for 1M vectors), satisfying at least one gold item even though it doesn\u2019t mention Milvus 2.3.0 specifically.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_0_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer covers multiple gold items, including exploring and comparing indexing strategies with trade-offs, integrating Elasticsearch+FAISS with log aggregation for efficient querying, refining API design, and implementing monitoring, so it matches the required concepts.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_0_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes a modular microservices design with strict latency/uptime targets, explores load balancing, uses Redis/ElastiCache for caching, and details monitoring, thus matching multiple gold items.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_0_q18_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It states the correct dates (February 15, 2025 to March 1, 2025) and the correct difference of 14 days.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_0_q19_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly states the dates (November 1, 2024 to December 16, 2024) and the interval of 45 days.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_0_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states there is insufficient information about the session's agenda or format, matching the gold answer.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_0_q2_contradiction_resolution",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response ignores the noted contradiction (claims of both having set up and never having set up the logs) and does not ask which is correct, instead asserting a definitive yes.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_0_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that the user never logged errors for vector lookups during dense search integration, which matches one of the gold items, so it qualifies as CORRECT under partial credit.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_0_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple matching items from the gold list\u2014such as core ingestion pipeline initiation, batch vs streaming ingestion strategies, logging and monitoring, and hybrid ranking\u2014so it meets the partial-credit rule.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_0_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated list includes multiple items that semantically match the gold answers (e.g., context window resizing/mismatch, metric calculation, documentation errors, query parse, intent reform, vector alignment, stemming and relevance score), so it contains at least one correct item.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_0_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct 98% detection rate mentioned in the gold answer, satisfying the requirement for at least one matching item.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_0_q7_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Milvus 2.2.0, but the correct version is Milvus 2.3.1, so it contains no matching item from the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_0_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes timing metrics (e.g., per-query latency, p90) and explicit latency numbers (160\u2013250ms), matching the gold answer\u2019s required items.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_0_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes specific numerical latency targets (e.g., average 200ms, p90 250ms), matching the gold requirement for numerical latency goals.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_1_q0_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer states there is no information about detailed debugging steps, while the generated answer provides many steps, matching none of the gold items.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_1_q10_knowledge_update",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer claims 5,000 events per second (300,000 per minute), which does not match the gold figure of 1,200 events per minute, so there is no overlap.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_1_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct 20% completion for reward function engineering (matching the gold) and a plausible timeframe for safety metrics integration, thus meeting at least one gold item.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_1_q12_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly includes the 300ms agent update delay and the 250ms pedestrian update delay, satisfying partial credit despite errors elsewhere.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_1_q13_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states there were 13 error types, which does not match the gold answer of seven, so it has no correct item.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_1_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer suggests a publish-subscribe/message bus to decouple modules, which effectively reduces direct calls between modules.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_1_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions managing agent density and spawn rates, implementing grid-based spatial partitioning, integrating adaptive traffic signal timing with ROS 2, and optimizing UI responsiveness and logging\u2014covering multiple key items from the gold answer.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_1_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions CUDA streams for GPU offloading and an iterative, continuously profiled optimization process (and even Intel VTune), which match items from the gold list, so it includes correct elements.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_1_q18_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states both the date range (February 1, 2025 to February 16, 2025) and the duration (15 days), matching the gold answer exactly.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_1_q19_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly states the 15-day gap between phases (one required item), even though the dates are off by a year.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_1_q1_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold states there was no information in the chat about the 300MB allocation criteria, but the generated answer provides specific reasons and validations, contradicting the gold and not matching its sole item.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_1_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the user's prior statement that they had never automated Jenkins build notifications and references integrating multiple Jenkins plugins, which matches items from the gold answer list.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_1_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions both claims\u2014that you\u2019ve iterated on data flow designs multiple times and that you\u2019ve never revised them\u2014meeting key gold items despite not asking which is correct.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_1_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple gold items such as Python 3.7 setup, v0.9.14 with 10 sensor types, v0.9.15 with 15 maps, and v0.9.17 with 128\u2011channel Lidar.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_1_q5_event_ordering",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_1_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated 400ms delay is a close match to the gold 380ms and falls within the allowed 50% duration tolerance.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_1_q7_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 10,000 points, while the gold answer specifies 5,000 points, so there are no matching items.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_1_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions fps and provides multiple numerical frame rate values, meeting the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_1_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes specific numerical success rates and percentages (e.g., 93% effectiveness and ~95.5% success), satisfying the requirement for an exact percentage/ratio.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_2_q0_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold states there was no information about criteria, but the generated answer provides specific factors, so it includes none of the gold items.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_2_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer with 25 agents and 93% reliability.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_2_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It explicitly mentions 15 agents and describes improving pass rates and higher team agreement, matching the gold items despite extra details.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_2_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 130 agents, but the generated answer reports 430 agents (and 10 instances), which does not include the correct count.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_2_q13_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer totals 50 agents, which does not match the gold answer of 55 agents and includes no correct item from the gold list.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_2_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer explicitly mentions token validation speed/latency and discusses handling large numbers of simultaneous logins/throughput, matching the gold criteria.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_2_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions the ELK Stack (Elasticsearch, Logstash, Kibana) and Elasticsearch-based setup, matching the gold requirement.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_2_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes several gold items such as selecting FastAPI 0.78 with Python 3.9, transitioning from Flask to async FastAPI for performance, mentioning NGINX load balancing, and tracking progress with 99.8% reliability, thus meeting the criteria.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_2_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer overlaps with key gold points by addressing CPU profiling and batching, refining logging and systematic profiling for stability, and updating test baselines to improve regression reliability.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_2_q18_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provided no correct items (neither '10 days' nor the date range 2024-07-09 to 2024-07-19) and claimed insufficient information.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_2_q19_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Despite miscounting the interval as 11 days, the answer correctly identified the date range January 21, 2025 to February 1, 2025, which matches the gold answer.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_2_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that there is no specific information available about the team's feedback on unit test scripts, matching the gold answer's assertion of no such information.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_2_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions you posted a set of protocol optimization tips highlighting faster delivery (even though it says 16), which matches a key item from the gold answer, satisfying partial credit.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_2_q3_contradiction_resolution",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer asserts only that logs were encrypted and does not mention the contradictory statements or ask which is correct, missing all key items from the gold answer.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_2_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes several items that match the gold list\u2014such as infrastructure setup, initial prototyping for agent communication, defining shared and individual goal structures, a prototype UI for goal visualization, and logging/monitoring infrastructure\u2014so it contains correct elements.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_2_q5_event_ordering",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include any of the specific gold items (e.g., MQTT message delay, PyTorch CPU/memory issues, RLlib race condition, Redis cache misses, pytest failures), so none of the required items appear.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_2_q6_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer discusses WebSocket 2.0 and does not mention Kubernetes 1.25, failing to include the correct platform version from the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_2_q7_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states 300 reward calculations per second, matching the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_2_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions actual query durations (reducing latency from 130ms to 90ms), which matches the gold requirement.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_2_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly names modules and libraries (e.g., Redis, SQLAlchemy, asyncio, NumPy, Numba, pytest-xdist), satisfying the requirement to name modules explicitly.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_3_q0_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that there is no information about the requested document in the provided context, matching the gold answer.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_3_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating 9 problems solved correctly and 50 minutes spent.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_3_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the ODE quiz score as 88%, matching the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_3_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer totals approximately 124 problems instead of the correct 85, containing no matching item from the gold answer.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_3_q13_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 3 times, but the generated answer says 2 times, so it contains no correct items from the gold list.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_3_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer explicitly recommends using digital tools for faster note capture and mixing digital notes with handwritten summaries, matching the gold requirement.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_3_q15_preference_following",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer offers scheduling and review strategies with tools like Anki/Quizlet but does not suggest digital note-taking or a mix that accounts for speed as required.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_3_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated summary includes continuity and jump conditions with boundary compliance, applies Green\u2019s functions to boundary value and heat-equation problems, and describes daily study habits with MATLAB/Desmos, satisfying multiple gold items.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_3_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer includes the physical interpretations of elliptic/parabolic/hyperbolic PDEs, practice with separation of variables and boundary conditions, identification of separation limits for non-homogeneous/nonlinear cases, and handling non-separable PDEs via particular solutions and transformations.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_3_q18_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Although the day count is wrong, it cites July 20 and a start date within 14 days of the gold start date (July 7), satisfying the date-tolerance rule and thus partial credit.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_3_q19_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer says 77 days from July 1 to September 16, but the gold is 46 days from August 1 to September 16, so none of the gold items match.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_3_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states there is insufficient information or reported outcomes/feedback about the sessions, matching the gold answer.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_3_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer acknowledges the user's past claim of never having worked on heat problems (a paraphrase of 'never formulated heat equation problems'), satisfying partial credit under the rules.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_3_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions you worked on and verified a Green\u2019s function for L = d^2/dx^2 \u2212 1, satisfying at least one required gold item per partial credit.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_3_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated list includes several gold items (e.g., Green's identities and integral formulas, eigenfunction expansions, and limitations/generalizations), so it meets the partial-credit criterion.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_3_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes several gold items (e.g., starting journey and skill assessment, diagnostic testing, finalizing preparation phase, resource curation, study scheduling, and self-assessment), so it contains correct overlaps.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_3_q6_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 15 minutes, but the generated answer says 25 minutes, which is not within the 50% duration tolerance and thus has no correct overlap.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_3_q7_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly concludes the video was 30 minutes long, which matches the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_3_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides worked symbolic examples (e.g., constructing the 1D Green\u2019s function and solving u''=x^2), satisfying the gold requirement.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_3_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes example MATLAB code and code snippets showing how to use the plot function, satisfying the gold requirements.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_4_q0_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer says there is no information about the motivation, while the generated answer invents specific reasons, so it has no overlap with the gold answer.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_4_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says the user answered 14 questions correctly, matching the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_4_q11_knowledge_update",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The correct score was 79%, but the generated answer did not provide this and instead claimed insufficient information.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_4_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer reports 50 minutes, which does not match the gold total of 350 minutes and includes no correct items.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_4_q13_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer reports 16 total missed, while the gold answer specifies 14, with no matching item present.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_4_q14_preference_following",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response declines to recommend a platform and does not suggest Udemy, which is the required item.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_4_q15_preference_following",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer recommends Coursera and does not suggest Udemy, which is the required recommendation from the gold answer.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_4_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer includes correct items such as definitions of Cauchy and convergence, the characterization of Banach spaces, and examples of incompleteness in the rationals (even if one example is imperfect), which satisfies partial credit.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_4_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes exploring definitions with simple operators, verifying linearity and boundedness, progressing to spectrum and resolvent (including matrix operators), using MATLAB to check spectral facts, and reflecting on iterative practice across finite and infinite-dimensional settings.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_4_q18_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not state the 45-day duration or the full April 1, 2025 to May 16, 2025 date range, only identifying April 1, 2025, so it contains none of the gold items.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_4_q19_temporal_reasoning",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_4_q1_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer states there is no information about Devin\u2019s background or expertise, while the generated answer provides detailed claims, so none of the gold items match.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_4_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer acknowledges both that you discussed norm properties with Devin and that you also said you\u2019d never discussed them, capturing the contradiction noted in the gold answer.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_4_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states that you have discussed self-adjoint operator extensions with Devin, which matches one of the gold items even though it omits the contradiction.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_4_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated list includes multiple gold items (e.g., Banach spaces, continuous linear functionals, Riesz representation theorem, Hilbert spaces, Cauchy sequences and completeness, and L^p/\u2113^p spaces), so it contains at least one correct item.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_4_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains multiple items from the gold list (e.g., boundedness, operator norms/continuity, kernel and range, adjoint operators, compact operators, operator topologies/convergence, elementary operator equations, invertibility, spectral theory, and differential/differential-operator topics), so it meets the partial-credit criterion.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_4_q6_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer did not mention the required version 4.35.0 or any correct item from the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_4_q7_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that it took 15 minutes, matching the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_4_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives a step-by-step epsilon-style proof for sequences, selecting N = \u23081/\u03b5\u2309 and verifying |1/n - 0| < \u03b5, matching the required approach.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_4_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It explains solvability via orthogonality to the adjoint\u2019s kernel and projections onto orthogonal complements, providing geometric intuition about solution and null spaces.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_5_q0_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that there isn\u2019t enough information and that no memory describes Brian\u2019s specific feedback for that practice, matching the gold answer\u2019s point that no such information is provided.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_5_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer ultimately states the most recent duration is 30 minutes, matching the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_5_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Although it concludes 10 minutes, the generated answer explicitly mentions a 7-minute open mic slot at Coral Bay Club, which matches the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_5_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 10 sessions, but the generated answer concludes 18, which does not match.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_5_q13_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes key gold items\u2014added focused evening slots, a 15% rhythm improvement within the 15\u201320% target, and the synergy/efficiency from structured practice\u2014so it matches at least part of the required content.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_5_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes the required mention of Kala as the instrument, which meets at least one gold item, so under partial credit it is correct even though it also suggests Mahalo.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_5_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer prioritizes spending on lessons/practice and recommends keeping accessory spending limited to smaller allocations, matching the gold criteria.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_5_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer includes collaborations with peers Nicole, Keith, and Shannon (e.g., tempo adjustments and joint performances) and notes growth in skills and confidence, satisfying at least one gold item.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_5_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple gold items such as using John\u2019s reflection guide, managing performance anxiety, balancing family and peer feedback, polishing songs for performance, and highlighting the interplay of mentorship, discipline, and community.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_5_q18_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer uses Feb 1\u2013Apr 1 (59 days), but the gold is Mar 1\u2013Apr 1 (31 days), so neither the dates nor the duration match.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_5_q19_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the dates (September 9, 2021 to October 10, 2021) and calculates the interval as 31 days, matching the gold answer.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_5_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating there is no specific information about techniques suggested by John during the 10-minute critique session.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_5_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions both that you said you\u2019d never adjusted your chair height and that you adjusted it by 3 inches to prevent wrist strain, satisfying key gold items even though it doesn\u2019t explicitly ask which is correct.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_5_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the gold item that the user said they have never joined any violin-related groups on Reddit, satisfying partial credit.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_5_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated list includes using ukulele skills to make lectures more engaging at New Jeffreytown University (Campus Plaza), which paraphrases the gold item about ukulele skills enhancing lectures at New Jeffreytown University (Campus Plaza).",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_5_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer with 50 business cards and a total cost of $20.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_5_q7_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer cites $18 and $19, but the gold answer is $10, so none of the items match.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_5_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response explicitly mentions including feelings and reflections and tracking emotional state in the journal, providing the required emotional context.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_5_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists specific brand names and provides price details for accessories, matching the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_6_q0_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states there isn\u2019t sufficient information about Samuel\u2019s specific savings strategies, matching the gold answer\u2019s assertion that no such details are available.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_6_q10_knowledge_update",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives 3 PM (for two hours) whereas the gold answer specifies 5 PM, so none of the gold items are present.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_6_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states the desk assembly is on November 7, matching the gold answer, with additional acceptable details like time and location.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_6_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says $35 spent and $15 remaining, which do not match the gold $30 spent and $20 remaining, so none of the required items appear.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_6_q13_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not state the correct total of 14 ideas, providing partial counts instead, so none of the gold items appear.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_6_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It explicitly mentions that mornings near Palm Street are quieter, satisfying one required gold item even though it also discusses evenings.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_6_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer recommends warm white LED bulbs (2700K\u20133000K) and does not suggest fluorescent bulbs, satisfying the warm/soft lighting criterion and avoiding harsh fluorescents.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_6_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the Calm app, setting boundaries and prioritization, time-blocking and scheduling personal time, numerous personal/social activities (art nights, workouts, trivia, hiking, quality time with Jenna and family), and ongoing reflection and open communication, matching multiple gold items.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_6_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple gold items, such as establishing a varied workout schedule with jogging/hiking/yoga/strength training, Jenna\u2019s encouragement and activities at Reef Trail and Coral Beach with increasing distance, budget discussions and budget-friendly celebrations like picnics, regular financial check-ins, and joint goals including an emergency fund and retirement.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_6_q18_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by correctly stating the dates (April 1, 2020 to February 1, 2021) and the interval of 10 months.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_6_q19_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer correctly cites May 1, 2022 to August 1, 2022 and computes the interval as 92 days, matching the gold answer.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_6_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating there is no information about the tutorial\u2019s key points in the provided chat/memories.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_6_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes one required item by stating the user said they have never moved the old couch to storage, which satisfies partial credit per the rules.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_6_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions the user's earlier claim of never signing up and also references signing up for a food drive, reflecting the contradiction and matching items from the gold answer.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_6_q4_event_ordering",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provided no items from the gold list and instead claimed insufficient information, resulting in zero matches.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_6_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the gold item about discussing fitness/workout ideas over coffee, satisfying the partial credit rule.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_6_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the time as 8 PM, matching the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_6_q7_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct amount of $40 for the dinner cost, matching the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_6_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response lists multiple health-related apps (Calm, MyFitnessPal, Strava, FitTrack) and provides explicit cost information (e.g., $10/month app, $30/class, $10 sleep mask), meeting the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_6_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer organizes healthy options by category and includes an itemized list of approximate costs, matching the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_7_q0_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It acknowledges there was no specific information from the YouTube videos in the memories, aligning with the gold answer despite adding general guidance steps.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_7_q10_knowledge_update",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not provide the required total of $130 or address minibar charges, instead discussing unrelated pros and cons, so it contains none of the gold facts.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_7_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating 15 photos were tagged for the blog header.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_7_q12_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Although it didn\u2019t state 11 hours, it provided 8 hours, which is within the 50% duration tolerance and thus counts as a correct match.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_7_q13_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches two gold items ($20 venue fees and $10 snacks), so under partial credit it is acceptable despite incorrect flyers and total.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_7_q14_preference_following",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer discusses tools and tracking the number of tolls but never recommends toll-free routes, offers detours to bypass toll roads, or acknowledges avoiding toll fees in planning.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_7_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer discusses comfort features (seat quality, lumbar support, space) and applies them in comparing models, even citing a specific model\u2019s comfort, thus meeting the required focus on comfort when comparing vehicles.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_7_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer matches several gold items, including Chris researching KOA campgrounds (e.g., Flagstaff), proposing 5-minute check-in calls, and balancing driving with sightseeing like Cadillac Ranch.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_7_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer includes key gold facts such as shifting to 2-stop max trips with increased patience and handling detour fees calmly, satisfying the partial-credit rule.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_7_q18_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer identifies the dates January 2, 2023 to March 1, 2023 and calculates 58 days between them, matching the gold answer.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_7_q19_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer used April 3\u2013April 16 and 13 days instead of the gold April 8\u2013April 16 and 8 days, so none of the gold items appear.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_7_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly indicates there are no specific details available about the fair, matching the gold answer\u2019s point that the chat provides no such information.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_7_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the required point that the user had said they've never driven a hybrid before, satisfying partial credit per the rules.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_7_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions a WhatsApp text to the user's mom about trip progress, matching one key gold item, so by partial credit it is acceptable.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_7_q4_event_ordering",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lists none of the eight specified feelings or concerns and instead claims insufficient information, resulting in zero matches with the gold items.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_7_q5_event_ordering",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lists no items and includes none of the five gold topics, so there is zero overlap.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_7_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states 25 square feet, matching the gold answer exactly.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_7_q7_information_extraction",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer did not mention the correct 25-minute wait time and instead referenced zero and 30 minutes, which do not match the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_7_q9_instruction_following",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer fails to give a specific time or time window for a service visit, only mentioning a callback timeframe and general information.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_8_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states both the 90-minute duration and the $75 refreshments budget.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_8_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes $650 per person, which matches the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_8_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer includes none of the required items (one $400 spa session, $500 all-inclusive package, $900 for activities/dining) and even contradicts them by stating a $450 session is unaffordable.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_8_q13_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the combined total as 3.5 hours, matching the gold answer.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_8_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes jet skiing-specific details (route, package, and tips), satisfying at least one gold item despite also suggesting other activities.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_8_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response mentions beach dining and highlights secluded shoreline options like isolated sandbank picnics, aligning with the gold answer.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_8_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer covers rituals and storytelling, photo album collaboration and travel/budget planning, and consistent ~9/10 connection ratings, matching multiple gold items even though it omits the Brew Haven detail.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_8_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple required elements\u2014$10,800 Soneva Jani booking, 9 AM seaplane and $50,000 Allianz coverage, allocation of 6 activity days within a 15-day plan, and family/children care coordination\u2014so it matches the gold items.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_8_q18_temporal_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly identifies Oct 14 as the last full day and its Oct 16/2 days result is within the allowed date and duration tolerances of the gold answer (Oct 17/3 days).",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_8_q19_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response did not provide '4 days' or the date range 'October 4 to October 8,' so it contains no correct items from the gold answer.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_8_q1_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by stating there is no information about the factors considered for extending the time.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_8_q2_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states you initiated the booking process for Soneva Jani, which matches at least one required gold item (that you said you started the booking process), satisfying partial credit.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_8_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer notes contradictory information, mentions the user said they've never taken a seaplane, and references safety experiences during seaplane transfers, satisfying multiple gold items.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_8_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple gold items such as booking confirmation/reconfirmation and an insurance review, satisfying the at-least-one-correct-item rule.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_8_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes Nimal\u2019s feedback survey (items 6 and 10), which matches the gold item \u201cNimal collects feedback survey,\u201d so by partial credit it is correct.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_8_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly with 50 pages and a $75 cost.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_8_q7_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response includes the correct elements that options were learned via jet skiing discussions and names Kareem, the tour coordinator, as a contact (despite extra/incorrect additions), meeting partial-credit criteria.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_8_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions portion size (portion amounts) even though it doesn\u2019t reference quantity per item, so it includes at least one required element.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_8_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer provides exact numeric counts for several items (e.g., 10 casual outfits, 5 evening outfits, 2 pairs of flip-flops), meeting at least one gold requirement even though not every item has a number.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_9_q0_abstention",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that no specific itinerary or schedule information is available, matching the gold answer\u2019s core point.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_9_q10_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer calculates and states the total as $120, which matches the gold answer.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_9_q11_knowledge_update",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states there are 8 members, matching the gold answer exactly.",
+  "category": "knowledge_update"
+ },
+ {
+  "qid": "10M_9_q12_multi_session_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response gives none of the required figures ($500 Beachside, $500 Ocean Breeze, $1,000 total) and instead claims insufficient information.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_9_q13_multi_session_reasoning",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly identified the percentage as 85\u201390% (matching the gold range), even though it misstated the $10,000 catering total.",
+  "category": "multi_session_reasoning"
+ },
+ {
+  "qid": "10M_9_q14_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer allocates about twice the budget to flowers as to lighting, emphasizes flower arrangements with a detailed plan, and suggests specific lighting options within the smaller lighting budget.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_9_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer explicitly recommends starting with the 20 key relatives and describes a phased approach by prioritizing them first and then moving to the remaining guests.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_9_q16_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes key gold items by mentioning Laura's lace and family photos, prioritizing flowers/lighting/custom artisan pieces with budget adjustments, and noting eco-friendly choices, thus matching multiple required elements.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_9_q17_summarization",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer covers coordination with Ka'anapali staff and cleanup standards, prioritized returns of lanterns and tables, thorough documentation for refunds, and ongoing follow-ups, matching multiple gold items.",
+  "category": "summarization"
+ },
+ {
+  "qid": "10M_9_q18_temporal_reasoning",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives no timeframe and fails to mention 3 days or the July 7 to July 10 window from the gold answer.",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_9_q19_temporal_reasoning",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "temporal_reasoning"
+ },
+ {
+  "qid": "10M_9_q1_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer states there was no information about the Zoom call\u2019s specific discussions, while the generated answer lists detailed topics, providing zero matching items with the gold answer.",
+  "category": "abstention"
+ },
+ {
+  "qid": "10M_9_q2_contradiction_resolution",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer asserts Pamela helped with vendors and saved time, but it does not mention the documented contradiction (that you also said she never helped) or ask which statement is correct, matching none of the gold items.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_9_q3_contradiction_resolution",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response includes the user's statement that they had never coordinated volunteers and highlights subsequent coordination (including Pamela organizing volunteers), thus capturing at least one required gold item and the contradiction.",
+  "category": "contradiction_resolution"
+ },
+ {
+  "qid": "10M_9_q4_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes venue options and capacities, permit fees, weather considerations with backups, and accessibility, which align with multiple items from the gold list, so it contains correct items.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_9_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes items matching the gold list (e.g., weather concerns/guest relocation, guest seating adjustments, and dietary needs), so it satisfies the partial credit rule.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_9_q6_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions renting 100 chairs, which matches the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_9_q7_information_extraction",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the cost as $10 per lantern, matching the gold answer.",
+  "category": "information_extraction"
+ },
+ {
+  "qid": "10M_9_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes a floral budget (\u201cFlowers: $1,000\u201d) and details multiple flower-related costs (e.g., floral crowns, last-minute floral tweaks), matching the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_9_q9_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer clearly lists and describes a variety of visitor support services (e.g., transportation, accessibility, accommodations, and communication), satisfying the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_1_q15_preference_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer repeatedly and explicitly recommends a 15% speed variance, matching the gold requirement.",
+  "category": "preference_following"
+ },
+ {
+  "qid": "10M_5_q5_event_ordering",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer references the same six named supporters\u2014John, Brian, Barbara, Christian, Marvin, and Keith\u2014as in the gold list, so it includes overlapping items even though it declines to provide the ordered details.",
+  "category": "event_ordering"
+ },
+ {
+  "qid": "10M_7_q8_instruction_following",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions fuel costs (a $285 fuel limit) alongside other budget items, meeting the gold criteria.",
+  "category": "instruction_following"
+ },
+ {
+  "qid": "10M_8_q0_abstention",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer states there is no information on the steps, while the generated answer provides detailed steps, so none of the gold items are matched.",
+  "category": "abstention"
+ }
+]

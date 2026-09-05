@@ -1,0 +1,385 @@
+{
+ "records": [
+  {
+   "qid": "c9_qconv9_q72",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold answer, naming Aerosmith as Dave's favorite band at the festival.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c8_qconv8_q98",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold answer and accurately restates the fact that progress is more important than perfection.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c7_qconv7_q7",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold country, France.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c6_qconv6_q6",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The generated answer explicitly says James does not live in Connecticut, contradicting the gold answer of 'Likely yes.'",
+   "category": "open-domain"
+  },
+  {
+   "qid": "c6_qconv6_q94",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer restates the same project—a new football simulator module focused on collecting player databases—using synonymous wording.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c9_qconv9_q82",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "“His own car maintenance shop” is semantically equivalent to “a car shop,” matching the gold answer.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c6_qconv6_q51",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "It only aligns with the futuristic dystopian game (Cyberpunk 2077) and loosely Dungeons of the Dragons, but omits AC Valhalla, Witcher 3, and FIFA 23, and adds a vague unnamed game plus Chess—violating the no pseudo-item padding rule.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c5_qconv5_q97",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold suggestion—biking or using public transport—so it recalls the same fact.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c4_qconv4_q176",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer captures both elements—describing the signing as “crazy” and conveying a sense of accomplishment that his hard work paid off—matching the gold meaning.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c7_qconv7_q68",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer specifies a date in 2020, which falls within the gold answer’s year window.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c8_qconv8_q130",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer is a clear paraphrase of the gold, conveying the same idea of using the setback to explore alternative ways to stay active and travel.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c2_qconv2_q35",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer lists the same two states as the gold answer, just in reverse order.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c5_qconv5_q34",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer '3 months' is numerically equivalent to the gold 'three months', expressing the same fact.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c5_qconv5_q30",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold answer (same month and year), so it recalls the fact correctly without ambiguity.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c3_qconv3_q50",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer identifies the same item—a stuffed toy dog from Nate—as the joy-bringing gift, matching the gold fact.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c1_qconv1_q24",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer correctly includes fair and networking events from the gold list, and although it omits the dance competition, partial recall of genuine items is acceptable and the added items do not contradict or obscure the correct content.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c4_qconv4_q109",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer restates the gold advice about aligning with values/brand, choosing companies that make a positive difference, and ensuring authenticity.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c8_qconv8_q44",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It correctly recalls nature landscapes and includes people/figures akin to portraits while also mentioning abstract work (same family as abstract minimalism), with no contradictions.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c1_qconv1_q20",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer specifies May 27, 2023, which matches the gold date within the acceptable 'around' window.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c3_qconv3_q140",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "It attributes the inspiration to a July 2022 road trip/visit and scenic features rather than to Woodhaven’s interesting past and people as stated in the gold.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c5_qconv5_q62",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer conveys the same idea of missing the peaceful moments on nature trails, with only a minor addition of 'outdoors' that doesn't change the meaning.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c4_qconv4_q150",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold book title, making it semantically identical to the correct fact.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c7_qconv7_q31",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer matches the gold answer’s time frame exactly ('summer 2022'), conveying the same fact.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c3_qconv3_q154",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer clearly identifies it as a cooking show, matching the gold answer semantically.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c1_qconv1_q49",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer matches the gold by explicitly stating both 'cozy' and 'comfortable,' with 'welcomed' as an acceptable addition that doesn't contradict the intent.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c8_qconv8_q77",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It correctly recalls the honeymoon in Canada with trying local cuisine (poutine) and doing snowshoeing, which is a valid subset of the gold list without contradictions or padding.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c7_qconv7_q93",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer accurately restates Jolene’s two planned projects—renewable energy development and providing clean water to those with limited access—with consistent specifics.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c2_qconv2_q38",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The generated answer gives July 1, 2023, which is a different date than the gold’s specific date of July 2, 2023.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c4_qconv4_q4",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "It correctly recalls some of the listed books (Harry Potter, A Dance with Dragons, The Alchemist) but also pads the answer with vague, untitled items, violating the no pseudo-item padding rule.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c6_qconv6_q48",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer gives the exact same date as the gold, only adding the weekday, which is semantically equivalent.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c4_qconv4_q6",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The generated answer says July 2023, which does not match the gold answer of June 2023 and falls outside the specified month window.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c3_qconv3_q70",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer includes all four key activities—walking them, holding them, giving them baths, and feeding them strawberries (implied by feeding them and noting they eat strawberries)—so it matches the gold fact despite extra details.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c7_qconv7_q73",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer clearly confirms Jolene was self-taught, matching the gold answer of 'yes.'",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c4_qconv4_q90",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold answer's meaning about a local organization helping disadvantaged kids with sports and school.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c9_qconv9_q48",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It directly matches the gold fact by stating he was at a car show that first October weekend, with extra details that don’t contradict it.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c2_qconv2_q141",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer restates the gold answer (“a local organization”) with a consistent clarifying phrase, preserving the same meaning.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c2_qconv2_q144",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer explicitly states they went camping, which matches the gold fact, with only additional consistent details.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c5_qconv5_q61",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer matches the gold answer exactly, naming the same specific bird type.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c1_qconv1_q23",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It accurately recalls the key methods—partnering with an artist, introducing limited-edition items, running online offers/promotions, and creating a styling video—while extra details do not contradict or obscure the core facts.",
+   "category": "multi-hop"
+  },
+  {
+   "qid": "c1_qconv1_q71",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The gold answer is the adjective “amazing,” while the generated answer gives a different description of the studio’s purpose rather than that specific characterization.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c7_qconv7_q78",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It correctly identifies Phuket as the location, with extra non-conflicting detail about a meditation retreat.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c1_qconv1_q33",
+   "score": 0.0,
+   "label": "WRONG",
+   "reasoning": "The answer lists two different dates for one event, hedging instead of committing to the correct single date, which violates the one committed answer rule even though one matches the gold.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c6_qconv6_q110",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold by specifying strategy and role‑playing (RPG) games as the genres John explored instead of shooters.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c3_qconv3_q164",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold answer, naming the same game for that date and context.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c5_qconv5_q68",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It conveys the same intent—she signed up to strengthen her bond with her pets—adding non-contradictory detail about dogs and training methods.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c9_qconv9_q125",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer states they met at a music festival, matching the gold’s “at a festival,” and the added “in Tokyo” detail does not contradict the core fact.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c9_qconv9_q152",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer names the same item—a vintage camera—and the added date detail does not contradict the gold fact.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c2_qconv2_q99",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It says the veterans shared their stories and formed new friendships/enjoyed camaraderie, which matches sharing stories and making connections.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c6_qconv6_q106",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold answer, recalling the same specific game.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c9_qconv9_q110",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It correctly includes the core plan to visit Dave’s garage (spend time with cars in his garage/shop), matching the gold fact despite adding extra irrelevant activities.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c3_qconv3_q114",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The answer explicitly includes that he likes books with adventures and magic, matching the gold, even though it adds extra genre details.",
+   "category": "single-hop"
+  },
+  {
+   "qid": "c2_qconv2_q34",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "June 9, 2023 falls within the week before June 16, 2023, matching the gold window.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c8_qconv8_q47",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "The generated answer exactly matches the gold date of July 2023 for Evan skiing in Banff.",
+   "category": "temporal"
+  },
+  {
+   "qid": "c8_qconv8_q36",
+   "score": 1.0,
+   "label": "CORRECT",
+   "reasoning": "It correctly recalls the grilled chicken and veggie stir-fry (one of the gold items), and the extra roasted-vegetable mention doesn’t contradict; partial list recall is acceptable even though poutine is omitted.",
+   "category": "multi-hop"
+  }
+ ],
+ "n": 54,
+ "n_total": 54,
+ "accuracy": 0.8518518518518519
+}

@@ -1,0 +1,1066 @@
+[
+ {
+  "qid": "conv2_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Her mom' is a paraphrase of the gold answer 'her mother' - both refer to the same person using different but semantically equivalent terms.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'December 21, 2022' matches the gold answer '21 December 2022' exactly, just with different date formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date from the gold answer (February 24, 2023), with additional context about volunteering that does not contradict the core fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer expresses positive emotions (gratitude, warm camaraderie, appreciation) that are semantically aligned with 'heartwarming' - all convey the same positive, warm emotional valence about the same event.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core event (fundraiser) as the gold answer and adds extra detail (chili cook-off), which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'chili cook-off event' directly matches the gold answer 'chili cook-off' with only minor additional descriptive detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Max' exactly matches the gold answer 'Max', correctly identifying the name of John's pet.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ten years' is semantically identical to the gold answer '10 years', just written in words rather than numerals.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core plan from the gold answer (adopting a rescue dog) and adds extra details about visiting shelters and teaching his kids, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, listing both 'responsibility' and 'compassion' as the values John wants to teach his kids.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core sentiment from the gold answer ('like being in a fairy tale') and adds extra descriptive details about the water and surroundings, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Free and light' is an exact match with the gold answer 'Free and light', capturing the same emotions Maria feels when doing upside-down yoga poses.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes David, Jean, and Cindy from the gold answer list, which satisfies the partial credit rule that at least one correct item makes the answer CORRECT.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Maria shared news about joining a gym, which matches the gold answer's core fact, and the additional details about timing and atmosphere do not make it incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Kundalini yoga' is an exact match to the gold answer 'kundalini yoga' with only a capitalization difference, which is semantically identical.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Assistant manager' is the same as the gold answer 'assistant manager' with only a capitalization difference, which is semantically identical.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies 'self-doubt' as the challenge, which directly matches the gold answer, with additional descriptive detail that is acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key elements from the gold answer: support at home (mentioned as 'encouragement from Maria and his loved ones (his home life)') and his own grit (explicitly stated as 'his own self\u2011belief and grit'), with additional contextual details that don't contradict the core facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A live music event' is an exact match with the gold answer 'live music event', just with an article added.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept that Maria's cousin needed to relocate/find a new place, which semantically matches the gold answer's 'had to leave and find a new place,' with the additional context of 'tough situation' and 'in a hurry' being compatible interpretations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same event as the gold answer ('march' is semantically equivalent to 'marching event'), and the additional date detail does not make it incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea of showing support for veterans (matching 'desire to show support') and expresses respect through being 'moved by veterans' sacrifices' (semantically equivalent to 'respect for the military'), making it a paraphrase of the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the military aptitude test as the test John has taken multiple times, and the additional details about dates and results do not make it incorrect.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A severe flood' correctly identifies the natural disaster as a flood, matching the gold answer with additional descriptive detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same core fact as the gold answer\u2014that homes suffered significant damage from the flood\u2014using semantically equivalent language ('extensive damage' matches 'ruined'), and the additional location detail 'West County' does not contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the flood in John's area as the motivation, which matches the gold answer's 'Flood in John's old area' with appropriate paraphrasing and additional context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core activity (having dinner with friends from the gym) as the gold answer, using slightly different wording but conveying the identical meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q124",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer (charades and scavenger hunt) plus additional details about relaxing and sharing food, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of 'giving back' from the gold answer, expressing it as 'more determined to give back' and 'commitment to support them,' which is semantically equivalent to 'appreciation for giving back.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly references 'resilience' of veterans (specifically Samuel) as the reason John felt inspired, which matches the gold answer's core concept of 'seeing the resilience of the veterans,' even though it provides additional contextual details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions 'went on a hike' which directly matches the gold answer of 'hiking', even though it includes additional details about a picnic.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core idea as the gold answer\u2014that trying new classes is a positive way to vary one's exercise routine\u2014using paraphrased language like 'mix things up' for 'switch up' and 'keeps his workouts interesting and diverse' for 'fun way.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "February 27, 2023 falls within the week before March 6, 2023, and is well within the 14-day date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Weight training' is an exact match (aside from capitalization) with the gold answer 'weight training', identifying the same activity John has done at the studio.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Maria volunteered at a homeless shelter, which matches the gold answer, and the additional detail about baked goods does not make it incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core fact from the gold answer\u2014witnessing a family struggling on the streets led Maria to volunteer at the homeless shelter\u2014and adds contextual details about timing and her aunt's influence, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that John had a meaningful experience at a military memorial with his kids, which matches the gold answer's core fact, and the date (July 27, 2023) falls within the week before August 3, 2023.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer ('awestruck and humbled') and adds extra contextual detail, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the core concept from the gold answer ('remember and appreciate those who served') and adds extra detail about teaching kids about veterans, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concepts from the gold answer: teaching children to respect and appreciate those who served, with 'remember' as an additional detail that doesn't contradict the main idea.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that John lost his job at the mechanical engineering company in August 2023, matching the core fact from the gold answer, with additional contextual details that don't contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Community work (volunteering) with her church friends' directly matches the gold answer 'community work' and includes the same core concept, with additional contextual detail that is acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the core fact that John helped renovate a rundown community center, with additional contextual details that are consistent with the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies John as patriotic (matching the gold answer 'Yes') and provides extensive supporting evidence demonstrating his patriotic actions and values.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Supporting military veterans and their families' is a paraphrase of the gold answer 'veterans and their families' - both refer to the same cause with 'military veterans' being a more specific way of saying 'veterans'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same entity as the gold answer ('a local organization') and adds relevant descriptive detail about the organization's purpose, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core recognition (a medal) for the same context (her contribution/volunteering at the shelter), with the additional detail that it was handmade being acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Coco' exactly matches the gold answer 'Coco', correctly identifying the name of Maria's puppy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'camping' as the activity John and Max enjoyed together, with the additional details about hiking, swimming, and campfire being extra specifics that do not contradict the core answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key descriptors from the gold answer ('peaceful' and 'awesome'), using the exact same words to describe the camping trip.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer ('not making much impact' vs 'hasn't felt like he's making much impact'), which is a clear paraphrase of the same concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Shadow' exactly matches the gold answer 'Shadow'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key elements from the gold answer\u2014learning commands and house training\u2014plus additional correct details about the puppy's adjustment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core activity as the gold answer\u2014mentoring at a local school\u2014with only minor wording differences ('volunteering as a mentor' vs 'mentoring students').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies both items from the gold answer (creative writing and poetry) using slightly different phrasing ('a creative writing class and a poetry class' vs 'poetry, creative writing'), which constitutes a paraphrase of the same concepts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple correct items from the gold answer (parks, picnics, hikes, board games, movie nights) plus additional activities, which satisfies the partial credit rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q151",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A brand new fire truck' is an exact match with the gold answer 'a brand new fire truck', capturing the same core fact with only a minor capitalization difference.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "March 26, 2023 falls within the week before April 2, 2023, and is well within the 14-day date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Public policy is semantically overlapping with public administration and public affairs, as all three are closely related fields in the same domain of governance and policy studies.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same person 'Rob' as the gold answer, with additional detail that Rob is a colleague, which is acceptable under the rules.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both damages from the gold answer: the broken/shattered windshield and the car breaking down, with additional temporal details that don't contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both martial arts from the gold answer (kickboxing and taekwondo), just with slightly different capitalization.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 2022 as the year of John's Pacific Northwest road trip, matching the gold answer exactly, with additional contextual details that don't contradict the core fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'Pacific Northwest' and 'East Coast' from the gold answer, plus additional detail about California, which satisfies the partial credit rule since at least one correct item is present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'March 2023' matches the gold answer 'March 2023' exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Peach cobbler' which is one of the two items in the gold answer, and while 'cakes' is not in the gold answer, partial credit applies since at least one correct item is present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'April 2023' matches the gold answer 'April.2023' exactly in semantic meaning, with only a trivial formatting difference (period vs. space).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Spain as one of the European countries Maria has been to, which satisfies the partial credit rule since at least one correct item from the gold answer is present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer: buying a cross necklace and joining a local church (described as 'nearby church'), with the additional date being extra detail that doesn't make it wrong.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'May 2023' captures the same time period as the gold answer 'The Friday before 20 May 2023' and falls within the acceptable date tolerance, as it correctly identifies the month and year of the event.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three items from the gold answer\u2014veterans (supporting veterans and service members), schools (improving education/better school funding), and infrastructure (upgrading community infrastructure)\u2014plus additional causes, which is acceptable under the rules.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer (ring-toss tournament and chili cook-off), just in reversed order and with slightly different wording.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'volunteering at a local homeless shelter' is a paraphrase of the gold answer 'volunteering at a homeless shelter' with the addition of 'local' and extra context, which captures the same core concept.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both shelters from the gold answer: the homeless shelter and the dog shelter, with additional contextual details that do not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around 2013' matches the gold answer 'In 2013' as they refer to the same year with only a minor difference in specificity that does not change the core fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both hiking and mountaineering with colleagues/workmates, which matches both items from the gold answer, despite including additional details about a dog, waterfall, date, and summit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer (aerial and kundalini yoga), just with slightly more detail by adding the word 'yoga' after each type.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "June 9, 2023 falls within the week before June 16, 2023, satisfying the date tolerance rule of 14 days and representing the same time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both states from the gold answer (Florida and Oregon), just in reversed order, which is semantically identical.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both music events from the gold answer: the violin concert and the live music event, with additional contextual details that do not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes four of the five gold answer items (party, march, visiting veterans hospital, and 5K charity run), with only the petition missing, which qualifies as CORRECT under the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'July 1, 2023' is only one day off from the gold answer 'July 2, 2023', which falls well within the 14-day date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Independence Day as the holiday, with 'Fourth of July' being an equivalent reference to the same US holiday.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "December 25, 2022 falls within the week before January 1, 2023, satisfying the date tolerance rule that dates within 14 days are correct.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Kyle and Sara' contains both correct names from the gold answer 'Kyle, Sara', just with slightly different formatting.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that John lives near the beach/coast, providing supporting evidence from the conversation, which matches the gold answer of 'beach'.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'West County' is an exact match with the gold answer 'West County'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "June 30, 2023 falls within the week before July 7, 2023, satisfying the date tolerance rule of 14 days and representing the same time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes hiking, picnic, and volunteer work/community service, which are all present in the gold answer, plus additional details about camping and dates.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly captures that John would not move to another country due to his U.S.-focused commitments, specifically mentioning his run for local office which aligns with the gold answer's reference to running for office, even though it doesn't explicitly mention military service.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The weekend of July 15-16, 2023 falls within the 14-day tolerance window of 'the weekend before July 22, 2023' (which would be July 15-16), making this the same date expressed differently.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes kickboxing, yoga, and weight training, which are three correct items from the gold answer's list of four exercises.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'baked goods' is a broader category that includes 'cakes,' referring to the same type of food item Maria dropped off, which constitutes semantic overlap and the same core concept.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'December 2022' matches the gold answer 'December 2022' exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'passionate' and 'family-oriented' which directly match the gold answer, and 'service-oriented/compassionate' semantically overlaps with 'selfless', satisfying the partial credit rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, providing the same timeframe of 'Around August 2022'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same two people (Laura and Cindy) as the gold answer, just in reversed order, which is semantically equivalent.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2022' matches the gold answer '2022' exactly, just with the addition of 'In' at the beginning.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact date 'August 4, 2023' which matches the gold answer perfectly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'week of August 2\u20138, 2023' falls within the 14-day tolerance of 'the week before 9 August 2023' and refers to the same time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all four causes from the gold answer (toy drive, food drive, veterans, domestic violence) plus additional causes, which is acceptable under the rules.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Two weeks before August 11, 2023 is July 28, 2023, so the generated answer correctly identifies the same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Last summer \u2014 summer 2022' directly matches the gold answer 'The summer of 2022' with identical semantic meaning and timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies all three locations from the gold answer: homeless shelter, church, and gym, with additional contextual details that do not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both dog names from the gold answer, just with slightly different formatting.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "August 6, 2023 falls within the week before August 13, 2023, satisfying the date tolerance rule and correctly identifying the same time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2' is numerically identical to the gold answer 'two', representing the same quantity in a different format.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 9 days between adoptions, which falls within the 14-day tolerance for 'two weeks' (14 days), making it an acceptable match under the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies a nonprofit/community outreach coordinator role with a homeless shelter, which semantically overlaps with 'shelter coordinator' from the gold answer, demonstrating recall of the same core career path.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core elements from the gold answer (education and infrastructure) with additional descriptive detail, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014John's firsthand experience witnessing educational deficiencies and infrastructure problems in his neighborhood during his upbringing\u2014using slightly different but semantically equivalent wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all key elements from the gold answer (repairs, renovations, safer, more modern learning environment for students) with the addition of a specific date, which is acceptable extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Aerial yoga' is an exact match to the gold answer 'aerial yoga' with only a capitalization difference, which is semantically identical.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Her old car' is semantically identical to the gold answer 'old car' - it references the same item with only the addition of a possessive pronoun.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both items from the gold answer (film camera and doll), just in slightly different wording and order.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Pizza' is an exact match (case-insensitive) to the gold answer 'pizza', identifying the same meal.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A service-focused online group' is an exact match with the gold answer 'service-focused online group', capturing the same concept with identical wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer: giving out food and supplies at a homeless shelter and organizing a toy drive for kids in need, using paraphrased but semantically equivalent language.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Her aunt' is an exact match with the gold answer 'Her aunt', identifying the same person who inspired Maria to start volunteering.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer\u2014the girl was alone/had no family and seemed sad\u2014and adds consistent detail about Maria providing companionship and comfort.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that John saw the impact he could make through politics in his community, which directly matches the gold answer's key concept, even though it includes additional details about education and infrastructure.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A beginner's yoga class' is semantically identical to the gold answer 'beginner's yoga class' with only a minor difference in article usage.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Kyle' exactly matches the gold answer 'Kyle', correctly identifying the name of John's one-year-old child.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'a few times each week' is semantically identical to the gold answer 'a few times a week' - both express the same frequency using slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies John as 'working-to-middle-class' and mentions he can provide resources, which semantically overlaps with the gold answer's 'middle-class or wealthy' category, satisfying the partial credit rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv2_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies England (specifically London, England) as the source of Maria's inspiration for the castle shadow box, which matches the gold answer with additional detail about the specific city and what inspired her.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'certificate of completion for his university degree' is semantically identical to the gold answer 'completion of a university degree' - both refer to the same achievement with slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies both education and infrastructure as John's policy interests, which directly matches the gold answer, with the additional details about funding and public works being acceptable extra information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the 5K charity run and provides a specific date (March 31\u2013April 2, 2023) that falls within the 'last weekend before April 10, 2023' timeframe, with additional context about the homeless shelter being acceptable extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that John's car broke down, which is the exact fact from the gold answer, and the additional details about timing and context do not make it incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the Pacific Northwest as the location explored, and the additional details about coastline and national parks do not contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all core elements of the gold answer\u2014raising awareness, starting conversations, and creating positive change\u2014with additional specific details about education reform and infrastructure that do not contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Her aunt' is an exact match with the gold answer 'Her aunt', identifying the same person who gave Maria's family money.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv2_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'education reform' as a focus of John's research and blog writing, which matches one of the two topics in the gold answer, satisfying the partial credit rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A tech-for-good convention' is an exact match with the gold answer 'a tech-for-good convention', differing only in capitalization.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Three times a week' matches the gold answer exactly in both meaning and wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three key improvements from the gold answer: more energy, gains in strength, and gains in endurance, plus additional contextual details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches all three items from the gold answer exactly (salads, sandwiches, and homemade desserts), just with slightly different punctuation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'prepared dinner together' is a paraphrase of the gold answer 'made dinner together' - both refer to the same cooking activity, and the specific date falls within May 2023.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Maria joined a nearby church to feel closer to community and faith, with the added date being extra detail that doesn't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core reasons from the gold answer (community and faith connection) using semantically equivalent phrasing, with the added date being extra detail that doesn't contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the small party for veterans where they shared stories, which matches the gold answer's core facts, with additional detail about camaraderie being acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core activities from the gold answer\u2014sharing stories and making connections (friendships, camaraderie)\u2014with additional descriptive detail that is consistent with the same event.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q107",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Aerial yoga' refers to a completely different activity than the gold answer 'volunteering at a local dog shelter once a month' - these are entirely distinct activities with no semantic overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states John sees such sunsets 'only every now and then' during special occasions rather than regularly, which directly contradicts the gold answer of 'at least once a week' \u2014 these represent fundamentally different frequencies (rare vs. weekly).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept from the gold answer by mentioning 'inspiring veterans,' which directly relates to both the resilience and inspiring stories of the veterans that John appreciated.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q48",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a date (July 30, 2023) that is 27 days after the gold answer's reference point (July 3, 2023), which exceeds the 14-day tolerance window and represents a completely different date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Early August 2023' refers to the same time period as 'first weekend of August 2023' and correctly identifies the charity run event, meeting the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv2_q75",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is too vague and does not mention any of the specific hardships (divorce, job loss, homelessness) from the gold answer, failing to demonstrate recall of the actual facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer references a castle-themed creation inspired by the England trip, which captures the same core concept as the gold answer's 'painting of a castle on a hill,' even though the specific medium differs (shadow box vs. painting).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A career fair at a local school' is semantically identical to the gold answer 'career fair at a local school' with only a minor difference in article usage.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv2_q88",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'education reform' addresses a completely different topic than the gold answer 'politics and the government' with no semantic overlap between the two subjects.",
+  "category": "single-hop"
+ }
+]

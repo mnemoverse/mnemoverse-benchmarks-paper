@@ -1,0 +1,1052 @@
+[
+ {
+  "qid": "conv6_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Bowling' is an exact match to the gold answer 'bowling' (only differing in capitalization), identifying the same recreational activity.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "April 5, 2022 falls within the first week of April 2022, satisfying the date tolerance rule of 14 days and representing the same time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'No' matching the gold answer, and provides additional context about the informal requirements without contradicting the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'reading books' directly matches the gold answer 'Reading' and includes additional descriptive detail about how he enjoyed it, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is an exact match to the gold answer, capturing the same activity (reading) and context (snuggled under the covers on cold winter days).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Extreme sports' is an exact match with the gold answer 'Extreme sports'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Vancouver' exactly matches the gold answer 'Vancouver', demonstrating perfect recall of the planned destination.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date from the gold answer (July 20) with an additional year specification, which is acceptable as extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Chess' exactly matches the gold answer 'Chess', identifying the same game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer\u2014focusing on things that align with values and passions\u2014with additional contextual detail that does not contradict the key fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Fortnite competitions' which matches the gold answer exactly, and the additional tournaments mentioned are extra details that don't make the answer wrong.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both key elements from the gold answer: routine examination (vet exam) and vaccination, with additional acceptable detail about the type of disease and outcome.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Strategy and role-playing games (RPGs)' is semantically identical to the gold answer 'strategy and RPG games', with RPG being the standard abbreviation for role-playing games.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, identifying the same RPG game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Samantha' exactly matches the gold answer 'Samantha', identifying the same person whose phone number James received.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the core action from the gold answer ('call her') and adds extra details about the date and purpose, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'a gaming night' as what John is organizing with his siblings, matching the gold answer exactly, with only additional temporal detail provided.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Dark beer' is a direct match to the gold answer 'dark beer' with only a capitalization difference, which is semantically identical.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes 'Balancing the mechanics and ensuring fairness' which directly matches the gold answer, plus additional difficulties that provide extra detail without contradicting the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Coding (programming)' directly matches the gold answer 'coding' with only an added clarifying synonym in parentheses.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q119",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Basic games and stories' is an exact match with the gold answer 'basic games and stories', just with capitalization and punctuation differences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that James did not have a girlfriend in April 2022, which aligns with the gold answer 'Presumably not,' and provides additional supporting details that are consistent with this conclusion.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sennheiser' exactly matches the gold answer 'Sennheiser', identifying the same company.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that they both enjoy beer at McGee's, specifically mentioning 'lager' which matches the gold answer, even though it adds extra detail about stout.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '$10 per session' matches the gold answer '$10' exactly, with 'per session' being an acceptable clarification that refers to the same per-class cost.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Dough' exactly matches the gold answer 'Dough', demonstrating correct recall of what James learned to make in the cooking class.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q124",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains the exact core reason from the gold answer ('wanted to learn something new') and adds contextual detail about his prior attitude toward cooking, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A great omelette' identifies the same core item as the gold answer 'Omelette', with only an added descriptive adjective.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Dungeons of the Dragon'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three items from the gold answer (books, movies, and dreams) plus additional correct details about video games and childhood sketches, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all the core elements of the gold answer (medieval castle, puzzles, traps) and adds extra descriptive detail about it being vivid and feeling like a video game, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating both electronic and rock music.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2021' matches the gold answer 'In 2021' exactly in terms of the core fact being recalled, with only a minor difference in phrasing.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'guitar' is an exact match with the gold answer 'guitar'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'The drums' is semantically identical to the gold answer 'drums' - it references the exact same instrument with only a minor difference in article usage.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that John made his first mobile game, which matches the gold answer's core fact, and the additional details about the game's features and launch date do not contradict the achievement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the game as '2D adventure' and adds extra details about puzzles and exploration, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer (watching tutorials and following developer forums) plus additional details about magazines and books, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core role of 'programming mentor for game developers' with additional detail about teaching and assisting, which matches the gold answer's key concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q136",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly includes both emotions from the gold answer ('excited and inspired') and provides additional context about why John feels this way, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Role-playing games (RPGs)' is a direct match with the gold answer 'RPGs', and the additional example 'Cyberpunk 2077' provides extra detail which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'The Witcher 3' as the inspiration for James's game creation, which matches the gold answer 'Witcher 3' exactly (just with slightly different formatting).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same two games (Super Mario and The Legend of Zelda) that sparked James' passion for gaming, with additional contextual detail about his first gaming system.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly with the date April 26, 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that James lost progress on a game (specifically a video game), which matches the gold answer's core concept of 'a game'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all three games from the gold answer (Fortnite, Overwatch, and Apex Legends), which is a complete match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the purpose as raising money for a children's hospital, with the additional detail about it being a charity fundraiser being consistent and not contradictory.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'They decided to move in together' is a direct paraphrase of the gold answer 'To move in together' and captures the exact same decision.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same location (an apartment near McGee's bar) as the gold answer, with 'near' being a paraphrase of 'not far from' and both referring to the same core entity and location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that they chose the apartment based on their love for McGee's bar and wanting to be near it, which semantically matches the gold answer about loving to spend time together at the bar.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'FIFA 23' exactly matches the gold answer 'FIFA 23', identifying the same game.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Luna' exactly matches the gold answer 'Luna', correctly identifying the name of John's cousin's dog.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Around March 29, 2022' falls within the same month as the gold answer 'March 2022' and provides a more specific date that is consistent with the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'UNO' exactly matches the gold answer 'UNO', identifying the same card game.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all four book/series titles from the gold answer, with only minor differences in formatting (e.g., 'Stormlight Archive' vs 'The Stormlight Archive') that represent the same referents.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that James was lonely before meeting Samantha, supported by evidence that he relied on dogs for comfort and was seeking human connection, which semantically aligns with the gold answer's points about dogs giving him joy and actively trying to date.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes two correct items from the gold answer (VR Club/VR gaming session and McGee's Pub/McGee's), which satisfies the partial credit rule even though the baseball game is missing.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2' is numerically identical to the gold answer 'two', representing the same quantity in a different format.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date of May 7, 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies all three beneficiaries from the gold answer: animal shelter (dog shelter), homeless, and children's hospital, with additional contextual details that don't contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'July 2022' matches the gold answer 'In July, 2022' exactly in terms of the month and year, with only minor difference in formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'football simulator' and 'virtual world inspired by The Witcher 3' from the gold answer, plus additional game types, which satisfies the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that James supports Liverpool and John supports a different team (Manchester City, as evidenced by defending their manager), which matches the core fact that they support different teams.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes four out of five countries from the gold answer (Italy, Turkey, Mexico, and Greenland), which qualifies as partial credit since at least one correct item is present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both classes from the gold answer: cooking classes and a game development course (which is semantically equivalent to game design course), even though it provides additional specific dates.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the date as May 2022, which exactly matches the gold answer, and the additional detail about the donation center does not make it wrong.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies 'the evening of July 11, 2022' which includes the exact date from the gold answer (July 11, 2022) with additional detail about the time of day, which is acceptable under the rules.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that both do not have pets (John doesn't have one), which matches the gold answer 'No', and provides additional accurate detail about James having pets and John not having any yet.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Canada' exactly matches the gold answer 'Canada'.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Toronto, Canada' is an exact match with the gold answer 'Toronto, Canada', correctly identifying the location.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both Canada and Greenland, which exactly matches the gold answer's two countries.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Greenland' exactly matches the gold answer 'Greenland', demonstrating correct recall of the additional country visited.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the correct date (July 21, 2022) which matches the gold answer exactly, even though it corrects the person's name from John to James.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all three core facts from the gold answer: John quit his IT job, secured his dream job, and the timing (mid-2022) aligns with the 2022 timeframe, even though it doesn't explicitly mention the eSports organizer aspiration.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'early August 2019' which includes the correct year 2019 from the gold answer, with additional specific detail about the month that does not contradict the core fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies 'Late February 2022' which falls within the 14-day tolerance of 'February 2022' and is supported by the additional context provided.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple correct tricks from the gold answer (sit, stay, paw, rollover, and catching frisbees), which satisfies the partial credit rule even though it doesn't mention swimming or balancing on a skateboard.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date from the gold answer (August 9, 2022) and provides additional context about the meeting, which is acceptable under the rules.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly with the date August 9, 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'September 2022' which matches the gold answer 'In September, 2022' exactly, and the additional detail about a gaming night does not make it incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core reason from the gold answer\u2014John's preference for beer over coffee\u2014and provides the same semantic meaning even though it includes additional context about the conversation with James.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions 'stout' which is one of the two beer types in the gold answer, satisfying the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date September 11, 2022, with only the additional detail of the day of the week (Sunday), which is consistent with the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three items from the gold answer (Sennheiser headphones, Logitech mouse, and gaming desk), plus additional contextual details about dates and other devices.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies John's favorite game as CS:GO, which matches the gold answer, but incorrectly states James's favorite as strategy games instead of Apex Legends\u2014however, under Rule 1 (partial credit), getting at least one correct item (John's CS:GO) means this should be marked CORRECT.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Dungeons of the Dragon' (matching 'Dungeons of the Dragons') and 'Cyberpunk 2077' as the futuristic dystopian game (matching 'futuristic dystopian game'), which are at least two correct items from the gold answer list, satisfying the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'mid-2022' (a few months before September 2022) is semantically equivalent to 'approximately summer of 2022' from the gold answer, as both refer to the same time period in 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both events from the gold answer: the online programming competition and the programming seminar, with additional contextual details that don't contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 6, 2022 falls within the 'last week before October 13, 2022' timeframe (October 6-12), satisfying the date tolerance rule and capturing the same temporal reference.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies one of the two family members (mother) from the gold answer, which satisfies the partial credit rule that at least one correct item is sufficient.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date of October 19, 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all four games from the gold answer (CS:GO, Fortnite, Overwatch, and Apex Legends) with identical content, just formatted as a bulleted list with CS:GO's full name included.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core facts as the gold answer: James and Samantha decided to live together and rented an apartment near McGee's bar, using slightly different wording but conveying identical meaning.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'about two months' which falls within the 50% tolerance of 'nearly three months' (2 months is approximately 67% of 3 months), and the specific dates provided (September 3 to October 31) represent roughly 2 months, which is semantically close to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'about four months' matches the gold answer 'nearly four months' semantically, and the specific date range provided (early July to November 1) is consistent with this duration.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies the exact same dates (November 5-6, 2022) as the gold answer, with only the additional detail that it was a weekend.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, listing both Python and C++.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core application type (dog walking and pet care) as the gold answer, with additional detail about features, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014customizing/personalizing based on each dog's preferences and needs\u2014just with more detailed explanation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Connecticut' exactly matches the gold answer 'Connecticut.'",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Bottle caps' is an exact match (aside from capitalization) with the gold answer 'bottle caps', identifying the same items John has found with his metal detector.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the exact same core concept as the gold answer\u2014James offering to help John find the perfect pet\u2014with only minor grammatical differences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Drums' is an exact match with the gold answer 'Drums'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'About one month' is semantically equivalent to the gold answer 'One month' and conveys the same duration information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Counter-Strike: Global Offensive (CS:GO)' is the full name of the same game as the gold answer 'CS:GO', representing the identical entity with additional detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Apex Legends' exactly matches the gold answer 'Apex Legends'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer clearly states 'voice chat' which matches the gold answer exactly, with additional context that doesn't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A shelter puppy named Ned' correctly identifies that James adopted a pup (puppy), with additional specific details about the name and source, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Ned' exactly matches the gold answer 'Ned', identifying the same pup by name.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the number (3) and type of pets (dogs), matching the gold answer, with additional names provided as extra detail which is acceptable.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core fact from the gold answer\u2014that James was amazed by her eyes and appearance\u2014and provides additional context that is consistent with the question.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that James was inspired by a woman he saw during a walk, which matches the gold answer's core concept of 'appearance of a woman he saw during a walk,' with the additional details about dogs and the specific date being acceptable extra information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Italy' exactly matches the gold answer 'Italy'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all key elements from the gold answer: megacities, advanced technology, and tasty street food, with additional descriptive details that don't contradict the core facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'coding assignment' as the type of assignment giving John a hard time, with additional detail about the algorithm being acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Labrador' exactly matches the gold answer 'Labrador'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Pepperoni pizza' contains the gold answer 'Pepperoni' and refers to the same pizza type with slightly more detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Hawaiian pizza' correctly identifies the same pizza type as the gold answer 'Hawaiian', with only minor additional specificity that does not change the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core event (a CS:GO tournament) as the gold answer, with the additional detail that it was for charity, which does not contradict the gold answer and represents the same referent.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core actions as the gold answer: buying groceries and cooking food/meals for homeless people, just with slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all three correct dog names (Max, Daisy, and Ned) from the gold answer, just in a different order.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv6_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the main goal as raising money for a dog shelter, with the additional detail about location not contradicting the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions 'tracked inventory/resources/donations,' which directly matches all three items in the gold answer (tracking inventory, resources, and donations), even though it includes additional details about the system's implementation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core entity as the gold answer\u2014a smartphone application/software tool\u2014and correctly captures that it was computer-based and generated reports for analysis, which demonstrates accurate recall of the key fact despite additional descriptive details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'cash prize and a tournament trophy' is a paraphrase of the gold answer 'money and a trophy', capturing both correct items with slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key elements from the gold answer: the football simulator project and the player database collection component, using slightly different wording but referring to the same concepts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies Liverpool as the team James supports, with the additional clarification 'Liverpool FC' being extra detail that does not change the core correct answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Manchester City' exactly matches the gold answer 'Manchester City', identifying the same football club.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core disagreement about which team will perform better (Liverpool vs. Manchester City), which is semantically equivalent to 'debating on which team will perform better in the championship,' and includes additional supporting details about their positions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is an exact match to the gold answer, stating that Max is good at catching frisbees in mid-air.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'providing essential items to the less fortunate' is a clear paraphrase of the gold answer 'providing necessary items to those who are less fortunate' with the same semantic meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q0",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer identifies stress and burnout as health concerns, while the gold answer specifies obesity\u2014these are completely different health problems with no semantic overlap.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q11",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Excited' expresses a completely different emotion (positive, outward-focused) than the gold answer 'seeking solitude' (withdrawn, inward-focused), demonstrating a genuinely different understanding of John's emotional state.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q112",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer focuses on 'monster-hunting RPG experience' as the immersive aspect, while the gold answer specifies 'shaping the world with choices' \u2014 these are different gameplay features and the generated answer contains none of the gold answer's content about choice-driven world-shaping.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q147",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer confirms John suggested James practice before playing together, but lacks the specific details about 'control with a gamepad and timing' that are present in the gold answer, meaning it captures the general idea but misses the key specifics of what to practice.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies the same core project as the gold answer\u2014a board game collaboration with a game developer\u2014and provides additional descriptive details about the specific weekend and photo, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv6_q17",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Among Us and Mafia are different games - Mafia is a traditional party game while Among Us is a video game, so the generated answer identifies a completely different game than the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states 9 days while the gold answer is 19 days, which is a difference of 10 days and exceeds the 50% duration tolerance rule, so this is factually incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q33",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer directly contradicts the gold answer by stating 'No' when the correct answer is 'Yes', demonstrating an incorrect recall of whether John and James studied together.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies Jill as someone close to John, which semantically aligns with the gold answer's characterization of her as 'most likely John's partner'\u2014both indicate a close relationship to John.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q53",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states '8 days' while the gold answer is 'six months', which are vastly different durations that do not fall within the 50% tolerance rule for durations, indicating a factual error in recall.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a date (May 7, 2022) that is more than 5 months away from the gold answer (October 30-31, 2022), which exceeds the 14-day tolerance for dates and represents a completely different time period.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv6_q6",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states James does not live in Connecticut and lives near McGee's bar instead, which directly contradicts the gold answer of 'Likely yes' with zero semantic overlap.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv6_q77",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes receiving 'gaming tips' and 'practical pointers' from tournament team members, which refers to gameplay advice, while the gold answer specifically refers to advice about prioritizing team success over ego\u2014these are completely different types of advice addressing different topics.",
+  "category": "single-hop"
+ }
+]

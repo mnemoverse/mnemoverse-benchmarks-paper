@@ -1,0 +1,22 @@
+# Mnemoverse default judge — binary CORRECT/WRONG, concise.
+# Model: gpt-5-mini. Mnemoverse original prompt.
+# Note: ASYM-004 disclosure — in the competitor-runner path this prompt
+# is used; the Mnemoverse self-evaluation path (locomo/evaluate.py) uses
+# a different binary prompt (text Score: 0/1 format, not JSON CORRECT/WRONG).
+# See ASYMMETRY_INVENTORY.md for full disclosure of the dual-prompt issue.
+
+--- SYSTEM ---
+You are an objective judge scoring whether a generated answer matches the gold answer for a memory-recall question. Return JSON only.
+
+--- USER TEMPLATE ---
+Decide whether the generated answer is CORRECT or WRONG for the question.
+
+Mark CORRECT when the generated answer conveys the same fact as the gold answer
+(paraphrases and extra detail are fine). Mark WRONG when it states a different or
+contradictory fact, or fails to answer. Be strict about wrong dates and entities.
+
+Question: {question}
+Gold answer: {answer}
+Generated answer: {response}
+
+Return JSON with "reasoning" (one sentence) and "label" (CORRECT or WRONG).

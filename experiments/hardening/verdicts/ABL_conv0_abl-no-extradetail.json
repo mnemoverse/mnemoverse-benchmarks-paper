@@ -1,0 +1,1066 @@
+[
+ {
+  "qid": "conv0_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes May 7, 2023, which matches the gold date, so it contains a correct item.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (2022).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q10",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly states four years, it adds an unverifiable detail about moving around June 2019, violating the no-unverified-extra-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q100",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer correctly states a safe, inviting place for growth but adds an unverified detail about counseling work, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer affirms that Melanie made the black-and-white bowl, matching the gold answer\u2019s \u201cYes.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases and correctly lists all the categories in the gold answer (children\u2019s classics, multicultural stories, and educational books).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Charlotte's Web'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the book as 'Becoming Nicole' and the added author information is accurate and non-conflicting.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It captures the themes of support and self-acceptance by describing feeling connected and hopeful from the story of a trans girl and her family.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly by stating the shoes are used for running.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q107",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It includes the correct reason but adds an unverifiable specific about staying present for her family, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Headspace is a common paraphrase for mental health, capturing the same concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q109",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions pots (correct) but adds an unverifiable detail about a dog-face cup, which violates the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer ('Sweden'), satisfying the requirement for at least one correct item.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is a clear paraphrase of the gold answer, specifying a cup with a dog face.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q111",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly states painting, it adds unverifiable specifics (nature-inspired sunset with a palm tree), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by identifying a sunset with a palm tree.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same idea as the gold answer\u2014many people seeking to create loving homes for children\u2014so it matches semantically.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer items of 'warmth and happiness.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly states that flowers remind her to appreciate small moments and that they were part of her wedding d\u00e9cor.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches the gold answer by citing a visit to an LGBTQ center and the intent to portray unity and strength.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's frequency.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly names the Perseid meteor shower, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q119",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cAt one with the universe\u201d conveys a similar positive, transcendent feeling to being \u201cin awe of the universe,\u201d matching the emotional valence about the same event.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q12",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It correctly states 'ten years ago' but adds an unsupported specific date ('June 27, 2013'), which is unverifiable extra detail per the rules.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states that Melanie celebrated her daughter's birthday, matching the gold answer without adding unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, naming Matt Patterson as the performer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says she chose colors and patterns to be eye-catching and make people smile, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q123",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer names the correct pet type (guinea pig) but adds an unsupported specific name (\u201cOscar\u201d), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q124",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states two cats and a dog, it adds unverifiable pet names not supported by the gold answer, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s location with no extra unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('Horseback riding').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q127",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It mentions a stained glass window but adds unsupported specifics (\u201clarge\u201d and a particular depiction), violating the no unverified extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Brave' by Sara Bareilles).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer restates the gold answer, specifying counseling/mental health with a focus on transgender people.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold items (Bach and Mozart).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q131",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly identifies Ed Sheeran, it adds an unverified specific about her liking the song \u201cPerfect,\u201d violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q132",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold duration of seven years.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer\u2019s core content\u2014that the sign stated someone was not able to leave\u2014so it is correct despite minor added wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q134",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the core steps, it adds unsupported specifics (particular document types and a \u201cpotentially long wait\u201d), which violates the no-unverified extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q136",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly includes reading and painting, it adds an unsupported specific book and author, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the core detail of a sunset painting with a pink sky, aligning with the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches the gold answer by describing a transgender poetry reading where trans people shared their stories.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the core \u201cLikely no,\u201d it adds unverified quoted specifics and motivations not in the gold, violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold phrase in content, differing only by capitalization and quotes.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q141",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it includes the correct ideas of freedom and being true to herself, it adds unverifiable specifics (e.g., embracing her womanhood, pride and identity), which violates the no unverified extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It accurately matches the core idea\u2014an ongoing adventure of learning and growing\u2014with minor acceptable embellishments.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q143",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches that he was in a car accident, it adds unverified specifics (exact dates, airbags, damage, and condition), violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Saying she should cherish her family conveys that they are very important to her, matching the gold sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q146",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct idea that they were scared and resilient, it adds unsupported specifics about Melanie reassuring them and their brother being okay, violating the no unverifiable extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer explicitly says she felt grateful and emphasizes cherishing her family, which matches \u201cgrateful and thankful for her family,\u201d despite adding extra emotions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes \u201cmotivation,\u201d which matches the gold answer, so it receives credit despite extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes painting, pottery, swimming, and camping, which are all activities listed in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer clearly states that she really appreciates her family's support, matching the gold answer's sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date exactly, only differing in date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (July 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q18",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The locations (beach, mountains, forest) are correct, but the answer adds fabricated date specifics not supported by the gold, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q19",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct items (dinosaurs and nature), it adds numerous unsupported specifics (camping details, museum exhibit, pottery workshop, beach fun, summer break), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer mentions counseling (aligning with counseling certification) and mental health (a close paraphrase of psychology), so it includes at least one correct item from the gold list.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date matches the gold answer exactly, only differing in date format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer matches the gold by stating it was the week before July 6, 2023, and June 29 fits that window.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer aligns with the gold rationale that she collects classic children's books, making Dr. Seuss likely on her shelf.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes \u201cCharlotte\u2019s Web,\u201d which matches one of the gold items, so it contains at least one correct item.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes running, which matches one of the gold items (running, pottery).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date matches the gold answer exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold year 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q27",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "July 14, 2023 is the Friday immediately before July 15, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "July 14, 2023 is the Friday before July 15, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item ('Adoption agencies'), satisfying the recall criteria.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q30",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it aligns with the conclusion that Melanie is not a member, it introduces unverifiable specifics (e.g., beach wedding photo, husband and daughter), violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cAround June 20, 2023\u201d matches the week before June 27, 2023, so it aligns with the gold answer within the allowed window.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q32",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes 'around June 26, 2023,' which falls within the week before July 3, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the school speech and a mentoring program from the gold answer, it adds numerous specific, unsupported events and dates, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q35",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies July 15\u201316, 2023, which is exactly the weekend before July 17, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q38",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes correct items (camping, hiking, painting, museum), it adds fabricated/unverifiable specifics and extra activities (dates, meteor shower, volunteering, concert), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q39",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite including the correct activities (activist group, Pride, art show, mentoring), it adds many unverified specifics like group names, dates, and events, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating Caroline is a transgender woman with no extraneous details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q40",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly says '2 times,' it adds unverified specifics about July beach trips, violating the no extra detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Tuesday, July 18, 2023 is the Tuesday immediately before July 20, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer selects a national park, matching the gold answer\u2019s choice.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions abstract works, the answer is padded with numerous unverifiable specifics beyond the gold fact, violating the tightened no-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same date as the gold answer, just with month-day order.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The Friday before August 14, 2023 is indeed Friday, August 11, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q46",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it answers yes, it adds many specific, unverifiable details beyond the gold answer, violating the no extra detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it lists the correct groups (friends, family, mentors), it adds an unverified specific (\u201cincluding Melanie\u201d), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q48",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions bowls and a cup (matching the gold), it introduces unsupported specifics and extra types (plate, small pots), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 2022 for when they went together, but the generated answer denies they attended together and reframes 2022 as a solo visit, so it contains no correct item for the asked fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The Sunday before May 25, 2023 is May 21, 2023, and the generated date (May 20, 2023) is within one day, satisfying the 14-day date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q50",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies her as liberal, it adds unverified specific justifications, violating the no extra detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q51",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions horse, sunset, and sunrise, it adds numerous unverifiable specifics (dates, collaborators, settings), which violates the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches all three pet names in the gold answer (Oliver, Luna, Bailey).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated range (Aug 21\u201323, 2023) falls within the same week as the gold answer (\u201cthe week of 23 August 2023\u201d), matching the timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "August 16, 2023 is within the week before August 23, 2023, matching the gold answer within the allowed date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It mentions the rainbow flag (correct) but adds numerous unsupported specific symbols not in the gold answer, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q57",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer, only differing in format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists the same two instruments\u2014violin and clarinet\u2014as the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q61",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes a correct artist (Matt Patterson), it adds an unsupported specific date and context not in the gold, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date, just in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q64",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite saying Yes and implying it\u2019s classical, the answer adds unsupported specifics about Melanie (Bach/Mozart, live music, violin), violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q65",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite mentioning body changes and losing unsupportive friends, it adds many specific, unverifiable details (dates, events, career plans), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The stated weekend of September 9\u201310, 2023 is exactly the weekend before September 13, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q69",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite including 'thoughtful,' 'driven,' and 'authentic,' the response adds many specific, unverifiable claims, violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly says she is single, it adds unverified details about a breakup date and adoption plans, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q70",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite mentioning a poetry reading, the answer adds unverified specific dates/details and extra events (support groups/workshop) not in the gold, violating the no-unverified-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact book title \u201cBecoming Nicole,\u201d matching the gold answer, with an accurate author detail.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (2022).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date of September 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date \u201cOctober 14\u201315, 2023\u201d exactly matches the weekend before October 20, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Three' matches the gold answer '3' for the number of children.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date is within one day of the gold date and falls well within the 14-day tolerance window.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q77",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it aligns with 'likely not soon,' it adds specific, unverifiable details (e.g., mid-October date, accident with airbags, time in nature), violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q78",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct item 'figurines,' it adds unverifiable specifics (exact purchase date and sentiment), violating Rule 3.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Friday, October 20, 2023 is exactly the Friday before 22 October 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The stated range (June 2\u20138, 2023) correctly represents the week before June 9, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date matches the gold answer exactly, just formatted differently.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions the ongoing adoption (a correct item), it adds many specific, unverified details (dates, activities, advocacy, shows), violating the no-unverified-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's topic (mental health) without adding unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly matches the gold by stating she realized how important self-care is.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q84",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it correctly states she carves out daily me-time to run, read, and play violin, it adds unsupported specifics (art therapy, painting/pottery, nature activities with family), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's supported group.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by citing the agency\u2019s inclusivity and support for LGBTQ+ individuals as the reason.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q88",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it captures the core idea of creating a family for children in need, it adds an unverifiable specific about passing agency interviews, which violates the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q89",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it conveys Melanie\u2019s supportive, positive view (semantically close to thinking Caroline will be a great mom), it adds unsupported specifics like congratulating her application and praising an \u201cinclusive\u201d agency, violating the no-unverified-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date range (week before June 2, 2023) is within one week of the gold window (week before June 9, 2023), which fits the 14\u2011day tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q90",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite correctly stating \u201cfive years,\u201d the answer adds unsupported specifics about the wedding date and anniversary year, violating the no unverified extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q91",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer includes the correct items (love, faith, strength) but adds unsupported specifics about roots and family support, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer ('Sweden'), so it is correct.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('necklace').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q94",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer introduces unsupported specifics (pottery class and hard work) and does not include the core idea that it reminds her of art and self-expression.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q95",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite matching the core activities, the answer adds unverifiable specific details (e.g., Perseid meteor shower, summit hike, beach-camping), which violates the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches the gold by saying she wants to work with transgender people to support their mental health and self-acceptance.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies the workshop as an LGBTQ+ counseling workshop, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly mentions both therapeutic methods and best practices for working with trans people, aligning with the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches the gold points by citing her own journey, the support she received, and the positive impact of counseling as her motivation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q128",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes sidewalk chalk flowers, which does not match the gold item of a rainbow sidewalk and shares no overlapping correct detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q135",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes her son\u2019s car accident, not Melanie getting hurt and taking a break from pottery, so it contains no matching gold facts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q138",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a transgender-flag-themed portrait, which does not match the gold abstract painting with blue streaks on a wall and shares no overlapping items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q144",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer does not mention that he was scared or reassured by his family, so none of the gold items are present.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q148",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer does not state that she was happy or thankful and instead adds an unverifiable photo detail, so none of the gold items appear.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q151",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It introduces unverifiable details (\u201cwith her kids,\u201d \u201ccamping\u2011style\u201d) and never specifically mentions a nature walk or hike, so it doesn\u2019t match the gold fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv0_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 'sunset,' but the generated answer describes an abstract blue-themed painting with no mention of a sunset.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q55",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 'Flowers,' which does not match the gold answer 'Sunsets.'",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q59",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer contradicts the gold characterization (\u201csomewhat but not extremely religious\u201d) by saying she\u2019s probably not religious and adds unverifiable specifics, violating the no-fabrication rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv0_q66",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response talks about exploring nature and hiking to summits but does not mention roasting marshmallows or telling stories, so none of the gold items are present.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv0_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cSeven years\u201d is a duration that paraphrases \u201csince 2016\u201d and is acceptable under the duration/date tolerance rules.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv0_q85",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer lists unrelated summer events and does not mention researching adoption agencies, the sole gold item.",
+  "category": "single-hop"
+ }
+]

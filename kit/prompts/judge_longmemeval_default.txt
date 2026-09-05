@@ -1,0 +1,23 @@
+# Third, independently-sourced rubric (reviewer-requested triangulation for the threats section).
+# VERBATIM port of the LongMemEval judge prompt (Wu et al., ICLR 2025),
+# src/evaluation/evaluate_qa.py::get_anscheck_prompt, default template
+# (tasks single-session-user / single-session-assistant / multi-session),
+# fetched 2026-07-05 from github.com/xiaowu0162/LongMemEval @ main.
+# The only mechanical change: positional {} slots renamed to the kit's named
+# slots {question}/{answer}/{response}; no words added or removed. Their
+# harness sends it as a single user message (no system prompt) to
+# gpt-4o-2024-08-06, temperature 0. Used by scripts/run_third_rubric_longmemeval.py
+# for all LoCoMo categories EXCEPT temporal (see judge_longmemeval_temporal.txt,
+# mirroring their per-task routing).
+--- SYSTEM ---
+
+--- USER TEMPLATE ---
+I will give you a question, a correct answer, and a response from a model. Please answer yes if the response contains the correct answer. Otherwise, answer no. If the response is equivalent to the correct answer or contains all the intermediate steps to get the correct answer, you should also answer yes. If the response only contains a subset of the information required by the answer, answer no.
+
+Question: {question}
+
+Correct Answer: {answer}
+
+Model Response: {response}
+
+Is the model response correct? Answer yes or no only.

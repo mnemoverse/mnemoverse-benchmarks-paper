@@ -1,0 +1,33 @@
+% table_judge_swing.tex -- judge-swing decomposition. Deps: booktabs only.
+% Wire with: \input{../../figures/table_judge_swing}
+\begin{table}[t]
+\centering
+\caption{Accuracy of the \emph{same} 152-answer set (our engine's answers on
+LoCoMo conv-26) as a function of the judge. Switching from the \texttt{mem0}
+lenient prompt to the \texttt{strict} prompt while keeping \texttt{gpt-5} drops
+the score by 42.1\,pp; swapping the model from \texttt{gpt-5} to \texttt{gpt-4o}
+while keeping the \texttt{mem0} prompt moves it by only 1.3\,pp. The judge
+\emph{prompt} dominates the judge \emph{model} as a source of score variance.}
+\label{tab:judge-swing}
+\small
+\begin{tabular}{@{}lllrl@{}}
+\toprule
+Judge & Prompt & Model & Acc.\ (\%) & vs \texttt{mem0} \\
+\midrule
+\texttt{mem0}       & generous (partial, $\pm$14\,d)     & gpt-5      & 90.1 & --- \\
+\texttt{mem0-4o}    & generous (partial, $\pm$14\,d)     & gpt-4o     & 91.5 & $+1.3$ \\
+\texttt{mnemoverse} & binary (exact, no tolerance)         & gpt-5-mini & 75.7 & $-14.5$ \\
+\texttt{strict}     & strict (no paraphrase, no tolerance) & gpt-5      & 48.0 & $-42.1$ \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Decomposition on the same 152 answers:}} \\[2pt]
+\quad prompt swap & \texttt{mem0}$\to$\texttt{strict} & gpt-5 fixed     & & $-42.1$\,pp \\
+\quad model swap  & gpt-5$\to$gpt-4o                  & \texttt{mem0} fixed & & $+1.3$\,pp \\
+\bottomrule
+\end{tabular}
+
+\vspace{2pt}
+{\footnotesize Raw fractions: 0.9013 / 0.9145 / 0.7566 / 0.4803; $n=152$ for all
+judges; percentage-point deltas are computed from the raw fractions, not the
+rounded Acc.\ values. The \texttt{mnemoverse} judge uses a distinct binary prompt
+implementation (ASYM-004) and is excluded from the prompt-vs-model decomposition.}
+\end{table}

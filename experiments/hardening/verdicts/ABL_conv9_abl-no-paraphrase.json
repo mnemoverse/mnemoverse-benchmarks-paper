@@ -1,0 +1,1108 @@
+[
+ {
+  "qid": "conv9_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date April 20, 2023 falls within the gold range of 26 March to 20 April 2023, matching the fact.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer pinpoints the same timeframe\u2014about a week before May 16, 2023 (around May 9)\u2014as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes the exact gold fact\u2014\u201cin the studio at Calvin\u2019s mansion\u201d\u2014and the added location detail does not negate it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same fact\u2014that they recorded a podcast discussing the rap industry\u2014matching the gold answer with only minor added description.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions 'Miami,' matching the gold answer while adding acceptable extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating the guitar features an octopus design.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact key item 'unique look,' matching the gold answer's reason.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('purple') for the guitar's glow color.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'San Francisco'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q107",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 'Proud' while the generated answer is 'Satisfaction', a different emotion with no exact match.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies Boston as the destination, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions both flooding of his home/mansion and a car accident, matching the gold answer\u2019s items.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes visiting Dave\u2019s garage, matching the gold plan.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Ratatouille').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states that the reactions make the hard work worth it and leave him satisfied, matching the gold answer\u2019s key points.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states 'California Love,' matching the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions a 'shiny orange car,' matching the gold answer while adding acceptable extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Ford Mustang'), so it includes the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core fact\u2014Dave enjoys transforming an old, broken car into a renewed, restored state\u2014matching the gold idea of turning something old and beat-up into something beautiful.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly includes 'Hard work,' matching one gold item, so it earns partial credit despite 'dedication' not matching 'determination.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q119",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly frames working on cars as a therapeutic escape and oasis of calm, aligning with the gold answer\u2019s \u2018therapy\u2019 and \u2018way to get away from everyday stress.\u2019",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer places the event in late May 2023 (May 24\u201330), aligning with the gold answer\u2019s last week of May 2023 within allowed date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q120",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer focuses on turning his passion into a business, restoration work, and blogging, but does not state the gold fact of aiming to take something broken and make it into something awesome.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions a Ferrari, matching the gold answer, with only additional color detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by naming 'The Fireworks' as the headliner.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states he reconnects with his passion, leans on his support system, and takes restorative breaks, matching all key gold items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states they met at a music festival, which matches the gold answer\u2019s \u201cat a festival,\u201d with Tokyo as acceptable extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, identifying Shibuya Crossing as Tokyo's Times Square.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold location 'Shinjuku'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q128",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item ('ramen').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same key fact as the gold answer\u2014being energized by connecting with the crowd/audience during performances.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by saying yes and giving the same reason\u2014that Calvin enjoys/thrives on performing to large, high\u2011energy crowds.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes the gold fact that he \u201ctakes it one day at a time,\u201d so it contains at least one correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q131",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same specific fact as the gold answer\u2014that Calvin\u2019s recent music was inspired by the struggles people go through.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q132",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about being inspired by others\u2019 struggles and digging deeper, but it does not state that he uses music to express himself or to work through his own emotions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states he was fascinated with machines, matching the gold reason of being fascinated with how machines work.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states that paying extra-close attention to detail is the toughest part, matching the gold answer's fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q135",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same fact\u2014paying attention to small details\u2014as the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q136",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions last year for the restoration but does not explicitly state that the sale occurred last year, failing to match the gold fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q138",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states it felt like a dream come true, matching the gold answer\u2019s core sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer\u2019s core realization that music is his passion and purpose.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer (June 8, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q140",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include the exact items 'fulfilling' or 'motivating'; 'deeply rewarding' is a paraphrase not allowed by the tightened rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Boston'), satisfying the required fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states he hosted a small party for his new album at his Japanese house, matching the gold answer with acceptable extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Car modifications' conveys the same fact as the gold 'Car mods.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states Dave started a car-modification blog, matching the gold answer's 'blog on car mods' as his way to share his passion.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all the gold items\u2014music videos, concerts (as live concert performances), and documentaries about artists and their creative process.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Classic rock').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same specific content\u2014Dave\u2019s post about making his car look like a \u201cbeast,\u201d matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says the blog inspires others to start their own DIY car-mod projects, matching the gold answer\u2019s key fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says parks are calming and help him relax, matching the gold answer\u2019s reason.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('his old high school buddy').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q152",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same item as the gold answer (\u201cA vintage camera\u201d), and the added date detail is acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold facts, listing nature scenes\u2014sunsets, beaches, and waves.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q154",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states 'a fancy gala,' matching the gold answer, and the added date detail is acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q155",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes both art and music, matching the gold answer's items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q156",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states the same location as the gold answer: a nearby park.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q157",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states that nature helps him appreciate life during tough times, matching the gold answer\u2019s key fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date of July 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Friday, June 16, 2023 is exactly the Friday before June 21, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states '2', which matches the gold answer of 'two times'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Tokyo music festival' and 'Shinjuku,' which match items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "March 25, 2023 is the weekend immediately before March 26, 2023, matching the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies 'His dad' as the inspiration, exactly matching the gold answer while adding permissible extra details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says Calvin wants to grow his fanbase, matching the gold answer\u2019s core fact.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says 'Yes,' matching the gold answer's fact that Calvin wants to expand his brand, with extra detail allowed.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states automotive engineering, which matches the gold answer's auto engineering.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says Dave works with engines, matching the gold answer\u2019s \u201cyes.\u201d",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Friday, August 18, 2023 is exactly the Friday before August 22, 2023 as stated in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date (August 21, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('Miami').",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions taking long drives, spending time in nature, and working on/restoring cars, which match the gold items.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes photography, attending live concerts, and going on walks, which directly match items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes Aerosmith, which matches one of the bands in the gold answer, so it meets the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'classic rock,' which matches one of the gold answer items, satisfying partial credit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states San Francisco, exactly matching the gold answer, with permissible extra details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold location 'San Francisco.'",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date provided in the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cAround August 26, 2023\u201d falls within the 14-day tolerance of the gold window (last week of August 2023), matching the timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date of September 11, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer clearly says 'Yes' and provides supporting details, matching the gold answer's affirmation.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states Dodge Charger, which matches the gold answer exactly.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('United States'), satisfying the required fact.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, naming Tupac and Dr. Dre.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by identifying 'their dad.'",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer ('No') exactly.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Boston'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions car restoration/building and bringing a car back to life, which matches the gold answer of working on cars.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states 'restoring classic cars,' which matches the gold fact 'restoring cars.'",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states he was at a car show that weekend, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold facts by stating they tinkered with car engines and restored/refurbished cars in the garage.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the dreams to open a car maintenance shop and to work on classic cars, which directly match items from the gold list, satisfying partial credit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date (\u201caround October 8, 2023\u201d) is within 14 days of the gold answer\u2019s \u201cfirst week of October 2023,\u201d meeting the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s date (August 2022), with permissible extra detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date range 'November 2023' matching the gold answer, with acceptable extra detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions both his friends and his team, matching the gold answer, with extra detail allowed.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both cities matching the gold answer: San Francisco and Detroit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('photography').",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It lists attending a car show with his dad, working on an old car in a neighbor\u2019s garage when young, and spending a summer restoring an old car with his dad, matching the gold items.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states 'Two,' matching the gold answer's count, and the extra details do not conflict.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says Dave likes classic cars (including vintage muscle models), which matches the gold answer of classic vintage cars.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes a gold necklace (equivalent to a gold chain), matching one gold item, though it omits that the octopus design was on a guitar.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q63",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It conflates the two guitars by describing a purple-glowing octopus-themed guitar instead of the yellow octopus guitar and omits a separate shiny purple guitar, so none of the gold items are stated exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly includes the countryside road trip and card-playing nights, which match items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes the exact gold date 'September 2023,' so it contains a correct item even though it also mentions October.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says 'No', matching the gold answer\u2019s core fact that not all of Dave\u2019s restorations go smoothly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "October 26, 2023 falls within the last week of October 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date 'November 2023'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date of November 16, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact duration 'A few months,' matching the gold answer, with extra detail allowed.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Aerosmith.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies Tokyo (adding 'Japan' as extra detail), which matches the gold answer's location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold advice to stay true to himself and sound unique.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same specific venture\u2014opening a car maintenance shop\u2014as the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating he works on all kinds of cars with both regular maintenance and full restorations of classic cars.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer repeats the same key fact\u2014reminding him why he keeps hustling as a musician\u2014matching the gold answer exactly.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer says he immerses himself (in music), which matches the gold fact of immersing himself in something he loves.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date is within 8 days of the gold date, which falls inside the 14-day tolerance window.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions exploring other activities, which matches the gold item 'explore other things,' satisfying partial credit.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches both items from the gold answer by stating he saved his music equipment and his favorite microphone.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer says he opened a car maintenance shop, which matches the gold answer's 'a car shop.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the same core fact\u2014fixing things\u2014as the gold answer, with acceptable extra detail about cars.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states that performing live fuels Calvin\u2019s soul, exactly matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states \"exploring parks,\" exactly matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Skiing'), so it includes the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes the exact phrase 'get back on the road,' matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q88",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly states that they arranged regular walks together, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says he is \u201cexperimenting across genres,\u201d matching the gold answer\u2019s \u201cexperimenting with different genres.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer pinpoints the week of May 9, 2023, which is exactly one week before May 16, 2023, matching the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Ferrari'), satisfying the requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer aligns with expanding worldwide reach and growing his audience/fanbase, matching the gold goal\u2019s core items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q93",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated advice about pursuing passion and not losing sight of goals does not state the specific fact 'never forget his dreams.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies a car modification workshop, which matches the gold answer\u2019s 'Car mod workshop' as the same fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly mentions engine swaps, suspension upgrades, and body modifications, matching all three items in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states focusing on small details/attention to detail, matching the gold answer\u2019s key fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the key fact that everyone sang along, aligning with the gold answer\u2019s core detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states they met at a music festival in Tokyo, matching the gold answer, with only acceptable extra details added.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists a mansion in Japan and a Ferrari 488 GTB, exactly matching the gold answer\u2019s items with consistent dates.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes 'exploring,' which matches one of the gold answer\u2019s key items, even if it adds different specifics and omits brand growth.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q113",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions reflecting on life, not feeling the wind blowing through his hair, so it contains none of the gold item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q124",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer cites working on cars/restoring and modifying, not the gold fact 'fixing things,' so none of the gold items appear.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q137",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer states 'at an early age,' but the generated answer gives a specific 2023 purchase date, which does not match the timing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q147",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include the gold items 'writing lyrics' or 'notes'\u2014a 'notebook' and other inspirations are different and fail the strict same-fact requirement.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q151",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer claims Calvin recently took up restoring cars, which does not match the gold answer of photography.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q33",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer changes the workshop type from car modification to car restoration and only mentions learning modification skills, so it does not state the same fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 'two' car shows, but the generated answer says '3', so it does not match.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q54",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions a notebook, which does not match the gold facts of staying up-to-date on world events or watching documentaries about artists.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv9_q61",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not provide the specific duration 'nearly two months' from the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer states the workshop lasted two weeks, but the generated answer says one day, which does not match the duration.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer only says he was in Japan and does not state Tokyo, failing to match the specific location required by the gold answer under the tightened no-paraphrase rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv9_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 'No,' directly contradicting the gold answer 'Yes' and contains no correct items.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv9_q90",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention that adding electronic elements 'gives them a fresh vibe' and instead discusses self-discovery, so it contains none of the gold fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv9_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes 'classic muscle car,' matching the gold answer, and the added Corvette detail is acceptable under the rules.",
+  "category": "single-hop"
+ }
+]

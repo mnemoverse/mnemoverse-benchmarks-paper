@@ -1,0 +1,863 @@
+[
+ {
+  "qid": "conv5_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '2020' exactly matches the gold answer '2020'.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "March 20, 2023 falls within the week before March 27, 2023, and is within the 14-day date tolerance, making this semantically equivalent to the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'June 2023' which exactly matches the gold answer of 'June, 2023', and the additional context about seeing the flyer does not contradict this date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'knee injury' as the reason Audrey couldn't walk her dogs, matching the gold answer with additional contextual detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q101",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey makes jewelry from recycled materials/objects, with additional specific examples that align with the core concept in the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core concepts from the gold answer\u2014creativity and sustainability\u2014and provides additional supporting detail about how Audrey expresses these values through upcycling and waste reduction.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q103",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'An animal shelter' is semantically identical to the gold answer 'Animal shelter' - both refer to the same type of organization.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey helps by donating to the animal shelter, which matches the core concept in the gold answer of donating a portion of profits, even though it doesn't specify the jewelry sales detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer (fetch and frisbee), with additional descriptive detail about chasing balls at the dog park.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q106",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'homemade dog treat cookies' is a specific type of goodie that falls under the broader category of 'goodies' mentioned in the gold answer, representing the same core concept with additional detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states that Audrey's dogs 'were confused' by snow, which matches the gold answer's core fact, and the additional context about their preference for sunny days does not contradict this.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q108",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core idea that Audrey's dogs prefer sunny days in the grass (matching the gold answer) and adds consistent detail about their negative response to snow.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer is an exact match to the gold answer, correctly identifying that Audrey's dogs are best companions for exploring the great outdoors.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sunday, June 11, 2023' includes the exact date from the gold answer 'June 11, 2023' with only an additional day of the week, which is extra detail and does not make it incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Taking walks together' is a paraphrase of the gold answer 'Walking' - both refer to the same activity with identical semantic meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q111",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'checking out new trails' which is a paraphrase of the gold answer 'checking out new hiking trails' (hiking trails = trails), and the additional details about spending time together and fresh air do not make it wrong.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q112",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sushi' is an exact match (aside from capitalization) with the gold answer 'sushi', referring to the same cuisine.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies both types of sushi from the gold answer (California roll and salmon roll), just with slightly different wording.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'A picnic date' is semantically identical to the gold answer 'picnic date', just with an article added.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Go on a hike together with Audrey's dogs' captures the core activity of 'Go hiking' from the gold answer, with additional detail about the dogs being present.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states 'autumn colors' which matches the gold answer exactly, and the additional detail about 'colorful fall foliage' is simply a paraphrase of the same concept.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey joined a dog owners group in November 2023, which matches the gold answer's core fact, with additional contextual details that do not contradict the key information.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Once a week' matches the gold answer exactly, demonstrating correct recall of the frequency.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes rock climbing, fishing, and camping (implied in outdoor activities), which are all present in the gold answer, plus additional outdoor activities.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q120",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three items from the gold answer (puzzles, training, and hide-and-seek) with additional clarifying details about training sessions, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Andrew is planning to take Scout, Toby, and Buddy to a nearby park, which matches the gold answer exactly, with additional contextual details that don't contradict the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q122",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three items from the gold answer (bed, toys, and puppy pads), which are the exact essentials mentioned.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'June 26, 2023' specifies a date within June 2023, which matches the gold answer's timeframe and falls well within the 14-day date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q14",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly addresses the gold answer 'being in nature' and provides additional detail about hiking trails and the feelings associated with it, which is the same core concept.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly addresses the same frustration as the gold answer\u2014difficulty finding pet/dog-friendly spots\u2014with additional contextual detail about housing and city living.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '3' is numerically identical to the gold answer 'three times' and represents the same quantity.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes two correct items from the gold answer (board games and wine tasting), which satisfies the partial credit rule that at least one correct item is sufficient.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies chicken as Audrey's preferred meat, with the additional detail about roasted chicken with garlic being acceptable extra information.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes at least three correct items from the gold answer (pet-bonding workshop matches positive reinforcement training class for bonding, dog training course is exact, and agility classes matches agility class), with one additional item that doesn't contradict the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer: finding pet-friendly housing (apartments) and limited access to nature/open spaces, plus additional relevant context about the adoption process.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer confirms that Audrey did grow up with a pet dog (Max), which satisfies the partial credit rule since at least one person in the question had a childhood dog, making the overall answer 'Yes' at least partially correct.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The weekend of August 19-20, 2023 is the weekend immediately before August 24, 2023, which falls within the 14-day date tolerance and represents the same time period as the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer identifies 'work' (his job, work piling up) as the biggest stressor, which directly matches the gold answer of 'work', with additional contextual details that are acceptable.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Andrew feels stressed about his current work, which directly matches the gold answer 'Stressful', and the additional context about being overworked supports this core sentiment.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Party hats' is a more specific version of the gold answer 'Hats' and refers to the same core item that Audrey uses to dress up her dogs.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all four dog names exactly as they appear in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'cafes' and 'new places to eat' which are both present in the gold answer list, satisfying the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'November 2023' matches the gold answer 'November 2023' exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both key activities from the gold answer\u2014taking walks and hiking\u2014plus additional correct details about activities Andrew has done with his dogs.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey has tattoos of her four dogs on her arm, which matches the gold answer's core fact; the additional detail about sunflowers does not make it wrong.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q33",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While the generated answer provides many practical suggestions for managing stress and accommodating dogs in the city, it does not include the core gold answer recommendation of changing to a hybrid/remote job to enable moving to the suburbs for larger living space and proximity to nature.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q34",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '3 months' is numerically identical to the gold answer 'three months', just using digits instead of words.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three correct dog names from the gold answer (Toby, Scout, and Buddy), just in a slightly different order and with different punctuation.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes three items that directly match or paraphrase the gold answer (chicken pot pie, sushi, and blueberry muffins), and the roasted garlic chicken is a reasonable paraphrase of 'chicken roast', meeting the partial credit requirement.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer's date of October 17, 2023 falls within 14 days of the gold answer range (October 19-24, 2023), meeting the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The weekend of October 21-22, 2023 is the weekend immediately before October 24, 2023, which matches the gold answer's timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies April 9, 2023, which falls within the gold answer's timeframe of April 3rd to 9th, and the additional detail about blueberry muffins does not make it incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'off-leash dog park' is a paraphrase of the gold answer 'dog park' - both refer to the same type of location where dogs can run freely and socialize.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Pepper and Panda are Labrador mixes and Precious and Pixie are Chihuahua mixes, which matches the gold answer's core information about the breeds being mongrel/mixed-breed dogs with Lab and Chihuahua respectively.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'positive reinforcement' as the technique, and the additional descriptive details (reward-based, punishment-free) are consistent with and further explain the same core concept.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states '3 pets' which matches the gold answer 'three' exactly, and even provides the specific names as additional detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states '1 (one pet)' which matches the gold answer of 'one' exactly, and the additional detail about the dog's name does not make it incorrect.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer '1 month' is semantically identical to the gold answer 'one month', just using numeric notation instead of written form.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states Andrew sees his pets 'as family,' which directly matches the gold answer, and the additional details about friends and confidantes do not negate this correct core fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'family' which is exactly the same concept as the gold answer 'Family', just in a complete sentence form.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "April 26, 2023 is within 14 days of the first week of May 2023 (May 1-7), which falls within the acceptable date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'grooming' as the skill Audrey learned, with additional contextual details that do not contradict the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple items from the gold answer list (collars, ID tags/dog tags, dog beds, and toys), plus additional specific details about boots and personalized keychains, which satisfies the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Park ranger' directly matches the primary career mentioned in the gold answer, which is sufficient for a CORRECT label under the partial credit rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions playing with a frisbee, which is one of the activities listed in the gold answer (play fetch with frisbee), satisfying the partial credit rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q56",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'No' and provides additional context that Andrew was searching for a dog-friendly rental and made it work without moving, which aligns with the gold answer that he has not moved into a new apartment.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sushi' is the same as the gold answer 'sushi' with only a capitalization difference, which is semantically identical.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'about four months' which matches the gold answer of '4 months', and the specific date provided (July 11, 2023) is consistent with this timeframe relative to November 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer provides the exact same date as the gold answer, matching both the timeframe ('around') and the specific date (April 2, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'Three' which matches the gold answer of '3', and even provides the names of the dogs as additional detail.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Eagles' is an exact match with the gold answer 'Eagles', identifying the same specific type of bird.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'The peaceful moments outdoors' captures the core concept from the gold answer 'The peaceful moments' with only minor additional detail ('outdoors'), which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches all three items from the gold answer: croissants, muffins, and tarts.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Sunflowers' is the same as the gold answer 'sunflowers' with only a capitalization difference, which is semantically identical.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both key elements from the gold answer: Audrey chats with people (other dog owners) and the dogs make new friends, with additional detail about watching the dogs run around.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'smaller dog suited for apartment living' includes the core concept from the gold answer 'smaller dog' with additional contextual detail about apartment living, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Near a park or the woods' is semantically identical to the gold answer 'near a park or woods', capturing the exact same concept with only trivial differences in capitalization and article usage.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept of strengthening the bond/connection with her pets, which directly matches the gold answer's meaning, and the additional details about techniques and training methods do not contradict this.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey saw a flyer at her local pet store, which matches the gold answer's core fact, with the added date being acceptable extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states 'about three years' which matches the gold answer of 'three years' exactly, with additional specific date context that is consistent.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'positive-reinforcement dog training workshop' captures the core concept of 'positive reinforcement training' from the gold answer, with the addition of contextual detail ('dog training workshop') that is consistent with the topic.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer contains both correct items from the gold answer ('friendly' and 'playful'), using the exact same descriptors with only minor grammatical differences.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the core concept that positive reinforcement helps pets learn behavior in a positive/humane way through rewards rather than punishment, which semantically aligns with the gold answer's emphasis on learning to behave positively.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core challenge as the gold answer\u2014finding pet-friendly housing in the city\u2014with additional relevant detail about rental housing and dog needs, which is acceptable under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures both core emotions from the gold answer\u2014'discouraging' matches 'discouraged' and 'staying determined' matches 'determined'\u2014with additional detail about optimism that doesn't contradict the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both correct items from the gold answer (kayaking and bungee jumping), with only a minor qualifier 'possibly' that doesn't change the core content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'about an hour per outing' matches the gold answer 'about an hour' semantically, with the added detail 'per outing' providing extra specificity without changing the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer\u2014a doggy play area with agility equipment and toys\u2014using slightly different wording ('equipment' vs 'stuff') which qualifies as an acceptable paraphrase.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'a stunning mountain lake' refers to the same entity as the gold answer 'a stunning lake in the mountains' - both describe the same lake discovery, just with slightly different word order.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Chicken pot pie' is an exact match to the gold answer 'Chicken Pot Pie' with only a minor capitalization difference.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states 'No' and provides additional context that confirms Andrew did not have a dog in March 2023, which matches the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Roasted garlic chicken' refers to the same core dish as the gold answer 'Roasted Chicken' and includes the garlic detail mentioned in the question, with additional descriptive details that are permitted under the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that they volunteered at a pet shelter, which matches the gold answer, and the additional details about spending time with animals and finding it rewarding do not make it incorrect.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Max' exactly matches the gold answer 'Max', correctly identifying Audrey's childhood dog's name.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all three core memories from the gold answer (long walks in the neighborhood, exploring new paths, and sharing worries and hopes) plus additional details about fetch and play, which is acceptable under the partial credit and extra detail rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all four personalities from the gold answer with paraphrased descriptions: oldest is relaxed (matches), second is playful/ready for a game (matches), third is naughty but loves cuddles (matches), and youngest is full of life (matches).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Agility classes' is an exact match with the gold answer 'Agility classes'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q86",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Twice a week' matches the gold answer exactly, demonstrating correct recall of the frequency.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Two hours' exactly matches the gold answer 'Two hours', demonstrating perfect recall of the trail hike duration.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all four key elements from the gold answer (daily brushing, regular baths, nail trims, and lots of love), just with slightly different phrasing and punctuation.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all five items from the gold answer (pet-bonding workshop matches positive reinforcement training workshop, dog training course, agility classes matches agility training course, grooming course, and dog owners group), with additional specific dates that provide extra detail but do not contradict the core facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Dog playdates at the park' captures the same core concept as the gold answer 'a doggy playdate' - both refer to organizing playdates for dogs, with the generated answer simply adding the location detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey got new beds for her dogs, which matches the gold answer's core fact, with additional details about the dogs' names and timing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures the same core concept as the gold answer ('extra-comfy' matches 'comfy'), and the additional descriptive detail about the cloud-like quality is consistent with 'cozy' and 'comfy'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all the key actions from the gold answer (petting, hugging, speaking calmly, and walking slowly) using paraphrased language that conveys the same meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Peruvian Lilies' exactly matches the gold answer 'Peruvian Lilies', demonstrating perfect recall of the specific flower type.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q96",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures all the key elements from the gold answer: animals, plants, ecosystems, and how they work together, with additional detail about finding it fascinating.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q97",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating both biking and public transport as ways to reduce carbon footprint.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies 'biking' as Andrew's suggestion for helping the planet while training the body, matching the gold answer exactly with additional context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q99",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies that Audrey took her pups to the beach, which matches the gold answer's core fact, and the date (October 1-2, 2023) falls within the weekend before October 4th, 2023.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a completely different photo (dog with frisbee indoors) than the gold answer (basket full of stuffed animals), demonstrating a factually incorrect recall of what was shared.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'August 2023' includes the gold answer 'August' with additional year specification, which falls under acceptable extra detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q18",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states Audrey 'adopted' Pixie, which refers to a different source (typically a shelter or rescue) than getting Pixie from a 'breeder' as stated in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q19",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a different indoor activity (cuddling on the couch) than the gold answer (cooking dog treats), so it contains zero correct items from the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes hiking on a forest trail, which is a completely different activity and location from camping with girlfriend, so it contains zero correct items from the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q39",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a physical injury (broken arm/cast) from playing with dogs, which is completely different from the gold answer's concept of companionship (emotional benefit), so it addresses a different aspect entirely.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv5_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Oregon' is a completely different US state from the gold answer 'Minnesota', demonstrating an incorrect recall of the factual information.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states that no specific park name was given, which directly contradicts the gold answer that identifies Voyageurs National Park as the specific park being discussed.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q52",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a different strategy (lunch walk birdwatching in parks) than the gold answer (installing a bird feeder), addressing the same core question about fitting birdwatching into a city schedule but with zero overlap in the specific solution mentioned.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv5_q55",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer refers to a different time period (right after adopting Scout) than the gold answer (few days before November 22, 2023), and does not demonstrate semantic overlap with the specific timeframe requested.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q57",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer 'Just the other day' is too vague and does not reference the specific timeframe of 'few days before November 2023' from the gold answer, providing no verifiable temporal information that matches the expected answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv5_q88",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes Audrey's offer to share grooming tips but does not include any of the specific advice items from the gold answer (grooming slowly/gently, attention to sensitive areas, staying patient/positive), so it contains zero correct items from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv5_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer 'Multiple times a day' is an exact match with the gold answer 'Multiple times a day', capturing the same frequency information.",
+  "category": "single-hop"
+ }
+]

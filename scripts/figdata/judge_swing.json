@@ -1,0 +1,38 @@
+{
+  "description": "Four-judge accuracy on mnemoverse_engine conv-26 n=152 (reader=gpt-5-mini). Source: rejudge_20260521_235650.json.",
+  "source_file": "kit/data/rejudge_20260521_235650.json",
+  "source_cell": "experiments/results/locomo_20260521_230400.json",
+  "n": 152,
+  "judges": [
+    {
+      "judge": "mem0",
+      "model": "gpt-5",
+      "accuracy": 0.9013,
+      "n_scored": 152,
+      "elapsed_s": 96.9
+    },
+    {
+      "judge": "mem0-4o",
+      "model": "gpt-4o",
+      "accuracy": 0.9145,
+      "n_scored": 152,
+      "elapsed_s": 23.2
+    },
+    {
+      "judge": "strict",
+      "model": "gpt-5",
+      "accuracy": 0.4803,
+      "n_scored": 152,
+      "elapsed_s": 93.4
+    },
+    {
+      "judge": "mnemoverse",
+      "model": "gpt-5-mini",
+      "accuracy": 0.7566,
+      "n_scored": 152,
+      "elapsed_s": 73.4
+    }
+  ],
+  "per_category": "NOT PRESENT in this file. Only flat per-question scores array. Per-category breakdown requires cross-join with locomo10.json category labels.",
+  "accuracy_verification": "All four accuracy values verified: computed from raw scores array == reported (within 1e-4)."
+}

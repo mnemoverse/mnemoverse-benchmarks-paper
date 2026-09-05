@@ -1,0 +1,1248 @@
+[
+ {
+  "qid": "conv4_q0",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it lists both correct goals (win a championship and improve shooting percentage), it adds an unverifiable specific about the Minnesota Wolves, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q1",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it includes endorsements, brand-building, and charity (matching the gold), it adds unverifiable specifics like talks with Nike/Under Armour and detailed charity aims, violating the no extra detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states August 2023, which aligns with the gold answer\u2019s timeframe of early August 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q100",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer of four years.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q101",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite matching the core sentiment ('amazing'), the answer adds unverifiable specifics (restaurants, subway struggle, must-visit) beyond the gold, violating the no-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q102",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the key points about NYC\u2019s culture, food, and that Tim won\u2019t regret visiting, matching the gold answer\u2019s core content.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q104",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer ('sage'), correctly identifying the spice John added.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q105",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same concept as the gold answer, referring to the Harry Potter area/attractions at Universal Studios.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q106",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it mentions the correct item ('a new city'), it introduces unverified specifics about being undecided and Edinburgh, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q107",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, naming Edinburgh, Scotland.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q108",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It correctly mentions charity work and potentially starting a foundation, but adds an unverifiable detail about building his brand through endorsements, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q109",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer accurately restates all three key points\u2014alignment with values/brand, partnering with companies that make a positive impact, and ensuring authenticity.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Surfing,' which matches the gold answer, satisfying partial credit.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q110",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies a Patrick Rothfuss fantasy novel, matching the gold answer\u2019s \u201ca fantasy novel by Patrick Rothfuss.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q111",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies a greenhouse correctly, it adds unverifiable specifics ('smaller, intimate'), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q112",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies the correct setting ('cozy restaurant'), it adds unverifiable specifics ('music and candlelight'), violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q113",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cMinnesota Wolves\u201d clearly refers to the Minnesota Timberwolves, the same team as \u201cThe Wolves,\u201d so it matches the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q114",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold concept by stating his passion for fantasy, which paraphrases 'fantasy stuff.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q115",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the core items from the gold answer\u2014intense, tough losses, and great wins\u2014so it matches the required description.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q116",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes the key elements from the gold answer\u2014backing each other up and not quitting\u2014so it matches the core idea.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q117",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating that facing tough/top opponents motivates improvement, which is a direct paraphrase without adding unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q118",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'trophy,' which matches the gold answer item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer year (2018).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q120",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct sentiment (\u201cfeels great\u201d), it adds multiple unsupported specifics (trust, admiration, pride, growth), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q121",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes seeing their growth, improvement, and confidence, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q122",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes \u201creach their goals,\u201d it adds unverifiable specifics (mentoring, growth, confidence, pursuing dreams), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q123",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Fantasy'), so it includes a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q124",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly identifies J.K. Rowling as a source of inspiration, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q125",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold quote without adding any unsupported details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q126",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both 'motivational quotes' and 'strategies' (specified as workout strategies), which match the gold items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q127",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by identifying cooking as John's therapeutic hobby.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q129",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold method (write it down and mail it), so it includes correct items despite adding the recipient\u2019s name.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It states he escapes by reading fantasy books, which matches the gold answer even with extra examples provided.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q130",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold fact that Tim\u2019s issue was being stuck on a plot twist, with only a minor consistent elaboration.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q131",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies the correct item, it adds an unverifiable detail (\u201ckeeps in a case\u201d), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q132",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer includes the correct items (LeBron\u2019s determination and the Game 7 2016 chasedown block) but adds fabricated, unverifiable specifics about Tim and John (e.g., watching him live), violating Rule 3.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q133",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly by describing the views as 'spectacular.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q135",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it touches on goals/visual reminders (aligned with visualizing success), it adds unverified specifics like a Pomodoro routine and a J.K. Rowling quote, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q137",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It accurately paraphrases that the UK-based story attempt did not go as planned.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q138",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it matches the idea of focused rehab and strengthening, it adds unverifiable specifics (e.g., a precise date and yoga), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q139",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly states that his love/passion for writing and reading motivated him, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite matching several gold items (articles on fantasy novels, analyzing characters/themes, recommendations, and writing a novel), it adds an unsupported specific (\u201cfor an online magazine\u201d), violating the no unverifiable extra detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q140",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer states he put in extra work to improve and turned it into a learning experience, matching 'worked hard to get better' and 'focused on growth.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q141",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('The Alchemist').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q142",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by emphasizing pursuing a personal legend and continuing to chase dreams.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q143",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('yoga'), so it includes the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q144",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold range of 30\u201360 seconds, so it includes the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q145",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer correctly states the photo was taken near his hometown, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q146",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer names a specific instrument (violin), which matches the gold answer\u2019s concept of \u201can instrument.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q147",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('violin').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q149",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer title, satisfying the recall criteria.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q15",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it identifies Anthony as John\u2019s friend (matching the gold), it adds unverifiable fabricated details about a charity event and trivia contest, violating the no-extra-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q150",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's book title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q151",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It captures the sports successes aspect (basketball games), matching one item from the gold answer, so partial credit applies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q153",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating he practiced basketball outdoors for hours to cope with doubts and stress.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q154",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer\u2019s key sentiments by stating the atmosphere was electric and added intensity, aligning with \u201celectric and intense.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q155",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cRelieved\u201d conveys a positive achievement sentiment that semantically aligns with describing the experience as a huge success.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q156",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches the gold by identifying a deal with a renowned outdoor gear company, so it's correct despite extra date detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q157",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's location without adding any extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q158",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q159",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it matches 'sports and marketing seminars,' it adds an unverifiable detail ('for young athletes'), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Four weeks is within 50% duration tolerance of the gold three weeks, so it qualifies as correct under the rules.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q160",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer mentions the correct action (visiting a travel agency) but adds an unverifiable date and purpose, violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q161",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It directly matches the gold cause by citing youth sports and fair opportunities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q162",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q163",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct language (German), it adds an unsupported extra language (Spanish), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q165",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer contradicts the prompt by saying Tim didn\u2019t get the book and assigns the cookbook to John, so it doesn\u2019t correctly match the gold fact about Tim\u2019s cookbook.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q167",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Aragorn').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q168",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly lists bravery, selflessness, and a down-to-earth nature, matching the gold reasons.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q170",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It explicitly includes 'be a leader,' matching the gold answer, and the extra phrase does not conflict or add unverifiable specifics.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q171",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer correctly identifies the map as Middle-earth from The Lord of the Rings, matching the gold answer despite extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q172",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'Ireland,' which matches the gold answer, even though it adds the city.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q173",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer 'Galway' with no conflicting details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q174",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly identifies a benefit basketball game as the event, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q175",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it mentions an endorsement with a popular beverage company, it adds unsupported specifics (Gatorade and a specific date), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q176",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It matches both key ideas from the gold answer\u2014a \u201ccrazy\u201d feeling and a sense of accomplishment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q177",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, naming Barcelona.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q18",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it lists all the correct authors, it adds unverifiable specifics (reading status, finishing A Dance with Dragons, loving Wheel of Time) and an extra author, violating the no-unverified-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q19",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response does not name Good Sports or cite its partnerships/age focus and instead adds unverifiable details, providing none of the specific items from the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes sneakers, jerseys, and fantasy movie DVDs, which match the gold list.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly ('Seattle').",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q21",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists Seattle and New York, which are both in the gold answer, so it includes correct items even though Chicago is missing.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q22",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (September 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer location.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item ('signed basketball').",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions 'The Wheel of Time,' which matches one of the TV series in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by identifying the Pomodoro technique, with acceptable explanatory detail.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the schools (middle school, high school, college) and correctly states four years on the high school team.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes C. S. Lewis from the gold answer\u2019s list, satisfying partial credit.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "All four cities match the gold list, with 'New York City' being a valid paraphrase of 'New York'.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q31",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold month and year exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer correctly lists California and Florida as the possible states, matching the gold answer, with only accurate contextual details added.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions coaching/mentoring (which matches the gold), the response introduces multiple fabricated, unverifiable specifics (e.g., Nike deal with a date, specific camps and seminars), violating the no-unverified-detail rule.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q35",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes surfing and hiking, which match items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q36",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by correctly identifying LeBron James as their favorite player.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q37",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies the exact dates corresponding to the week before October 13, 2023, matching the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q38",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it names the correct country (UK), it adds unverified trip details and dates not supported by the gold answer, violating the no extra detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold year (2022).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q4",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite listing some correct titles (e.g., Harry Potter, A Dance with Dragons, The Alchemist), it introduces unverifiable specifics (dates, comparisons) and extra books not in the gold list, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q40",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it confirms North Carolina (matching the gold 'Yes'), it introduces unverified specifics (e.g., Blue Ridge Mountains and dates), violating the no-extra-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q41",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It mentions fantasy but adds unverified specifics about a current novel and its setting not in the gold answer, so it\u2019s wrong.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes soup, a slow-cooker meal (stew), and honey garlic chicken with roasted vegetables, matching all items from the gold answer (paraphrases allowed).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it lists the correct likes (heart, determination, skills, leadership), it adds unverifiable specifics about meeting LeBron and calling him real chill, which violates the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q44",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives a specific date within November 2023, matching the gold answer\u2019s timeframe and thus is acceptable per the date tolerance rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "United Kingdom is the expanded form of UK, so the generated answer matches the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q46",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It correctly says UK but adds unverifiable specifics about a castle visit on Nov 10, violating the no extra detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q47",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "September 25, 2023 falls in the last week of September 2023, matching the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, stating mid-November and specifically around November 16, 2023.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It explicitly mentions strength training and yoga, which match the gold answer items.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes sprinting (e.g., sled sprints), which matches one of the gold items, satisfying partial credit.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (2022).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer names both instruments\u2014piano and violin\u2014exactly matching the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer date.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both items from the gold list\u2014career-high points and career-high assists in 2023\u2014so it matches the required facts.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The provided date is only three days from the gold date, which is within the 14-day tolerance window.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes The Alchemist, Dune, and a fantasy series, all of which match items in the gold answer.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q62",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions giving seminars and mentoring younger players, it adds unsupported specifics ('for aspiring professors' and 'on his team, offering advice and support'), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly matches the gold answer by stating 'summer 2023.'",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's month and year.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes all three gold items (Harry Potter, The Lord of the Rings, and Star Wars), so it's correct despite the extra entry.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q67",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly suggests travel blogging/journaling, which matches the gold answer of writing a travel blog.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date (January 5, 2024) and the added weekday is accurate, so it is correct.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date (February 2024), so it is correct.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes London (a correct item), it adds unverifiable specifics about a Harry Potter tour in May 2020 and a UK countryside castle, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists all five gold locations (Skellig Michael, Malin Head, Loop Head, Ceann Sib\u00e9al, and Brow Head) as Star Wars filming sites, matching the core items.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q71",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold team name (article omitted), so it correctly identifies the same team.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (shooting guard).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q73",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the core idea (fitting into the team's style), it adds an unverified specific team name (\"Minnesota Wolves\"), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q74",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches all listed aspects\u2014characters, spells, and magical creatures\u2014without adding unsupported details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly by identifying a fantasy literature forum.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly identifies the picture as a MinaLima creation from the Harry Potter films, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer of 40 points.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q78",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it correctly paraphrases celebrating a tough win, it adds unsupported specifics (40 points and a date), violating the no unverified extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q79",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly states the Nike basketball shoe-and-gear deal and identifies a sponsorship with Gatorade (despite omitting \u201cpotential\u201d), so at least one gold item is present.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer (Seattle).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states the correct duration (five years), it adds an unverifiable start date (\u201csince around July 2018\u201d), violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q82",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It captures both key feelings from the gold\u2014exciting and feeling free\u2014so it matches the core idea.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q83",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer aligns with the gold items by mentioning fantasy novels, analysis of characters and themes, and book recommendations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q84",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches both items in the gold answer (Harry Potter and Game of Thrones).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q85",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer without adding unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q87",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact descriptor 'awesome' matching the gold answer, so it contains a correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q89",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer directly matches the gold answer by stating John's top goal is to win a championship.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q9",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It lists the correct brands (Nike, Gatorade, outdoor gear company, beverage brand) but adds unverified specifics (secured status and dates) that contradict the \u201coffered\u201d status, violating the no-unverified-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q90",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer semantically, stating a local organization helping disadvantaged kids through sports and school.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q91",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s date (August 15).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q92",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer semantically matches the gold answer (a basketball with autographs).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q93",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly matches the gold reason\u2014showing friendship and appreciation\u2014without contradicting it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q94",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same two intentions\u2014learning more about literature and deepening his connection to it\u2014as the gold answer, using equivalent phrasing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q95",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly by stating he started learning to play the piano.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q97",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it mentions watching with his family, it adds unsupported specifics (first film, snacks, blanket, dream-like experience), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q98",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's movie title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q103",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer omits sage\u2014the key detail\u2014and instead specifies chicken with butternut, which does not match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q119",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer names the Blue Ridge Mountains in North Carolina, which does not match the gold answer of the Smoky Mountains, so none of the gold items appear.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q128",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is a vague 'mixed-ingredient stew' and does not include the specific dish 'honey garlic chicken with roasted veg' or any overlapping item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q134",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q136",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about John\u2019s ankle and well-wishes, which does not match Tim\u2019s report that the doctor said his injury wasn\u2019t serious, so there is no overlap with the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q148",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response captures the same idea by stating he had only been playing for a short time, which semantically aligns with about four months.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q152",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention basketball and instead describes a rivalry context, providing no correct item from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q164",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says French, whereas the correct language is Spanish, so there is no overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q166",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer names a different book series (The Lord of the Rings) instead of the gold answer (Harry Potter), with no overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q169",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer describes a painting of a man smoking rather than Aragorn, so it does not include the gold item at all.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q17",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives 4, which does not match the gold answer of 6, and there is no partial credit for a single numeric fact.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q49",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states one time, while the gold answer is two times, so there is no match.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q5",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer names the official Harry Potter store, which is not the gold answer (House of MinaLima), so none of the gold items are included.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q50",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer names a different book (\u201cDune by Frank Herbert\u201d) instead of the gold answer (\u201cThe Alchemist\u201d), providing no matching item.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q51",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer recommends Vinyasa/Power yoga instead of the gold answer Hatha Yoga, so there is no overlap with the correct item.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q55",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (around December 2022) is months earlier than the gold answer (May 2023) and not within the allowed tolerance, so it contains no correct items.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states December 2023, which does not match the gold answer of August 2023 and is not within the allowed date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q6",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives 'July 2023,' which does not match the gold 'June 2023' and is not within the 14-day tolerance, so none of the gold items are correctly recalled.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q66",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer suggests a visual encyclopedia/atlas instead of the gold answer\u2019s specific recommendation, Star Wars: Jedi Apprentice, so there is no overlap.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q8",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not name Under Armour and provides no matching item from the gold answer.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q86",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer talks about sharing a photo of a signed Harry Potter book, not sharing Harry Potter characters, and adds unsupported details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q88",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It contradicts the gold by saying he started playing on his own after watching NBA with his dad rather than his dad signing him up for a local league, and it adds unsupported details (age ten).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q96",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer is vague and does not mention 'Harry Potter and the Philosopher's Stone' or any equivalent, providing no correct item from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q99",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions watching a movie, which does not match the gold tradition of prepping the feast and sharing what they\u2019re thankful for.",
+  "category": "single-hop"
+ }
+]

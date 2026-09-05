@@ -1,0 +1,569 @@
+[
+ {
+  "qid": "conv1_q0",
+  "question": "When Jon has lost his job as a banker?",
+  "gold": "19 January, 2023",
+  "answer": "January 19, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q1",
+  "question": "When Gina has lost her job at Door Dash?",
+  "gold": "January, 2023",
+  "answer": "January 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q10",
+  "question": "When did Gina team up with a local artist for some cool designs?",
+  "gold": "February, 2023",
+  "answer": "Early 2023\u2014she announced partnering with a local artist before February 10, 2023, while growing her online clothing store.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q11",
+  "question": "When did Gina get her tattoo?",
+  "gold": "A few years ago",
+  "answer": "A few years ago.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q12",
+  "question": "When did Jon start to go to the gym?",
+  "gold": "March, 2023",
+  "answer": "Around March 9, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q13",
+  "question": "When did Gina open her online clothing store?",
+  "gold": "16 March, 2023",
+  "answer": "March 16, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q15",
+  "question": "When did Jon host a dance competition?",
+  "gold": "May, 2023",
+  "answer": "May 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q16",
+  "question": "When did Jon go to a fair to get more exposure for his dance studio?",
+  "gold": "24 April, 2023",
+  "answer": "April 24, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q17",
+  "question": "Why did Gina decide to start her own clothing store?",
+  "gold": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+  "answer": "Because after losing her job, Gina wanted to take control of her future and turn her passions\u2014fashion and dance\u2014into a business. She saw a gap for unique pieces, especially dance\u2011inspired designs, and started the store to showcase her creativity and offer customers something different.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q18",
+  "question": "Do Jon and Gina start businesses out of what they love?",
+  "gold": "Yes",
+  "answer": "Yes. Jon built a dance studio out of his lifelong love for dance (leaving banking to open it, with the studio opening on June 20, 2023). Gina launched an online clothing store from her passion for fashion and dance, combining dance\u2011inspired, unique pieces (she opened it on March 16, 2023).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q19",
+  "question": "When did Gina interview for a design internship?",
+  "gold": "10 May, 2023",
+  "answer": "May 10, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q2",
+  "question": "How do Jon and Gina both like to destress?",
+  "gold": "by dancing",
+  "answer": "By dancing. Both Jon and Gina use dance as their go-to way to relieve stress.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q20",
+  "question": "When did Gina get accepted for the design internship?",
+  "gold": "27 May, 2023",
+  "answer": "Around May 27, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q21",
+  "question": "When did Jon start reading \"The Lean Startup\"?",
+  "gold": "May, 2023",
+  "answer": "Before May 27, 2023 \u2014 during his early dance\u2011studio planning phase (he shared the book and said he was \u201ccurrently reading\u201d it, then began applying its concepts).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q22",
+  "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+  "gold": "June, 2023",
+  "answer": "Between May 27 and June 16, 2023\u2014after her fashion internship acceptance (around May 27, 2023) and before June 16, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q23",
+  "question": "How did Gina promote her clothes store?",
+  "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+  "answer": "- She launched an advertising campaign to grow the business.\n- She ran sales, offers, and promotions on her online store (and featured sale ads on the site), which boosted sales.\n- She built and promoted an online storefront/website where customers could place orders.\n- She created content, including a video presentation on how to style her pieces.\n- She partnered with a local artist for unique designs and introduced limited\u2011edition items to create buzz.\n- She regularly showcased new pieces and store visuals to highlight products.\n- She actively built customer relationships and a strong brand image to encourage word\u2011of\u2011mouth.\n- She planned further reach via collaborations with fashion bloggers/influencers and additional ad buys.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q24",
+  "question": "Which events has Jon participated in to promote his business venture?",
+  "gold": "fair, networking events, dance competition",
+  "answer": "- Festival performance (February 2023): Jon performed at a festival and received many compliments on his dance moves, boosting visibility for his studio.\n- Dance\u2011studio fair (April 24, 2023): He showcased his new studio at a fair and secured several potential business leads.\n- Studio grand opening (June 20, 2023): Jon held his studio\u2019s launch event to introduce the business to the community.\n- Networking events (June 20, 2023): He attended networking events that day to build connections for the studio.\n- Networking event (July 20, 2023): Jon attended another networking event, met several investors, and received valuable advice.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q25",
+  "question": "What does Jon's dance studio offer?",
+  "gold": "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+  "answer": "- Group dance classes and workshops for dancers of all ages and levels\n- One-on-one mentoring and training/coaching to help dancers reach their full potential\n- Community outreach: workshops and classes for local schools and community centers\n- Performance opportunities and events, including hosting a studio dance competition and judged showcase nights",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q26",
+  "question": "When did Jon receive mentorship to promote his venture?",
+  "gold": "15 June, 2023",
+  "answer": "June 15, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q27",
+  "question": "Did Jon and Gina both participate in dance competitions?",
+  "gold": "Yes",
+  "answer": "Yes. Jon competed\u2014his dance crew won first place in a local competition in 2022 (and he prepared for a March 2023 competition). Gina also competed\u2014she used to enter dance competitions and her team won first place at a regional event when she was fifteen.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q28",
+  "question": "When was Jon in Rome?",
+  "gold": "June 2023",
+  "answer": "Around June 12, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q29",
+  "question": "Which cities has Jon visited?",
+  "gold": "Paris, Rome",
+  "answer": "Paris and Rome",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q3",
+  "question": "What do Jon and Gina both have in common?",
+  "gold": "They lost their jobs and decided to start their own businesses.",
+  "answer": "- They\u2019re both passionate about contemporary dance and use dance as their expressive outlet.\n- Both have won first place in dance competitions with their teams (Jon\u2019s crew in 2022; Gina\u2019s team when she was fifteen).\n- Both are entrepreneurs building their own ventures (Jon\u2019s dance studio; Gina\u2019s dance\u2011inspired clothing store).\n- Both experienced job loss around early 2023 and used it to fuel their new paths.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q30",
+  "question": "When Jon is planning to open his dance studio?",
+  "gold": "20 June, 2023",
+  "answer": "June 20, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q31",
+  "question": "How long did it take for Jon to open his studio?",
+  "gold": "six months",
+  "answer": "About 4 months and 13 days \u2014 from February 7, 2023 (when Jon lost his banking job and decided to pursue the studio) to June 20, 2023 (his official opening night).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q32",
+  "question": "When did Gina design a limited collection of hoodies?",
+  "gold": "June 2023",
+  "answer": "Around June 14, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q33",
+  "question": "When did Jon visit networking events for his store?",
+  "gold": "20 June, 2023",
+  "answer": "- June 20, 2023\n- July 20, 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q35",
+  "question": "When did Jon start learning marketing and analytics tools?",
+  "gold": "July, 2023",
+  "answer": "In mid-2023 \u2014 after his studio\u2019s June 20, 2023 opening and before his July 20, 2023 networking event, Jon started learning marketing and analytics tools.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q38",
+  "question": "When did Gina go to a dance class with a group of friends?",
+  "gold": "21 July 2023",
+  "answer": "Friday, July 21, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q39",
+  "question": "What is Gina's favorite style of dance?",
+  "gold": "Contemporary",
+  "answer": "Contemporary dance",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q4",
+  "question": "Why did Jon decide to start his dance studio?",
+  "gold": "He lost his job and decided to start his own business to share his passion.",
+  "answer": "After he was laid off from his banking job, Jon used the setback as a push to finally turn his lifelong passion for dance into a business. He wanted to share the joy of movement by creating a studio where people could express themselves, learn, and grow.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q40",
+  "question": "What is Jon's favorite style of dance?",
+  "gold": "Contemporary",
+  "answer": "Contemporary dance.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q41",
+  "question": "What was Gina's favorite dancing memory?",
+  "gold": "Winning first place at a regionals dance competition",
+  "answer": "Her team winning first place at a regional dance competition when she was 15.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q43",
+  "question": "What do the dancers in the photo represent?",
+  "gold": "They are performing at the festival",
+  "answer": "They represent an energetic performance.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q45",
+  "question": "What is Jon's attitude towards being part of the dance festival?",
+  "gold": "Glad",
+  "answer": "He said he was glad to be part of the festival and felt upbeat and confident, expecting the performers to impress.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q46",
+  "question": "What kind of flooring is Jon looking for in his dance studio?",
+  "gold": "Marley flooring",
+  "answer": "Marley flooring.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q48",
+  "question": "What did Gina design for her store?",
+  "gold": "the space, furniture, and decor",
+  "answer": "She designed the interior layout of her clothing store, creating a cozy, inviting space that showcases trendy pieces.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q49",
+  "question": "What did Gina want her customers to feel in her store?",
+  "gold": "cozy and comfortable",
+  "answer": "Cozy (comfortable and welcomed).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q5",
+  "question": "What Jon thinks the ideal dance studio should look like?",
+  "gold": "By the water, with natural light and Marley flooring",
+  "answer": "A simple, airy room overlooking the ocean \u2014 a studio with a clear water view and just a few yoga mats.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q50",
+  "question": "What did Jon say about Gina's progress with her store?",
+  "gold": "hard work's paying off",
+  "answer": "He noted that her clothing store is growing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q51",
+  "question": "What made Gina choose the furniture and decor for her store?",
+  "gold": "personal style and customer comfort",
+  "answer": "She picked pieces that looked great and were comfortable to reflect her personal style and make customers feel cozy, and she added a chandelier to give the space a glamorous touch that matched the overall d\u00e9cor.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q52",
+  "question": "What did Jon say about creating a special experience for customers?",
+  "gold": "It's the key to making them feel welcome and coming back",
+  "answer": "He said creating a special experience for customers is essential to make them feel welcome and encourage them to come back.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q53",
+  "question": "What did Gina say about creating an experience for her customers?",
+  "gold": "making them want to come back",
+  "answer": "She said that making her store a comfortable, inviting space is key\u2014she wants it to feel like a \u201ccool oasis\u201d that encourages customers to come back\u2014and that she\u2019s committed to creating a special shopping experience for them despite the challenges.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q54",
+  "question": "How is Gina's store doing?",
+  "gold": "The store is doing great.",
+  "answer": "It\u2019s doing well. Gina said the store was \u201cdoing great,\u201d and after launching the online shop she saw customers respond to her offers and promotions with higher sales. She\u2019s growing her customer base, adding unique designs through a local\u2011artist collaboration, expanding sourcing with wholesalers, and even launched a new website for orders.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q55",
+  "question": "What does Gina's tattoo symbolize?",
+  "gold": "Freedom and expressing herself through dance",
+  "answer": "Freedom\u2014specifically, dancing without worrying about others\u2014and a reminder to follow her passions and express herself.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q57",
+  "question": "What advice does Gina give to Jon about running a successful business?",
+  "gold": "build relationships with customers, create a strong brand image, stay positive",
+  "answer": "Gina\u2019s advice to Jon on running a successful business has been both strategic and mindset\u2011focused:\n\n- Mindset and resilience:\n  - Believe in yourself, stay positive, and keep going even when it\u2019s tough.\n  - Don\u2019t quit\u2014treat setbacks and failures as steps toward success.\n  - Stay passionate, focused, and resilient; keep learning and improving.\n  - Boost confidence by remembering why you started and leaning on your support system.\n\n- Marketing and growth:\n  - Promote the studio on social media\u2014specifically Instagram and TikTok.\n  - Collaborate with influencers and local dance communities to expand reach.\n  - Create and post engaging content consistently (she even offered to help manage content).\n  - Build an online platform/website to showcase the studio and attract investors.\n\n- Networking and fundraising:\n  - Attend networking events and actively reach out to industry contacts.\n  - Connect with like\u2011minded people\u2014networking pays off and opens doors.\n\n- Organization and execution:\n  - Use visual tools like a whiteboard to keep plans and schedules on track.\n  - Use color\u2011coding to track progress and stay motivated.\n  - Keep searching for the right studio location and stay hopeful while you do.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q58",
+  "question": "Why did Jon shut down his bank account?",
+  "gold": "for his business",
+  "answer": "He closed it because, though difficult, it was a necessary step for his new dance studio\u2014he believed shutting it down would help his business grow.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q59",
+  "question": "Why did Gina combine her clothing business with dance?",
+  "gold": "she is passionate about dance and fashion",
+  "answer": "Because she\u2019s passionate about both dance and fashion, and combining them lets her showcase her creativity and share what she loves with others\u2014she even planned to add dance\u2011inspired items to her store.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q6",
+  "question": "When is Jon's group performing at a festival?",
+  "gold": "February, 2023",
+  "answer": "February 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q60",
+  "question": "What does Jon's dance make him?",
+  "gold": "happy",
+  "answer": "Happy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q61",
+  "question": "What did Gina receive from a dance contest?",
+  "gold": "a trophy",
+  "answer": "A trophy",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q62",
+  "question": "How does Gina stay confident in her business?",
+  "gold": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+  "answer": "By reminding herself of her wins and progress, leaning on a strong support system, and refocusing on why she started\u2014because she loves it. She also stays positive and uses dance to de\u2011stress and keep her energy up, which helps sustain her confidence.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q63",
+  "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+  "gold": "fashion internship",
+  "answer": "A fashion internship.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q64",
+  "question": "Where is Gina's fashion internship?",
+  "gold": "fashion department of an international company",
+  "answer": "In the fashion department of an international company.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q65",
+  "question": "What book is Jon currently reading?",
+  "gold": "The Lean Startup",
+  "answer": "The Lean Startup",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q66",
+  "question": "What is Jon offering to the dancers at his dance studio?",
+  "gold": "One-on-one mentoring and training",
+  "answer": "He\u2019s offering dance classes and workshops, plus one-on-one mentoring and training to help dancers reach their full potential.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q68",
+  "question": "What does Jon tell Gina he won't do?",
+  "gold": "quit",
+  "answer": "He tells her he won\u2019t give up (on his dance studio and business ventures).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q69",
+  "question": "What did Jon take a trip to Rome for?",
+  "gold": "To clear his mind",
+  "answer": "He took a short trip to Rome to clear his mind.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q7",
+  "question": "When did Gina launch an ad campaign for her store?",
+  "gold": "29 January, 2023",
+  "answer": "Early 2023 (as part of her initial push to grow the clothing store; no exact date was given).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q70",
+  "question": "What is Jon working on opening?",
+  "gold": "a dance studio",
+  "answer": "His dance studio.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q72",
+  "question": "How does Jon feel about the opening night of his dance studio?",
+  "gold": "excited",
+  "answer": "He\u2019s excited and eagerly anticipating it\u2014he said he feels good after a wild ride and is ready to give his best on opening night.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q73",
+  "question": "How does Gina describe the feeling that dance brings?",
+  "gold": "magical",
+  "answer": "Joy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q75",
+  "question": "What does Gina say to Jon about the grand opening?",
+  "gold": "Let's live it up and make some great memories",
+  "answer": "She tells Jon the studio looks amazing and that she\u2019s pumped for the launch on June 20, 2023; urges him not to miss a beat and to savor the joy and thrill of it; and promises she\u2019ll be right by his side at the opening to make great memories together.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q76",
+  "question": "What is the general sentiment about the upcoming grand opening?",
+  "gold": "excitement",
+  "answer": "Overwhelmingly positive and excited\u2014Jon is eagerly anticipating it and feels ready to give his best, while Gina is pumped, can\u2019t wait to be there by his side, and is excited to celebrate and make memories together.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q77",
+  "question": "What did Gina make a limited edition line of?",
+  "gold": "Hoodies",
+  "answer": "Hoodies (a limited\u2011edition hoodie line).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q78",
+  "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+  "gold": "His positivity and determination",
+  "answer": "His positivity and determination.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q8",
+  "question": "When was Jon in Paris?",
+  "gold": "28 January 2023",
+  "answer": "January 28, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q80",
+  "question": "What plans does Jon have after receiving advice at the networking event?",
+  "gold": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+  "answer": "- Refine his materials for investors: spruce up his dance studio business plan and tweak his investor pitch.\n- Build visibility: develop an online platform to showcase programs and content.\n- Boost marketing: work with Gina to create content and manage his social media (e.g., Instagram/TikTok) to attract students and investors.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q81",
+  "question": "What offer does Gina make to Jon regarding social media?",
+  "gold": "Helping with making content and managing his social media accounts.",
+  "answer": "She offered to create content and manage Jon\u2019s dance studio social media accounts, including helping with Instagram and TikTok.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q9",
+  "question": "Which city have both Jean and John visited?",
+  "gold": "Rome",
+  "answer": "Rome",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q14",
+  "question": "When did Jon start expanding his studio's social media presence?",
+  "gold": "April, 2023",
+  "answer": "June 16, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q34",
+  "question": "When did Gina start being recognized by fashion editors?",
+  "gold": "July 2023",
+  "answer": "Last week.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q36",
+  "question": "When did Jon and Gina decide to collaborate to create dance content?",
+  "gold": "21 July 2023",
+  "answer": "June 2023. After Gina suggested promoting on Instagram/TikTok and offered to help, Jon asked her to help create content and manage his social media, and she agreed\u2014marking their decision to collaborate.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q37",
+  "question": "When did Gina mention Shia Labeouf?",
+  "gold": " 23 July, 2023",
+  "answer": "Right after encouraging Jon with \u201cjust do it,\u201d she clarified that the person she was referencing was Shia LaBeouf.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q42",
+  "question": "What kind of dance piece did Gina's team perform to win first place?",
+  "gold": "\"Finding Freedom\"",
+  "answer": "A contemporary dance piece titled \u201cFinding Freedom.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q44",
+  "question": "What does Gina say about the dancers in the photo?",
+  "gold": "They look graceful",
+  "answer": "She said she was excited and looking forward to seeing Jon\u2019s dancers perform at the upcoming festival.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q47",
+  "question": "What did Gina find for her clothing store on 1 February, 2023?",
+  "gold": "The perfect spot for her store",
+  "answer": "A wholesale supplier \u2014 she got a positive reply from wholesalers, enabling her to expand her clothing store.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q56",
+  "question": "What did Jon and Gina compare their entrepreneurial journeys to?",
+  "gold": "dancing together and supporting each other",
+  "answer": "A wild ride.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q67",
+  "question": "How does Jon use the clipboard with a notepad attached to it?",
+  "gold": "To set goals, track achievements, and find areas for improvement",
+  "answer": "He uses it like a whiteboard to plan out his dance moves.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q71",
+  "question": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "answer": "She describes it as a place for dancers to grow, not just a business.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q74",
+  "question": "What does Jon plan to do at the grand opening of his dance studio?",
+  "gold": "savor all the good vibes",
+  "answer": "Host his studio\u2019s official opening night on June 20, 2023, making sure every detail is perfect\u2014he\u2019s even had his dancers rehearsing in the studio to be ready.",
+  "category": "single-hop"
+ }
+]

@@ -1,0 +1,380 @@
+[
+ {
+  "qid": "c9_qconv9_q72",
+  "question": "Which band was Dave's favorite at the music festival in April 2023?",
+  "gold": "Aerosmith",
+  "answer": "Aerosmith",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c8_qconv8_q98",
+  "question": "According to Sam, what is more important than perfection?",
+  "gold": "progress",
+  "answer": "Progress. Sam said “progress is more important than perfection.”",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c7_qconv7_q7",
+  "question": "Which country were Jolene and her mother visiting in 2010?",
+  "gold": "France",
+  "answer": "France",
+  "category": "temporal"
+ },
+ {
+  "qid": "c6_qconv6_q6",
+  "question": "Does James live in Connecticut?",
+  "gold": "Likely yes",
+  "answer": "No. In late 2022 James and Samantha rented an apartment near McGee’s bar, so he lives there, not in Connecticut. He did adopt a puppy in Stamford earlier in 2022, but that doesn’t indicate his current residence.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "c6_qconv6_q94",
+  "question": "What project is James working on in his game design course?",
+  "gold": "a new part of the football simulator, collecting player databases",
+  "answer": "A new module for a football simulator—specifically the player database collection component.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c9_qconv9_q82",
+  "question": "What did Dave open in May 2023?",
+  "gold": "a car shop",
+  "answer": "His own car maintenance shop.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c6_qconv6_q51",
+  "question": "Which new games did John start play during the course of the conversation with James?",
+  "gold": "AC Valhalla, Witcher 3, FIFA 23, Dungeons of the Dragons, futuristic dystopian game",
+  "answer": "- Chess — John started playing it to improve his strategic skills.\n- Cyberpunk 2077 — the new RPG he began and found immersive with an amazing story (the “futuristic dystopia” game he mentioned).\n- Dungeons of the Dragon — a board game he tried when he started getting into board games around September 2022.\n- Another new role‑playing video game (title not specified) — started around August 10, 2022.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c5_qconv5_q97",
+  "question": "What did Andrew suggest as a way to reduce carbon footprint?",
+  "gold": "biking or using public transport",
+  "answer": "Biking or using public transport.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c4_qconv4_q176",
+  "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+  "gold": "crazy feeling, sense of accomplishment",
+  "answer": "He said it was an incredible, dream‑come‑true moment—the signing felt “crazy,” and it proved all his hard work and training hours had paid off.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c7_qconv7_q68",
+  "question": "When did Deborah visit Brazil?",
+  "gold": "2020",
+  "answer": "Around August 30, 2020, when she visited Rio de Janeiro.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c8_qconv8_q130",
+  "question": "How did Sam suggest Evan view the setback with his broken Prius?",
+  "gold": "As a chance to explore other ways of staying active and traveling",
+  "answer": "As an opportunity to try something different — a chance to explore other ways of staying active and traveling.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c2_qconv2_q35",
+  "question": "What states has Maria vacationed at?",
+  "gold": "Oregon, Florida",
+  "answer": "Florida and Oregon.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c5_qconv5_q34",
+  "question": "How many months passed between Andrew adopting Toby and Buddy?",
+  "gold": "three months",
+  "answer": "3 months",
+  "category": "temporal"
+ },
+ {
+  "qid": "c5_qconv5_q30",
+  "question": "When is Andrew planning to go to the beach with his girlfriend?",
+  "gold": "November 2023",
+  "answer": "November 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c3_qconv3_q50",
+  "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+  "gold": "stuffed toy pup",
+  "answer": "The plush stuffed dog Nate gave her—she named it Tilly—which she keeps by her while writing and says brings her a lot of joy.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c1_qconv1_q24",
+  "question": "Which events has Jon participated in to promote his business venture?",
+  "gold": "fair, networking events, dance competition",
+  "answer": "- Festival performance (February 2023): Jon performed at a festival and received many compliments on his dance moves, boosting visibility for his studio.\n- Dance‑studio fair (April 24, 2023): He showcased his new studio at a fair and secured several potential business leads.\n- Studio grand opening (June 20, 2023): Jon held his studio’s launch event to introduce the business to the community.\n- Networking events (June 20, 2023): He attended networking events that day to build connections for the studio.\n- Networking event (July 20, 2023): Jon attended another networking event, met several investors, and received valuable advice.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c4_qconv4_q109",
+  "question": "What advice did Tim give John about picking endorsements?",
+  "gold": "Ensure they align with values and brand, look for companies that share the desire to make a change and help others, make sure the endorsement feels authentic",
+  "answer": "Choose endorsements that align with your values and personal brand, partner with companies that aim to make a positive difference and help others, and only take deals that feel authentic to your followers.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c8_qconv8_q44",
+  "question": "What kind of subjects does Evan enjoy painting?",
+  "gold": "nature landscapes, portraits, abstract minimalism",
+  "answer": "Landscapes and nature scenes. He especially loves painting sunsets (over lakes and beaches), forests and mountains, and flora like cacti and cherry blossoms. He also sometimes paints figures and expressive abstract pieces (e.g., a person on a cliff at sunset or a bird in an abstract work) that reflect his emotions and memories.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c1_qconv1_q20",
+  "question": "When did Gina get accepted for the design internship?",
+  "gold": "27 May, 2023",
+  "answer": "Around May 27, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c3_qconv3_q140",
+  "question": "What inspired Joanna's new script in July 2022?",
+  "gold": "Woodhaven's interesting past and people",
+  "answer": "Her early‑July 2022 research road trip—especially visiting Woodhaven, a small Midwestern town with historic buildings, lovely scenery, and a vintage‑book‑filled library—inspired the new script.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c5_qconv5_q62",
+  "question": "What did Andrew express missing about exploring nature trails with his family's dog?",
+  "gold": "The peaceful moments",
+  "answer": "The peaceful moments outdoors.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c4_qconv4_q150",
+  "question": "Which book did Tim recommend to John as a good story on 8th December, 2023?",
+  "gold": "\"A Dance with Dragons\"",
+  "answer": "A Dance with Dragons",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c7_qconv7_q31",
+  "question": "When was the last photo of Deborah and Karlie taken?",
+  "gold": "in summer 2022",
+  "answer": "Summer 2022",
+  "category": "temporal"
+ },
+ {
+  "qid": "c3_qconv3_q154",
+  "question": "What type of show did Nate host where he taught vegan ice cream recipes?",
+  "gold": "a cooking show",
+  "answer": "His own cooking show.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c1_qconv1_q49",
+  "question": "What did Gina want her customers to feel in her store?",
+  "gold": "cozy and comfortable",
+  "answer": "Cozy (comfortable and welcomed).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c8_qconv8_q77",
+  "question": "How does Evan spend his time with his bride after the wedding?",
+  "gold": "family get-together, honeymoon in Canada to see snowy landscapes, ski, taste local cuisine and do some snowshoeing",
+  "answer": "He takes his bride on a honeymoon trip to Canada—excited to try poutine—and gets outdoors with her; they even went snowshoeing together on the weekend of January 13–14, 2024 and found it surprisingly fun.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c7_qconv7_q93",
+  "question": "What projects is Jolene planning for next year?",
+  "gold": "developing renewable energy finding ways to supply clean water to those with limited access",
+  "answer": "- A renewable‑energy project focused on developing solar power to help communities reduce dependence on non‑renewables.\n- A clean‑water project exploring ways to provide reliable access to safe water for people with limited access.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c2_qconv2_q38",
+  "question": "When did Maria get in a car accident?",
+  "gold": "July 2, 2023",
+  "answer": "July 1, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c4_qconv4_q4",
+  "question": "What books has Tim read?",
+  "gold": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+  "answer": "- J.K. Rowling’s Harry Potter books — including Harry Potter and the Sorcerer’s Stone (he’s read Rowling’s books for a long time and has a well‑read copy, and he compares the books to the films)\n- A Dance with Dragons by George R. R. Martin — finished on December 8, 2023\n- The Alchemist by Paulo Coelho — read before November 21, 2023\n- A book about castles in the United Kingdom (non‑fiction; title not specified)\n- A self‑improvement book emphasizing that small changes can lead to big differences (title not specified)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c6_qconv6_q48",
+  "question": "When did James, Samantha and John go to the baseball game together?",
+  "gold": "September 11, 2022",
+  "answer": "Sunday, September 11, 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c4_qconv4_q6",
+  "question": "In which month's game did John achieve a career-high score in points?",
+  "gold": "June 2023",
+  "answer": "July 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "c3_qconv3_q70",
+  "question": "What activities does Nate do with his turtles?",
+  "gold": "takes them onwalks, holds them,feeds themstrawberries, givesthem baths.",
+  "answer": "- Walks them (he’s taken his turtles out for walks)\n- Takes them on outings, like a beach trip to Tampa\n- Brings them into the kitchen so they can watch him cook\n- Gives them baths\n- Holds them\n- Feeds and cares for them (keeps their enclosure clean and provides proper light)\n- Upgrades their habitat (expanded their tank)\n- Watches them play, bask in the sun, and eat—especially strawberries\n- Takes and shares photos of them\n- Spends downtime just hanging out with them",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c7_qconv7_q73",
+  "question": "Did Jolene teach herself how to play the console?",
+  "gold": "yes",
+  "answer": "Yes. Jolene said she learned to play on her own as a child (self-taught).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c4_qconv4_q90",
+  "question": "What organization is John teaming up with for his charity work?",
+  "gold": "A local organization helping disadvantaged kids with sports and school",
+  "answer": "A local organization that helps disadvantaged kids through sports and school.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c9_qconv9_q48",
+  "question": "What was Dave doing in the first weekend of October 2023?",
+  "gold": "attending a car show",
+  "answer": "He was at a car show that weekend (starting Friday, Oct 6, 2023), checking out impressive cars, working on car mods, and he shared a photo of a vintage Mustang with its hood up.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c2_qconv2_q141",
+  "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+  "gold": "a local organization",
+  "answer": "A local organization that supports victims of domestic abuse.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c2_qconv2_q144",
+  "question": "What activity did John and Max enjoy together last summer?",
+  "gold": "Camping",
+  "answer": "They went camping together (hiking, swimming, and spending evenings by the campfire).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c5_qconv5_q61",
+  "question": "Which specific type of bird mesmerizes Andrew?",
+  "gold": "Eagles",
+  "answer": "Eagles.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c1_qconv1_q23",
+  "question": "How did Gina promote her clothes store?",
+  "gold": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+  "answer": "- She launched an advertising campaign to grow the business.\n- She ran sales, offers, and promotions on her online store (and featured sale ads on the site), which boosted sales.\n- She built and promoted an online storefront/website where customers could place orders.\n- She created content, including a video presentation on how to style her pieces.\n- She partnered with a local artist for unique designs and introduced limited‑edition items to create buzz.\n- She regularly showcased new pieces and store visuals to highlight products.\n- She actively built customer relationships and a strong brand image to encourage word‑of‑mouth.\n- She planned further reach via collaborations with fashion bloggers/influencers and additional ad buys.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "c1_qconv1_q71",
+  "question": "How does Gina describe the studio that Jon has opened?",
+  "gold": "amazing",
+  "answer": "She describes it as a place for dancers to grow, not just a business.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c7_qconv7_q78",
+  "question": "Where did Jolene and her partner spend most of September 2023?",
+  "gold": "Phuket",
+  "answer": "At a meditation retreat in Phuket.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c1_qconv1_q33",
+  "question": "When did Jon visit networking events for his store?",
+  "gold": "20 June, 2023",
+  "answer": "- June 20, 2023\n- July 20, 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "c6_qconv6_q110",
+  "question": "What game genre did John start exploring instead of shooters?",
+  "gold": "strategy and RPG games",
+  "answer": "Strategy and role‑playing games (RPGs).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c3_qconv3_q164",
+  "question": "What game has Nate been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+  "gold": "Cyberpunk 2077",
+  "answer": "Cyberpunk 2077",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c5_qconv5_q68",
+  "question": "Why did Audrey sign up for a workshop about bonding with pets?",
+  "gold": "Strengthen the bond with her pets",
+  "answer": "To learn new techniques to strengthen her connection with her dogs, especially using positive‑reinforcement training.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c9_qconv9_q125",
+  "question": "Where did Calvin and Dave meet Frank Ocean to start collaborating?",
+  "gold": "at a festival",
+  "answer": "At a music festival in Tokyo.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c9_qconv9_q152",
+  "question": "What new item did Dave buy recently?",
+  "gold": "A vintage camera",
+  "answer": "A vintage camera (he bought it in November 2023).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c2_qconv2_q99",
+  "question": "What did John and the veterans do during the small party?",
+  "gold": "share stories and make connections",
+  "answer": "They hosted a small get‑together where the veterans shared their stories, smiled and shook hands, formed new friendships, and enjoyed warm camaraderie.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c6_qconv6_q106",
+  "question": "What online game did John start playing recently for improving strategy?",
+  "gold": "Chess",
+  "answer": "Chess",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c9_qconv9_q110",
+  "question": "What plans do Calvin and Dave have for when Calvin visits Boston?",
+  "gold": "Check out Dave's garage and maybe get some ideas for future projects",
+  "answer": "- Tour the city’s music scene together — Dave offered to show Calvin around venues like Paradise Rock, House of Blues, and Fenway Park.\n- Grab a meal — Dave will take Calvin to his favorite food spots, and they plan to eat together.\n- Cars and garage time — Dave plans to show Calvin classic cars, invite him to his garage/shop, and have him check out a newly restored car.\n- Nature break — they plan to visit Dave’s favorite calming spot in Boston and take a relaxing walk in the parks.\n- Catch up in person — they’ll link up when Calvin’s in town.\n- Attend Calvin’s show — Dave plans to be in the front row at Calvin’s Boston performance.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c3_qconv3_q114",
+  "question": "What kind of books does Nate enjoy?",
+  "gold": "Adventures and magic",
+  "answer": "Fantasy and science‑fiction. He especially likes fantasy series with adventures, magic, and dragons (e.g., A Court of Thorns and Roses) and sci‑fi/space‑opera sagas with big battles and interesting characters.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "c2_qconv2_q34",
+  "question": "When did Maria join a gym?",
+  "gold": "The week before 16 June 2023",
+  "answer": "Around June 9, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c8_qconv8_q47",
+  "question": "When did Evan go skiing in Banff?",
+  "gold": "July 2023",
+  "answer": "July 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "c8_qconv8_q36",
+  "question": "What kind of foods or recipes has Sam recommended to Evan?",
+  "gold": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+  "answer": "- A tasty, easy roasted vegetable recipe.\n- A flavorful, healthy grilled chicken and veggie stir-fry with a homemade sauce (she invited Evan to try it and offered the recipe).",
+  "category": "multi-hop"
+ }
+]

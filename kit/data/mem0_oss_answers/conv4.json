@@ -1,0 +1,1248 @@
+[
+ {
+  "qid": "conv4_q0",
+  "question": "what are John's goals with regards to his basketball career?",
+  "gold": "improve shooting percentage, win a championship",
+  "answer": "- Win a championship.\n- Elevate his on-court performance\u2014specifically, improve his shooting percentage so he can be a consistent performer and make a bigger impact for the Minnesota Wolves.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q1",
+  "question": "What are John's goals for his career that are not related to his basketball skills?",
+  "gold": "get endorsements, build his brand, do charity work",
+  "answer": "- Build his off\u2011court career through endorsements and brand collaborations (including talks with Nike and Under Armour), strengthen his personal brand and marketing, and plan for life after basketball.\n- Make a positive impact off the court through charity\u2014supporting youth sports, fighting for fair access for underserved communities, collaborating with organizations to create opportunities for young athletes\u2014with the aim that every child has access to quality sports programs, and inspiring people.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q10",
+  "question": "When was John in Seattle for a game?",
+  "gold": "early August, 2023",
+  "answer": "August 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q100",
+  "question": "How long did John and his high school basketball teammates play together?",
+  "gold": "Four years",
+  "answer": "Four years.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q101",
+  "question": "How was John's experience in New York City?",
+  "gold": "Amazing",
+  "answer": "John\u2019s NYC trip was overwhelmingly positive. He described the city as amazing, with something new and exciting everywhere, loved exploring and trying lots of restaurants, and called it a must\u2011visit and an unforgettable adventure. The only hiccup was initially struggling with the subway, but once someone explained it, it became easy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q102",
+  "question": "What did John say about NYC, enticing Tim to visit?",
+  "gold": "It's got so much to check out - the culture, food - you won't regret it.",
+  "answer": "John told Tim that NYC is amazing\u2014there\u2019s something new and exciting everywhere, with vibrant culture and great food\u2014exploring the city and trying all the restaurants was awesome, and it\u2019s a must\u2011visit, an unforgettable adventure you won\u2019t regret.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q104",
+  "question": "What spice did John add to the soup for flavor?",
+  "gold": "sage",
+  "answer": "Sage",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q105",
+  "question": "What is Tim excited to see at Universal Studios?",
+  "gold": "The Harry Potter stuff",
+  "answer": "The Harry Potter attractions.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q106",
+  "question": "Where are John and his teammates planning to explore on a team trip?",
+  "gold": "a new city",
+  "answer": "A new city (they were still deciding on the destination, with Edinburgh mentioned as a possible option).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q107",
+  "question": "What city did Tim suggest to John for the team trip next month?",
+  "gold": "Edinburgh, Scotland",
+  "answer": "Edinburgh, Scotland",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q108",
+  "question": "What does John want to do after his basketball career?",
+  "gold": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+  "answer": "Build his post\u2011basketball personal brand through endorsements and launch charitable work\u2014potentially starting a foundation\u2014to use his platform to help kids and underserved communities.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q109",
+  "question": "What advice did Tim give John about picking endorsements?",
+  "gold": "Ensure they align with values and brand, look for companies that share the desire to make a change and help others, make sure the endorsement feels authentic",
+  "answer": "Choose endorsements that align with your values and personal brand, partner with companies that aim to make a positive difference and help others, and only take deals that feel authentic to your followers.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q11",
+  "question": "What sports does John like besides basketball?",
+  "gold": "surfing",
+  "answer": "- Surfing\n- Soccer (he follows it)\n- Yoga (he enjoys practicing it for strength and balance)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q110",
+  "question": "What book recommendation did Tim give to John for the trip?",
+  "gold": "A fantasy novel by Patrick Rothfuss",
+  "answer": "The Name of the Wind by Patrick Rothfuss.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q111",
+  "question": "What type of venue did John and his girlfriend choose for their wedding ceremony?",
+  "gold": "Greenhouse",
+  "answer": "A greenhouse (a smaller, intimate greenhouse venue).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q112",
+  "question": "What was the setting for John and his wife's first dance?",
+  "gold": "Cozy restaurant",
+  "answer": "A cozy restaurant with music and candlelight.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q113",
+  "question": "Which basketball team does Tim support?",
+  "gold": "The Wolves",
+  "answer": "Minnesota Wolves",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q114",
+  "question": "What passion does Tim mention connects him with people from all over the world?",
+  "gold": "passion for fantasy stuff",
+  "answer": "His passion for fantasy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q115",
+  "question": "How does John describe the game season for his team?",
+  "gold": "intense with tough losses and great wins",
+  "answer": "John said the season was intense, with both tough losses and great wins, and overall the team performed pretty well.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q116",
+  "question": "How does John say his team handles tough opponents?",
+  "gold": "by backing each other up and not quitting",
+  "answer": "He says tough opponents drive them to get better \u2014 they back each other up and don\u2019t quit.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q117",
+  "question": "What motivates John's team to get better, according to John?",
+  "gold": "facing tough opponents",
+  "answer": "Facing tough opponents \u2014 he said playing against top teams drives them to get better.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q118",
+  "question": "What did John's team win at the end of the season?",
+  "gold": "a trophy",
+  "answer": "The championship trophy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q12",
+  "question": "What year did John start surfing?",
+  "gold": "2018",
+  "answer": "2018",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q120",
+  "question": "How does John feel about being seen as a mentor by some of the younger players?",
+  "gold": "It feels great",
+  "answer": "He feels great about it\u2014he finds being seen as a mentor deeply rewarding and incredibly fulfilling. He values the younger players\u2019 trust and admiration, is proud to be a positive role model, and loves seeing their growth, improvement, and confidence.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q121",
+  "question": "What does John find rewarding about mentoring the younger players?",
+  "gold": "Seeing their growth, improvement, and confidence",
+  "answer": "Motivating and encouraging them, then seeing their growth, improvement, and confidence as they develop and reach their goals\u2014and being trusted as a positive role model who makes a real impact on their lives.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q122",
+  "question": "What has John been able to help the younger players achieve?",
+  "gold": "reach their goals",
+  "answer": "Their growth, improvement, and confidence\u2014he\u2019s been mentoring them so they develop and reach their goals, inspiring them to pursue their dreams.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q123",
+  "question": "What genre is the novel that Tim is writing?",
+  "gold": "Fantasy",
+  "answer": "Fantasy",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q124",
+  "question": "Who is one of Tim's sources of inspiration for writing?",
+  "gold": "J.K. Rowling",
+  "answer": "J.K. Rowling. Tim finds her writing inspiring and even takes notes on her style to improve his own work.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q125",
+  "question": "What J.K. Rowling quote does Tim resonate with?",
+  "gold": "\"Turn on the light - happiness hides in the darkest of times.\"",
+  "answer": "\u201cTurn on the light - happiness hides in the darkest of times.\u201d",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q126",
+  "question": "What does John write on the whiteboard to help him stay motivated?",
+  "gold": "motivational quotes and strategies",
+  "answer": "Motivational quotes and his workout strategies.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q127",
+  "question": "What hobby is a therapy for John when away from the court?",
+  "gold": "Cooking",
+  "answer": "Cooking",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q129",
+  "question": "How will John share the honey garlic chicken recipe with the other person?",
+  "gold": "write it down and mail it",
+  "answer": "He\u2019ll write the recipe down and mail it to Tim.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q13",
+  "question": "What does Tim do to escape reality?",
+  "gold": "Read fantasy books.",
+  "answer": "He escapes reality by immersing himself in fantasy\u2014mainly curling up with Harry Potter and other fantasy books (and sometimes the movies).",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q130",
+  "question": "What was Tim's huge writing issue last week,as mentioned on November 6, 2023?",
+  "gold": "He got stuck on a plot twist",
+  "answer": "He got stuck on a plot twist in his story.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q131",
+  "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+  "gold": "a basketball signed by his favorite player",
+  "answer": "A basketball signed by his favorite player that he keeps in a case.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q132",
+  "question": "Why do Tim and John find LeBron inspiring?",
+  "gold": "LeBron's determination and the epic block in Game 7 of the '16 Finals",
+  "answer": "Because of LeBron\u2019s elite skills and on\u2011court leadership, and especially his determination and heart in big moments\u2014highlighted by his chasedown block in Game 7 of the 2016 NBA Finals. That play taught Tim to never give up, and it fuels John\u2019s love for basketball and pushes him to keep improving. John also finds it inspiring that he\u2019s learned a lot from watching LeBron play live.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q133",
+  "question": "How did John describe the views during their road trip out on the European coastline?",
+  "gold": "Spectacular",
+  "answer": "He said the views were spectacular.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q135",
+  "question": "How does Tim stay motivated during difficult study sessions?",
+  "gold": "Visualizing goals and success",
+  "answer": "He uses a Pomodoro\u2011style routine\u201425\u2011minute focused blocks followed by 5\u2011minute fun breaks\u2014to keep sessions from feeling overwhelming and stay on track. He also leans on motivational cues like visual reminders and favorite quotes (e.g., his J.K. Rowling line) and reminds himself of his meaningful goals and love for reading and writing to push through tough moments.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q137",
+  "question": "What was the setback Tim faced in his writing project on 21 November, 2023?",
+  "gold": "Story based on experiences in the UK didn't go as planned",
+  "answer": "He tried writing a story based on his experiences in the United Kingdom, but the draft didn\u2019t turn out as he wanted.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q138",
+  "question": "How did John overcome his ankle injury from last season?",
+  "gold": "stayed focused on recovery and worked hard to strengthen his body",
+  "answer": "He took time off and committed to rehab. John did daily physical\u2011therapy exercises, stayed positive and patient, and eased back in\u2014culminating in his first pain\u2011free treadmill jog on December 15, 2023. He kept rebuilding strength and flexibility (including adding yoga), and credits perseverance and patience for getting him through.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q139",
+  "question": "What motivated Tim to keep pushing himself to get better in writing and reading?",
+  "gold": "Love for writing and reading",
+  "answer": "Remembering his love for writing and reading\u2014the passion he has for them\u2014motivated him to keep pushing himself to improve.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q14",
+  "question": "What kind of writing does Tim do?",
+  "gold": "comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+  "answer": "He writes fantasy-focused pieces\u2014regular articles for an online magazine analyzing fantasy novels (characters, themes, and book recommendations)\u2014and he\u2019s also writing his own fantasy novel.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q140",
+  "question": "How did John overcome a mistake he made during a big game in basketball?",
+  "gold": "Worked hard to get better and focused on growth",
+  "answer": "He accepted responsibility for the mistake, then put in extra work to improve. By owning it and staying resilient, he turned it into a learning experience that made him a stronger player and teammate.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q141",
+  "question": "What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams?",
+  "gold": "The Alchemist",
+  "answer": "The Alchemist",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q142",
+  "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+  "gold": "made him think again about following dreams and searching for personal legends",
+  "answer": "It renewed his focus on pursuing his \u201cpersonal legend\u201d\u2014leaving him motivated and hopeful\u2014and reinforced that he should keep chasing his dreams and trust the process.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q143",
+  "question": "What is John trying out to improve his strength and flexibility after recovery from ankle injury?",
+  "gold": "yoga",
+  "answer": "Yoga",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q144",
+  "question": "How long does John usually hold the yoga pose he shared with Tim?",
+  "gold": "30-60 seconds",
+  "answer": "30\u201360 seconds.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q145",
+  "question": "Where was the forest picture shared by John on December 1,2023 taken?",
+  "gold": "near his hometown",
+  "answer": "In a forest near his hometown.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q146",
+  "question": "What did Tim recently start learning in addition to being part of a travel club and working on studies?",
+  "gold": "an instrument",
+  "answer": "He started learning to play the violin.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q147",
+  "question": "What instrument is Tim learning to play in December 2023?",
+  "gold": "violin",
+  "answer": "The violin.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q149",
+  "question": "What book did Tim just finish reading on 8th December, 2023?",
+  "gold": "\"A Dance with Dragons\"",
+  "answer": "A Dance with Dragons",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q15",
+  "question": "Who is Anthony?",
+  "gold": "likely John's friend, colleague or family",
+  "answer": "Anthony is John\u2019s friend\u2014he attended a charity event with John where they entered a Harry Potter trivia contest together.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q150",
+  "question": "Which book did Tim recommend to John as a good story on 8th December, 2023?",
+  "gold": "\"A Dance with Dragons\"",
+  "answer": "A Dance with Dragons",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q151",
+  "question": "What is the topic of discussion between John and Tim on 11 December, 2023?",
+  "gold": "Academic achievements and sports successes",
+  "answer": "Catching up about John\u2019s recent activities, especially whether he\u2019d had any good basketball games lately.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q153",
+  "question": "What was John's way of dealing with doubts and stress when he was younger?",
+  "gold": "practicing basketball outside for hours",
+  "answer": "He practiced basketball outdoors for hours, using the sport as his outlet to cope with doubts and stress.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q154",
+  "question": "How did John feel about the atmosphere during the big game against the rival team?",
+  "gold": "electric and intense",
+  "answer": "He said the arena atmosphere was electric, with the rivalry adding extra intensity\u2014making it a memorable night.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q155",
+  "question": "How did John feel after being able to jog without pain?",
+  "gold": "It was a huge success.",
+  "answer": "He felt relieved.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q156",
+  "question": "What kind of deal did John get in December?",
+  "gold": "Deal with a renowned outdoor gear company",
+  "answer": "An endorsement deal with a renowned outdoor gear company (around December 12, 2023).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q157",
+  "question": "Where was the photoshoot done for John's gear deal?",
+  "gold": "In a gorgeous forest",
+  "answer": "In a gorgeous forest.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q158",
+  "question": "In which area has John's team seen the most growth during training?",
+  "gold": "Communication and bonding",
+  "answer": "Communication and bonding.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q159",
+  "question": "What type of seminars is John conducting?",
+  "gold": "Sports and marketing seminars",
+  "answer": "Sports-and-marketing seminars for young athletes (athletic marketing seminars).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q16",
+  "question": "After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
+  "gold": "three weeks",
+  "answer": "Four weeks.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q160",
+  "question": "What activity did Tim do after reading the stories about the Himalayan trek?",
+  "gold": "visited a travel agency",
+  "answer": "He visited a travel agency to learn the requirements for his next dream trip (on December 26, 2023).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q161",
+  "question": "What is one cause that John supports with his influence and resources?",
+  "gold": "youth sports and fair chances in sports",
+  "answer": "Youth sports access for underserved communities\u2014ensuring kids have fair opportunities to participate in quality sports programs.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q162",
+  "question": "What new fantasy TV series is Tim excited about?",
+  "gold": "\"The Wheel of Time\"",
+  "answer": "The Wheel of Time",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q163",
+  "question": "Which language is Tim learning?",
+  "gold": "German",
+  "answer": "German and Spanish",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q165",
+  "question": "What book did Tim get in Italy that inspired him to cook?",
+  "gold": "a cooking book",
+  "answer": "Tim didn\u2019t get a book in Italy. It was John who did\u2014he picked up an inspiring cookbook there that\u2019s been giving him cooking ideas.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q167",
+  "question": "According to John, who is his favorite character from Lord of the Rings?",
+  "gold": "Aragorn",
+  "answer": "Aragorn",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q168",
+  "question": "Why does John like Aragorn from Lord of the Rings?",
+  "gold": "brave, selfless, down-to-earth attitude",
+  "answer": "Because Aragorn\u2019s character inspires him. John says he admires Aragorn\u2019s bravery, selflessness, and down\u2011to\u2011earth nature; that he never gives up and always stands up for justice. He also loves Aragorn\u2019s growth over the story into a true leader, which motivates John to stay true and be a leader himself.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q170",
+  "question": "What is the painting of Aragorn a reminder for John to be in everything he does?",
+  "gold": "be a leader",
+  "answer": "To stay true and be a leader.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q171",
+  "question": "What map does Tim show to his friend John?",
+  "gold": "a map of Middle-earth from LOTR",
+  "answer": "A hand\u2011drawn map of Middle\u2011earth from The Lord of the Rings.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q172",
+  "question": "Where will Tim be going for a semester abroad?",
+  "gold": "Ireland",
+  "answer": "Galway, Ireland",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q173",
+  "question": "Which city in Ireland will Tim be staying in during his semester abroad?",
+  "gold": "Galway",
+  "answer": "Galway",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q174",
+  "question": "What charity event did John organize recently in 2024?",
+  "gold": "benefit basketball game",
+  "answer": "A benefit charity basketball game (tournament) to raise money for children.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q175",
+  "question": "What achievement did John share with Tim in January 2024?",
+  "gold": "endorsement with a popular beverage company",
+  "answer": "He announced he\u2019d secured an endorsement deal with a popular beverage company\u2014Gatorade\u2014around January 5, 2024.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q176",
+  "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+  "gold": "crazy feeling, sense of accomplishment",
+  "answer": "He said it was an incredible, dream\u2011come\u2011true moment\u2014the signing felt \u201ccrazy,\u201d and it proved all his hard work and training hours had paid off.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q177",
+  "question": "Which city did John recommend to Tim in January 2024?",
+  "gold": "Barcelona",
+  "answer": "Barcelona",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q18",
+  "question": "What authors has Tim read books from?",
+  "gold": "J.K. Rowling, R.R. Martin, Patrick Rothfuss, Paulo Coelho, and J. R. R. Tolkien.",
+  "answer": "- J.K. Rowling (Harry Potter)\n- George R. R. Martin (A Song of Ice and Fire; he finished A Dance with Dragons)\n- Patrick Rothfuss (The Name of the Wind; currently reading)\n- Paulo Coelho (The Alchemist)\n- J.R.R. Tolkien (The Hobbit, The Lord of the Rings)\n- Robert Jordan (The Wheel of Time series he loves)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q19",
+  "question": "What is a prominent charity organization that John might want to work with and why?",
+  "gold": "Good Sports, because they work with Nike, Gatorade, and Under Armour and they aim toprovide youth sports opportunities for kids ages 3-18 in high-need communities.",
+  "answer": "A national youth\u2011sports nonprofit that combines athletics with academics for underserved kids\u2014like the local organization he\u2019s already teaming up with\u2014would be a great fit. John has repeatedly said he wants to support youth sports and fight for fair chances for underserved communities, he\u2019s already collaborating with a group that helps disadvantaged kids through sports and school, he mentors younger players, and he even organized a children\u2019s charity basketball game. Partnering with a prominent youth\u2011sports and education charity directly matches his stated goals and lets him amplify the impact he\u2019s already making.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q2",
+  "question": "What items does John collect?",
+  "gold": "sneakers, fantasy movie DVDs, jerseys",
+  "answer": "- Sneakers (he has a sneaker collection)\n- Basketball jerseys (he shared a collection of jerseys)\n- Books (a large bookshelf collection)\n- Fantasy movie DVDs, including:\n  - The complete Harry Potter DVD collection\n  - A Star Wars movie collection\n  - Lord of the Rings DVDs (along with many LotR books)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q20",
+  "question": "Which city was John in before traveling to Chicago?",
+  "gold": "Seattle",
+  "answer": "Seattle",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q21",
+  "question": "Which US cities does John mention visiting to Tim?",
+  "gold": "Seattle, Chicago, New York",
+  "answer": "Seattle and New York City (NYC)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q22",
+  "question": "When did John meet with his teammates after returning from Chicago?",
+  "gold": "August 15, 2023",
+  "answer": "August 15, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q23",
+  "question": "When is Tim attending a book conference?",
+  "gold": "September 2023",
+  "answer": "September 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q24",
+  "question": "Where was John between August 11 and August 15 2023?",
+  "gold": "Chicago",
+  "answer": "Chicago.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q25",
+  "question": "What similar sports collectible do Tim and John own?",
+  "gold": "signed basketball",
+  "answer": "A signed basketball.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q26",
+  "question": "Which TV series does Tim mention watching?",
+  "gold": "That, Wheel of Time",
+  "answer": "The Wheel of Time",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q27",
+  "question": "Which popular time management technique does Tim use to prepare for exams?",
+  "gold": "Pomodoro technique",
+  "answer": "The Pomodoro Technique (25-minute focused study blocks with 5-minute breaks).",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q28",
+  "question": "Which popular music composer's tunes does Tim enjoy playing on the piano?",
+  "gold": "John Williams",
+  "answer": "John Williams",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q29",
+  "question": "What schools did John play basketball in and how many years was he with his team during high school?",
+  "gold": "Middle school, high school, and college and he was with his high school team for 4 years.",
+  "answer": "Middle school, high school, and college; he was with his high school team for four years.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q3",
+  "question": "Would Tim enjoy reading books by C. S. Lewis or John Greene?",
+  "gold": "C. S.Lewis",
+  "answer": "Yes. Tim would almost certainly enjoy C. S. Lewis\u2014he loves immersive fantasy with rich world\u2011building and character development (he\u2019s devoted to Harry Potter, The Lord of the Rings, The Hobbit, and The Name of the Wind), which aligns closely with Lewis\u2019s classic fantasy.\n\nHe\u2019d also likely enjoy John Green(e). While Tim\u2019s first love is fantasy, he also reads books on personal growth and loves reflective, inspirational fiction (he\u2019s a fan of The Alchemist). John Green(e)\u2019s contemporary, character\u2011driven stories about coming\u2011of\u2011age and introspection fit those interests, even if they\u2019re outside Tim\u2019s usual genre.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q30",
+  "question": "Which cities has John been to?",
+  "gold": "Seattle, Chicago, New York, and Paris.",
+  "answer": "Seattle; Chicago; New York City; Paris.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q31",
+  "question": "What month did Tim plan on going to Universal Studios?",
+  "gold": "September, 2023",
+  "answer": "September 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q32",
+  "question": "Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios?",
+  "gold": "California or Florida",
+  "answer": "- California (Universal Studios Hollywood in Los Angeles)\n- Florida (Universal Orlando Resort in Orlando)\n\nThese are the two U.S. states with Universal Studios parks Tim could be visiting in September 2023.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q33",
+  "question": "When does John plan on traveling with his team on a team trip?",
+  "gold": "October, 2023",
+  "answer": "October 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q34",
+  "question": "What could John do after his basketball career?",
+  "gold": "become a basketball coach since he likes giving back and leadership",
+  "answer": "- Build a career in brand partnerships and sports marketing \u2014 he\u2019s already signed a Nike shoe/gear deal (July 16, 2023), leveraged industry contacts, and is actively exploring endorsements and building his personal brand.\n- Start a foundation and expand his charity work \u2014 he\u2019s talked about using his platform to make a positive difference and is considering launching a foundation.\n- Grow youth-focused community programs \u2014 he\u2019s teamed up with local organizations helping disadvantaged kids, organized a week\u2011long basketball camp in his hometown, and ran a successful charity basketball game/tournament.\n- Coach or mentor young players \u2014 he\u2019s already mentoring younger teammates and finds it rewarding.\n- Educate young athletes \u2014 he\u2019s led an athletic marketing seminar for young athletes and could continue with workshops and speaking.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q35",
+  "question": "What outdoor activities does John enjoy?",
+  "gold": "Hiking, surfing",
+  "answer": "- Surfing (he\u2019s been surfing since 2018 and loves being out on the water)\n- Hiking (he joined a hiking club and uses hiking gear; did forest and mountain hikes)\n- Camping (including mountain and lakeside camping with campfires)\n- Road\u2011tripping along coastlines\n- Outdoor basketball workouts/shooting hoops\n- Exploring new cities outdoors (urban exploration)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q36",
+  "question": "Who is Tim and John's favorite basketball player?",
+  "gold": "LeBron James",
+  "answer": "LeBron James",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q37",
+  "question": "Which week did Tim visit the UK for the Harry Potter Conference?",
+  "gold": "The week before October 13th, 2023.",
+  "answer": "The week of October 6\u201312, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q38",
+  "question": "which country has Tim visited most frequently in his travels?",
+  "gold": "UK",
+  "answer": "The United Kingdom \u2014 he visited London in May 2020 and returned for a UK conference in October 2023 and a castle visit in November 2023.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q39",
+  "question": "What year did Tim go to the Smoky Mountains?",
+  "gold": "2022",
+  "answer": "2022",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q4",
+  "question": "What books has Tim read?",
+  "gold": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+  "answer": "- J.K. Rowling\u2019s Harry Potter books \u2014 including Harry Potter and the Sorcerer\u2019s Stone (he\u2019s read Rowling\u2019s books for a long time and has a well\u2011read copy, and he compares the books to the films)\n- A Dance with Dragons by George R. R. Martin \u2014 finished on December 8, 2023\n- The Alchemist by Paulo Coelho \u2014 read before November 21, 2023\n- A book about castles in the United Kingdom (non\u2011fiction; title not specified)\n- A self\u2011improvement book emphasizing that small changes can lead to big differences (title not specified)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q40",
+  "question": "Has Tim been to North Carolina and/or Tennesee states in the US?",
+  "gold": "Yes",
+  "answer": "- North Carolina: Yes. Tim visited the Blue Ridge Mountains in North Carolina in the summer of 2023.\n- Tennessee: Not confirmed. He took a trip to the Great Smoky Mountains in 2022, which span both North Carolina and Tennessee, but the memories don\u2019t specify that he was on the Tennessee side.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q41",
+  "question": "What kind of fiction stories does Tim write?",
+  "gold": "Fantasy stories with plot twists",
+  "answer": "Fantasy fiction \u2014 he\u2019s currently writing a fantasy novel set in an original world.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q42",
+  "question": "What has John cooked?",
+  "gold": "Soup, a slow cooker meal, and honey garlic chicken with roasted veg.",
+  "answer": "- An improvised chicken soup with a butternut garnish (seasoned with sage)\n- Honey garlic chicken with roasted vegetables\n- A slow\u2011cooker mixed\u2011ingredient stew",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q43",
+  "question": "What does John like about Lebron James?",
+  "gold": "His heart, determination, skills, and leadership.",
+  "answer": "His skills and leadership. He\u2019s also inspired by LeBron\u2019s determination and heart, and after meeting him a few times, he described LeBron as \u201creal chill.\u201d",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q44",
+  "question": "When did John and his wife go on a European vacation?",
+  "gold": "November, 2023.",
+  "answer": "November 6, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q45",
+  "question": "Which country was Tim visiting in the second week of November?",
+  "gold": "UK",
+  "answer": "United Kingdom",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q46",
+  "question": "Where was Tim in the week before 16 November 2023?",
+  "gold": "UK",
+  "answer": "In the United Kingdom\u2014he was on a UK trip and visited a castle on November 10, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q47",
+  "question": "When did John get married at a greenhouse?",
+  "gold": "last week of September 2023",
+  "answer": "Around September 25, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q48",
+  "question": "When did John get an ankle injury in 2023?",
+  "gold": "around November 16, 2023",
+  "answer": "Mid-November 2023 \u2014 around November 16, 2023.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q52",
+  "question": "What does John do to supplement his basketball training?",
+  "gold": "Yoga, strength training",
+  "answer": "He supplements his on\u2011court work with strength training and yoga\u2014building muscle and power in the gym and using poses like Warrior II to boost flexibility, balance, focus, and overall athleticism.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q53",
+  "question": "What other exercises can help John with his basketball performance?",
+  "gold": "Sprinting, long-distance running, and boxing.",
+  "answer": "Since you\u2019re already lifting and doing yoga, these additions will round out your game as a shooting guard and support your goals (better shooting %, speed, and durability):\n\n- Plyometrics (1\u20132x/week): box jumps, depth jumps, lateral bounds, pogo jumps to boost first\u2011step and vertical.\n- Agility/change\u2011of\u2011direction: 5\u201110\u20115 shuttle, T\u2011drill, cone zigzags with defensive slides, closeout-and\u2011recover to sharpen lateral quickness.\n- Speed/acceleration: resisted sled sprints, 10\u201320 m starts, flying 30s for top\u2011end speed and repeat sprint ability.\n- Core/anti\u2011rotation: Pallof presses, dead bugs, cable chops, farmer\u2019s carries to stabilize on drives and contests.\n- Single\u2011leg strength: Bulgarian split squats, step\u2011ups, single\u2011leg RDLs for balance, power, and injury resistance.\n- Posterior chain/power: trap\u2011bar deadlifts, hip thrusts, kettlebell swings; add med\u2011ball chest/overhead/rotational throws for explosive force.\n- Ankle/foot resilience (given your past ankle rehab): straight/bent\u2011knee calf raises, tibialis raises, ankle mobility/dorsiflexion drills, single\u2011leg balance with reach, hop matrix (forward/lateral/diagonal).\n- Shoulder/scap prehab for shooting volume: band external rotations, face pulls, Y\u2011T\u2011W raises, serratus wall slides to keep the shot smooth and shoulders healthy.\n- Mobility focus: hip flexor/hamstring work, ankle dorsiflexion, and thoracic spine openers to maintain fluid movement and shooting mechanics.\n- Conditioning (court\u2011specific): intervals like suicides, \u201c17s,\u201d 3\u20112\u20111 drills; low\u2011impact options (bike/rower intervals) on lighter days.\n- Reaction/decision speed: tennis\u2011ball drops, partner cue drills, light\u2011reaction drills (e.g., BlazePod) to improve reads and closeouts.\n- Shooting under fatigue (ties to your % goal): catch\u2011and\u2011shoot off relocations/pindowns, one\u2011dribble pull\u2011ups, spot\u2011to\u2011spot sprints with FT pressure (e.g., 5 makes, sprint, 2 FTs).\n- Ball\u2011handling/footwork: two\u2011ball dribbles, change\u2011of\u2011pace combos around cones, jab\u2011series, stop\u2011on\u2011a\u2011dime into step\u2011backs to create space cleanly.\n\nSimple structure: 1\u20132 plyo/agility days, 2 short conditioning blocks, daily 10\u201315 min ankle/shoulder prehab, and finish skill sessions with game\u2011speed shooting. This complements your strength work and yoga and should translate directly to on\u2011court performance.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q54",
+  "question": "When did John take a trip to the Rocky Mountains?",
+  "gold": "2022",
+  "answer": "2022",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q57",
+  "question": "What instruments does Tim play?",
+  "gold": "piano, violin",
+  "answer": "Piano and violin.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q58",
+  "question": "When did John attend the Harry Potter trivia?",
+  "gold": "August 2023.",
+  "answer": "August 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q59",
+  "question": "Which career-high performances did John achieve in 2023?",
+  "gold": "highest point score, highest assist",
+  "answer": "- Career-high points: 40 points in a game during the week of July 9\u201315, 2023.\n- Career-high assists: Set a personal best for assists on Friday, December 8, 2023, in a rivalry game.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q60",
+  "question": "When did John achieve a career-high assist performance?",
+  "gold": "December 11, 2023",
+  "answer": "Friday, December 8, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q61",
+  "question": "What books has John read?",
+  "gold": "inpsiring book on dreaming big, The Alchemist, fantasy series, non-fiction books on personal development, Dune",
+  "answer": "- The Name of the Wind by Patrick Rothfuss (read and loved)\n- The Alchemist by Paulo Coelho (read and recently reread)\n- The Hobbit by J.R.R. Tolkien (one of his favorite books)\n- Dune by Frank Herbert (currently reading)\n\nHe also mentioned finishing an amazing fantasy series, though he didn\u2019t specify the title.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q62",
+  "question": "What does John do to share his knowledge?",
+  "gold": "gives seminars, mentors younger players.",
+  "answer": "He gives seminars for aspiring professors and mentors younger players on his team, offering them advice and support.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q63",
+  "question": "When did John organize a basketball camp for kids?",
+  "gold": "summer 2023",
+  "answer": "Last summer (summer 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q64",
+  "question": "Which month was John in Italy?",
+  "gold": "December, 2023",
+  "answer": "December 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q65",
+  "question": "What fantasy movies does Tim like?",
+  "gold": "Lord of the Rings, Harry Potter, and Star Wars.",
+  "answer": "- Harry Potter movies\n- The Lord of the Rings films\n- Star Wars movies\n- Elf",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q67",
+  "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+  "gold": "Writing a travel blog.",
+  "answer": "Travel journaling/blogging\u2014documenting his trips (with photos) and reflections\u2014since it combines his love of writing with his growing travel adventures.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q68",
+  "question": "What day did Tim get into his study abroad program?",
+  "gold": "Januarty 5, 2024",
+  "answer": "Friday, January 5, 2024.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q69",
+  "question": "When will Tim leave for Ireland?",
+  "gold": "February, 2024",
+  "answer": "February 2024",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q7",
+  "question": "Which geographical locations has Tim been to?",
+  "gold": "California, London, the Smoky Mountains",
+  "answer": "- London, England (visited a Harry Potter\u2013themed location and took a tour around May 2020)\n- A countryside castle in the United Kingdom (visited on a recent trip; exact castle not specified)",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q70",
+  "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+  "gold": "Skellig Michael, Malin Head, Loop Head, Ceann Sib\u00e9al, and Brow Head because they are Star Wars filming locations.",
+  "answer": "- Skellig Michael (County Kerry): Filmed as Luke\u2019s Ahch\u2011To island in The Force Awakens and The Last Jedi. Rugged stone steps, seabird colonies, and open Atlantic views make it a perfect match for Tim\u2019s love of dramatic, magical landscapes. Accessed by boat tours from Portmagee (seasonal and weather\u2011dependent).\n- Dingle Peninsula (County Kerry): Ceann Sib\u00e9al/Sybil Head hosted the Ahch\u2011To set, and nearby Dunmore Head and Coumeenoole Bay appear in The Last Jedi. The Slea Head Drive combines movie spots with stunning coastal scenery and great short hikes.\n- Malin Head (Inishowen Peninsula, County Donegal): Used in The Last Jedi. Bamba\u2019s Crown and the surrounding headlands offer wild Atlantic vistas and superb stargazing\u2014ideal for a Star Wars fan who loves nature.\n- Loop Head Peninsula (County Clare): Featured for The Last Jedi. Sheer cliffs, a photogenic lighthouse, and quieter trails than the Cliffs of Moher\u2014handy for a day trip from Galway.\n- Brow Head (near Crookhaven, County Cork): Coastal shots for The Last Jedi. A short walk to the old signal tower rewards you with sweeping views and that otherworldly \u201cgalaxy far, far away\u201d feel.\n\nFrom Galway, Loop Head is the easiest day trip; Dingle and Malin Head make great weekend routes. For Skellig Michael, plan ahead and base in Portmagee/Valentia for an early boat departure.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q71",
+  "question": "Which team did John sign with on 21 May, 2023?",
+  "gold": "The Minnesota Wolves",
+  "answer": "Minnesota Wolves",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q72",
+  "question": "What is John's position on the team he signed with?",
+  "gold": "shooting guard",
+  "answer": "Shooting guard.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q73",
+  "question": "What challenge did John encounter during pre-season training?",
+  "gold": "fitting into the new team's style of play",
+  "answer": "Fitting into the Minnesota Wolves\u2019 style of play.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q74",
+  "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+  "gold": "characters, spells, magical creatures",
+  "answer": "Characters, spells, and magical creatures.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q75",
+  "question": "What forum did Tim join recently?",
+  "gold": "fantasy literature forum",
+  "answer": "A fantasy literature forum.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q76",
+  "question": "What kind of picture did Tim share as part of their Harry Potter book collection?",
+  "gold": "MinaLima's creation from the Harry Potter films",
+  "answer": "A MinaLima print\u2014the Harry Potter film prop designers\u2019 artwork displayed on his bookshelf.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q77",
+  "question": "What was the highest number of points John scored in a game recently?",
+  "gold": "40 points",
+  "answer": "40 points.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q78",
+  "question": "What did John celebrate at a restaurant with teammates?",
+  "gold": "a tough win",
+  "answer": "Their hard\u2011fought win\u2014the game where John scored 40 points\u2014on July 15, 2023.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q79",
+  "question": "What kind of deals did John sign with Nike and Gatorade?",
+  "gold": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+  "answer": "A basketball shoe\u2011and\u2011gear endorsement with Nike, and a sponsorship deal with Gatorade.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q80",
+  "question": "Which city is John excited to have a game at?",
+  "gold": "Seattle",
+  "answer": "Seattle",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q81",
+  "question": "How long has John been surfing?",
+  "gold": "five years",
+  "answer": "About five years (since around July 2018).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q82",
+  "question": "How does John feel while surfing?",
+  "gold": "super exciting and free-feeling",
+  "answer": "He says being out in the water is amazing\u2014an unreal rush where the waves and wind feel exciting and make him feel free\u2014and he loves the deep connection to nature.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q83",
+  "question": "What kind of articles has Tim been writing about for the online magazine?",
+  "gold": "different fantasy novels, characters, themes, and book recommendations",
+  "answer": "Articles about fantasy novels\u2014he writes pieces that explore various fantasy books, analyze their characters and themes, and include book recommendations.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q84",
+  "question": "Which two fantasy novels does Tim particularly enjoy writing about?",
+  "gold": "Harry Potter and Game of Thrones",
+  "answer": "Harry Potter and Game of Thrones.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q85",
+  "question": "What did Anthony and John end up playing during the charity event?",
+  "gold": "an intense Harry Potter trivia contest",
+  "answer": "An intense Harry Potter trivia contest.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q87",
+  "question": "How did John describe the team bond?",
+  "gold": "Awesome",
+  "answer": "He said the team bond is awesome\u2014like a second family that supports each other on and off the court and makes all the hard work worth it.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q89",
+  "question": "What is John's number one goal in his basketball career?",
+  "gold": "Winning a championship",
+  "answer": "To win a championship.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q9",
+  "question": "Which endorsement deals has John been offered?",
+  "gold": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+  "answer": "- Nike \u2014 secured\n- Gatorade \u2014 initially in talks (July 2023), later congratulated for securing it\n- A renowned outdoor gear company \u2014 secured around December 12, 2023\n- A popular beverage company \u2014 secured around January 5, 2024",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q90",
+  "question": "What organization is John teaming up with for his charity work?",
+  "gold": "A local organization helping disadvantaged kids with sports and school",
+  "answer": "A local organization that helps disadvantaged kids through sports and school.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q91",
+  "question": "When did John meet back up with his teammates after his trip in August 2023?",
+  "gold": "Aug 15th",
+  "answer": "August 15, 2023.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q92",
+  "question": "What did John's teammates give him when they met on Aug 15th?",
+  "gold": "a basketball with autographs on it",
+  "answer": "A basketball signed by his teammates.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q93",
+  "question": "Why did John's teammates sign the basketball they gave him?",
+  "gold": "to show their friendship and appreciation",
+  "answer": "They signed it to show their friendship and appreciation, giving him a meaningful reminder of their bond.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q94",
+  "question": "What is the main intention behind Tim wanting to attend the book conference?",
+  "gold": "to learn more about literature and create a stronger bond to it",
+  "answer": "To learn more about literature and deepen his connection to books.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q95",
+  "question": "What new activity has Tim started learning in August 2023?",
+  "gold": "play the piano",
+  "answer": "He started learning to play the piano.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q97",
+  "question": "What special memory does \"Harry Potter and the Philosopher's Stone\" bring to Tim?",
+  "gold": "Watching it with his family",
+  "answer": "Watching it with his family\u2014the first Harry Potter film he ever saw\u2014cuddled up with snacks and a blanket, totally absorbed in the movie; he remembers it as a dream\u2011come\u2011true, magical experience.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q98",
+  "question": "Which movie does Tim mention they enjoy watching during Thanksgiving?",
+  "gold": "\"Home Alone\"",
+  "answer": "Home Alone",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q103",
+  "question": "What kind of soup did John make recently?",
+  "gold": "tasty soup with sage",
+  "answer": "Chicken soup with a butternut garnish.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q119",
+  "question": "Where did Tim capture the photography of the sunset over the mountain range?",
+  "gold": "Smoky Mountains",
+  "answer": "The Blue Ridge Mountains in North Carolina.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q128",
+  "question": "What type of meal does John often cook using a slow cooker?",
+  "gold": "honey garlic chicken with roasted veg",
+  "answer": "A mixed-ingredient stew.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q134",
+  "question": "What is one of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023?",
+  "gold": "\"That\"",
+  "answer": "That",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q136",
+  "question": "What did Tim say about his injury on 16 November, 2023?",
+  "gold": "The doctor said it's not too serious",
+  "answer": "He told John he hoped John\u2019s ankle injury would heal soon.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q148",
+  "question": "How long has Tim been playing the piano for, as of December 2023?",
+  "gold": "about four months",
+  "answer": "He had only just started learning the piano by December 2023\u2014he\u2019d been playing for a short time.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q152",
+  "question": "What kind of game did John have a career-high in assists in?",
+  "gold": "basketball",
+  "answer": "A big rivalry game against his team\u2019s rival.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q164",
+  "question": "What language does Tim know besides German?",
+  "gold": "Spanish",
+  "answer": "French",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q166",
+  "question": "What is John's favorite book series?",
+  "gold": "Harry Potter",
+  "answer": "The Lord of the Rings by J.R.R. Tolkien.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q169",
+  "question": "What kind of painting does John have in his room as a reminder?",
+  "gold": "a painting of Aragorn",
+  "answer": "A painting of a man smoking a cigarette, which he keeps as a reminder to stay true and be a leader.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q17",
+  "question": "How many games has John mentioned winning?",
+  "gold": "6",
+  "answer": "4",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q49",
+  "question": "How many times has John injured his ankle?",
+  "gold": "two times",
+  "answer": "1",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q5",
+  "question": "Based on Tim's collections, what is a shop that he would enjoy visiting in New York city?",
+  "gold": "House of MinaLima",
+  "answer": "The official Harry Potter store in New York City.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q50",
+  "question": "Which book was John reading during his recovery from an ankle injury?",
+  "gold": "The Alchemist",
+  "answer": "Dune by Frank Herbert.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv4_q51",
+  "question": "What kind of yoga for building core strength might John benefit from?",
+  "gold": "Hatha Yoga",
+  "answer": "A vigorous Vinyasa/Power yoga practice would suit him best for core strength. It emphasizes flow sequences with planks, chaturanga, boat (Navasana), and side\u2011plank variations, and complements the Warrior II holds (30\u201360 seconds) he already enjoys for legs and core.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q55",
+  "question": "When did John start playing professionally?",
+  "gold": "May, 2023",
+  "answer": "Around December 2022.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q56",
+  "question": "When did Tim start playing the violin?",
+  "gold": "August 2023",
+  "answer": "December 2023 \u2014 by December 6, 2023, he had begun learning the violin.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q6",
+  "question": "In which month's game did John achieve a career-high score in points?",
+  "gold": "June 2023",
+  "answer": "July 2023",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv4_q66",
+  "question": "What is a Star Wars book that Tim might enjoy?",
+  "gold": "Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+  "answer": "A Star Wars visual encyclopedia or atlas that explores the galaxy\u2019s maps, planets, species, and starships\u2014something that dives into the lore and world\u2011building\u2014would likely be right up Tim\u2019s alley.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q8",
+  "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+  "gold": "Under Armour",
+  "answer": "A renowned outdoor gear company (the specific brand wasn\u2019t named), which John said he signed with around December 12, 2023.",
+  "category": "open-domain"
+ },
+ {
+  "qid": "conv4_q86",
+  "question": "What did John share with the person he skyped about?",
+  "gold": "Characters from Harry Potter",
+  "answer": "A photo of a signed Harry Potter book (the trivia contest prize).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q88",
+  "question": "How did John get introduced to basketball?",
+  "gold": "Dad signed him up for a local league",
+  "answer": "As a kid, he got into basketball by watching NBA games with his dad, and then started playing himself in a local league at age ten.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q96",
+  "question": "Which movie's theme is Tim's favorite to play on the piano?",
+  "gold": "\"Harry Potter and the Philosopher's Stone\"",
+  "answer": "A movie theme that brings back lots of great memories for him.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv4_q99",
+  "question": "What tradition does Tim mention they love during Thanksgiving?",
+  "gold": "Prepping the feast and talking about what they're thankful for",
+  "answer": "Watching \u201cHome Alone\u201d together.",
+  "category": "single-hop"
+ }
+]

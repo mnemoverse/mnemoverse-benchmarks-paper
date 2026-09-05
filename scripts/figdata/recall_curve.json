@@ -1,0 +1,137 @@
+{
+  "description": "Recall@k curves for naked_cosine and mnemoverse_engine on LoCoMo conv-26 (n=152, n_eval=150 excl. adversarial category). Source: RECALL_AT_K_SUMMARY.json entries cell_0b and cell_2b.",
+  "source_file": "kit/data/RECALL_AT_K_SUMMARY.json",
+  "k_values": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "systems": {
+    "naked_cosine": {
+      "n": 152,
+      "k_native": 200,
+      "recall_provenance": "exact",
+      "overall_recall_at_k": {
+        "5": 0.595,
+        "10": 0.720556,
+        "20": 0.78,
+        "50": 0.885556,
+        "100": 0.938333,
+        "200": 0.980556
+      },
+      "by_category_recall_at_k": {
+        "temporal": {
+          "n": 37,
+          "recall_at_k": {
+            "5": 0.864865,
+            "10": 0.918919,
+            "20": 0.972973,
+            "50": 1.0,
+            "100": 1.0,
+            "200": 1.0
+          }
+        },
+        "open_domain": {
+          "n": 11,
+          "recall_at_k": {
+            "5": 0.409091,
+            "10": 0.409091,
+            "20": 0.454545,
+            "50": 0.727273,
+            "100": 0.878788,
+            "200": 0.969697
+          }
+        },
+        "multi_hop": {
+          "n": 32,
+          "recall_at_k": {
+            "5": 0.242188,
+            "10": 0.424479,
+            "20": 0.53125,
+            "50": 0.713542,
+            "100": 0.846354,
+            "200": 0.950521
+          }
+        },
+        "single_hop": {
+          "n": 70,
+          "recall_at_k": {
+            "5": 0.642857,
+            "10": 0.8,
+            "20": 0.842857,
+            "50": 0.928571,
+            "100": 0.957143,
+            "200": 0.985714
+          }
+        }
+      }
+    },
+    "mnemoverse_engine": {
+      "n": 152,
+      "k_native": 200,
+      "recall_provenance": "n_a per compute_recall.py RECALL_PROVENANCE table",
+      "overall_recall_at_k": {
+        "5": 0.577222,
+        "10": 0.667222,
+        "20": 0.751667,
+        "50": 0.862778,
+        "100": 0.912222,
+        "200": 0.959444
+      },
+      "by_category_recall_at_k": {
+        "temporal": {
+          "n": 37,
+          "recall_at_k": {
+            "5": 0.918919,
+            "10": 0.945946,
+            "20": 0.945946,
+            "50": 1.0,
+            "100": 1.0,
+            "200": 1.0
+          }
+        },
+        "open_domain": {
+          "n": 11,
+          "recall_at_k": {
+            "5": 0.318182,
+            "10": 0.454545,
+            "20": 0.5,
+            "50": 0.636364,
+            "100": 0.818182,
+            "200": 0.863636
+          }
+        },
+        "multi_hop": {
+          "n": 32,
+          "recall_at_k": {
+            "5": 0.330729,
+            "10": 0.408854,
+            "20": 0.539062,
+            "50": 0.731771,
+            "100": 0.807292,
+            "200": 0.919271
+          }
+        },
+        "single_hop": {
+          "n": 70,
+          "recall_at_k": {
+            "5": 0.55,
+            "10": 0.671429,
+            "20": 0.785714,
+            "50": 0.885714,
+            "100": 0.928571,
+            "200": 0.971429
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "naked_cosine recall is exact (stores raw turns with dia IDs 1:1).",
+    "mnemoverse_engine recall is labelled n_a in RECALL_PROVENANCE; values present in RECALL_AT_K_SUMMARY because compute_recall processes the file, but engine uses consolidated atoms without guaranteed 1:1 dia-ID mapping.",
+    "Recall formula: recall@k = |gold_evidence_ids intersect top-k stripped retrieved_atom_ids| / |gold_evidence_ids|, averaged over evaluable questions (excl. adversarial)."
+  ]
+}

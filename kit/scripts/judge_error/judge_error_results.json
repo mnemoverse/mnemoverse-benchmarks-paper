@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "proxy_method": "substring_match_with_date_normalisation",
+    "included_categories": [
+      "multi_hop",
+      "temporal",
+      "single_hop"
+    ],
+    "excluded_categories": [
+      "open_domain",
+      "adversarial"
+    ],
+    "discrete_gold_max_tokens": 8
+  },
+  "conv26_our_engine": {
+    "subset_info": {
+      "n_total": 152,
+      "n_subset": 117,
+      "per_category": {
+        "multi_hop": {
+          "n": 31,
+          "n_true": 12,
+          "n_false": 19
+        },
+        "single_hop": {
+          "n": 49,
+          "n_true": 26,
+          "n_false": 23
+        },
+        "temporal": {
+          "n": 37,
+          "n_true": 19,
+          "n_false": 18
+        }
+      }
+    },
+    "judge_metrics": {
+      "verdict_mem0": {
+        "overall": {
+          "n": 117,
+          "n_truth_correct": 57,
+          "n_truth_incorrect": 60,
+          "n_tp": 57,
+          "n_fn": 0,
+          "n_fp": 47,
+          "n_tn": 13,
+          "accuracy": 0.5983,
+          "FP_rate": 0.7833,
+          "FN_rate": 0.0
+        },
+        "per_category": {
+          "multi_hop": {
+            "n": 31,
+            "n_truth_correct": 12,
+            "n_truth_incorrect": 19,
+            "n_tp": 12,
+            "n_fn": 0,
+            "n_fp": 15,
+            "n_tn": 4,
+            "accuracy": 0.5161,
+            "FP_rate": 0.7895,
+            "FN_rate": 0.0
+          },
+          "single_hop": {
+            "n": 49,
+            "n_truth_correct": 26,
+            "n_truth_incorrect": 23,
+            "n_tp": 26,
+            "n_fn": 0,
+            "n_fp": 16,
+            "n_tn": 7,
+            "accuracy": 0.6735,
+            "FP_rate": 0.6957,
+            "FN_rate": 0.0
+          },
+          "temporal": {
+            "n": 37,
+            "n_truth_correct": 19,
+            "n_truth_incorrect": 18,
+            "n_tp": 19,
+            "n_fn": 0,
+            "n_fp": 16,
+            "n_tn": 2,
+            "accuracy": 0.5676,
+            "FP_rate": 0.8889,
+            "FN_rate": 0.0
+          }
+        }
+      },
+      "verdict_mem0_4o": {
+        "overall": {
+          "n": 117,
+          "n_truth_correct": 57,
+          "n_truth_incorrect": 60,
+          "n_tp": 57,
+          "n_fn": 0,
+          "n_fp": 50,
+          "n_tn": 10,
+          "accuracy": 0.5726,
+          "FP_rate": 0.8333,
+          "FN_rate": 0.0
+        },
+        "per_category": {
+          "multi_hop": {
+            "n": 31,
+            "n_truth_correct": 12,
+            "n_truth_incorrect": 19,
+            "n_tp": 12,
+            "n_fn": 0,
+            "n_fp": 15,
+            "n_tn": 4,
+            "accuracy": 0.5161,
+            "FP_rate": 0.7895,
+            "FN_rate": 0.0
+          },
+          "single_hop": {
+            "n": 49,
+            "n_truth_correct": 26,
+            "n_truth_incorrect": 23,
+            "n_tp": 26,
+            "n_fn": 0,
+            "n_fp": 18,
+            "n_tn": 5,
+            "accuracy": 0.6327,
+            "FP_rate": 0.7826,
+            "FN_rate": 0.0
+          },
+          "temporal": {
+            "n": 37,
+            "n_truth_correct": 19,
+            "n_truth_incorrect": 18,
+            "n_tp": 19,
+            "n_fn": 0,
+            "n_fp": 17,
+            "n_tn": 1,
+            "accuracy": 0.5405,
+            "FP_rate": 0.9444,
+            "FN_rate": 0.0
+          }
+        }
+      },
+      "verdict_strict": {
+        "overall": {
+          "n": 117,
+          "n_truth_correct": 57,
+          "n_truth_incorrect": 60,
+          "n_tp": 44,
+          "n_fn": 13,
+          "n_fp": 17,
+          "n_tn": 43,
+          "accuracy": 0.7436,
+          "FP_rate": 0.2833,
+          "FN_rate": 0.2281
+        },
+        "per_category": {
+          "multi_hop": {
+            "n": 31,
+            "n_truth_correct": 12,
+            "n_truth_incorrect": 19,
+            "n_tp": 7,
+            "n_fn": 5,
+            "n_fp": 2,
+            "n_tn": 17,
+            "accuracy": 0.7742,
+            "FP_rate": 0.1053,
+            "FN_rate": 0.4167
+          },
+          "single_hop": {
+            "n": 49,
+            "n_truth_correct": 26,
+            "n_truth_incorrect": 23,
+            "n_tp": 23,
+            "n_fn": 3,
+            "n_fp": 7,
+            "n_tn": 16,
+            "accuracy": 0.7959,
+            "FP_rate": 0.3043,
+            "FN_rate": 0.1154
+          },
+          "temporal": {
+            "n": 37,
+            "n_truth_correct": 19,
+            "n_truth_incorrect": 18,
+            "n_tp": 14,
+            "n_fn": 5,
+            "n_fp": 8,
+            "n_tn": 10,
+            "accuracy": 0.6486,
+            "FP_rate": 0.4444,
+            "FN_rate": 0.2632
+          }
+        }
+      },
+      "verdict_mnemoverse": {
+        "overall": {
+          "n": 117,
+          "n_truth_correct": 57,
+          "n_truth_incorrect": 60,
+          "n_tp": 54,
+          "n_fn": 3,
+          "n_fp": 32,
+          "n_tn": 28,
+          "accuracy": 0.7009,
+          "FP_rate": 0.5333,
+          "FN_rate": 0.0526
+        },
+        "per_category": {
+          "multi_hop": {
+            "n": 31,
+            "n_truth_correct": 12,
+            "n_truth_incorrect": 19,
+            "n_tp": 12,
+            "n_fn": 0,
+            "n_fp": 5,
+            "n_tn": 14,
+            "accuracy": 0.8387,
+            "FP_rate": 0.2632,
+            "FN_rate": 0.0
+          },
+          "single_hop": {
+            "n": 49,
+            "n_truth_correct": 26,
+            "n_truth_incorrect": 23,
+            "n_tp": 26,
+            "n_fn": 0,
+            "n_fp": 15,
+            "n_tn": 8,
+            "accuracy": 0.6939,
+            "FP_rate": 0.6522,
+            "FN_rate": 0.0
+          },
+          "temporal": {
+            "n": 37,
+            "n_truth_correct": 19,
+            "n_truth_incorrect": 18,
+            "n_tp": 16,
+            "n_fn": 3,
+            "n_fp": 12,
+            "n_tn": 6,
+            "accuracy": 0.5946,
+            "FP_rate": 0.6667,
+            "FN_rate": 0.1579
+          }
+        }
+      }
+    }
+  },
+  "q8_mem0_answers": {
+    "subset_info": {
+      "n_total": 143,
+      "n_subset": 110,
+      "per_category": {
+        "multi_hop": {
+          "n": 25,
+          "n_true": 8,
+          "n_false": 17
+        },
+        "single_hop": {
+          "n": 49,
+          "n_true": 25,
+          "n_false": 24
+        },
+        "temporal": {
+          "n": 36,
+          "n_true": 9,
+          "n_false": 27
+        }
+      }
+    },
+    "judge_metrics": {
+      "verdict_mem0": {
+        "overall": {
+          "n": 110,
+          "n_truth_correct": 42,
+          "n_truth_incorrect": 68,
+          "n_tp": 42,
+          "n_fn": 0,
+          "n_fp": 40,
+          "n_tn": 28,
+          "accuracy": 0.6364,
+          "FP_rate": 0.5882,
+          "FN_rate": 0.0
+        },
+        "per_category": {
+          "multi_hop": {
+            "n": 25,
+            "n_truth_correct": 8,
+            "n_truth_incorrect": 17,
+            "n_tp": 8,
+            "n_fn": 0,
+            "n_fp": 10,
+            "n_tn": 7,
+            "accuracy": 0.6,
+            "FP_rate": 0.5882,
+            "FN_rate": 0.0
+          },
+          "single_hop": {
+            "n": 49,
+            "n_truth_correct": 25,
+            "n_truth_incorrect": 24,
+            "n_tp": 25,
+            "n_fn": 0,
+            "n_fp": 15,
+            "n_tn": 9,
+            "accuracy": 0.6939,
+            "FP_rate": 0.625,
+            "FN_rate": 0.0
+          },
+          "temporal": {
+            "n": 36,
+            "n_truth_correct": 9,
+            "n_truth_incorrect": 27,
+            "n_tp": 9,
+            "n_fn": 0,
+            "n_fp": 15,
+            "n_tn": 12,
+            "accuracy": 0.5833,
+            "FP_rate": 0.5556,
+            "FN_rate": 0.0
+          }
+        }
+      },
+      "verdict_strict": {
+        "overall": {
+          "n": 110,
+          "n_truth_correct": 42,
+          "n_truth_incorrect": 68,
+          "n_tp": 28,
+          "n_fn": 14,
+          "n_fp": 13,
+          "n_tn": 55,
+          "accuracy": 0.7545,
+          "FP_rate": 0.1912,
+          "FN_rate": 0.3333
+        },
+        "per_category": {
+          "multi_hop": {
+            "n": 25,
+            "n_truth_correct": 8,
+            "n_truth_incorrect": 17,
+            "n_tp": 5,
+            "n_fn": 3,
+            "n_fp": 1,
+            "n_tn": 16,
+            "accuracy": 0.84,
+            "FP_rate": 0.0588,
+            "FN_rate": 0.375
+          },
+          "single_hop": {
+            "n": 49,
+            "n_truth_correct": 25,
+            "n_truth_incorrect": 24,
+            "n_tp": 19,
+            "n_fn": 6,
+            "n_fp": 6,
+            "n_tn": 18,
+            "accuracy": 0.7551,
+            "FP_rate": 0.25,
+            "FN_rate": 0.24
+          },
+          "temporal": {
+            "n": 36,
+            "n_truth_correct": 9,
+            "n_truth_incorrect": 27,
+            "n_tp": 4,
+            "n_fn": 5,
+            "n_fp": 6,
+            "n_tn": 21,
+            "accuracy": 0.6944,
+            "FP_rate": 0.2222,
+            "FN_rate": 0.5556
+          }
+        }
+      }
+    }
+  }
+}

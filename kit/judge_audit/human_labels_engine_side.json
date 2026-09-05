@@ -1,0 +1,326 @@
+{
+ "_note": "Blind human adjudication of all 64 lenient-credits/strict-rejects exhibit cases on OUR ENGINE conv-26 answers (the answer set of Table 2; exhibits from kit/data/rejudge_20260521_235650.json mem0_over_strict_exhibits, indexed ex0..ex63 in file order). Annotator = the author (conflict disclosed in the paper); labeling blind to machine verdicts. Fields: exhibit_id, category, human_verdict in {CORRECT, WRONG, AMBIGUOUS}. Free-text notes retained by the author.",
+ "_date": "2026-07-04",
+ "labels": [
+  {
+   "exhibit_id": "ex0",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex1",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex2",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex3",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex4",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex5",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex6",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex7",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex8",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex9",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex10",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex11",
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex12",
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex13",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex14",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex15",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex16",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex17",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex18",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex19",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex20",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex21",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex22",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex23",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex24",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex25",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex26",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex27",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex28",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex29",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex30",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex31",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex32",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex33",
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex34",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex35",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex36",
+   "category": "temporal",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex37",
+   "category": "temporal",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex38",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex39",
+   "category": "multi_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex40",
+   "category": "multi_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex41",
+   "category": "open_domain",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex42",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex43",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex44",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex45",
+   "category": "single_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex46",
+   "category": "single_hop",
+   "human_verdict": "AMBIGUOUS"
+  },
+  {
+   "exhibit_id": "ex47",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex48",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex49",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex50",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex51",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex52",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex53",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex54",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex55",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex56",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex57",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex58",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex59",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex60",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex61",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex62",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  },
+  {
+   "exhibit_id": "ex63",
+   "category": "single_hop",
+   "human_verdict": "CORRECT"
+  }
+ ]
+}

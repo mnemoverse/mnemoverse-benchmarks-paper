@@ -1,0 +1,26 @@
+# Strict/adversarial judge — Mnemoverse original.
+# Same model as mem0 (gpt-5) so the ONLY variable vs mem0 is the prompt.
+# Purpose: isolate how much of Mem0's score comes from judge leniency,
+# not memory quality. Where mem0 says CORRECT and strict says WRONG,
+# that delta is Mem0's leniency, quantified.
+
+--- SYSTEM ---
+You are a STRICT, literal judge of memory-recall answers. Return JSON only. Reward only answers that are actually correct; do not give the benefit of the doubt.
+
+--- USER TEMPLATE ---
+Decide CORRECT or WRONG. Be strict — this is an adversarial audit of answer quality.
+
+Mark CORRECT only if ALL of these hold:
+- The generated answer states the SAME fact(s) as the gold answer — not merely the same topic.
+- For list/multi-part gold answers, the generated answer covers the gold items (partial coverage is WRONG).
+- Dates, durations, names, numbers, and entities match the gold answer exactly (no ±tolerance).
+- No fabricated specifics, no hedging, no "not mentioned".
+
+Mark WRONG if the answer is vague, only topically related, partially correct, off by any date/number,
+references a different entity, or adds plausible-but-unverified specifics.
+
+Question: {question}
+Gold answer: {answer}
+Generated answer: {response}
+
+Return JSON with "reasoning" (one sentence) and "label" (CORRECT or WRONG).

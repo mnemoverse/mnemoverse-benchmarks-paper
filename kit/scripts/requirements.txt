@@ -1,0 +1,5 @@
+# Reproducibility kit for "The Judge Is the Benchmark".
+# Judge-free checks (recall@k) need nothing but Python stdlib.
+# Judge-dependent checks (the swing) call the OpenAI API.
+openai>=1.40
+python-dotenv>=1.0

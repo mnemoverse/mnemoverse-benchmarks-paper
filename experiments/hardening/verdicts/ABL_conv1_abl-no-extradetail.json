@@ -1,0 +1,569 @@
+[
+ {
+  "qid": "conv1_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold month and year exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q10",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It places the team-up in early February 2023 (before Feb 10), aligning with the gold answer\u2019s February 2023 timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's timeframe without adding unverifiable details.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer places the start in March 2023 (around March 9), which matches the gold month and is within the acceptable date tolerance.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the exact same date as the gold answer, just in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold month and year (May 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer (April 24, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q17",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it includes the correct reasons (job loss and passion for fashion/unique pieces), it adds unsupported specifics about dance and dance\u2011inspired designs, violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q18",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite answering 'Yes,' it adds unverified specifics (e.g., dance studio, clothing store, exact dates), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the exact date of the gold answer, just in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating that both Jon and Gina destress by dancing, with no conflicting or unverifiable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date within the allowed 14-day tolerance, effectively naming May 27, 2023.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q21",
+  "score": NaN,
+  "label": null,
+  "reasoning": "UNPARSEABLE: ",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it overlaps with June 2023, it adds unverified specific dates and context (internship acceptance and a May 27\u2013June 16 window), violating the no-unverified-extra-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes multiple gold items\u2014partnering with an artist, introducing limited-edition items, running online store promotions, and creating a styling video\u2014so it matches the key points.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q24",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Despite mentioning \u201cfair\u201d and \u201cnetworking events\u201d from the gold list, the answer is padded with unverifiable, fabricated specifics (e.g., dated festival performance, grand opening, investor meetings), violating the no-unverified-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q25",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it correctly mentions one-on-one mentoring and workshops/classes for local schools and centers, it adds unverified offerings like group classes and hosting competitions/showcases, violating the no-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer (same day, month, and year).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The response affirms that both Jon and Gina participated in dance competitions, matching the gold answer\u2019s core claim.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date \u201caround June 12, 2023\u201d falls within June 2023, matching the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both cities\u2014Paris and Rome\u2014matching the gold answer exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q3",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it notes both lost their jobs and became entrepreneurs, it adds unverified, fabricated specifics (dance focus, competition wins, dates, specific ventures), violating the no-extra-detail rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date exactly matches the gold answer (June 20, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives a different duration (~4.5 months) and introduces specific dates and job details not supported by the gold, adding unverifiable specifics.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q32",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date (around June 14, 2023) falls within June 2023 and aligns with the gold answer\u2019s timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact matching date 'June 20, 2023', so it has at least one correct item from the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q35",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although the timeframe roughly overlaps July 2023, the answer introduces unverified specifics (a June 20 studio opening and a July 20 networking event), violating the no-unverified-detail rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date (21 July 2023), only adding the correct weekday.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer semantically by identifying the same dance style.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q4",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It correctly states he lost his job and started a business to share his passion, but it adds an unverifiable specific (\u201cbanking job\u201d), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer's dance style (Contemporary), so it includes the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q41",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It includes the correct core fact (winning first place at a regional dance competition) but adds unverified specifics (team and age), violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q43",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer captures that the dancers are performing, which overlaps with the gold answer even though it omits the festival context.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states Jon was glad to be part of the festival, matching the gold answer\u2019s attitude.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It correctly states she designed the store\u2019s interior/space, which matches one of the gold items, so it earns partial credit.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes both 'cozy' and 'comfortable,' matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q5",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it matches the \u201cby the water\u201d aspect, it adds unsupported specifics like yoga mats and omits the gold details (natural light and Marley flooring), so it does not faithfully recall the ideal studio.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q50",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it matches the idea that her progress is positive, it adds an unverifiable detail by calling it a clothing store, violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q51",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it mentions personal style and customer comfort, it adds an unverifiable chandelier detail, violating the no extra fabricated specifics rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases the gold answer, matching both 'feel welcome' and 'come back' and equating 'key' with 'essential'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys that she wants to create an experience that encourages customers to come back, matching the gold idea.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q54",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it echoes \u201cdoing great,\u201d the answer pads it with multiple unverified specifics (online shop, promotions, collaborations, wholesalers, new website), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the core ideas of freedom and expressing herself through dance, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q57",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes \u201cstay positive,\u201d it adds many specific, unverifiable details (e.g., Instagram/TikTok, influencer collaborations, whiteboard/color-coding, location search) not in the gold, violating Rule 3.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q58",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it includes the correct idea that he closed it for his business, it adds an unverifiable specific (\u201cnew dance studio\u201d), violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer explicitly says she\u2019s passionate about both dance and fashion, which matches the gold reason.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s date (February 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('happy').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer item ('a trophy').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It restates all three gold elements\u2014reminding herself of wins/progress, leaning on a support system, and refocusing on why she started.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating it was a fashion internship, with no conflicting or extraneous details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer title.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes \u201cone-on-one mentoring and training,\u201d matching the gold answer, even though it adds extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q68",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While \u201cwon\u2019t give up\u201d paraphrases \u201cquit,\u201d the added specifics about a dance studio/business ventures are unsupported and violate the no-unverified-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold reason (\u201cto clear his mind\u201d), capturing the core fact.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q7",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cEarly 2023\u201d is consistent with the gold date of January 29, 2023, so it captures the correct timeframe.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by stating he is opening a dance studio.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q72",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it states he is excited (which matches the gold), it adds unverifiable specifics like \u201cafter a wild ride\u201d and \u201cready to give his best,\u201d violating the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Both describe a positive feeling from dance; 'joy' matches the positive valence of 'magical.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q75",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it echoes \u201cmake great memories,\u201d the answer adds fabricated, unverifiable details (e.g., a June 20, 2023 date and other specifics), violating the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly conveys excitement about the grand opening, matching the gold sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold item 'Hoodies' for the limited edition line.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold date (January 28, 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q80",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "While it lists all three correct plans (business plan, investor pitch, online platform), it adds unverifiable specifics like \u201cdance studio,\u201d working with \u201cGina,\u201d and managing Instagram/TikTok, which violates the no-unverified-extra-detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q81",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Although it includes the correct idea of creating content and managing Jon\u2019s social media, it adds unverified specifics (his dance studio and Instagram/TikTok), which violates the no extra fabricated detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer (Rome), satisfying the criterion of including a correct item.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (June 16, 2023) does not match the gold date (April 2023) and is outside the 14-day tolerance window.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer says \u201clast week,\u201d which does not match July 2023 and is not within the 14-day tolerance window.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date (June 2023) is more than 14 days from the gold date (21 July 2023) and includes unsupported extra details, so it does not match.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not provide the required date (23 July, 2023) or any equivalent, so it contains no correct items from the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q42",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "It includes the correct title \u201cFinding Freedom\u201d but adds an unverifiable detail (\u201ccontemporary\u201d), which violates the no extra detail rule.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not mention that the dancers look graceful and instead introduces unrelated, unverifiable details about an upcoming festival and Jon\u2019s dancers.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about finding a wholesale supplier, while the gold answer says she found the perfect spot (location) for her store, so there is no overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated metaphor 'a wild ride' does not match the gold comparison of 'dancing together and supporting each other,' sharing no overlapping items or paraphrases.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer does not include setting goals, tracking achievements, or finding areas for improvement and adds unsupported detail about planning dance moves.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q71",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not match the gold descriptor \u201camazing\u201d (nor a clear paraphrase) and instead adds unsupported details, so it contains no correct items.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer mentions logistics and a specific date but does not capture Jon\u2019s plan to savor the good vibes, providing no matching item from the gold answer and adding unverified details.",
+  "category": "single-hop"
+ }
+]

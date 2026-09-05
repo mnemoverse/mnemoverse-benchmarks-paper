@@ -1,0 +1,43 @@
+{
+ "_note": "Out-of-sample judge validation: agreement with blind human labels on the 54-answer validation set (44 human-decided, 10 ambiguous). Golden-v2 verdicts were produced before labeling and held back. Per-answer golden verdicts: verdicts_golden2_validation_set.json (this dir); the sampled answers: validation_set_answers.json; mem0/strict per-answer verdicts for the same qids are subsets of the committed experiments/hardening/verdicts/B_conv{1..9}_{mem0,strict}.json (strip the cN_q prefix to map qids).",
+ "_date": "2026-07-04",
+ "n": 54,
+ "human": {
+  "CORRECT": 38,
+  "WRONG": 6,
+  "AMBIGUOUS": 10
+ },
+ "agreement_with_human_on_decided_44": {
+  "golden_v2": {
+   "agree": 43,
+   "pct": 0.977,
+   "over_credit": 0,
+   "over_reject": 1
+  },
+  "mem0_lenient": {
+   "agree": 41,
+   "pct": 0.932,
+   "over_credit": 3,
+   "over_reject": 0
+  },
+  "strict_old": {
+   "agree": 24,
+   "pct": 0.545,
+   "over_credit": 0,
+   "over_reject": 20
+  }
+ },
+ "scores_on_54": {
+  "human_band": [
+   0.704,
+   0.889
+  ],
+  "golden_v2": 0.852,
+  "mem0_lenient": 0.944,
+  "strict_old": 0.333
+ },
+ "ambiguous_10_golden_says": {
+  "CORRECT": 9,
+  "WRONG": 1
+ }
+}

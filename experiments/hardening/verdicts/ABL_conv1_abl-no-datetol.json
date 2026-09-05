@@ -1,0 +1,569 @@
+[
+ {
+  "qid": "conv1_q0",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the exact same date as the gold answer (January 19, 2023), just formatted differently.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q1",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same month and year (January 2023) as the gold answer, matching the required detail.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q10",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer specifies \u201cearly 2023/before February 10, 2023\u201d rather than exactly \u201cFebruary, 2023,\u201d which violates the strict no-tolerance date matching rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q11",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer\u2019s timing phrase.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q12",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the correct month and year (March 2023) from the gold answer, with extra day detail that does not contradict it.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q13",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the exact date of the gold answer, only differing in format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q15",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer\u2019s month and year exactly.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q16",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the same date as the gold answer, just in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q17",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the key reasons from the gold answer\u2014she lost her job and wanted to build a business around her passion for fashion and unique pieces\u2014so it aligns with the core facts despite extra details about dance.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q18",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer says 'Yes,' matching the gold answer, and the extra details do not conflict with the core response.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q19",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states the same exact date as the gold answer, just in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q2",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating they destress by dancing.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q20",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact date May 27, 2023, matching the gold date despite saying 'around.'",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q21",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "Gold says May 2023, but the generated answer states 'before May 27, 2023,' which does not exactly match the month per the strict date rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q22",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is 'June, 2023', but the generated answer gives a range spanning late May to mid-June rather than exactly June 2023, violating the exact date match rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q23",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes working with an artist, limited-edition items, online offers/promotions, and a video styling presentation, which match the gold answer\u2019s key points.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q24",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer mentions a fair and networking events, which match two items from the gold answer list.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q25",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes both one-on-one mentoring/training and workshops/classes for local schools/centers, matching the gold items despite additional details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q26",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated date matches the gold date in value (June 15, 2023) despite different formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q27",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states that both Jon and Gina competed in dance competitions, matching the gold answer\u2019s \u201cYes,\u201d and added details are acceptable.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q28",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer places Jon in Rome in June 2023 (more specific with a day), which matches the gold month and year.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q29",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer lists both cities, Paris and Rome, matching the gold answer exactly.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q3",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes that both Jon and Gina lost their jobs and started their own ventures, matching the gold answer\u2019s two key points despite extra details.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q30",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold date exactly, only differing in formatting.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q31",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer states approximately 4 months and 13 days, which conflicts with the gold answer of six months under the strict numeric matching rule.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q32",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The answer specifies June 14, 2023, which does not exactly match the gold answer of June 2023 under the strict date-matching rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q33",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "It includes June 20, 2023, which matches the gold date (20 June, 2023) exactly in value, so despite the extra July date it qualifies as correct.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q35",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The gold answer is July 2023, but the generated answer only gives a mid-2023 window between June 20 and July 20 without explicitly stating July 2023, failing the exact-date match requirement.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q38",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the same date as the gold answer (July 21, 2023), only adding the weekday and using a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q39",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys the same style as the gold answer, with 'Contemporary dance' matching 'Contemporary'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q4",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states he was laid off and started a business to share his passion for dance, matching the gold answer\u2019s core reasons.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q40",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer specifies 'Contemporary dance,' which matches the gold answer 'Contemporary.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q41",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the key fact of winning first place at a regional dance competition, with extra age/team details that don\u2019t conflict.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q43",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response mentions an energetic performance but omits the essential festival context, so it does not match the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q45",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says Jon was glad to be part of the festival, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q46",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('Marley flooring').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q48",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states she designed the store\u2019s interior/space, which matches the gold item \u201cthe space,\u201d satisfying partial credit.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q49",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes 'cozy' and 'comfortable,' matching the gold answer, with 'welcomed' as acceptable extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q5",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer matches the gold item of being by the water (ocean/clear water view), even though it omits Marley flooring and explicit natural light.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q50",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "Saying the store is growing conveys the same positive progress as \u201chard work\u2019s paying off,\u201d making it a valid paraphrase.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q51",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The answer states she chose items to reflect her personal style and ensure customer comfort, matching the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q52",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by saying a special experience is essential to make customers feel welcome and come back.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q53",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly states encouraging customers to come back, matching the gold answer\u2019s core idea.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q54",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says the store is \u201cdoing great\u201d (and \u201cdoing well\u201d), matching the gold answer\u2019s core idea.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q55",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states freedom and self-expression through dancing, matching the gold answer's symbolism.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q57",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes 'stay positive,' which matches a gold item, so it earns partial credit.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q58",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer states he closed the account to help his business (new dance studio), which matches the gold reason 'for his business.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q59",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says she\u2019s passionate about both dance and fashion, matching the gold answer, with extra acceptable details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q6",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold month and year (February 2023).",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q60",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('happy'), so it includes the correct item.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q61",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly, stating that Gina received a trophy.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q62",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases all three gold points\u2014reminding herself of wins/progress, leaning on a support system, and refocusing on why she started\u2014while extra details are acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q63",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer by stating 'fashion internship.'",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q64",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer's specified location.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q65",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer, stating Jon is reading 'The Lean Startup'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q66",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly includes 'one-on-one mentoring and training,' matching the gold answer, and the extra details are acceptable.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q68",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "\u201cWon\u2019t give up\u201d is a direct paraphrase of \u201cwon\u2019t quit,\u201d matching the gold answer\u2019s core meaning.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q69",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact reason from the gold answer\u2014he went to Rome to clear his mind.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q7",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer provides a vague 'Early 2023' rather than the exact date '29 January, 2023', failing the strict date-matching rule.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q70",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer by stating he is opening a dance studio.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q72",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer explicitly says Jon is excited about opening night, matching the gold answer\u2019s emotion.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q73",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer conveys a positive feeling similar in valence to the gold answer (\u201cmagical\u201d), which is acceptable for emotions per the rules.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q75",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer paraphrases 'Let's live it up' and explicitly includes 'make great memories together,' matching the core gold phrase despite extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q76",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer clearly conveys excitement and a very positive tone about the grand opening, matching the gold sentiment.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q77",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly (Hoodies).",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q78",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer exactly matches the gold answer ('His positivity and determination').",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q8",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer gives the same exact date as the gold answer, just in a different format.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q80",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes all key items from the gold answer\u2014sprucing up the business plan, tweaking the investor pitch, and developing an online platform\u2014plus acceptable extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q81",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold by saying she would create content and manage Jon\u2019s social media, merely adding acceptable extra details.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q9",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer matches the gold answer exactly with 'Rome', so it contains a correct item.",
+  "category": "multi-hop"
+ },
+ {
+  "qid": "conv1_q14",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated date 'June 16, 2023' does not match the gold answer 'April, 2023,' and strict date matching is required.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q34",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer says 'last week,' which does not match the exact date 'July 2023' from the gold answer, so it contains none of the correct items.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q36",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer gives June 2023, which does not match the exact date 21 July 2023 required by the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q37",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The response omitted the exact date (23 July, 2023) and only provided contextual details, so it contains no correct item from the gold answer.",
+  "category": "temporal"
+ },
+ {
+  "qid": "conv1_q42",
+  "score": 1.0,
+  "label": "CORRECT",
+  "reasoning": "The generated answer includes the exact title \u201cFinding Freedom,\u201d matching the gold answer, with permissible extra detail.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q44",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about excitement for a future performance and does not mention that the dancers look graceful or any equivalent description.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q47",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about finding a wholesale supplier, whereas the gold answer states she found the perfect spot for her store, so there is no overlap.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q56",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer ('a wild ride') does not match the gold comparison of 'dancing together and supporting each other,' so none of the correct items are present.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q67",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about planning dance moves like a whiteboard, which does not match setting goals, tracking achievements, or finding areas for improvement from the gold answer.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q71",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer does not include or paraphrase the gold descriptor 'amazing'.",
+  "category": "single-hop"
+ },
+ {
+  "qid": "conv1_q74",
+  "score": 0.0,
+  "label": "WRONG",
+  "reasoning": "The generated answer talks about hosting logistics and a specific date, but does not include the gold idea of savoring the good vibes, so there is no overlap.",
+  "category": "single-hop"
+ }
+]

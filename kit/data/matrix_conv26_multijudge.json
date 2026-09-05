@@ -1,0 +1,373 @@
+{
+ "_provenance": {
+  "source": "mnemoverse-core experiments/benchmarks/matrix/cells (baseline-2026-06-08, symmetric harness)",
+  "note": "Same gpt-5-mini reader and text-embedding-3-small embeddings for every system (naked_cosine is the reader-free retrieval baseline scored on extractive answers); judges as in kit/prompts (mnemoverse=gpt-5-mini, mem0=gpt-5, mem0-4o=gpt-4o, strict=gpt-5). zep cells exist for k in {10,20,50} only.",
+  "extracted": "2026-07-14"
+ },
+ "cells": {
+  "mem0_v3_cloud|k10": {
+   "system": "mem0_v3_cloud",
+   "k": 10,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.572368,
+    "mem0": 0.684211,
+    "mem0-4o": 0.710526,
+    "strict": 0.256579
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mem0_v3_cloud|k20": {
+   "system": "mem0_v3_cloud",
+   "k": 20,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.625,
+    "mem0": 0.717105,
+    "mem0-4o": 0.736842,
+    "strict": 0.282895
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mem0_v3_cloud|k50": {
+   "system": "mem0_v3_cloud",
+   "k": 50,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.625,
+    "mem0": 0.703947,
+    "mem0-4o": 0.723684,
+    "strict": 0.269737
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mem0_v3_cloud|k100": {
+   "system": "mem0_v3_cloud",
+   "k": 100,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.664474,
+    "mem0": 0.710526,
+    "mem0-4o": 0.75,
+    "strict": 0.276316
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mem0_v3_cloud|k200": {
+   "system": "mem0_v3_cloud",
+   "k": 200,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.664474,
+    "mem0": 0.730263,
+    "mem0-4o": 0.743421,
+    "strict": 0.269737
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_engine|k10": {
+   "system": "mnemoverse_engine",
+   "k": 10,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.690789,
+    "mem0": 0.802632,
+    "mem0-4o": 0.822368,
+    "strict": 0.375
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_engine|k20": {
+   "system": "mnemoverse_engine",
+   "k": 20,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.684211,
+    "mem0": 0.809211,
+    "mem0-4o": 0.848684,
+    "strict": 0.361842
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_engine|k50": {
+   "system": "mnemoverse_engine",
+   "k": 50,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.710526,
+    "mem0": 0.769737,
+    "mem0-4o": 0.822368,
+    "strict": 0.388158
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_engine|k100": {
+   "system": "mnemoverse_engine",
+   "k": 100,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.664474,
+    "mem0": 0.75,
+    "mem0-4o": 0.802632,
+    "strict": 0.361842
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_engine|k200": {
+   "system": "mnemoverse_engine",
+   "k": 200,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.638158,
+    "mem0": 0.743421,
+    "mem0-4o": 0.809211,
+    "strict": 0.375
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_http|k10": {
+   "system": "mnemoverse_http",
+   "k": 10,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.296053,
+    "mem0": 0.427632,
+    "mem0-4o": 0.453947,
+    "strict": 0.125
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_http|k20": {
+   "system": "mnemoverse_http",
+   "k": 20,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.361842,
+    "mem0": 0.506579,
+    "mem0-4o": 0.565789,
+    "strict": 0.151316
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_http|k50": {
+   "system": "mnemoverse_http",
+   "k": 50,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.407895,
+    "mem0": 0.578947,
+    "mem0-4o": 0.657895,
+    "strict": 0.217105
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_http|k100": {
+   "system": "mnemoverse_http",
+   "k": 100,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.526316,
+    "mem0": 0.697368,
+    "mem0-4o": 0.782895,
+    "strict": 0.282895
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "mnemoverse_http|k200": {
+   "system": "mnemoverse_http",
+   "k": 200,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.539474,
+    "mem0": 0.717105,
+    "mem0-4o": 0.789474,
+    "strict": 0.315789
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "naked_cosine|k10": {
+   "system": "naked_cosine",
+   "k": 10,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.592105,
+    "mem0": 0.769737,
+    "mem0-4o": 0.815789,
+    "strict": 0.282895
+   },
+   "reader_model": null,
+   "embedding_model": null,
+   "n": 152
+  },
+  "naked_cosine|k20": {
+   "system": "naked_cosine",
+   "k": 20,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.598684,
+    "mem0": 0.776316,
+    "mem0-4o": 0.855263,
+    "strict": 0.335526
+   },
+   "reader_model": null,
+   "embedding_model": null,
+   "n": 152
+  },
+  "naked_cosine|k50": {
+   "system": "naked_cosine",
+   "k": 50,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.631579,
+    "mem0": 0.809211,
+    "mem0-4o": 0.881579,
+    "strict": 0.361842
+   },
+   "reader_model": null,
+   "embedding_model": null,
+   "n": 152
+  },
+  "naked_cosine|k100": {
+   "system": "naked_cosine",
+   "k": 100,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.664474,
+    "mem0": 0.809211,
+    "mem0-4o": 0.881579,
+    "strict": 0.407895
+   },
+   "reader_model": null,
+   "embedding_model": null,
+   "n": 152
+  },
+  "naked_cosine|k200": {
+   "system": "naked_cosine",
+   "k": 200,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.703947,
+    "mem0": 0.842105,
+    "mem0-4o": 0.901316,
+    "strict": 0.375
+   },
+   "reader_model": null,
+   "embedding_model": null,
+   "n": 152
+  },
+  "supermemory|k10": {
+   "system": "supermemory",
+   "k": 10,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.342105,
+    "mem0": 0.421053,
+    "mem0-4o": 0.473684,
+    "strict": 0.190789
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "supermemory|k20": {
+   "system": "supermemory",
+   "k": 20,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.421053,
+    "mem0": 0.532895,
+    "mem0-4o": 0.546053,
+    "strict": 0.236842
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "supermemory|k50": {
+   "system": "supermemory",
+   "k": 50,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.651316,
+    "mem0": 0.789474,
+    "mem0-4o": 0.822368,
+    "strict": 0.348684
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "supermemory|k100": {
+   "system": "supermemory",
+   "k": 100,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.638158,
+    "mem0": 0.769737,
+    "mem0-4o": 0.828947,
+    "strict": 0.335526
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "supermemory|k200": {
+   "system": "supermemory",
+   "k": 200,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.644737,
+    "mem0": 0.796053,
+    "mem0-4o": 0.835526,
+    "strict": 0.348684
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "zep|k10": {
+   "system": "zep",
+   "k": 10,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.217105,
+    "mem0": 0.296053,
+    "mem0-4o": 0.328947,
+    "strict": 0.085526
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "zep|k20": {
+   "system": "zep",
+   "k": 20,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.355263,
+    "mem0": 0.480263,
+    "mem0-4o": 0.546053,
+    "strict": 0.125
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  },
+  "zep|k50": {
+   "system": "zep",
+   "k": 50,
+   "judge_accuracy_by_judge": {
+    "mnemoverse": 0.480263,
+    "mem0": 0.638158,
+    "mem0-4o": 0.684211,
+    "strict": 0.190789
+   },
+   "reader_model": "gpt-5-mini",
+   "embedding_model": null,
+   "n": 152
+  }
+ }
+}

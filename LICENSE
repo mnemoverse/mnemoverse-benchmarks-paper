@@ -1,0 +1,15 @@
+The paper text and figures in this repository (the paper/ and figures/ trees) are
+licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+To view a copy of this license, visit:
+  https://creativecommons.org/licenses/by/4.0/
+
+All other files carry their own licenses and are NOT covered by this notice; see the
+"Licensing" section of README.md and the file-by-file detail in kit/data/ATTRIBUTION.md.
+In summary: LoCoMo-derived question/gold fields and evidence ids are CC BY-NC 4.0
+(Maharana et al., ACL 2024); Mem0's published answers (kit/data/mem0_oss_answers/) and the
+ported Mem0 judge prompt are Apache-2.0 (mem0ai/memory-benchmarks@4b61c5d); BEAM question
+and rubric text (kit/data/beam_answers_10m.json) is CC BY-SA 4.0 (Tavakoli et al., 2025);
+our code, computed outputs and judge verdicts are MIT.
+
+Author: Edward Izgorodin, 2026.

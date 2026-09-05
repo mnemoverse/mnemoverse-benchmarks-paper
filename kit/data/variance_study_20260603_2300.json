@@ -1,0 +1,2934 @@
+{
+  "kind": "variance_study",
+  "tag": "variance-study",
+  "role": "ablation",
+  "cell": "cell_2b_mnemoverse_locomo_conv26_full.json",
+  "n_cases": 20,
+  "n_judges": 4,
+  "n_repeats": 3,
+  "elapsed_s": 208.79,
+  "records": [
+    {
+      "qid": "conv-26::q0",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 3.223,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.702,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.808,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.407,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.346,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 6.541,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.66,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.584,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.301,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.633,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.811,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.677,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.879,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.782,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.307,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.486,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.749,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.731,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.842,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.813,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.354,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 2.378,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 1.885,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.882,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 3.113,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.345,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.57,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.696,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.875,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.19,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.492,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.688,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.699,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 1.97,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 2.459,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.855,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.455,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.634,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.258,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.594,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.992,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.943,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.138,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.842,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.74,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.016,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.967,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.504,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.717,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 3.353,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.822,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.821,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.753,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.926,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.593,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.854,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.013,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 28.789,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.447,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.363,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 1.919,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 2.572,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 1.75,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.229,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 4.052,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.15,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.654,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.63,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.825,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 1.728,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 2.207,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.155,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.402,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.79,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.262,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.494,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.518,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 23.486,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.354,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.105,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.266,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.626,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.666,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.781,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.806,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.8,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.722,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 16.243,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.591,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.733,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.179,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.12,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.056,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.71,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.604,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.178,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.574,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.84,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.291,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.15,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.665,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.425,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.158,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.634,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.523,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.667,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.371,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.605,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 3.252,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.475,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.866,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.352,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 3.081,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.157,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.502,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.069,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.009,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 8.847,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 3.819,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.009,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.725,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.378,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.47,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.763,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 7.158,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.645,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.105,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.232,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.704,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.026,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.749,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.125,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 2.065,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 3.05,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.277,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 2.72,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 3.053,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 12.232,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 1.463,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 1.233,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 1.554,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 9.956,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 8.489,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.361,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.391,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.934,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.304,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.19,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.897,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.596,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.592,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.0,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.509,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.118,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 3.08,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.087,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.696,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 4.271,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.581,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.789,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.958,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.091,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.694,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.856,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.285,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.96,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.066,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.066,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.938,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.464,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.824,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.196,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.766,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 4.242,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.933,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.494,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.997,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.487,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 1.618,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.631,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.311,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.541,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.171,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.663,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.765,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 3.045,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 3.732,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 3.699,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.411,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.632,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.9,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.446,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.308,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.479,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.733,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.148,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.044,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.613,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.502,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.145,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.336,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.427,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.833,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.4,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.354,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.754,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.93,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.728,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.007,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.427,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.017,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.425,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.703,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.193,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 2.039,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.046,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.828,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 8.775,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.867,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.749,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.93,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.437,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.575,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.443,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.575,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 0.0,
+      "latency_s": 1.956,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 0.0,
+      "latency_s": 2.418,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 0.0,
+      "latency_s": 2.111,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mnemoverse",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.957,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mnemoverse",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.576,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mnemoverse",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.563,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.653,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.434,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.745,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0-4o",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 1.641,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0-4o",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 1.644,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0-4o",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 2.414,
+      "seed": 44
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "strict",
+      "run_idx": 0,
+      "score": 1.0,
+      "latency_s": 2.483,
+      "seed": 42
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "strict",
+      "run_idx": 1,
+      "score": 1.0,
+      "latency_s": 3.466,
+      "seed": 43
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "strict",
+      "run_idx": 2,
+      "score": 1.0,
+      "latency_s": 1.782,
+      "seed": 44
+    }
+  ],
+  "per_cell_judge": [
+    {
+      "qid": "conv-26::q0",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q0",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q1",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q2",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q3",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q4",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 0.6667,
+      "stdev": 0.5774,
+      "scores": [
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q5",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q6",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q7",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q8",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q9",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q10",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q11",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q12",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q13",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q14",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.6667,
+      "stdev": 0.5774,
+      "scores": [
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q16",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q17",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q18",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q19",
+      "judge": "strict",
+      "n": 3,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mnemoverse",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "mem0-4o",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "qid": "conv-26::q20",
+      "judge": "strict",
+      "n": 3,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "scores": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "summary_stats": {
+    "n_errors": 0,
+    "n_records": 240,
+    "per_judge": {
+      "mnemoverse": {
+        "n_qids": 20,
+        "mean_score_across_qids": 0.9,
+        "mean_within_qid_stdev": 0.0,
+        "max_within_qid_stdev": 0.0,
+        "fraction_qids_with_zero_variance": 1.0
+      },
+      "mem0": {
+        "n_qids": 20,
+        "mean_score_across_qids": 0.9333,
+        "mean_within_qid_stdev": 0.0289,
+        "max_within_qid_stdev": 0.5774,
+        "fraction_qids_with_zero_variance": 0.95
+      },
+      "mem0-4o": {
+        "n_qids": 20,
+        "mean_score_across_qids": 0.95,
+        "mean_within_qid_stdev": 0.0,
+        "max_within_qid_stdev": 0.0,
+        "fraction_qids_with_zero_variance": 1.0
+      },
+      "strict": {
+        "n_qids": 20,
+        "mean_score_across_qids": 0.6833,
+        "mean_within_qid_stdev": 0.0289,
+        "max_within_qid_stdev": 0.5774,
+        "fraction_qids_with_zero_variance": 0.95
+      }
+    },
+    "cross_judge_spread": {
+      "n_qids": 20,
+      "mean": 0.2667,
+      "median": 0.0,
+      "max": 1.0
+    }
+  }
+}
